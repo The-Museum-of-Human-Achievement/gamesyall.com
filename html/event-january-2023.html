@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Games Y'all January 21st, 2023</title> 
+        <link rel="stylesheet" href="../mystyle.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Roboto&display=swap" rel="stylesheet">
+
+        <!--Encoding Information-->
+        <meta charset="UTF-8">
+
+        <!--Favicon Information-->
+        <link rel="apple-touch-icon" sizes="180x180" href="../img/favicons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="../img/favicons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="../img/favicons/favicon-16x16.png">
+        <link rel="manifest" href="../img/favicons/site.webmanifest">
+        <link rel="mask-icon" href="../img/favicons/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+
+        <!--Java Script reference-->
+        <script src="../javaScript/myscripts.js"></script>        
+    </head>
+
+    <body>
+        <header>
+            <div class="row" style="margin-bottom: 0px;">
+              <div class="col-12">
+                <img src="../img/GY_banner.jpg" class="banner-img" alt="Games Y'all Home page." > 
+              </div>
+      
+            </div>
+      
+                  <!-- Desktop Nav bar -->
+          <div class="row" id="navbar" style="border-radius: 8px; margin-bottom: 0px;" >
+            <!--Desktop nav bar-->
+            <div class="col-12">
+              <ul class="navbar">
+                <li class="navbar-items"><a href="../index.html" class="navbar-link"> Home </a></li>
+
+                <li class="navbar-items">
+                  <div class="dropdown">
+                    <a class="dropbtn"> Events
+               <i class="events-dropdown"></i>
+                </a>
+                <div class="dropdown-content">
+                  <a href="/html/event-january-2023.html">January Games Y'all</a>
+              <a href="/html/events.html">Past Events</a>
+                </div>
+                
+                <li class="navbar-items">
+                  <div class="dropdown">
+                    <a class="dropbtn">Get Involved 
+                      <i class="about-us-dropdown"></i>
+                    </a>
+                    <div class="dropdown-content">
+                      <a href="./Submit-a-game.html"> Submit a Game</a>
+                      <a href="./volunteer.html">Volunteer</a>
+                      <a href="./apply-to-committee.html">Apply to Committee</a>
+                    </div>
+                  </li>
+
+                <li class="navbar-items"><a href="./about-us.html" class="navbar-link"> About Us </a></li>  
+                <li class="navbar-items"><a href="./safety.html" class="navbar-link"> Safety </a></li>
+                <li class="navbar-items"><a href="./donate.html" class="navbar-link"> Donate </a></li>
+              </ul>
+            </div>
+          </div>
+          
+          <!--Mobile nav bar w/ a hamburger-->
+          <div class="row" id="mobile-navbar" style="margin-bottom: 0px;">
+
+            <!--Haburger icon-->
+            <a href="javascript:void(0);" class="icon" onclick="openMenu()">
+              <img src="../img/hamburger-120x120.png" class="hamburger" >
+            </a>
+
+            <!--Hamburger drop down menu-->
+            <div id="myLinks">
+              <a href="../index.html"> Home </a>
+
+              <!--Events has a drop down-->
+             <a href="javascript:void(0);" onclick="openEvents()"> Events </a>
+          <div id="events-submenu">
+                      <a href="/html/event-january-2023.html">January Games Y'all</a>
+           			 <a href="/html/events.html"> Past Events </a>
+          </div>
+
+              <!--Get Involved has a drop down-->
+              <a href="javascript:void(0);" onclick="openGetInvolved()"> Get Involved </a>
+              <div id="get-involved-submenu">
+                <a href="./Submit-a-game.html"> Submit a Game</a>
+                <a href="./volunteer.html">Volunteer</a>
+                <a href="./apply-to-committee.html">Apply to Committee</a>
+              </div>
+
+              <a href="./about-us.html"> About Us </a>
+              <a href="./safety.html"> Safety </a> 
+              <a href="./donate.html"> Donate </a>
+            </div>
+            
+          </div>
+        </header>
+
+        <!--BREAD CRUMS-->
+  
+        <div class="row" style="margin-bottom: 0px; margin-top: 0px;">
+            <div class="col-4" style="justify-content: left;">
+                <p>
+                    <a href="../html/events.html">Past Events</a> 
+                    >
+                    <a href="event-january-2022.html">January 21, 2023</a>
+                </p>
+            </div>
+        </div>
+       
+   <!--Content and Information-->
+        <div class="row">    
+     <div class="col-4"style="justify-content: left;">
+                    <h1>January Meetup</h1>
+                
+                    <h4> January 21st, 2023 - 2-5pm</h4>
+                
+				<p>Batch Craft Beer <a href="https://goo.gl/maps/SMK8u7jUcgoQHxhXA">3220 Manor Rd, Austin, TX 78723</a> </p>
+	
+				<p>Free admission, donations appreciated! RSVP! Space is limited. </p>
+				<!--RSVP Button-->
+            <button class="button" id="RSVP'"><a href="https://withfriends.co/event/15455690/games_yall_january_meetup">RSVP</a></button>
+       
+				<br>
+	
+				    </div>
+				    
+			 <div class="col-8">
+                <!--Add your event image here-->
+                <img src="../img/event-img/GY-Banner-Jan.png" alt="Fantastic Arcade presents, Games Y'all January Meetup, Family Edition'">
+            </div>
+            
+
+                <div class="col-10">
+			<p> Happy New Year! We're kicking 2023 off with a Family Edition of Games Y'all. This daytime meetup is for everybody, but especially families!</p>
+ 
+
+	<p>We're showcasing a diverse roundup of games that feature makers of different ages and experience levels. We hope to connect younger folks interested in indie video games and game development with developers who are excited about their craft! Game developers in attendance will be there to share their work, chat with folks, and tell us more about what goes on behind the scenes.</p>
+
+	<p>Batch Craft Beer offers food and beverages on site as well as ample outdoor space for kiddos to play.</p>
+    
+    <br>
+    <!--Venue details can be deleted when event has passed-->  
+<h5>Venue + COVID Details</h5>
+<p>This event is indoors and outdoors. There is a decent sized parking lot and bike racks.
+We strongly encourage that everyone be vaccinated or have recently tested negative for COVID. Do not attend if you are experiencing symptoms. We’ll be in shared space, so can’t guarantee the vax status of regular venue patrons. Hand sanitizer and wipes for controllers will be available.
+</p>
+<br>
+      <h5>Games Y'all + Fantastic Arcade</h5>
+<p>Games Y’all is a meetup presented by Fantastic Arcade & The Museum of Human Achievement, held every month at venues around Austin for indie devs, digital artists, and games fans.
+<br><br>
+Fantastic Arcade celebrates, amplifies, and supports the unique and underrepresented within indie games and beyond.</p>
+          </div>
+        </div>
+
+
+       
+    <!--Games at the event 
+        <div>
+          <h2 style="text-align: center;">Games This Month</h2>
+          
+   <!--Yoko Redux card
+          <div class="row" style="background-color: #F2D335; border-radius: 10px; margin-bottom: 25px;">
+            <div class="game-card-long">
+              <div>
+                <img src="../img/Archived-img/December-2022/games/yoko-redux.png" alt="- - A rectangular promotional image for Yoko Redux: Dreams of a Blue Planet. It features a landscape with varying shades of blue and two red celestial bodies in the background. There is a robot humanoid next to a 80s style sports car."> 
+              </div>  
+
+              <!--Game Text 
+              <div>
+                <h4>Yoko Redux: Dreams of a Blue Planet</h4>
+                <p>Yoko Redux: Dreams of a Blue Planet is driven by a rich, often cryptic, story as you control one of three main characters over the course of seven immersive chapters. The story takes you down the paths of Locke, Jeanne and Primus in a world just waiting to be discovered and cracked open. 
+ <br><br>
+Follow along on a progression through the psychedelic in multiple color palettes. Try to hold on to your sanity through mind bending visuals, cinematic camera angles and logic twisting story and you may discover...who is Yoko?
+</p>
+                <button class="button"  style="margin: 10px; background-color: #9BE9FF;">
+                  <a href="https://store.steampowered.com/app/1869560/Yoko_Redux_Dreams_of_a_Blue_Planet/">Play It Here</a>
+                </button>
+
+              </div>
+
+              <!--Dev Text
+              <div>
+                <h6>Developer: Missing Sentinel Software<h6> 
+                <div class="dev-social">
+                  <h6>@missingsentinel</h6>
+                  <a href="https://twitter.com/missingsentinel">
+                    <img src="../img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>        
+            
+ <!--The Living Space card
+          <div class="row" style="background-color: #9BE9FF; border-radius: 10px; margin-bottom: 25px;">
+            <div class="game-card-long">
+              <div>
+                <img src="../img/Archived-img/December-2022/games/living-space.png" alt="- A square promotional image for The Living Space. It features the title in black with a beige, yellow, red, and black floral pattern in the background.">
+                </div>  
+
+              <!--Game Text
+              <div>
+                <h4>The Living Space</h4>
+                <p>
+                  The Living Space is a first-person immersive experience which relies heavily on surreal visuals and dream-like sounds. Allowing players to freely roam at their own pace with no defined goals, the environment within the game alters, visually and aurally, based on the player’s gaze and movement. Your surroundings change depending on what areas you go to, yet their locations are not given to you or defined. Thus, the game doesn’t explicitly tell a single story but invites players to explore, look, listen, and take their time, nurturing their own story. 
+<br><br>
+Costas Constantinides is a game developer and illustration artist who creates surreal experiences and art inspired by folklore and fantasy. His work consists of intricate and mythical illustrations, and dream-like games. In his games, he seeks to combine his illustration work with digital environments and visual effects to amplify the experience.
+</p>
+                <button class="button"  style="margin: 10px; background-color: #F2D335;">
+                  <a href="https://consc.itch.io/the-living-space">Play It Here</a>
+                </button>
+
+              </div>
+
+              <!--Dev Text
+              <div>
+                <h6>Developer: Costas Constantinides</h6>
+
+
+                <div class="dev-social">	
+                  <h6>@costasconsc</h6>
+                  <a href="https://www.instagram.com/costasconsc/">
+                    <img src="../img/Social-buttons/instagram-button.png" style="width: 64px; height: auto;">
+                  </a>
+         
+                </div>
+              </div>
+            </div>
+          </div>          
+          
+          <!--Barnacle Goose card
+          <div class="row" style="background-color: #F2D335; border-radius: 10px; margin-bottom: 25px;">
+            <div class="game-card-long">
+              <div>
+                <img src="../img/Archived-img/December-2022/games/barnacle-goose.png" alt="A square promotional image for The Barnacle Goose Experiment. It features the game title in gothic black text on a white background."> 
+              </div>  
+
+              <!--Game Text
+              <div>
+                <h4>The Barnacle Goose Experiment</h4>
+                <p>The Barnacle Goose Experiment is an abiogenesis idle clicker game, set in a world where spontaneous generation is commonplace.
+<br><br>
+You play as a researcher studying the creation of new and living things out of raw and non-living matter. In order to undertake this work without experimental contamination, you are locked inside of a hermetically sealed dome— entirely empty. As such, the only raw material for experimentation is that of your own body.
+<br><br>
+Through the accretions of self, the slow learning of mechanical systems, and the simple duration of time, you must uncover the combinatory logic of spontaneous generation and make again a living world from a dead one.
+<br><br>
+Music from Ben Babbitt, halina heron, Geotic, Adobo, Jún, Smokey Emery, Sadurn, Zac Traeger, SamanthaZero, and Eli Rainsberry on the in-game radio.
+</p>
+                <button class="button"  style="margin: 10px; background-color: #9BE9FF;">
+                  <a href="https://everest-pipkin.com/barnacle-goose/">Play It Here</a>
+                </button>
+
+              </div>
+
+              <!--Dev Text
+              <div>
+                <h6>Developer: Everest Pipkin<h6> 
+                <div class="dev-social">
+                  <h6>@everestpipkin</h6>
+                  <a href="https://twitter.com/everestpipkin">
+                    <img src="../img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
+                  </a>
+                
+                </div>
+              </div>
+            </div>
+          </div>        
+
+          
+        <!--Event Images-->
+        <!--Only use this section after an event to house images from the past
+       <div class="row">
+            <div class="col-12">
+                <h2 style="text-align: center;">Gallery</h2>
+
+                <div class="flex-container-row">
+                    <img src="../img/Archived-img/December-2022/photos/GY-dec-1.png" style="width: 375px; height: 375px;"> 
+                    <img src="../img/Archived-img/December-2022/photos/GY-dec-2.png" style="width: 375px; height: 375px;"> 
+                    <img src="../img/Archived-img/December-2022/photos/GY-dec-3.png" style="width: 375px; height: 375px;"> 
+                    <img src="../img/Archived-img/December-2022/photos/GY-dec-4.png" style="width: 375px; height: 375px;">
+                    <img src="../img/Archived-img/December-2022/photos/GY-dec-5.png" style="width: 375px; height: 375px;"> 
+                    <img src="../img/Archived-img/December-2022/photos/GY-dec-6.png" style="width: 375px; height: 375px;">
+                </div>
+            </div>
+        </div>
+    
+      <!-- Community buttons--> 
+      <div class="community-buttons">
+        <hr>
+        <h4 style="text-align: center;">Join the Community</h4>
+        <div class="flex-container-row" style="justify-content: center; margin-bottom: 10px;">
+            <!--DISCORD-->
+            <a href="https://discord.gg/rSMjDEeXu5">
+              <img src="../img/Social-buttons/discord-button.png" class="social-button" alt="A link to the Fantastic Arcade Discord server.">
+            </a>
+
+            <!--EMAIL-->
+            <a href="https://themuseumofhumanachievement.us6.list-manage.com/subscribe?u=1ba73ce2c03995467869283dc&id=73df994ba8">
+              <img src="../img/Social-buttons/email-button.png" class="social-button" alt="A link to the Games Y'all newsletter.">
+            </a>
+
+            <!--INSTAGRAM-->
+            <a href="https://www.instagram.com/fantastic.arcade/?igshid=YmMyMTA2M2Y%3D">
+              <img src="../img/Social-buttons/instagram-button.png" class="social-button" alt="A link to the Games Y'all instagram page.">
+            </a>
+
+            <!--TWITTER-->
+            <a href="https://mobile.twitter.com/gamesyall">
+              <img src="../img/Social-buttons/twitter-button.png" class="social-button" alt="A link to the Games Y'all twitter">
+            </a>
+        </div>
+
+        <div class="flex-container-row" style="justify-content: center;">
+            <!--MOHA-->
+            <a href="https://themuseumofhumanachievement.com/">
+              <img src="../img/Social-buttons/MoHA_icon-blue.png" class="social-button" alt="A link to the Museum of Human Acheivement homepage.">
+            </a>
+
+            <!--FANTASTIC ARCADE-->
+            <a href="https://fantasticarcade.com/">
+              <img src="../img/Social-buttons/Fantastic-arcade-logo.png" class="social-button" alt="A link to the Fantastic Arcade homepage.">
+            </a>
+            
+            <!--GAMES YALL-->
+            <a href="../index.html">
+              <img src="../img/Social-buttons/games-yall-logo-square.png" class="social-button" alt="A link to the Games Y'all homepage.">
+            </a>              
+        </div>
+
+      </div>
+
+      <footer>
+        <p>Games Y’all is a program of The Museum of Human Achievement and Fantastic Arcade. 
+          We Endeavor to  celebrate, amplify, and support the unique and underrepresented within 
+          indie games and beyond. </p>
+        
+        <hr>
+      
+      <div class="flex-container-row" style="flex-wrap: nowrap;">
+        <!--CONTACT-->
+        <div class="flex-container-column">
+          <h6>Contact</h6>
+          <a href="https://themuseumofhumanachievement.us6.list-manage.com/subscribe?u=1ba73ce2c03995467869283dc&id=73df994ba8">Email list</a>
+          <a href="https://mobile.twitter.com/gamesyall">Games Y'all Twitter</a>
+          <a href="https://www.instagram.com/fantastic.arcade/?igshid=YmMyMTA2M2Y%3D">Fantastic Arcade Instagram</a>
+        </div>
+
+        <!--SAFETY-->
+        <div class="flex-container-column">
+          <h6>Safety</h6>
+          <a href="./safety.html">Safety Precautions</a>
+          <a href="https://docs.google.com/document/d/1vA1P_608XVhhz3-PQTwZcrDHjXG53W3L-MoQU8cY1TI/edit?usp=sharing">Code of Conduct</a>
+          <p>(512) 666-7862</p>
+        </div>
+
+        <!--DONATIONS-->
+        <div class="flex-container-column">
+          <h6>Donations</h6>
+          <a href="https://www.paypal.com/paypalme/DigitalArtsMoHA">PayPal</a>
+          <a href="https://account.venmo.com/u/TheMuseum">Venmo</a>
+          <a href="https://withfriends.co/the_museum_of_human_achievement/join">Become a MoHA Member</a>
+        </div>
+
+        <!--FANTASTIC ARCADE-->
+        <div class="flex-container-column">
+          <h6>Fantastic Arcade</h6>
+          <a href="https://fantasticarcade.com/">Fantastic Arcade.com</a>
+          <a href="https://discord.gg/rSMjDEeXu5">Discord</a>
+          <a href="https://twitter.com/fantasticarcade">Twitter</a>
+          <a href="https://www.instagram.com/fantastic.arcade/?igshid=YmMyMTA2M2Y%3D">Instagram</a>
+        </div>
+
+        <!--GET INVOLVED-->
+        <div class="flex-container-column">
+          <h6>Get Involved</h6>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSdxo6OV49KMvajHnBQnRHbMs06KjQK1pdIAZqiJeuyu7WRPsA/viewform">Submit a Game</a>
+          <a href="https://themuseumofhumanachievement.com/forms/volunteer/">Volunteer</a>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSf2jYCYOXzPG-pZPF81fdyaDGFlJxkioKknUpat41gW6BlZaw/viewform">Apply to the Board</a>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSc7iy0ERppFfrRtwWx5sFRt43slyVidPzlQdDVYtpbjGGIOSg/viewform">Feedback Form</a>
+        </div>
+      </div>
+      <p id="footer-credits"> Website created by Noah V. Carrico</p>
+      </footer>
+
+      <p id="mobile-credits" style="margin-bottom: 20px;"> Website created by Noah V. Carrico</p>
+    </body>
+</html>
