@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Games Y'all June 16, 2022</title> 
+        <link rel="stylesheet" href="../mystyle.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Roboto&display=swap" rel="stylesheet">
+
+        <!--Encoding Information-->
+        <meta charset="UTF-8">
+
+        <!--Favicon Information-->
+        <link rel="apple-touch-icon" sizes="180x180" href="../img/favicons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="../img/favicons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="../img/favicons/favicon-16x16.png">
+        <link rel="manifest" href="../img/favicons/site.webmanifest">
+        <link rel="mask-icon" href="../img/favicons/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+
+        <!--JavaScript Files-->
+        <script src="../javaScript/myscripts.js"></script>
+    </head>
+
+    <body>
+        <header>
+            <div class="row" style="margin-bottom: 0px;">
+              <div class="col-12">
+                <img src="../img/GY_banner.jpg" class="banner-img" alt="Games Y'all Home page." > 
+              </div>
+      
+            </div>
+      
+                    <!-- Desktop Nav bar -->
+          <div class="row" id="navbar" style="border-radius: 8px; margin-bottom: 0px;" >
+            <!--Desktop nav bar-->
+            <div class="col-12">
+              <ul class="navbar">
+                <li class="navbar-items"><a href="../index.html" class="navbar-link"> Home </a></li>
+
+                <li class="navbar-items">
+                  <div class="dropdown">
+                    <a class="dropbtn"> Events
+               <i class="events-dropdown"></i>
+                </a>
+                <div class="dropdown-content">
+                 <a href="/html/event-november-2023.html">November Games Y'all</a>
+                  <a href="/html/event-gotm-meetup.html">GOTM Meetup</a>
+              <a href="/html/events.html">Past Events</a>
+                </div>
+                
+                <li class="navbar-items">
+                  <div class="dropdown">
+                    <a class="dropbtn">Get Involved 
+                      <i class="about-us-dropdown"></i>
+                    </a>
+                    <div class="dropdown-content">
+                      <a href="./Submit-a-game.html"> Submit a Game</a>
+                      <a href="./volunteer.html">Volunteer</a>
+                      <a href="./apply-to-committee.html">Apply to Committee</a>
+                    </div>
+                  </li>
+
+                <li class="navbar-items"><a href="./about-us.html" class="navbar-link"> About Us </a></li>  
+                <li class="navbar-items"><a href="./safety.html" class="navbar-link"> Safety </a></li>
+                <li class="navbar-items"><a href="./donate.html" class="navbar-link"> Donate </a></li>
+              </ul>
+            </div>
+          </div>
+          
+          <!--Mobile nav bar w/ a hamburger-->
+          <div class="row" id="mobile-navbar" style="margin-bottom: 0px;">
+
+            <!--Haburger icon-->
+            <a href="javascript:void(0);" class="icon" onclick="openMenu()">
+              <img src="../img/hamburger-120x120.png" class="hamburger" >
+            </a>
+
+            <!--Hamburger drop down menu-->
+            <div id="myLinks">
+              <a href="../index.html"> Home </a>
+
+              <!--Events has a drop down-->
+             <a href="javascript:void(0);" onclick="openEvents()"> Events </a>
+       <a href="/html/event-november-2023.html">November Games Y'all</a>
+        <a href="/html/event-gotm-meetup.html">GOTM Meetup</a>
+           			 <a href="/html/events.html"> Past Events </a>
+          </div>
+
+              <!--Get Involved has a drop down-->
+              <a href="javascript:void(0);" onclick="openGetInvolved()"> Get Involved </a>
+              <div id="get-involved-submenu">
+                <a href="./Submit-a-game.html"> Submit a Game</a>
+                <a href="./volunteer.html">Volunteer</a>
+              <a href="./apply-to-committee.html">Apply to Committee</a>
+              </div>
+
+              <a href="./about-us.html"> About Us </a>
+              <a href="./safety.html"> Safety </a> 
+              <a href="./donate.html"> Donate </a>
+            </div>
+            
+          </div>
+      </header>
+
+        <!--BREAD CRUMS-->
+        <div class="row" style="margin-bottom: 0px; margin-top: 0px;">
+            <div class="col-4" style="justify-content: left;">
+                <p>
+                    <a href="../html/events.html">Past Events</a> 
+                    >
+                    <a href="event-[template].html">June 16, 2022</a>
+                </p>
+            </div>
+        </div>
+
+        <!--Content and infomration-->
+        <div class="row">
+            <div class="col-4">
+                <h1>June 16, 2022</h1>
+                <p>This month we’ve got a - New Date, New Location - now with air conditioning! We hope 
+                  to get back to a regular schedule soon, but are trying out venues and rolling with the 
+                  dates available in our budget. If you have dream location, let us know. See you in a couple weeks!</p>
+
+                <!--If this is a upcoming event, uncomment the button element below-->
+                <!--
+                    <button class="button" id="rsvp-button">RSVP</button> 
+                -->
+            </div>
+            <div class="col-8">
+                <!--Add your event image here-->
+                <img src="../img/event-img/GY-Banner-June.png" alt="A green banner for june's Games Y'all">
+            </div>
+        </div>
+
+        <!--Games at the event 
+        <div class="row">
+            <div class="col-12">
+
+                  <div class="game-card">
+                      <h4>Paint Boi</h4>
+                      <img src="../img/Archived-img/June-2022/games/paint-boi-img.jpg" class="game-card-img">
+                  </div>
+
+                  <div class="game-card">
+                      <h4>Skelly Gun</h4>
+                      <img src="../img/Archived-img/June-2022/games/skelly-gun-img.png" class="game-card-img">
+                  </div>
+
+                  <div class="game-card">
+                      <h4>(Try To) Dress Up</h4>
+                      <img src="../img/Archived-img/June-2022/games/try-to-dress-up-img.png" class="game-card-img">
+                  </div>
+
+                  <div class="game-card">
+                    <h4>Bridgebourn</h4>
+                    <img src="../img/Archived-img/June-2022/games/Bridgebourn-img.png" class="game-card-img">
+                  </div>
+
+                </div>
+            </div>
+        </div>
+        -->
+        <div>
+          <h2 style="text-align: center;">Games This Month</h2>
+
+          <!--Stacklands-->
+          <div class="row" style="background-color: #9BE9FF; border-radius: 10px; margin-bottom: 25px;">
+            <div class="game-card-long">
+              <div>
+                <img src="../img/Archived-img/June-2022/games/stackland-img.jpg">
+              </div>  
+
+              <!--Game Text -->
+              <div>
+                <h4>Stacklands</h4>
+                <p>
+                  Stacklands is a village builder where you stack cards to collect food, build structures, and fight creatures. For example, 
+                  dragging a 'Villager' card on top of a 'Berry Bush' card will spawn 'Berry' cards which the villagers can eat to survive!
+                </p>
+                <button class="button"  style="margin: 10px;">
+                  <a href="https://store.steampowered.com/app/1948280/Stacklands/">Play It Here</a>
+                </button>
+
+              </div>
+
+              <!--Dev Text-->
+              <div>
+                <h6>By Sokpop</h6>
+                <p>
+                </p>
+
+                <div class="dev-social">
+                  <h6>@sokpopc</h6>
+                  <a href="https://twitter.com/sokpopco">
+                    <img src="../img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--Bridgebourn card-->
+          <div class="row" style="background-color: #F2D335; border-radius: 10px; margin-bottom: 25px;">
+            <div class="game-card-long">
+              <div>
+                <img src="../img/Archived-img/June-2022/games/Bridgebourn-img.png">
+              </div>  
+
+              <!--Game Text -->
+              <div>
+                <h4>Bridgebourn</h4>
+                <p>
+                  Explore a hand-crafted world filled with treasure and secrets with your band of adventurers. 
+                  Bridgebourn focuses on modern nostalgia, immersive exploration, and a unique hand-painted art style with fresh game mechanics.
+                  Fight with weapons that you acquire and reactive abilities that you learn as you explore more new lands.
+                  
+                </p>
+                <button class="button"  style="margin: 10px; background-color: #9BE9FF;">
+                  <a href="https://bridgebourn.com/presskit/bridgebourn/">Learn More</a>
+                </button>
+
+              </div>
+
+              <!--Dev Text-->
+              <div>
+                <h6>By Bamboo Bandit (Siavash Ranjbar) </h6>
+                <p>
+                  Bridgebourn is an adventure RPG made by solo indie game developer Bamboo Bandit (Siavash Ranjbar).
+                </p>
+
+                <div class="dev-social">
+                  <h6>@BambooBanditSR</h6>
+                  <a href="https://twitter.com/BambooBanditSR">
+                    <img src="../img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!--SKELLY GUN Card-->
+          <div class="row" style="background-color: #9BE9FF; border-radius: 10px; margin-bottom: 25px;">
+            <div class="game-card-long">
+              <div>
+                <img src="../img/Archived-img/June-2022/games/skelly-gun-img.png">
+              </div>  
+
+              <!--Game Text -->
+              <div>
+                <h4>SKELLY GUN</h4>
+                <p>
+                  I was just about to catch a super rare creature in a gps-based monster catching game, but then I fell into a cave full of skeletons and 
+                  there's no phone signal down here?! man wtf
+                </p>
+                <button class="button"  style="margin: 10px;">
+                  <a href="https://pizzapranks.itch.io/indiepocalypse-21">Learn More</a>
+                </button>
+              </div>
+
+              <!--Dev Text-->
+              <div>
+                <h6>Baku</h6>
+                <p>
+                  Skelly Gun was a part of the Video game Zine, indiepocalypse #21.
+                </p>
+
+                <div class="dev-social">
+                  <h6>@bakumoe</h6>
+                  <a href="https://twitter.com/bakumoe">
+                    <img src="../img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!--(try to) Dress Up card-->
+          <div class="row" style="background-color: #F2D335; border-radius: 10px; margin-bottom: 25px;">
+            <div class="game-card-long">
+              <div>
+                <img src="../img/Archived-img/June-2022/games/try-to-dress-up-img.png">
+              </div>  
+
+              <!--Game Text -->
+              <div>
+                <h4>(try to) Dress Up</h4>
+                <p>
+                  "(try to) Dress Up" is a dress up game where you have to get my parents' permission before going out in your final look. 
+                  Good luck with that- they're pretty tough judges to please!
+                </p>
+                <button class="button"  style="margin: 10px; background-color: #9BE9FF;">
+                  <a href="https://nivikan.itch.io/try-to-dress-up">Play It Here</a>
+                </button>
+
+              </div>
+
+              <!--Dev Text-->
+              <div>
+                <h6>By Nivetha Kannan</h6>
+                <p>
+                  (Try to) Dress Up was feature in the video game zine indiepocalypse #11.
+                </p>
+
+                <div class="dev-social">
+                  <h6>@nivixion</h6>
+                  <a href="https://twitter.com/nivixion">
+                    <img src="../img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!--Paint Boi Card-->
+          <div class="row" style="background-color: #9BE9FF; border-radius: 10px; margin-bottom: 25px;">
+            <div class="game-card-long">
+              <div>
+                <img src="../img/Archived-img/June-2022/games/paint-boi-img.jpg">
+              </div>  
+
+              <!--Game Text -->
+              <div>
+                <h4>Paint Boi</h4>
+                <p>
+                  A painting game/ art tool/ playground
+                </p>
+                <button class="button"  style="margin: 10px;">
+                  <a href="https://pizzapranks.itch.io/indiepocalypse-18">Learn More</a>
+                </button>
+              </div>
+
+              <!--Dev Text-->
+              <div>
+                <h6>By Aaron Taecker-Wyss & bb Tombo | SlugHuman Productions</h6>
+                <p>
+                </p>
+
+                <div class="dev-social">
+                  <h6>@TaeckerWyss</h6>
+                  <a href="https://twitter.com/TaeckerWyss?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">
+                    <img src="../img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
+                  </a>
+                  <h6>@bbtombo</h6>
+                  <a href="https://twitter.com/bbtombo">
+                    <img src="../img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>          
+        </div>
+
+        <!--Event Images-->
+        <!--Only use this section after an event to house images from the past-->
+        <div class="row">
+            <div class="col-12">
+                <h2 style="text-align: center;">Gallery</h2>
+
+                <div class="flex-container-row">
+                    <img src="../img/Archived-img/June-2022/photos/june-photo-1.jpg" style="width: 375px; height: 375px;"> 
+                    <img src="../img/Archived-img/June-2022/photos/june-photo-2.jpg" style="width: 375px; height: 375px;"> 
+                    <img src="../img/Archived-img/June-2022/photos/june-photo-3.JPG" style="width: 375px; height: 375px;"> 
+                </div>
+            </div>
+        </div>
+    
+      <!-- Community buttons--> 
+      <div class="community-buttons">
+        <hr>
+        <h4 style="text-align: center;">Join the Community</h4>
+        <div class="flex-container-row" style="justify-content: center; margin-bottom: 10px;">
+            <!--DISCORD-->
+            <a href="https://discord.gg/rSMjDEeXu5">
+              <img src="../img/Social-buttons/discord-button.png" class="social-button" alt="A link to the Fantastic Arcade Discord server.">
+            </a>
+
+            <!--EMAIL-->
+            <a href="https://form.jotform.com/231687367346164">
+              <img src="../img/Social-buttons/email-button.png" class="social-button" alt="A link to the Games Y'all newsletter.">
+            </a>
+
+            <!--INSTAGRAM-->
+            <a href="https://www.instagram.com/fantastic.arcade/?igshid=YmMyMTA2M2Y%3D">
+              <img src="../img/Social-buttons/instagram-button.png" class="social-button" alt="A link to the Games Y'all instagram page.">
+            </a>
+
+            <!--TWITTER-->
+            <a href="https://mobile.twitter.com/gamesyall">
+              <img src="../img/Social-buttons/twitter-button.png" class="social-button" alt="A link to the Games Y'all twitter">
+            </a>
+        </div>
+
+        <div class="flex-container-row" style="justify-content: center;">
+            <!--MOHA-->
+            <a href="https://themuseumofhumanachievement.com/">
+              <img src="../img/Social-buttons/MoHA_icon-blue.png" class="social-button" alt="A link to the Museum of Human Acheivement homepage.">
+            </a>
+
+            <!--FANTASTIC ARCADE-->
+            <a href="https://fantasticarcade.com/">
+              <img src="../img/Social-buttons/Fantastic-arcade-logo.png" class="social-button" alt="A link to the Fantastic Arcade homepage.">
+            </a>
+            
+            <!--GAMES YALL-->
+            <a href="../index.html">
+              <img src="../img/Social-buttons/games-yall-logo-square.png" class="social-button" alt="A link to the Games Y'all homepage.">
+            </a>              
+        </div>
+
+      </div>
+
+      <footer>
+        <p>Games Y’all is a program of The Museum of Human Achievement. 
+          We endeavor to  celebrate, amplify, and support the unique and underrepresented within 
+          indie games and beyond. </p>
+        
+        <hr>
+      
+      <div class="flex-container-row" style="flex-wrap: nowrap;">
+        <!--CONTACT-->
+        <div class="flex-container-column">
+          <h6>Contact</h6>
+          <a href="https://form.jotform.com/231687367346164">Email list</a>
+          <a href="https://mobile.twitter.com/gamesyall">Games Y'all Twitter</a>
+          <a href="https://www.instagram.com/fantastic.arcade/?igshid=YmMyMTA2M2Y%3D">Fantastic Arcade Instagram</a>
+        </div>
+
+        <!--SAFETY-->
+        <div class="flex-container-column">
+          <h6>Safety</h6>
+          <a href="./html/safety.html">Safety Precautions</a>
+          <a href="https://docs.google.com/document/d/1vA1P_608XVhhz3-PQTwZcrDHjXG53W3L-MoQU8cY1TI/edit?usp=sharing">Code of Conduct</a>
+          <p>(512) 957-6642</p>
+        </div>
+
+        <!--DONATIONS-->
+        <div class="flex-container-column">
+          <h6>Donations</h6>
+          <a href="https://opencollective.com/gamesyall">Open Collective</a>
+          <a href="https://account.venmo.com/u/TheMuseum">Venmo</a>
+        </div>
+
+        <!--FANTASTIC ARCADE-->
+        <div class="flex-container-column">
+          <h6>Fantastic Arcade</h6>
+          <a href="https://fantasticarcade.com/">Fantastic Arcade.com</a>
+          <a href="https://discord.gg/rSMjDEeXu5">Discord</a>
+        </div>
+
+        <!--GET INVOLVED-->
+        <div class="flex-container-column">
+          <h6>Get Involved</h6>
+          <a href="https://gamesyall.com/html/Submit-a-game.html">Submit a Game</a>
+          <a href="https://themuseumofhumanachievement.com/forms/volunteer/">Volunteer</a>
+          <a href="https://gamesyall.com/html/apply-to-committee.html">Apply to a Committee</a>
+          <a href="https://form.jotform.com/231855146635157">Feedback Form</a>
+        </div>
+      </div>
+      <p id="footer-credits"> Website created by Noah V. Carrico</p>
+      </footer>
+
+      <p id="mobile-credits" style="margin-bottom: 20px;"> Website created by Noah V. Carrico</p>     
+    </body>
+</html>

@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>1-800-DREAM-MAIL</title> 
+        <link rel="stylesheet" href="../mystyle.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Roboto&display=swap" rel="stylesheet">
+
+        <!--Encoding Information-->
+        <meta charset="UTF-8">
+
+        <!--Favicon Information-->
+        <link rel="apple-touch-icon" sizes="180x180" href="../img/favicons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="../img/favicons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="../img/favicons/favicon-16x16.png">
+        <link rel="manifest" href="../img/favicons/site.webmanifest">
+        <link rel="mask-icon" href="../img/favicons/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+
+        <!--Java Script reference-->
+        <script src="../javaScript/myscripts.js"></script>        
+    </head>
+
+    <body>
+        <header>
+            <div class="row" style="margin-bottom: 0px;">
+              <div class="col-12">
+                <img src="../img/GY_banner.jpg" class="banner-img" alt="Games Y'all Home page." > 
+              </div>
+      
+            </div>
+      
+                  <!-- Desktop Nav bar -->
+          <div class="row" id="navbar" style="border-radius: 8px; margin-bottom: 0px;" >
+            <!--Desktop nav bar-->
+            <div class="col-12">
+              <ul class="navbar">
+                <li class="navbar-items"><a href="../index.html" class="navbar-link"> Home </a></li>
+
+                <li class="navbar-items">
+                  <div class="dropdown">
+                    <a class="dropbtn"> Events
+               <i class="events-dropdown"></i>
+                </a>
+                <div class="dropdown-content">
+                     <a href="/html/event-november-2023.html">November Games Y'all</a>
+                      <a href="/html/event-gotm-meetup.html">GOTM Meetup</a>
+              <a href="/html/events.html">Past Events</a>
+                </div>
+                
+                <li class="navbar-items">
+                  <div class="dropdown">
+                    <a class="dropbtn">Get Involved 
+                      <i class="about-us-dropdown"></i>
+                    </a>
+                    <div class="dropdown-content">
+                      <a href="./Submit-a-game.html"> Submit a Game</a>
+                      <a href="./volunteer.html">Volunteer</a>
+                      <a href="./apply-to-committee.html">Apply to Committee</a>
+                    </div>
+                  </li>
+
+                <li class="navbar-items"><a href="./about-us.html" class="navbar-link"> About Us </a></li>  
+                <li class="navbar-items"><a href="./safety.html" class="navbar-link"> Safety </a></li>
+                <li class="navbar-items"><a href="./donate.html" class="navbar-link"> Donate </a></li>
+              </ul>
+            </div>
+          </div>
+          
+          <!--Mobile nav bar w/ a hamburger-->
+          <div class="row" id="mobile-navbar" style="margin-bottom: 0px;">
+
+            <!--Haburger icon-->
+            <a href="javascript:void(0);" class="icon" onclick="openMenu()">
+              <img src="../img/hamburger-120x120.png" class="hamburger" >
+            </a>
+
+            <!--Hamburger drop down menu-->
+            <div id="myLinks">
+              <a href="../index.html"> Home </a>
+
+              <!--Events has a drop down-->
+             <a href="javascript:void(0);" onclick="openEvents()"> Events </a>
+          <div id="events-submenu">
+                    <a href="/html/event-november-2023.html">November Games Y'all</a>
+                     <a href="/html/event-gotm-meetup.html">GOTM Meetup</a>
+           			 <a href="/html/events.html"> Past Events </a>
+          </div>
+
+              <!--Get Involved has a drop down-->
+              <a href="javascript:void(0);" onclick="openGetInvolved()"> Get Involved </a>
+              <div id="get-involved-submenu">
+                <a href="./Submit-a-game.html"> Submit a Game</a>
+                <a href="./volunteer.html">Volunteer</a>
+                <a href="./apply-to-committee.html">Apply to Committee</a>
+              </div>
+
+              <a href="./about-us.html"> About Us </a>
+              <a href="./safety.html"> Safety </a> 
+              <a href="./donate.html"> Donate </a>
+            </div>
+            
+          </div>
+        </header>
+
+        <!--BREAD CRUMS-->
+  
+        <div class="row" style="margin-bottom: 0px; margin-top: 0px;">
+            <div class="col-4" style="justify-content: left;">
+                <p>
+                    <a href="../html/events.html">Past Events</a> 
+                    >
+                    <a href="event-dream-mail.html">June 30th, 2023</a>
+                </p>
+            </div>
+        </div>
+       
+   <!--Content and Information-->
+        <div class="row">    
+     <div class="col-4"style="justify-content: left;">
+                    <h1>1-800-DREAM-MAIL</h1>
+                
+                    <h4> a Digital Do-Si-Do</h4>
+                
+				<p>We'll be chatting and hanging out on discord! <a href="https://discord.gg/nmrkDAEqar">Fantastic Arcade</a> </p>
+	
+			<br>
+				<!--Sign-up Button -->
+            <button class="button" id="Sign up"><a href="https://docs.google.com/forms/d/e/1FAIpQLScduqCnqFOy94kayb3K8ZSApXlCbOSxc2frToscARpd2Y5akw/viewform?usp=sf_link">Sign Up</a></button>
+       <br><br>
+            <button class="button" id="Discord"><a href="https://discord.gg/nmrkDAEqar">Join Discord</a></button>
+       <br><br>
+				    </div>
+				    
+			 <div class="col-8">
+                <!--Add your event image here-->
+                <img src="../img/event-img/DA-Banner-Dream-Mail-23.png" alt="Fantastic Arcade & the Museum of Human Achievement present, 1-800-DREAM-MAIL a digital do-si-do">
+            </div>
+            
+
+		 <div class="col-10">
+			<h5>1-800-DREAM-MAIL ✨ A Digital Do-si-do</h5>
+			<br>
+<p>
+📱Welcome to our first Digital Do-si-do of 2023!!!📱 Let’s celebrate summer by bringing life to the dead art of voicemail ☎️ Prank caller? Phone Scammer? Celebrity Impersonator? Let’s leave some voicemails!
+<br><br>
+Sign up and submit a prompt for your DREAM voicemail. Your prompt can be anything you want. Do you want a deep-fake impression? A message from an imaginary loved one? A prank call? Write it out and wait to receive your OWN prompt to respond to. 
+<br><br>
+<center><p>Sign up by 6/13📶, submit on 6/30 🤙</p></center>
+<br><br>
+<p>● Tuesday June 13th - Sign-up deadline! Do-si-do! We’ll tell you who you’re making a voicemail for and what their prompt is. Interpret your prompt however you wish - get literal, get weird, get performative! Check the discord channel for tools, guides, and resources.
+<br>
+● Friday June 30th - Call our hotline and leave your message! If you want to share the voicemail you received you can post it to the #1-800-Dream-Mail discord channel.
+</p><br><br>
+<center><p>☎️💻Voicemail?💻☎️</p></center>
+<br>
+<p>● You don’t have to be a prankster! Your voicemail prompts can take any form you wish. 
+<br>
+● Would you like to receive a performance? An impression? A long awaited confession from your crush? A call from beyond the grave? 
+<br>
+● You can either pre-record your message or record it live. Refer to our tools and guides section for more information and guidance. 
+<br><br>
+Join from the #1-800-Dream-Mail channel on either the MoHA or Fantastic Arcade Discord server.
+</p>
+<br><br>
+
+<center><p>✅Submission Guide✅</p></center>
+<br>
+<p>● Voicemails can be made using any tools<br>
+● If you pre-recorded your message you should export it as a .mp3 or .wav file type<br>
+● Export at either 16 or 24 bit rate, sample rate 44100Hz or 48000Hz<br>
+● To submit your voicemail you must call the Dream Mail Hotline at +18648986642. You have 3 options
+<br><br>
+● Option 1: Record your voicemail live when prompted by the Dream Mail Hotline. <br>
+● Option 2: Setup your pre-recorded audio on a speaker and record voicemail when prompted by the Dream Mail Hotline. <br>
+●Option 3: Email audio file directly to us at games@themuseumofhumanachievement.com <br>
+● We will forward all voicemails to their destined voicemail box.</p>
+<br><br>
+
+      <h5>Games Y'all</h5>
+<p>Games Y’all is a monthly meetup presented by Fantastic Arcade for indie devs, digital artists, and games fans. We showcase indie games and digital art projects from our local community and beyond. You can come to our meetups to play games, experience digital art, and connect with the local Austin games community. 
+</p>
+ <br>
+          
+      <h5>Fantastic Arcade</h5>
+<p>Fantastic Arcade celebrates, amplifies, and supports the unique and underrepresented within indie games and beyond.</p>
+ <br>
+ 
+<h5>Museum of Human Achievement</h5>
+
+<p>The Museum of Human Achievementis a multi-disciplinary art space and non-profit organization in Austin, Texas. MoHA cultivate new work, community, and vibe by providing radically affordable arts space to support artists and audiences in the creation of new ideas.</p>
+          </div>
+        </div>
+        
+
+  <!--Games at the event--
+        <div>
+          <h2 style="text-align: center;">Games This Month</h2>
+          
+          
+  <!--AATNC card--
+          <div class="row" style="background-color: #9BE9FF; border-radius: 10px; margin-bottom: 25px;">
+            <div class="game-card-long">
+              <div>
+                <img src="../img/Archived-img/April-2023/games/aatnc.png" alt="A rectangular promotional image for Astra and the New Constellation showing the title in a bold yellow and white pixelated font."> 
+              </div>  
+
+              <!--Game Text--
+              <div>
+                <h4>Astra and the New Constellation</h4>
+<p>Astra And The New Constellation is a retro-inspired mascot platformer, developed entirely in the Pico-8 fantasy console engine. Play as the titular starlet Astra as she journeys across the galaxy, collecting stardust to form a constellation of her own to call home. AATNC features 15 distinct levels, nearly 30 minutes of original music, and a variety of options and accessibility features to support players in making the experience fit their preferences and needs.
+<br><br>
+Created by hobbyist developer Travis "rarelikeaunicorn" Antosh as a passion project over the course of three years, AATNC is their first commercial release and an attempt to showcase the power of Pico-8 in spite of its significant constraints while also harkening back to the games they played (and the ones they didn't get to play!) in their own childhood during the 90s.
+</p>
+                <button class="button"  style="margin: 10px; background-color: #F2D335;">
+                  <a href="https://rarelikeaunicorn.itch.io/astra">Play It Here</a>
+                </button>
+
+              </div>
+
+              <!--Dev Text--
+              <div>
+                <h6>Developer: rarelikeaunicorn<h6> 
+                <div class="dev-social">
+                  <h6>@travisakarare</h6>
+                  <a href="https://twitter.com/travisakarare">
+                    <img src="../img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>        
+            
+ <!--Alter Ego card--
+          <div class="row" style="background-color: #F2D335; border-radius: 10px; margin-bottom: 25px;">
+            <div class="game-card-long">
+              <div>
+               <img src="../img/Archived-img/April-2023/games/alter-ego.png" alt="A rectangular promotional image for Alter Ego featuring the title of the game in white with a subtitle “a game by fruit salad torture”. In the bottom right there a drawing of their raccoon character in blue, then red, and then yellow in order from left to right."> 
+              </div>  
+
+              <!--Game Text--
+              <div>
+                <h4>Alter Ego</h4>
+                <p>Alter Ego is a 2D point-and-click narrative-based adventure game featuring psychological elements. Help Reese the rat uncover the mystery as to how the corpse of her partner ended up in her kitchen. Explore two levels with atmospheric environments, solve puzzles, and use the items in your inventory to uncover the mystery behind Reese and Winona’s relationship, and find the real culprit—if there is one!
+                </p>
+				
+                <button class="button"  style="margin: 10px; background-color: #9BE9FF;">
+                  <a href="https://chemicahl.itch.io/alter-ego">Play It Here</a>
+                </button>
+
+              </div>
+
+              <!--Dev Text--
+              <div>
+                <h6>Developer: Fruit Salad Torture</h6>
+                <div class="dev-social">
+                  <h6>@ALTER_EGOGAME</h6>
+                  <a href="https://twitter.com/ALTER_EGOGAME">
+                    <img src="../img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>          
+             
+
+        <!--Event Images-->
+        <!--Only use this section after an event to house images from the past
+       <div class="row">
+            <div class="col-12">
+                <h2 style="text-align: center;">Gallery</h2>
+
+                <div class="flex-container-row">
+                    <img src="../img/Archived-img/March-2023/photos/GY-mar-1.jpg" style="width: 375px; height: 375px;"> 
+                    <img src="../img/Archived-img/March-2023/photos/GY-mar-2.jpg" style="width: 375px; height: 375px;"> 
+                    <img src="../img/Archived-img/March-2023/photos/GY-mar-3.jpg" style="width: 375px; height: 375px;"> 
+                    <img src="../img/Archived-img/March-2023/photos/GY-mar-4.jpg" style="width: 375px; height: 375px;">
+                    <img src="../img/Archived-img/March-2023/photos/GY-mar-5.jpg" style="width: 375px; height: 375px;"> 
+                    <img src="../img/Archived-img/March-2023/photos/GY-mar-6.jpg" style="width: 375px; height: 375px;">
+                </div>
+            </div>
+        </div>
+    
+      <!-- Community buttons--> 
+      <div class="community-buttons">
+        <hr>
+        <h4 style="text-align: center;">Join the Community</h4>
+        <div class="flex-container-row" style="justify-content: center; margin-bottom: 10px;">
+            <!--DISCORD-->
+            <a href="https://discord.gg/rSMjDEeXu5">
+              <img src="../img/Social-buttons/discord-button.png" class="social-button" alt="A link to the Fantastic Arcade Discord server.">
+            </a>
+
+            <!--EMAIL-->
+            <a href="https://form.jotform.com/231687367346164">
+              <img src="../img/Social-buttons/email-button.png" class="social-button" alt="A link to the Games Y'all newsletter.">
+            </a>
+
+            <!--INSTAGRAM-->
+            <a href="https://www.instagram.com/fantastic.arcade/?igshid=YmMyMTA2M2Y%3D">
+              <img src="../img/Social-buttons/instagram-button.png" class="social-button" alt="A link to the Games Y'all instagram page.">
+            </a>
+
+            <!--TWITTER-->
+            <a href="https://mobile.twitter.com/gamesyall">
+              <img src="../img/Social-buttons/twitter-button.png" class="social-button" alt="A link to the Games Y'all twitter">
+            </a>
+        </div>
+
+        <div class="flex-container-row" style="justify-content: center;">
+            <!--MOHA-->
+            <a href="https://themuseumofhumanachievement.com/">
+              <img src="../img/Social-buttons/MoHA_icon-blue.png" class="social-button" alt="A link to the Museum of Human Acheivement homepage.">
+            </a>
+
+            <!--FANTASTIC ARCADE-->
+            <a href="https://fantasticarcade.com/">
+              <img src="../img/Social-buttons/Fantastic-arcade-logo.png" class="social-button" alt="A link to the Fantastic Arcade homepage.">
+            </a>
+            
+            <!--GAMES YALL-->
+            <a href="../index.html">
+              <img src="../img/Social-buttons/games-yall-logo-square.png" class="social-button" alt="A link to the Games Y'all homepage.">
+            </a>              
+        </div>
+
+      </div>
+
+    <footer>
+        <p>Games Y’all is a program of The Museum of Human Achievement. 
+          We endeavor to  celebrate, amplify, and support the unique and underrepresented within 
+          indie games and beyond. </p>
+        
+        <hr>
+      
+      <div class="flex-container-row" style="flex-wrap: nowrap;">
+        <!--CONTACT-->
+        <div class="flex-container-column">
+          <h6>Contact</h6>
+          <a href="https://form.jotform.com/231687367346164">Email list</a>
+          <a href="https://mobile.twitter.com/gamesyall">Games Y'all Twitter</a>
+          <a href="https://www.instagram.com/fantastic.arcade/?igshid=YmMyMTA2M2Y%3D">Fantastic Arcade Instagram</a>
+        </div>
+
+        <!--SAFETY-->
+        <div class="flex-container-column">
+          <h6>Safety</h6>
+          <a href="./html/safety.html">Safety Precautions</a>
+          <a href="https://docs.google.com/document/d/1vA1P_608XVhhz3-PQTwZcrDHjXG53W3L-MoQU8cY1TI/edit?usp=sharing">Code of Conduct</a>
+          <p>(512) 957-6642</p>
+        </div>
+
+        <!--DONATIONS-->
+        <div class="flex-container-column">
+          <h6>Donations</h6>
+          <a href="https://opencollective.com/gamesyall">Open Collective</a>
+          <a href="https://account.venmo.com/u/TheMuseum">Venmo</a>
+        </div>
+
+        <!--FANTASTIC ARCADE-->
+        <div class="flex-container-column">
+          <h6>Fantastic Arcade</h6>
+          <a href="https://fantasticarcade.com/">Fantastic Arcade.com</a>
+          <a href="https://discord.gg/rSMjDEeXu5">Discord</a>
+        </div>
+
+        <!--GET INVOLVED-->
+        <div class="flex-container-column">
+          <h6>Get Involved</h6>
+        <a href="https://gamesyall.com/html/Submit-a-game.html">Submit a Game</a>
+          <a href="https://themuseumofhumanachievement.com/forms/volunteer/">Volunteer</a>
+          <a href="https://gamesyall.com/html/apply-to-committee.html">Apply to a Committee</a>
+          <a href="https://form.jotform.com/231855146635157">Feedback Form</a>
+    	 </div>
+      </div>
+      <p id="footer-credits"> Website created by Noah V. Carrico</p>
+      </footer>
+
+      <p id="mobile-credits" style="margin-bottom: 20px;"> Website created by Noah V. Carrico</p>     
+    </body>
+</html>

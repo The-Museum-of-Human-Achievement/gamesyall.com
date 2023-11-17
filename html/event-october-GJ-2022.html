@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Games Show Game Jam</title> 
+        <link rel="stylesheet" href="../mystyle.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Roboto&display=swap" rel="stylesheet">
+
+        <!--Encoding Information-->
+        <meta charset="UTF-8">
+
+        <!--Favicon Information-->
+        <link rel="apple-touch-icon" sizes="180x180" href="../img/favicons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="../img/favicons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="../img/favicons/favicon-16x16.png">
+        <link rel="manifest" href="../img/favicons/site.webmanifest">
+        <link rel="mask-icon" href="../img/favicons/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+
+        <!--Java Script reference-->
+        <script src="../javaScript/myscripts.js"></script>        
+    </head>
+
+    <body>
+        <header>
+            <div class="row" style="margin-bottom: 0px;">
+              <div class="col-12">
+                <img src="../img/GY_banner.jpg" class="banner-img" alt="Games Y'all Home page." > 
+              </div>
+      
+            </div>
+      
+                   <!-- Desktop Nav bar -->
+          <div class="row" id="navbar" style="border-radius: 8px; margin-bottom: 0px;" >
+            <!--Desktop nav bar-->
+            <div class="col-12">
+              <ul class="navbar">
+                <li class="navbar-items"><a href="../index.html" class="navbar-link"> Home </a></li>
+
+                <li class="navbar-items">
+                  <div class="dropdown">
+                    <a class="dropbtn"> Events
+               <i class="events-dropdown"></i>
+                </a>
+                <div class="dropdown-content">
+           	<a href="/html/event-november-2023.html">November Games Y'all</a>
+           	   <a href="/html/event-gotm-meetup.html">GOTM Meetup</a>
+              <a href="/html/events.html">Past Events</a>
+                </div>
+                
+                <li class="navbar-items">
+                  <div class="dropdown">
+                    <a class="dropbtn">Get Involved 
+                      <i class="about-us-dropdown"></i>
+                    </a>
+                    <div class="dropdown-content">
+                      <a href="./Submit-a-game.html"> Submit a Game</a>
+                      <a href="./volunteer.html">Volunteer</a>
+                     <a href="./apply-to-committee.html">Apply to Committee</a>
+                    </div>
+                  </li>
+
+                <li class="navbar-items"><a href="./about-us.html" class="navbar-link"> About Us </a></li>  
+                <li class="navbar-items"><a href="./safety.html" class="navbar-link"> Safety </a></li>
+                <li class="navbar-items"><a href="./donate.html" class="navbar-link"> Donate </a></li>
+              </ul>
+            </div>
+          </div>
+          
+          <!--Mobile nav bar w/ a hamburger-->
+          <div class="row" id="mobile-navbar" style="margin-bottom: 0px;">
+
+            <!--Haburger icon-->
+            <a href="javascript:void(0);" class="icon" onclick="openMenu()">
+              <img src="../img/hamburger-120x120.png" class="hamburger" >
+            </a>
+
+            <!--Hamburger drop down menu-->
+            <div id="myLinks">
+              <a href="../index.html"> Home </a>
+
+              <!--Events has a drop down-->
+             <a href="javascript:void(0);" onclick="openEvents()"> Events </a>
+          <div id="events-submenu">
+                     <a href="/html/event-november-2023.html">November Games Y'all</a>
+                       <a href="/html/event-gotm-meetup.html">GOTM Meetup</a>
+           			 <a href="/html/events.html"> Past Events </a>
+          </div>
+
+              <!--Get Involved has a drop down-->
+              <a href="javascript:void(0);" onclick="openGetInvolved()"> Get Involved </a>
+              <div id="get-involved-submenu">
+                <a href="./Submit-a-game.html"> Submit a Game</a>
+                <a href="./volunteer.html">Volunteer</a>
+               <a href="./apply-to-committee.html">Apply to Committee</a>
+              </div>
+
+              <a href="./about-us.html"> About Us </a>
+              <a href="./safety.html"> Safety </a> 
+              <a href="./donate.html"> Donate </a>
+            </div>
+            
+          </div>
+        </header>
+
+        <!--BREAD CRUMS-->
+  
+        <div class="row" style="margin-bottom: 0px; margin-top: 0px;">
+            <div class="col-4" style="justify-content: left;">
+                <p>
+                    <a href="../html/events.html">Events</a> 
+                    >
+                    <a href="event-october.html">October 22 + 23, 2022</a>
+                </p>
+            </div>
+        </div>
+  
+
+       <!--Content and infomration-->
+        <div class="row">
+                 
+            <div class="col-8">
+                <!--Add your event image here-->
+                <img src="../img/event-img/DA-Banner-Oct-gamejam.png" alt="Fantastic Arcade presents, Games Y'all 10/27'">
+            </div>
+            
+             <div class="col-10">
+                    <h1>Come on Down!™</h1>
+                    <h2>a Game Show Game Jam</h2>
+                    <h4>Sat 10/22 - Sun 10/23, 2022</h4>
+               <!-- <h5>11:00am-9:00pm<br>
+				The Museum of Human Achievement, <a href="https://goo.gl/maps/B9JgLYYeKq9nKLue7">3600 Lyons Road, Austin, TX 78702</a> </h5>-->
+       
+
+<p>It’s a game show. It’s a jam. It’s a game show jam! <br>
+
+Come to the Museum of Human Achievement this weekend to collaborate on your very own GAME SHOW! No experience needed or minimum time requirement to participate, just come have fun.</p>
+<br>
+
+   <!--<h4>Sign up</h4>
+
+<p>Fill out <a href="https://forms.gle/CTuNYkJeEw5hxcPj9">this form</a> and we’ll pair you with a team. You can sign up alone or with friends. If you’re really on the ball and already have a full team, you can register your team!</p>
+<br>
+ <button class="button" id="Registration"><a href="https://forms.gle/gPpzpkGoakecDtPp7">Game Jam Registration</a></button> -->
+ <br><br>
+
+<h4>Timeline</h4>
+
+<h5>Kickoff - 11am on Saturday 10/22</h5>
+<p>Hear the scoop, meet your teammates (or bring your own), get inspired with weird game show clips, sign up for bonus challenges, and enjoy some cold brew (thanks Texas Coffee Traders!) and a cereal buffet. Can’t make it Saturday but still want to join in? Tell us on the team finder!</p>
+
+<h5>Open workspace - 11am-9pm Sat & Sun 10/22-10/23</h5>
+<p>Jam with us! 2 days of access to collaborative workspace, mentors (for making things with computers and hands), tools, computers, a big pile of cardboard, and as many encouraging remarks as you need. This is an optional resource! If you’d rather work somewhere else, go for it. It’s also up to you and your team how much time you spend making your game show.</p>
+
+<h5>Submission deadline - 9pm on Sunday 10/23</h5>
+<p>Times’ up! Tell us what it’s called, who made it, and what you’re doing. We’ll give you a time slot at the showcase.</p>
+
+<h5>Showcase - 8pm Thurs 10/27</h5>
+<p>Hosted by the infamous Shannon Stott and Coby West during our <a href="https://gamesyall.com/html/event-october-2022.html">Halloween Games Y’all event</a>. Put on your game show in front of a live studio audience at the MoHA outdoor stage! Also broadcast live on Discord! Bring your friends and fam.</p>
+<br>
+
+
+<h4>Who is this for?</h4>
+
+<p>Game devs and coders, artists and performers, musicians and sound effect artists, costume and prop designers. But really, anyone who wants to collaborate and have fun together. No experience necessary.</p>
+<br>
+
+
+<h4>A Game Show?</h4>
+
+<p>Think quiz show, dating game, obstacle course, three door situation, gross slime challenges, total gameshow nonsense. Up to you! 
+<br>Fully analog theatrical productions, multi-player video games, and everything in between are encouraged.
+<br>Make something to be presented on stage with a live studio audience in mind.
+<br>Play-through should be 5 minutes or less. Set up and clean up should be 5 minutes or less.</p>
+<br>
+<button class="button" id="Game Jam Rule Book"><a href="https://docs.google.com/document/d/1g_bqWbKZVNncOv6SuQ7lE3O4bhW74fX04oa685wEp1Y/edit?usp=sharing">Game Jam Rule Book</a></button> 
+                <br><br>
+
+<h4>Teams</h4>
+
+<p>A successful team might have: programmer, designer, digital artist, narrative designer or writer, musician or sound effects person, props and set designer, costume designer, game show host, physical computing designer.
+But don’t take our word for it! If you want a team of all puppeteers, cool. </p>
+<br>
+
+
+<h4>Venue Details</h4>
+
+<p>We are a warehouse space next to the Canopy Arts Complex. If you see a pink and blue trailer, an old city bus, and some astroturf – you’re in the right place. 
+<br>There is plenty of parking available and a bike rack.
+<br>This event will be indoors in the MoHA gallery space and outdoors at the MoHA drive-in theater (AKA the parking lot). The outside temperatures are the inside temperatures, so dress accordingly.
+<br>We strongly encourage that everyone be vaccinated or have recently tested negative for COVID. Do not attend if you feel ill or were recently exposed to COVID. Hand sanitizer and wipes for controllers will be available. Masks are welcome!
+<br>Our space is wheelchair accessible. If you need access to the lift, just ask!</p>
+
+
+<br>
+<h4>Questions?</h4>
+
+<p>Contact us at games@themuseumofhumanachievement.com</p>
+               
+             <!--Venue details can be deleted when event has passed-->    
+                  
+
+                <!--If this is a upcoming event, uncomment the button element below-->
+            
+                   
+
+        <!--Games at the event -->
+          <!--[GAME] card
+          <div class="row" style="background-color: #F2D335; border-radius: 10px; margin-bottom: 25px;">
+            <div class="game-card-long">
+              <div>
+                <img src="../img/Archived-img/[Month-year]/games/[Game image]]">
+              </div>  
+
+              <!--Game Text 
+              <div>
+                <h4>[Game Title]</h4>
+                <p>
+                  [Game Text]
+                </p>
+                <button class="button"  style="margin: 10px; background-color: #9BE9FF;">
+                  <a href="[Hyperlink to game]">Play It Here</a>
+                </button>
+
+              </div>
+
+              <!--Dev Text
+              <div>
+                <h6>[Dev name or team name]</h6>
+                <p>
+                  [Text about dev]
+                </p>
+
+                <div class="dev-social">
+                  <h6>[Dev's social media handle]</h6>
+                  <a href="[hyperlink to social]">
+                    <img src="../img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!--[Game] Card
+          <div class="row" style="background-color: #9BE9FF; border-radius: 10px; margin-bottom: 25px;">
+            <div class="game-card-long">
+              <div>
+                <img src="../img/Archived-img/[Month-year]/games/[Game Image]">
+              </div>  
+
+              <!--Game Text
+              <div>
+                <h4>[Game Title]</h4>
+                <p>
+                  [Game Text]
+                </p>
+                <button class="button"  style="margin: 10px;">
+                  <a href="[Hyperlink to game page]">Play It Here</a>
+                </button>
+              </div>
+
+              <!--Dev Text
+              <div>
+                <h6>By [Dev Name or team name]</h6>
+                <p>
+                  [Text on dev or team]
+                </p>
+
+                <div class="dev-social">
+                  <h6>[Dev's social]</h6>
+                  <a href="[Hyperlink to dev's twitter]">
+                    <img src="../img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--[GAME] card
+          <div class="row" style="background-color: #F2D335; border-radius: 10px; margin-bottom: 25px;">
+            <div class="game-card-long">
+              <div>
+                <img src="../img/Archived-img/[Month-year]/games/[Game image]]">
+              </div>  
+
+              <!--Game Text 
+              <div>
+                <h4>[Game Title]</h4>
+                <p>
+                  [Game Text]
+                </p>
+                <button class="button"  style="margin: 10px; background-color: #9BE9FF;">
+                  <a href="[Hyperlink to game]">Play It Here</a>
+                </button>
+
+              </div>
+
+              <!--Dev Text
+              <div>
+                <h6>[Dev name or team name]</h6>
+                <p>
+                  [Text about dev]
+                </p>
+
+                <div class="dev-social">
+                  <h6>[Dev's social media handle]</h6>
+                  <a href="[hyperlink to social]">
+                    <img src="../img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!--[Game] Card
+          <div class="row" style="background-color: #9BE9FF; border-radius: 10px; margin-bottom: 25px;">
+            <div class="game-card-long">
+              <div>
+                <img src="../img/Archived-img/[Month-year]/games/[Game Image]">
+              </div>  
+
+              <!--Game Text
+              <div>
+                <h4>[Game Title]</h4>
+                <p>
+                  [Game Text]
+                </p>
+                <button class="button"  style="margin: 10px;">
+                  <a href="[Hyperlink to game page]">Play It Here</a>
+                </button>
+              </div>
+
+              <!--Dev Text
+              <div>
+                <h6>By [Dev Name or team name]</h6>
+                <p>
+                  [Text on dev or team]
+                </p>
+
+                <div class="dev-social">
+                  <h6>[Dev's social]</h6>
+                  <a href="[Hyperlink to dev's twitter]">
+                    <img src="../img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--[GAME] card
+          <div class="row" style="background-color: #F2D335; border-radius: 10px; margin-bottom: 25px;">
+            <div class="game-card-long">
+              <div>
+                <img src="../img/Archived-img/[Month-year]/games/[Game image]]">
+              </div>  
+
+              <!--Game Text
+              <div>
+                <h4>[Game Title]</h4>
+                <p>
+                  [Game Text]
+                </p>
+                <button class="button"  style="margin: 10px; background-color: #9BE9FF;">
+                  <a href="[Hyperlink to game]">Play It Here</a>
+                </button>
+
+              </div>
+
+              <!--Dev Text
+              <div>
+                <h6>[Dev name or team name]</h6>
+                <p>
+                  [Text about dev]
+                </p>
+
+                <div class="dev-social">
+                  <h6>[Dev's social media handle]</h6>
+                  <a href="[hyperlink to social]">
+                    <img src="../img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!--[Game] Card
+          <div class="row" style="background-color: #9BE9FF; border-radius: 10px; margin-bottom: 25px;">
+            <div class="game-card-long">
+              <div>
+                <img src="../img/Archived-img/[Month-year]/games/[Game Image]">
+              </div>  
+
+              <!--Game Text 
+              <div>
+                <h4>[Game Title]</h4>
+                <p>
+                  [Game Text]
+                </p>
+                <button class="button"  style="margin: 10px;">
+                  <a href="[Hyperlink to game page]">Play It Here</a>
+                </button>
+              </div>
+
+              <!--Dev Text
+              <div>
+                <h6>By [Dev Name or team name]</h6>
+                <p>
+                  [Text on dev or team]
+                </p>
+
+                <div class="dev-social">
+                  <h6>[Dev's social]</h6>
+                  <a href="[Hyperlink to dev's twitter]">
+                    <img src="../img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>          
+-->
+        <!--Event Images-->
+        <!--Only use this section after an event to house images from the past-->
+         <div class="row">
+            <div class="col-12">
+                <h2 style="text-align: center;">Gallery</h2>
+
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/tzDyicgGjXA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+         </div>
+        <!--
+        <div class="row">
+            <div class="col-12">
+                <h2 style="text-align: center;">Gallery</h2>
+
+                <div class="flex-container-row">
+                    <img src="[Event image here]" style="width: 375px; height: 375px;"> 
+
+                </div>
+            </div>
+        </div>
+        -->
+    
+      <!-- Community buttons--> 
+      <div class="community-buttons">
+        <hr>
+        <h4 style="text-align: center;">Join the Community</h4>
+        <div class="flex-container-row" style="justify-content: center; margin-bottom: 10px;">
+            <!--DISCORD-->
+            <a href="https://discord.gg/rSMjDEeXu5">
+              <img src="../img/Social-buttons/discord-button.png" class="social-button" alt="A link to the Fantastic Arcade Discord server.">
+            </a>
+
+            <!--EMAIL-->
+            <a href="https://form.jotform.com/231687367346164">
+              <img src="../img/Social-buttons/email-button.png" class="social-button" alt="A link to the Games Y'all newsletter.">
+            </a>
+
+            <!--INSTAGRAM-->
+            <a href="https://www.instagram.com/fantastic.arcade/?igshid=YmMyMTA2M2Y%3D">
+              <img src="../img/Social-buttons/instagram-button.png" class="social-button" alt="A link to the Games Y'all instagram page.">
+            </a>
+
+            <!--TWITTER-->
+            <a href="https://mobile.twitter.com/gamesyall">
+              <img src="../img/Social-buttons/twitter-button.png" class="social-button" alt="A link to the Games Y'all twitter">
+            </a>
+        </div>
+
+        <div class="flex-container-row" style="justify-content: center;">
+            <!--MOHA-->
+            <a href="https://themuseumofhumanachievement.com/">
+              <img src="../img/Social-buttons/MoHA_icon-blue.png" class="social-button" alt="A link to the Museum of Human Acheivement homepage.">
+            </a>
+
+            <!--FANTASTIC ARCADE-->
+            <a href="https://fantasticarcade.com/">
+              <img src="../img/Social-buttons/Fantastic-arcade-logo.png" class="social-button" alt="A link to the Fantastic Arcade homepage.">
+            </a>
+            
+            <!--GAMES YALL-->
+            <a href="../index.html">
+              <img src="../img/Social-buttons/games-yall-logo-square.png" class="social-button" alt="A link to the Games Y'all homepage.">
+            </a>              
+        </div>
+
+      </div>
+
+    <footer>
+        <p>Games Y’all is a program of The Museum of Human Achievement. 
+          We endeavor to  celebrate, amplify, and support the unique and underrepresented within 
+          indie games and beyond. </p>
+        
+        <hr>
+      
+      <div class="flex-container-row" style="flex-wrap: nowrap;">
+        <!--CONTACT-->
+        <div class="flex-container-column">
+          <h6>Contact</h6>
+          <a href="https://form.jotform.com/231687367346164">Email list</a>
+          <a href="https://mobile.twitter.com/gamesyall">Games Y'all Twitter</a>
+          <a href="https://www.instagram.com/fantastic.arcade/?igshid=YmMyMTA2M2Y%3D">Fantastic Arcade Instagram</a>
+        </div>
+
+        <!--SAFETY-->
+        <div class="flex-container-column">
+          <h6>Safety</h6>
+          <a href="./html/safety.html">Safety Precautions</a>
+          <a href="https://docs.google.com/document/d/1vA1P_608XVhhz3-PQTwZcrDHjXG53W3L-MoQU8cY1TI/edit?usp=sharing">Code of Conduct</a>
+          <p>(512) 957-6642</p>
+        </div>
+
+        <!--DONATIONS-->
+        <div class="flex-container-column">
+          <h6>Donations</h6>
+          <a href="https://opencollective.com/gamesyall">Open Collective</a>
+          <a href="https://account.venmo.com/u/TheMuseum">Venmo</a>
+        </div>
+
+        <!--FANTASTIC ARCADE-->
+        <div class="flex-container-column">
+          <h6>Fantastic Arcade</h6>
+          <a href="https://fantasticarcade.com/">Fantastic Arcade.com</a>
+          <a href="https://discord.gg/rSMjDEeXu5">Discord</a>
+        </div>
+
+        <!--GET INVOLVED-->
+        <div class="flex-container-column">
+          <h6>Get Involved</h6>
+        <a href="https://gamesyall.com/html/Submit-a-game.html">Submit a Game</a>
+          <a href="https://themuseumofhumanachievement.com/forms/volunteer/">Volunteer</a>
+          <a href="https://gamesyall.com/html/apply-to-committee.html">Apply to a Committee</a>
+          <a href="https://form.jotform.com/231855146635157">Feedback Form</a>
+        </div>
+      </div>
+      <p id="footer-credits"> Website created by Noah V. Carrico</p>
+      </footer>
+
+      <p id="mobile-credits" style="margin-bottom: 20px;"> Website created by Noah V. Carrico</p>     
+    </body>
+</html>

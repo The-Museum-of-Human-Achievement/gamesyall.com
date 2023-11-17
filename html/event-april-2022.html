@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Games Y'all April 1, 2022</title> 
+        <link rel="stylesheet" href="../mystyle.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Roboto&display=swap" rel="stylesheet">
+
+        <!--Encoding Information-->
+        <meta charset="UTF-8">
+
+        <!--Favicon Information-->
+        <link rel="apple-touch-icon" sizes="180x180" href="../img/favicons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="../img/favicons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="../img/favicons/favicon-16x16.png">
+        <link rel="manifest" href="../img/favicons/site.webmanifest">
+        <link rel="mask-icon" href="../img/favicons/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+        
+        <!--JavaScript Files-->
+        <script src="../javaScript/myscripts.js"></script>        
+    </head>
+
+    <body>
+        <header>
+            <div class="row" style="margin-bottom: 0px;">
+              <div class="col-12">
+                <img src="../img/GY_banner.jpg" class="banner-img" alt="Games Y'all Home page." > 
+              </div>     
+            </div>
+      
+                   <!-- Desktop Nav bar -->
+          <div class="row" id="navbar" style="border-radius: 8px; margin-bottom: 0px;" >
+            <!--Desktop nav bar-->
+            <div class="col-12">
+              <ul class="navbar">
+                <li class="navbar-items"><a href="../index.html" class="navbar-link"> Home </a></li>
+
+                <li class="navbar-items">
+                  <div class="dropdown">
+                    <a class="dropbtn"> Events
+               <i class="events-dropdown"></i>
+                </a>
+                <div class="dropdown-content">
+                                <a href="/html/event-november-2023.html">November Games Y'all</a>
+                                  <a href="/html/event-gotm-meetup.html">GOTM Meetup</a>
+              <a href="/html/events.html">Past Events</a>
+                </div>
+                
+                <li class="navbar-items">
+                  <div class="dropdown">
+                    <a class="dropbtn">Get Involved 
+                      <i class="about-us-dropdown"></i>
+                    </a>
+                    <div class="dropdown-content">
+                      <a href="./Submit-a-game.html"> Submit a Game</a>
+                      <a href="./volunteer.html">Volunteer</a>
+                     <a href="./apply-to-committee.html">Apply to Committee</a>
+                    </div>
+                  </li>
+
+                <li class="navbar-items"><a href="./about-us.html" class="navbar-link"> About Us </a></li>  
+                <li class="navbar-items"><a href="./safety.html" class="navbar-link"> Safety </a></li>
+                <li class="navbar-items"><a href="./donate.html" class="navbar-link"> Donate </a></li>
+              </ul>
+            </div>
+          </div>
+          
+          <!--Mobile nav bar w/ a hamburger-->
+          <div class="row" id="mobile-navbar" style="margin-bottom: 0px;">
+
+            <!--Haburger icon-->
+            <a href="javascript:void(0);" class="icon" onclick="openMenu()">
+              <img src="../img/hamburger-120x120.png" class="hamburger" >
+            </a>
+
+            <!--Hamburger drop down menu-->
+            <div id="myLinks">
+              <a href="../index.html"> Home </a>
+
+              <!--Events has a drop down-->
+             <a href="javascript:void(0);" onclick="openEvents()"> Events </a>
+          <div id="events-submenu">
+                                <a href="/html/event-november-2023.html">November Games Y'all</a>
+                                  <a href="/html/event-gotm-meetup.html">GOTM Meetup</a>
+           			 <a href="/html/events.html"> Past Events </a>
+          </div>
+
+              <!--Get Involved has a drop down-->
+              <a href="javascript:void(0);" onclick="openGetInvolved()"> Get Involved </a>
+              <div id="get-involved-submenu">
+                <a href="./Submit-a-game.html"> Submit a Game</a>
+                <a href="./volunteer.html">Volunteer</a>
+                <a href="./apply-to-committee.html">Apply to Committee</a>
+              </div>
+
+              <a href="./about-us.html"> About Us </a>
+              <a href="./safety.html"> Safety </a> 
+              <a href="./donate.html"> Donate </a>
+            </div>
+            
+          </div>
+        </header>
+
+        <!--BREAD CRUMS-->
+        <div class="row" style="margin-bottom: 0px; margin-top: 0px;">
+            <div class="col-4" style="justify-content: left;">
+                <p>
+                    <a href="../html/events.html">Past Events</a> 
+                    >
+                    <a href="event-april-2022.html">April 1, 2022</a>
+                </p>
+            </div>
+        </div>
+
+        <!--Content and infomration-->
+        <div class="row">
+            <div class="col-4">
+                <h1>April 1, 2022</h1>
+                <p>Howdy, <br> <br>
+                  Let’s play some Games Y’all! <br> <br>
+
+                  Games Y’all is a casual meetup hosted by Fantastic Arcade for indie devs, digital artists, 
+                  and games fans. Come play games, hang out, meet friends,
+                  and learn how to share your work at future meetups. <br> <br> 
+                  
+                  We’ll have multiplayer games, solo games, 
+                  an experimental soda bar (with beer!), assorted candies, prizes and surprises. All guests will 
+                  be asked to share a vaccination card or negative COVID test (from the last 2 days) at the door. 
+                </p>
+
+                <!--If this is a upcoming event, uncomment the button element below-->
+                <!--
+                    <button class="button" id="rsvp-button">RSVP</button> 
+                -->
+            </div>
+            <div class="col-8">
+                <!--Add your event image here-->
+                <img src="../img/event-img/GY-Banner-April.png" alt="The Museum of Human Achievement presents the first ever Games Y'all!">
+            </div>
+        </div>
+
+          <!--Pipsqueak card-->
+          <div class="row" style="background-color: #F2D335; border-radius: 10px; margin-bottom: 25px;">
+            <div class="game-card-long">
+              <div>
+                <img src="../img/Archived-img/April-2022/games/pipsqueak-img.png">
+              </div>  
+
+              <!--Game Text -->
+              <div>
+                <h4>Pipsqueak</h4>
+                <p>
+                  Pipsqueak has only one purpose in life: to eat all the eggs he can find. Help Pipsqueak traverse 
+                  through unseasoned terrain and vanquish any and all who get in his way. Pipsqueak was originally created 
+                  for Fantastic Arcade as a physical game cabinet. 
+
+                </p>
+                <button class="button"  style="margin: 10px; background-color: #9BE9FF;">
+                  <a href="https://fantasticarcade.com/games/2017/pipsqueak/">Learn More</a>
+                </button>
+
+              </div>
+
+              <!--Dev Text-->
+              <div>
+                <h6> Jenny Jiao Hsia </h6>
+                <p>
+                  Jenny Jiao Hsia started making games in 2013, and is currently finishing their last year of undergrad at the NYU Game Center.
+                  They mostly do art but likes to design and code on the side. If you have any questions or want to say hi, feel free to message 
+                  her on twitter.
+                </p>
+
+                <div class="dev-social">
+                  <h6>@q_dork</h6>
+                  <a href="https://twitter.com/q_dork">
+                    <img src="../img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!--Risky Bison Card-->
+          <div class="row" style="background-color: #9BE9FF; border-radius: 10px; margin-bottom: 25px;">
+            <div class="game-card-long">
+              <div>
+                <img src="../img/Archived-img/April-2022/games/risky-bison-img.png">
+              </div>  
+
+              <!--Game Text -->
+              <div>
+                <h4>risky Bison</h4>
+                <p>
+                  Collect high premiums from the most at-risk & buy decorative cacti for your loved ones. 
+                  Risky Bison was originally created for Fantastic Arcade as a physical game cabinet. 
+                </p>
+                <button class="button"  style="margin: 10px;">
+                  <a href="https://captaingames.itch.io/risky-bison">Play It Here</a>
+                </button>
+              </div>
+
+              <!--Dev Text-->
+              <div>
+                <h6>By Justin Smith</h6>
+                <p>
+                  Justin Smith is an independent game developer living in Vancouver. He made a company called Captain Games 
+                  and is best know for an iPhone game called Enviro-bear 2010 as well as being the elf portrait in Baldur's Gate.
+                </p>
+
+                <div class="dev-social">
+                  <h6>@manbearcar</h6>
+                  <a href="https://twitter.com/manbearcar">
+                    <img src="../img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!--MULTIBOWL card-->
+          <div class="row" style="background-color: #F2D335; border-radius: 10px; margin-bottom: 25px;">
+            <div class="game-card-long">
+              <div>
+                <img src="../img/Archived-img/April-2022/games/MULTIBOWL-img.jpg">
+              </div>  
+
+              <!--Game Text -->
+              <div>
+                <h4>MULTIBOWL</h4>
+                <p>
+                  Multibowl is a two-player challenge of skill and knowledge, across exciting moments in over 300 historical
+                   games across dozens of hardware platforms. It’s the first videogame collage, maybe. And it’s built out of 
+                   a modified version of the incredible MAME emulator.
+                </p>
+                <button class="button"  style="margin: 10px; background-color: #9BE9FF;">
+                  <a href="http://www.foddy.net/2016/08/multibowl/">Learn More</a>
+                </button>
+
+              </div>
+
+              <!--Dev Text-->
+              <div>
+                <h6>By Bennett Foddy & AP Thomson</h6>
+                <p>
+                  Bennett Foddy is an independent game designer working in New York City, formerly game design faculty at the NYU Game Center. In the distant past, he played bass guitar for Cut Copy.
+                  AP Thomson is a graduate of MIT and NYU who designed Swap Sword, Beglitched and Stair: Slide the Blocks to Ascend. Thomson teaches at NYU Game Center.
+                </p>
+
+                <div class="dev-social">
+                  <h6>@bfod</h6>
+                  <a href="https://twitter.com/bfod">
+                    <img src="../img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
+                  </a>
+                </div>
+                <div class="dev-social">
+                  <h6>@bad_tetris</h6>
+                  <a href="https://twitter.com/bad_tetris">
+                    <img src="../img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!--Johann Sebastian Joust  Card-->
+          <div class="row" style="background-color: #9BE9FF; border-radius: 10px; margin-bottom: 25px;">
+            <div class="game-card-long">
+              <div>
+                <img src="../img/Archived-img/April-2022/games/Johann-Sebastian-Joust-img.jfif">
+              </div>  
+
+              <!--Game Text -->
+              <div>
+                <h4>Johann Sebastian Joust</h4>
+                <p>
+                  J.S.Joust is a no-graphics, digitally-enabled playground game designed for motion controllers.
+                  The goal is to be the last player remaining. When the music - J.S. Bach's Brandenburg Concertos - plays in slow-motion, the controllers are very sensitive to movement. When the music speeds up, the threshold becomes less strict, giving the players a small window to dash at their opponents. 
+
+                </p>
+                <button class="button"  style="margin: 10px;">
+                  <a href="http://www.jsjoust.com/">Learn More</a>
+                </button>
+              </div>
+
+              <!--Dev Text-->
+              <div>
+                <h6> By Douglas Wilson | Die Gute Fabrik</h6>
+                <p>
+                </p>
+
+                <div class="dev-social">
+                  <h6>@gutefabrik</h6>
+                  <a href="https://twitter.com/gutefabrik">
+                    <img src="../img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>          
+
+          <!--Nidhogg card-->
+          <div class="row" style="background-color: #F2D335; border-radius: 10px; margin-bottom: 25px;">
+            <div class="game-card-long">
+              <div>
+                <img src="../img/Archived-img/April-2022/games/Nidhogg-img.jpg">
+              </div>  
+
+              <!--Game Text -->
+              <div>
+                <h4>Nidhogg</h4>
+                <p>
+                  Nidhogg is the epic award-winning fencing tug-of-war, full of graceful acrobatics and clumsy stabs.
+                   IRL yelling and excitement may occur, in this ultimate two-player showdown of fast-paced fencing and melee attacks.
+                </p>
+                <button class="button"  style="margin: 10px; background-color: #9BE9FF;">
+                  <a href="https://store.steampowered.com/app/94400/Nidhogg/">Play It Here</a>
+                </button>
+
+              </div>
+
+              <!--Dev Text-->
+              <div>
+                <h6>By Messhoff</h6>
+                <p>
+                  Messhof is a video game development studio founded in 2013 by Mark Essen and Kristy Norindr and located in Venice, California
+                </p>
+
+                <div class="dev-social">
+                  <h6>@messhof</h6>
+                  <a href="https://twitter.com/messhof">
+                    <img src="../img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
+                  </a>
+                </div>
+                <div class="dev-social">
+                  <h6>@kr15t3a</h6>
+                  <a href="https://twitter.com/kr15t3a">
+                    <img src="../img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        <!--Event Images-->
+        <!--Only use this section after an event to house images from the past-->
+        <!--
+        <div class="row">
+            <div class="col-12">
+                <h2 style="text-align: center;">Gallery</h2>
+
+                <div class="flex-container-row">
+                    <img src="[Event image here]" style="width: 375px; height: 375px;"> 
+
+                </div>
+            </div>
+        </div>
+        -->
+    
+      <!-- Community buttons--> 
+      <div class="community-buttons">
+        <hr>
+        <h4 style="text-align: center;">Join the Community</h4>
+        <div class="flex-container-row" style="justify-content: center; margin-bottom: 10px;">
+            <!--DISCORD-->
+            <a href="https://discord.gg/rSMjDEeXu5">
+              <img src="../img/Social-buttons/discord-button.png" class="social-button" alt="A link to the Fantastic Arcade Discord server.">
+            </a>
+
+            <!--EMAIL-->
+            <a href="https://form.jotform.com/231687367346164">
+              <img src="../img/Social-buttons/email-button.png" class="social-button" alt="A link to the Games Y'all newsletter.">
+            </a>
+
+            <!--INSTAGRAM-->
+            <a href="https://www.instagram.com/fantastic.arcade/?igshid=YmMyMTA2M2Y%3D">
+              <img src="../img/Social-buttons/instagram-button.png" class="social-button" alt="A link to the Games Y'all instagram page.">
+            </a>
+
+            <!--TWITTER-->
+            <a href="https://mobile.twitter.com/gamesyall">
+              <img src="../img/Social-buttons/twitter-button.png" class="social-button" alt="A link to the Games Y'all twitter">
+            </a>
+        </div>
+
+        <div class="flex-container-row" style="justify-content: center;">
+            <!--MOHA-->
+            <a href="https://themuseumofhumanachievement.com/">
+              <img src="../img/Social-buttons/MoHA_icon-blue.png" class="social-button" alt="A link to the Museum of Human Acheivement homepage.">
+            </a>
+
+            <!--FANTASTIC ARCADE-->
+            <a href="https://fantasticarcade.com/">
+              <img src="../img/Social-buttons/Fantastic-arcade-logo.png" class="social-button" alt="A link to the Fantastic Arcade homepage.">
+            </a>
+            
+            <!--GAMES YALL-->
+            <a href="../index.html">
+              <img src="../img/Social-buttons/games-yall-logo-square.png" class="social-button" alt="A link to the Games Y'all homepage.">
+            </a>              
+        </div>
+
+      </div>
+
+   <footer>
+        <p>Games Y’all is a program of The Museum of Human Achievement. 
+          We endeavor to  celebrate, amplify, and support the unique and underrepresented within 
+          indie games and beyond. </p>
+        
+        <hr>
+      
+      <div class="flex-container-row" style="flex-wrap: nowrap;">
+        <!--CONTACT-->
+        <div class="flex-container-column">
+          <h6>Contact</h6>
+          <a href="https://form.jotform.com/231687367346164">Email list</a>
+          <a href="https://mobile.twitter.com/gamesyall">Games Y'all Twitter</a>
+          <a href="https://www.instagram.com/fantastic.arcade/?igshid=YmMyMTA2M2Y%3D">Fantastic Arcade Instagram</a>
+        </div>
+
+        <!--SAFETY-->
+        <div class="flex-container-column">
+          <h6>Safety</h6>
+          <a href="./html/safety.html">Safety Precautions</a>
+          <a href="https://docs.google.com/document/d/1vA1P_608XVhhz3-PQTwZcrDHjXG53W3L-MoQU8cY1TI/edit?usp=sharing">Code of Conduct</a>
+          <p>(512) 957-6642</p>
+        </div>
+
+        <!--DONATIONS-->
+        <div class="flex-container-column">
+          <h6>Donations</h6>
+          <a href="https://opencollective.com/gamesyall">Open Collective</a>
+          <a href="https://account.venmo.com/u/TheMuseum">Venmo</a>
+        </div>
+
+        <!--FANTASTIC ARCADE-->
+        <div class="flex-container-column">
+          <h6>Fantastic Arcade</h6>
+          <a href="https://fantasticarcade.com/">Fantastic Arcade.com</a>
+          <a href="https://discord.gg/rSMjDEeXu5">Discord</a>
+        </div>
+
+        <!--GET INVOLVED-->
+        <div class="flex-container-column">
+          <h6>Get Involved</h6>
+       <a href="https://gamesyall.com/html/Submit-a-game.html">Submit a Game</a>
+          <a href="https://themuseumofhumanachievement.com/forms/volunteer/">Volunteer</a>
+          <a href="https://gamesyall.com/html/apply-to-committee.html">Apply to a Committee</a>
+          <a href="https://form.jotform.com/231855146635157">Feedback Form</a>
+        </div>
+      </div>
+      <p id="footer-credits"> Website created by Noah V. Carrico</p>
+      </footer>
+
+      <p id="mobile-credits" style="margin-bottom: 20px;"> Website created by Noah V. Carrico</p>     
+    </body>
+</html>
