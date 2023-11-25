@@ -6,7 +6,7 @@
     </div>
 
     <!-- Desktop Nav bar -->
-    <div class="row" id="navbar" style="border-radius: 8px;">
+    <div class="row" id="navbar" style="border-radius: 8px; margin-bottom: 0px;">
         <!--Desktop nav bar-->
         <div class="col-12">
             <ul class="navbar">

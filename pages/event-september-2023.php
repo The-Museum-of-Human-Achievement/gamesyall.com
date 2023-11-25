@@ -11,8 +11,6 @@
 //      $headDescription = "A longer description of the page in question, with a bit more information than the title.";
 //      $headImage = "/img/event-img/some-cool-event-image.jpg";
 
-$headTitle = "Error 404 - Games Y'all";
-
 require(__DIR__ . "/../partials/html-head.php");
 
 ?>
@@ -23,12 +21,7 @@ require(__DIR__ . "/../partials/html-head.php");
     require(__DIR__ . "/../partials/header.php")
     ?>
 
-    <div class="row">    
-        <div class="col-6"style="justify-content: left;">
-            <h1>404 - Not found</h1>
-            <p>The page you are looking for cannot be found.</p>
-        </div>
-    </div>
+    Your page content here!
 
     <?php 
     // Include the Community links and footer
