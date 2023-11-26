@@ -54,7 +54,7 @@ require(__DIR__ . "/../partials/html-head.php");
 				    
 			 <div class="col-8">
                 <!--Add your event image here-->
-                <img src="../img/event-img/GY-Banner-Aug-23.png" alt="Fantastic Arcade presents, Games Y'all August Meetup at Central Machine Works">
+                <img src="/img/event-img/GY-Banner-Aug-23.png" alt="Fantastic Arcade presents, Games Y'all August Meetup at Central Machine Works">
             </div>
             
 
@@ -88,7 +88,7 @@ We strongly encourage that everyone be vaccinated or have recently tested negati
           <div class="row" style="background-color: #9BE9FF; border-radius: 10px; margin-bottom: 25px;">
             <div class="game-card-long">
               <div>
-                <img src="../img/Archived-img/August-2023/games/hot-wheelz.png" alt="A promotional image of We'll make a Car out of anything which features an orange hot wheels race track on a blue background"> 
+                <img src="/img/Archived-img/August-2023/games/hot-wheelz.png" alt="A promotional image of We'll make a Car out of anything which features an orange hot wheels race track on a blue background"> 
               </div>  
 
               <!--Game Text-->
@@ -110,7 +110,7 @@ Kristine Fernandez is a web developer and artist with a focus on creative coding
                      <div class="dev-social">
                   <h6>@24hrpizzadotcom</h6>
                   <a href="https://www.instagram.com/24hrpizzadotcom/">
-                    <img src="../img/Social-buttons/instagram-button.png" style="width: 64px; height: auto;">
+                    <img src="/img/Social-buttons/instagram-button.png" style="width: 64px; height: auto;">
                   </a>
                 </div>
               </div>
@@ -122,7 +122,7 @@ Kristine Fernandez is a web developer and artist with a focus on creative coding
           <div class="row" style="background-color: #F2D335; border-radius: 10px; margin-bottom: 25px;">
             <div class="game-card-long">
               <div>
-               <img src="../img/Archived-img/August-2023/games/round-n-round.png" alt="A  promotional image for round n’ round showing a hotwheel car covered in I heart mom stickers with a ogress driver on top of a race track"> 
+               <img src="/img/Archived-img/August-2023/games/round-n-round.png" alt="A  promotional image for round n’ round showing a hotwheel car covered in I heart mom stickers with a ogress driver on top of a race track"> 
               </div>  
 
               <!--Game Text-->
@@ -147,7 +147,7 @@ Celine Lassus (b. 1999, Tampa, FL) is a digital native first, artist second. Bas
                 <div class="dev-social">
                   <h6>@bimbointech</h6>
                   <a href="https://www.instagram.com/bimbointech/">
-                    <img src="../img/Social-buttons/instagram-button-alt.png" style="width: 64px; height: auto;">
+                    <img src="/img/Social-buttons/instagram-button-alt.png" style="width: 64px; height: auto;">
                   </a>
                 </div>
               </div>
@@ -158,7 +158,7 @@ Celine Lassus (b. 1999, Tampa, FL) is a digital native first, artist second. Bas
           <div class="row" style="background-color: #9BE9FF; border-radius: 10px; margin-bottom: 25px;">
             <div class="game-card-long">
               <div>
-                <img src="../img/Archived-img/August-2023/games/nightingale.png" alt="A black and white rectangular promotional image for Nightingale featuring a pixle style interior hospital room with a patient on a gurney"> 
+                <img src="/img/Archived-img/August-2023/games/nightingale.png" alt="A black and white rectangular promotional image for Nightingale featuring a pixle style interior hospital room with a patient on a gurney"> 
               </div>  
 
               <!--Game Text-->
@@ -185,7 +185,7 @@ Celine Lassus (b. 1999, Tampa, FL) is a digital native first, artist second. Bas
           <div class="row" style="background-color: #F2D335; border-radius: 10px; margin-bottom: 25px;">
             <div class="game-card-long">
               <div>
-               <img src="../img/Archived-img/August-2023/games/dyebreaker.png" alt="A  promotional image for the game dyebreaker featuring pixelated battleships on a 2-d background"> 
+               <img src="/img/Archived-img/August-2023/games/dyebreaker.png" alt="A  promotional image for the game dyebreaker featuring pixelated battleships on a 2-d background"> 
               </div>  
 
               <!--Game Text-->
@@ -214,11 +214,11 @@ Dyebreaker is designed and developed by Walt Mitchell, who also draws some of th
                 <div class="dev-social">	
                   <h6>@CoffeeSandwhich</h6>
                   <a href="https://twitter.com/CoffeeSandwhich">
-                    <img src="../img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
+                    <img src="/img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
                   </a>
                   <h6>@samseyramwich</h6>
                   <a href="https://www.instagram.com/samseyramwich/">
-                    <img src="../img/Social-buttons/instagram-button-alt.png" style="width: 64px; height: auto;">
+                    <img src="/img/Social-buttons/instagram-button-alt.png" style="width: 64px; height: auto;">
                   </a>
                 </div>
               </div>
@@ -229,7 +229,7 @@ Dyebreaker is designed and developed by Walt Mitchell, who also draws some of th
           <div class="row" style="background-color: #9BE9FF; border-radius: 10px; margin-bottom: 25px;">
             <div class="game-card-long">
               <div>
-                <img src="../img/Archived-img/August-2023/games/warline.png" alt="A promotional image for Warline faturing a mage on a blue dragon opposing a mage on a red dragon"> 
+                <img src="/img/Archived-img/August-2023/games/warline.png" alt="A promotional image for Warline faturing a mage on a blue dragon opposing a mage on a red dragon"> 
               </div>  
 
               <!--Game Text-->
@@ -253,7 +253,7 @@ Justin Leingang is a veteran game director, designer, and developer—profession
                      <div class="dev-social">
                   <h6>@eljayplay</h6>
                   <a href="https://twitter.com/eljayplay">
-                    <img src="../img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
+                    <img src="/img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
                   </a>
                 </div>
               </div>
@@ -265,7 +265,7 @@ Justin Leingang is a veteran game director, designer, and developer—profession
           <div class="row" style="background-color: #F2D335; border-radius: 10px; margin-bottom: 25px;">
             <div class="game-card-long">
               <div>
-               <img src="../img/Archived-img/August-2023/games/venba.png" alt="A  promotional image for Venba showing an Indian Mother, Son, and Father cooking together"> 
+               <img src="/img/Archived-img/August-2023/games/venba.png" alt="A  promotional image for Venba showing an Indian Mother, Son, and Father cooking together"> 
               </div>  
 
               <!--Game Text-->
@@ -288,7 +288,7 @@ Visai Games is a small studio based in Toronto that's focused on telling intimat
                 <div class="dev-social">
                   <h6>@venbaGame</h6>
                   <a href="https://twitter.com/venbaGame/">
-                    <img src="../img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
+                    <img src="/img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
                   </a>
                 </div>
               </div>
@@ -299,7 +299,7 @@ Visai Games is a small studio based in Toronto that's focused on telling intimat
           <div class="row" style="background-color: #9BE9FF; border-radius: 10px; margin-bottom: 25px;">
             <div class="game-card-long">
               <div>
-                <img src="../img/Archived-img/August-2023/games/pollys-place.png" alt="Colorful, mostly pink pixel art in the style of an early 2000’s self-made website with lucky clovers, a bunny rabbit, a horse shoe, bamboo, and pop-up windows teasing information about a fictional show called Polly’s World by Lucky Clover studios.'"> 
+                <img src="/img/Archived-img/August-2023/games/pollys-place.png" alt="Colorful, mostly pink pixel art in the style of an early 2000’s self-made website with lucky clovers, a bunny rabbit, a horse shoe, bamboo, and pop-up windows teasing information about a fictional show called Polly’s World by Lucky Clover studios.'"> 
               </div>  
 
               <!--Game Text-->
@@ -321,7 +321,7 @@ Michelle Foto is a freelance illustrator who was born in Mandeville, Louisiana t
                      <div class="dev-social">
                   <h6>@staribon</h6>
                   <a href="https://www.instagram.com/staribon/">
-                    <img src="../img/Social-buttons/instagram-button.png" style="width: 64px; height: auto;">
+                    <img src="/img/Social-buttons/instagram-button.png" style="width: 64px; height: auto;">
                   </a>
                 </div>
               </div>
@@ -335,12 +335,12 @@ Michelle Foto is a freelance illustrator who was born in Mandeville, Louisiana t
                 <h2 style="text-align: center;">Gallery</h2>
 
                 <div class="flex-container-row">
-                    <img src="../img/Archived-img/August-2023/photos/GY-august-1.png" style="width: 375px; height: 375px;"> 
-                    <img src="../img/Archived-img/August-2023/photos/GY-august-2.png" style="width: 375px; height: 375px;"> 
-                    <img src="../img/Archived-img/August-2023/photos/GY-august-3.png" style="width: 375px; height: 375px;"> 
-                    <img src="../img/Archived-img/August-2023/photos/GY-august-4.png" style="width: 375px; height: 375px;">
-                    <img src="../img/Archived-img/August-2023/photos/GY-august-5.png" style="width: 375px; height: 375px;"> 
-                    <img src="../img/Archived-img/August-2023/photos/GY-august-6.png" style="width: 375px; height: 375px;">
+                    <img src="/img/Archived-img/August-2023/photos/GY-august-1.png" style="width: 375px; height: 375px;"> 
+                    <img src="/img/Archived-img/August-2023/photos/GY-august-2.png" style="width: 375px; height: 375px;"> 
+                    <img src="/img/Archived-img/August-2023/photos/GY-august-3.png" style="width: 375px; height: 375px;"> 
+                    <img src="/img/Archived-img/August-2023/photos/GY-august-4.png" style="width: 375px; height: 375px;">
+                    <img src="/img/Archived-img/August-2023/photos/GY-august-5.png" style="width: 375px; height: 375px;"> 
+                    <img src="/img/Archived-img/August-2023/photos/GY-august-6.png" style="width: 375px; height: 375px;">
                 </div>
             </div>
         </div>

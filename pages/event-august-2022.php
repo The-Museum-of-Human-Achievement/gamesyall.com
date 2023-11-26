@@ -55,7 +55,7 @@ require(__DIR__ . "/../partials/html-head.php");
             </div>
             <div class="col-8">
                 <!--Add your event image here-->
-                <img src="../img/event-img/GY-Banner-Aug.png" alt="Games Y'all presents, Games for impact.">
+                <img src="/img/event-img/GY-Banner-Aug.png" alt="Games Y'all presents, Games for impact.">
             </div>
         </div>
 
@@ -64,7 +64,7 @@ require(__DIR__ . "/../partials/html-head.php");
           <div class="row" style="background-color: #F2D335; border-radius: 10px; margin-bottom: 25px;">
             <div class="game-card-long">
               <div>
-                <img src="../img/Archived-img/August-2022/games/Spirit-of-Uku-img.png">
+                <img src="/img/Archived-img/August-2022/games/Spirit-of-Uku-img.png">
               </div>  
 
               <!--Game Text -->
@@ -89,7 +89,7 @@ require(__DIR__ . "/../partials/html-head.php");
                 <div class="dev-social">
                   <h6>@Pdyx</h6>
                   <a href="https://twitter.com/Pdyx">
-                    <img src="../img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
+                    <img src="/img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
                   </a>
                 </div>
               </div>
@@ -100,7 +100,7 @@ require(__DIR__ . "/../partials/html-head.php");
           <div class="row" style="background-color: #9BE9FF; border-radius: 10px; margin-bottom: 25px;">
             <div class="game-card-long">
               <div>
-                <img src="../img/Archived-img/August-2022/games/gender-dysphoria-img.png">
+                <img src="/img/Archived-img/August-2022/games/gender-dysphoria-img.png">
               </div>  
 
               <!--Game Text -->
@@ -123,7 +123,7 @@ require(__DIR__ . "/../partials/html-head.php");
                 <div class="dev-social">
                   <h6>@exodrifter</h6>
                   <a href="https://twitter.com/exodrifter">
-                    <img src="../img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
+                    <img src="/img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
                   </a>
                 </div>
               </div>
@@ -134,7 +134,7 @@ require(__DIR__ . "/../partials/html-head.php");
           <div class="row" style="background-color: #F2D335; border-radius: 10px; margin-bottom: 25px;">
             <div class="game-card-long">
               <div>
-                <img src="../img/Archived-img/August-2022/games/timebandit-img.jpg">
+                <img src="/img/Archived-img/August-2022/games/timebandit-img.jpg">
               </div>  
 
               <!--Game Text -->
@@ -162,7 +162,7 @@ require(__DIR__ . "/../partials/html-head.php");
                 <div class="dev-social">
                   <h6>@pumbertop</h6>
                   <a href="https://twitter.com/pumbertop/">
-                    <img src="../img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
+                    <img src="/img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
                   </a>
                 </div>
               </div>
@@ -173,7 +173,7 @@ require(__DIR__ . "/../partials/html-head.php");
           <div class="row" style="background-color: #9BE9FF; border-radius: 10px; margin-bottom: 25px;">
             <div class="game-card-long">
               <div>
-                <img src="../img/Archived-img/August-2022/games/bible-study-img.png">
+                <img src="/img/Archived-img/August-2022/games/bible-study-img.png">
               </div>  
 
               <!--Game Text -->
@@ -204,7 +204,7 @@ require(__DIR__ . "/../partials/html-head.php");
                   <h6>
                     epthegoat</h6>
                   <a href="https://www.instagram.com/epthegoat/">
-                    <img src="../img/Social-buttons/instagram-button.png" style="width: 64px; height: auto;">
+                    <img src="/img/Social-buttons/instagram-button.png" style="width: 64px; height: auto;">
                   </a>
                 </div>
               </div>
@@ -215,7 +215,7 @@ require(__DIR__ . "/../partials/html-head.php");
           <div class="row" style="background-color: #F2D335; border-radius: 10px; margin-bottom: 25px;">
             <div class="game-card-long">
               <div>
-                <img src="../img/Archived-img/August-2022/games/card-shark-img.jpg">
+                <img src="/img/Archived-img/August-2022/games/card-shark-img.jpg">
               </div>  
 
               <!--Game Text -->
@@ -240,7 +240,7 @@ require(__DIR__ . "/../partials/html-head.php");
                 <div class="dev-social">
                   <h6>♣️ Card Shark</h6>
                   <a href="https://twitter.com/nerial">
-                    <img src="../img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
+                    <img src="/img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
                   </a>
                 </div>
               </div>
@@ -251,12 +251,12 @@ require(__DIR__ . "/../partials/html-head.php");
                 <h2 style="text-align: center;">Gallery</h2>
 
                 <div class="flex-container-row">
-                    <img src="../img/Archived-img/August-2022/photos/aug-gy-photo-1.jpg" style="width: 375px; height: 375px;"> 
-                    <img src="../img/Archived-img/August-2022/photos/aug-gy-photo-2.jpg" style="width: 375px; height: 375px;"> 
-                    <img src="../img/Archived-img/August-2022/photos/aug-gy-photo-3.jpg" style="width: 375px; height: 375px;"> 
-                    <img src="../img/Archived-img/August-2022/photos/aug-gy-photo-4.jpg" style="width: 375px; height: 375px;"> 
-                     <img src="../img/Archived-img/August-2022/photos/aug-gy-photo-5.jpg" style="width: 375px; height: 375px;"> 
-                    <img src="../img/Archived-img/August-2022/photos/aug-gy-photo-6.jpg" style="width: 375px; height: 375px;"> 
+                    <img src="/img/Archived-img/August-2022/photos/aug-gy-photo-1.jpg" style="width: 375px; height: 375px;"> 
+                    <img src="/img/Archived-img/August-2022/photos/aug-gy-photo-2.jpg" style="width: 375px; height: 375px;"> 
+                    <img src="/img/Archived-img/August-2022/photos/aug-gy-photo-3.jpg" style="width: 375px; height: 375px;"> 
+                    <img src="/img/Archived-img/August-2022/photos/aug-gy-photo-4.jpg" style="width: 375px; height: 375px;"> 
+                     <img src="/img/Archived-img/August-2022/photos/aug-gy-photo-5.jpg" style="width: 375px; height: 375px;"> 
+                    <img src="/img/Archived-img/August-2022/photos/aug-gy-photo-6.jpg" style="width: 375px; height: 375px;"> 
                 </div>
             </div>
         </div>

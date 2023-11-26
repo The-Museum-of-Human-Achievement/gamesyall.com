@@ -29,9 +29,9 @@ require(__DIR__ . "/../partials/html-head.php");
     <div class="row" style="margin-bottom: 0px; margin-top: 0px;">
             <div class="col-4" style="justify-content: left;">
                 <p>
-                    <a href="../events">Past Events</a> 
+                    <a href="/events">Past Events</a> 
                     >
-                    <a href="event-december-2022">December 3, 2022</a>
+                    <a href="/event-december-2022">December 3, 2022</a>
                 </p>
             </div>
         </div>
@@ -50,7 +50,7 @@ require(__DIR__ . "/../partials/html-head.php");
 				     </div>
 				<div class="col-8">
                 <!--Add your event image here-->
-                <img src="../img/event-img/GY-Banner-Dec.png" alt="Games Y'all presents our December Meetup'">
+                <img src="/img/event-img/GY-Banner-Dec.png" alt="Games Y'all presents our December Meetup'">
             </div>
             <div class="col-10">
 			<p>	Our final meetup of the year! No theme for December, just cool community submitted games, hot drinks, and holiday fun! Bring your friends, roommates, and co-workers (the ones you like!).</p>
@@ -84,7 +84,7 @@ Fantastic Arcade celebrates, amplifies, and supports the unique and underreprese
           <div class="row" style="background-color: #F2D335; border-radius: 10px; margin-bottom: 25px;">
             <div class="game-card-long">
               <div>
-                <img src="../img/Archived-img/December-2022/games/yoko-redux.png" alt="- - A rectangular promotional image for Yoko Redux: Dreams of a Blue Planet. It features a landscape with varying shades of blue and two red celestial bodies in the background. There is a robot humanoid next to a 80s style sports car."> 
+                <img src="/img/Archived-img/December-2022/games/yoko-redux.png" alt="- - A rectangular promotional image for Yoko Redux: Dreams of a Blue Planet. It features a landscape with varying shades of blue and two red celestial bodies in the background. There is a robot humanoid next to a 80s style sports car."> 
               </div>  
 
               <!--Game Text -->
@@ -106,7 +106,7 @@ Follow along on a progression through the psychedelic in multiple color palettes
                 <div class="dev-social">
                   <h6>@missingsentinel</h6>
                   <a href="https://twitter.com/missingsentinel">
-                    <img src="../img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
+                    <img src="/img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
                   </a>
                 </div>
               </div>
@@ -117,7 +117,7 @@ Follow along on a progression through the psychedelic in multiple color palettes
           <div class="row" style="background-color: #9BE9FF; border-radius: 10px; margin-bottom: 25px;">
             <div class="game-card-long">
               <div>
-                <img src="../img/Archived-img/December-2022/games/living-space.png" alt="- A square promotional image for The Living Space. It features the title in black with a beige, yellow, red, and black floral pattern in the background.">
+                <img src="/img/Archived-img/December-2022/games/living-space.png" alt="- A square promotional image for The Living Space. It features the title in black with a beige, yellow, red, and black floral pattern in the background.">
                 </div>  
 
               <!--Game Text -->
@@ -142,7 +142,7 @@ Costas Constantinides is a game developer and illustration artist who creates su
                 <div class="dev-social">	
                   <h6>@costasconsc</h6>
                   <a href="https://www.instagram.com/costasconsc/">
-                    <img src="../img/Social-buttons/instagram-button.png" style="width: 64px; height: auto;">
+                    <img src="/img/Social-buttons/instagram-button.png" style="width: 64px; height: auto;">
                   </a>
          
                 </div>
@@ -154,7 +154,7 @@ Costas Constantinides is a game developer and illustration artist who creates su
           <div class="row" style="background-color: #F2D335; border-radius: 10px; margin-bottom: 25px;">
             <div class="game-card-long">
               <div>
-                <img src="../img/Archived-img/December-2022/games/barnacle-goose.png" alt="A square promotional image for The Barnacle Goose Experiment. It features the game title in gothic black text on a white background."> 
+                <img src="/img/Archived-img/December-2022/games/barnacle-goose.png" alt="A square promotional image for The Barnacle Goose Experiment. It features the game title in gothic black text on a white background."> 
               </div>  
 
               <!--Game Text -->
@@ -180,7 +180,7 @@ Music from Ben Babbitt, halina heron, Geotic, Adobo, Jún, Smokey Emery, Sadurn,
                 <div class="dev-social">
                   <h6>@everestpipkin</h6>
                   <a href="https://twitter.com/everestpipkin">
-                    <img src="../img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
+                    <img src="/img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
                   </a>
                 
                 </div>
@@ -192,7 +192,7 @@ Music from Ben Babbitt, halina heron, Geotic, Adobo, Jún, Smokey Emery, Sadurn,
           <div class="row" style="background-color: #9BE9FF; border-radius: 10px; margin-bottom: 25px;">
             <div class="game-card-long">
               <div>
-                <img src="../img/Archived-img/December-2022/games/magnum-opus.png" alt="- - A square promotional image for Super Mario: Magnum Opus featuring a black background and the tile rendered in alternating colors of Blue, Yellow, Red, Green from letter to letter.">
+                <img src="/img/Archived-img/December-2022/games/magnum-opus.png" alt="- - A square promotional image for Super Mario: Magnum Opus featuring a black background and the tile rendered in alternating colors of Blue, Yellow, Red, Green from letter to letter.">
               </div>  
 
               <!--Game Text -->
@@ -217,7 +217,7 @@ Journey through flowering fields, ancient desert ruins, nuclear wastelands, and 
                 <div class="dev-social">	
                   <h6>@smmoproject</h6>
                   <a href="https://twitter.com/smmoproject">
-                    <img src="../img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
+                    <img src="/img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
                   </a>
                 </div>
               </div>
@@ -228,7 +228,7 @@ Journey through flowering fields, ancient desert ruins, nuclear wastelands, and 
           <div class="row" style="background-color: #F2D335; border-radius: 10px; margin-bottom: 25px;">
             <div class="game-card-long">
               <div>
-                <img src="../img/Archived-img/December-2022/games/el-paso-nightmare.png" alt="- - A rectangular promotional image for El Paso Nightmare. It shows a red-headed male human shooting at three black werewolves with a biblically accurate angel in the background.">
+                <img src="/img/Archived-img/December-2022/games/el-paso-nightmare.png" alt="- - A rectangular promotional image for El Paso Nightmare. It shows a red-headed male human shooting at three black werewolves with a biblically accurate angel in the background.">
               </div>  
 
               <!--Game Text -->
@@ -254,7 +254,7 @@ El Paso, Nightmare is a first-person horror game about stepping out of your mote
                 <div class="dev-social">	
                   <h6>@StrangeScaffold</h6>
                   <a href="https://twitter.com/StrangeScaffold">
-                    <img src="../img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
+                    <img src="/img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
                   </a>
                 
                 </div>
@@ -266,7 +266,7 @@ El Paso, Nightmare is a first-person horror game about stepping out of your mote
           <div class="row" style="background-color: #9BE9FF; border-radius: 10px; margin-bottom: 25px;">
             <div class="game-card-long">
               <div>
-                <img src="../img/Archived-img/December-2022/games/hyper-demon.png" alt="- - A square promotional image with the title Hyper Demon in white. There are 3 shimmering skulls with a rainbow shimmer effect.">
+                <img src="/img/Archived-img/December-2022/games/hyper-demon.png" alt="- - A square promotional image with the title Hyper Demon in white. There are 3 shimmering skulls with a rainbow shimmer effect.">
               </div>  
 
               <!--Game Text -->
@@ -288,7 +288,7 @@ El Paso, Nightmare is a first-person horror game about stepping out of your mote
                 <div class="dev-social">	
                   <h6>@sorathdev</h6>
                   <a href="https://twitter.com/sorathdev">
-                    <img src="../img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
+                    <img src="/img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
                   </a>
                 </div>
               </div>
@@ -299,7 +299,7 @@ El Paso, Nightmare is a first-person horror game about stepping out of your mote
           <div class="row" style="background-color: #F2D335; border-radius: 10px; margin-bottom: 25px;">
             <div class="game-card-long">
               <div>
-                <img src="../img/Archived-img/December-2022/games/bachelor-sims-4.png" alt="- - A rectangular promotional image for Bachelor in Paradise in The Sims 4. It features the game title along with screenshots from the game in the background and 2-D character cutouts of a female and male character with green diamonds above their heads.">
+                <img src="/img/Archived-img/December-2022/games/bachelor-sims-4.png" alt="- - A rectangular promotional image for Bachelor in Paradise in The Sims 4. It features the game title along with screenshots from the game in the background and 2-D character cutouts of a female and male character with green diamonds above their heads.">
               </div>  
 
               <!--Game Text -->
@@ -333,7 +333,7 @@ His interests span from internet culture to the materiality of clay to the human
                 <div class="dev-social">	
                   <h6>@poptropican</h6>
                   <a href="https://www.instagram.com/poptropican/">
-                    <img src="../img/Social-buttons/instagram-button.png" style="width: 64px; height: auto;">
+                    <img src="/img/Social-buttons/instagram-button.png" style="width: 64px; height: auto;">
                   </a>
         
                  </div>
@@ -348,12 +348,12 @@ His interests span from internet culture to the materiality of clay to the human
                 <h2 style="text-align: center;">Gallery</h2>
 
                 <div class="flex-container-row">
-                    <img src="../img/Archived-img/December-2022/photos/GY-dec-1.png" style="width: 375px; height: 375px;"> 
-                    <img src="../img/Archived-img/December-2022/photos/GY-dec-2.png" style="width: 375px; height: 375px;"> 
-                    <img src="../img/Archived-img/December-2022/photos/GY-dec-3.png" style="width: 375px; height: 375px;"> 
-                    <img src="../img/Archived-img/December-2022/photos/GY-dec-4.png" style="width: 375px; height: 375px;">
-                    <img src="../img/Archived-img/December-2022/photos/GY-dec-5.png" style="width: 375px; height: 375px;"> 
-                    <img src="../img/Archived-img/December-2022/photos/GY-dec-6.png" style="width: 375px; height: 375px;">
+                    <img src="/img/Archived-img/December-2022/photos/GY-dec-1.png" style="width: 375px; height: 375px;"> 
+                    <img src="/img/Archived-img/December-2022/photos/GY-dec-2.png" style="width: 375px; height: 375px;"> 
+                    <img src="/img/Archived-img/December-2022/photos/GY-dec-3.png" style="width: 375px; height: 375px;"> 
+                    <img src="/img/Archived-img/December-2022/photos/GY-dec-4.png" style="width: 375px; height: 375px;">
+                    <img src="/img/Archived-img/December-2022/photos/GY-dec-5.png" style="width: 375px; height: 375px;"> 
+                    <img src="/img/Archived-img/December-2022/photos/GY-dec-6.png" style="width: 375px; height: 375px;">
                 </div>
             </div>
         </div>

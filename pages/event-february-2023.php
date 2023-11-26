@@ -55,7 +55,7 @@ require(__DIR__ . "/../partials/html-head.php");
 				    
 			 <div class="col-8">
                 <!--Add your event image here-->
-                <img src="../img/event-img/GY-Banner-Feb-23.png" alt="Fantastic Arcade presents, Games Y'all February Meetup">
+                <img src="/img/event-img/GY-Banner-Feb-23.png" alt="Fantastic Arcade presents, Games Y'all February Meetup">
             </div>
             
 
@@ -91,7 +91,7 @@ Fantastic Arcade celebrates, amplifies, and supports the unique and underreprese
           <div class="row" style="background-color: #9BE9FF; border-radius: 10px; margin-bottom: 25px;">
             <div class="game-card-long">
               <div>
-                <img src="../img/Archived-img/February-2023/games/titanic-ii.png" alt="A rectangular promotional image for Titanic 2: Orchestra for Dying at Sea, it features the title in a glowing red font. Centered in the image is a digital rendering of a large cruise ship that is laying at the bottom of the ocean and is lit by emergency red lights."> 
+                <img src="/img/Archived-img/February-2023/games/titanic-ii.png" alt="A rectangular promotional image for Titanic 2: Orchestra for Dying at Sea, it features the title in a glowing red font. Centered in the image is a digital rendering of a large cruise ship that is laying at the bottom of the ocean and is lit by emergency red lights."> 
               </div>  
 
               <!--Game Text-->
@@ -111,15 +111,15 @@ Fantastic Arcade celebrates, amplifies, and supports the unique and underreprese
                 <div class="dev-social">
                   <h6>@big__flan</h6>
                   <a href="https://twitter.com/big__flan">
-                    <img src="../img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
+                    <img src="/img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
                   </a>
                   <h6>Big Bag</h6>
                   <a href="https://discord.com/invite/vyDSPpwWsu">
-                    <img src="../img/Social-buttons/discord-button.png" style="width: 64px; height: auto;">
+                    <img src="/img/Social-buttons/discord-button.png" style="width: 64px; height: auto;">
                   </a>
                   <h6>@bigflan</h6>
                   <a href="https://ko-fi.com/bigflan">
-                    <img src="../img/Social-buttons/ko-fi-button.png" style="width: 64px; height: auto;">
+                    <img src="/img/Social-buttons/ko-fi-button.png" style="width: 64px; height: auto;">
                   </a>
                 </div>
               </div>
@@ -130,7 +130,7 @@ Fantastic Arcade celebrates, amplifies, and supports the unique and underreprese
           <div class="row" style="background-color: #F2D335; border-radius: 10px; margin-bottom: 25px;">
             <div class="game-card-long">
               <div>
-               <img src="../img/Archived-img/February-2023/games/card-cowboy.jpeg" alt="A rectangular promotional image for Card cowboy featuring the game title in western style lettering and the protagonist astride a horse overlooking a desert landscape nestled within a valley. A small western themed town can be seen in the distance."> 
+               <img src="/img/Archived-img/February-2023/games/card-cowboy.jpeg" alt="A rectangular promotional image for Card cowboy featuring the game title in western style lettering and the protagonist astride a horse overlooking a desert landscape nestled within a valley. A small western themed town can be seen in the distance."> 
               </div>  
 
               <!--Game Text-->
@@ -156,32 +156,32 @@ Fantastic Arcade celebrates, amplifies, and supports the unique and underreprese
                 <div class="dev-social">
                   <h6>@comfyfish</h6>
                   <a href="https://twitter.com/comfyfish">
-                    <img src="../img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
+                    <img src="/img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
                   </a>
 
                   <h6>@gleefulbeest</h6>
                   <a href="https://twitter.com/gleefulbeest">
-                    <img src="../img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
+                    <img src="/img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
                   </a>
       
                   <h6>@max___hue</h6>
                   <a href="https://www.instagram.com/max___hue/">
-                    <img src="../img/Social-buttons/instagram-button-alt.png" style="width: 64px; height: auto;">
+                    <img src="/img/Social-buttons/instagram-button-alt.png" style="width: 64px; height: auto;">
                   </a>
     
                   <h6>@tomaeusd</h6>
                   <a href="https://twitter.com/tomaeusd">
-                    <img src="../img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
+                    <img src="/img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
                   </a>
 
                   <h6>@NicLupfer</h6>
                   <a href="https://twitter.com/NicLupfer">
-                    <img src="../img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
+                    <img src="/img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
                   </a>
           
                   <h6>@chriswade__</h6>
                   <a href="https://twitter.com/chriswade__">
-                    <img src="../img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
+                    <img src="/img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
                   </a>
                 </div>
               </div>
@@ -192,7 +192,7 @@ Fantastic Arcade celebrates, amplifies, and supports the unique and underreprese
           <div class="row" style="background-color: #9BE9FF; border-radius: 10px; margin-bottom: 25px;">
             <div class="game-card-long">
               <div>
-                <img src="../img/Archived-img/February-2023/games/omui.png" alt="A rectangular promotional image for Onto Maizilind Unto Infinity, Act I: Destruction’s Wake. It features a fighter plane centered under the title of the game with several human characters from the game arranged across the image.">
+                <img src="/img/Archived-img/February-2023/games/omui.png" alt="A rectangular promotional image for Onto Maizilind Unto Infinity, Act I: Destruction’s Wake. It features a fighter plane centered under the title of the game with several human characters from the game arranged across the image.">
                 </div>  
 
               <!--Game Text-->
@@ -219,7 +219,7 @@ Fantastic Arcade celebrates, amplifies, and supports the unique and underreprese
                 <div class="dev-social">	
                   <h6>@theStaticMan</h6>
                   <a href="https://twitter.com/theStaticMan">
-                    <img src="../img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
+                    <img src="/img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
                   </a>
                 
                 </div>
@@ -230,7 +230,7 @@ Fantastic Arcade celebrates, amplifies, and supports the unique and underreprese
           <div class="row" style="background-color: #F2D335; border-radius: 10px; margin-bottom: 25px;">
             <div class="game-card-long">
               <div>
-                <img src="../img/Archived-img/February-2023/games/fetch-quest.png" alt="A square promotional image for Fetch Quest, it features a simple line drawing of a humanoid in front of a wildflower field with the words let me teach you to play fetch printed on a purple rectangle.">
+                <img src="/img/Archived-img/February-2023/games/fetch-quest.png" alt="A square promotional image for Fetch Quest, it features a simple line drawing of a humanoid in front of a wildflower field with the words let me teach you to play fetch printed on a purple rectangle.">
                 </div>  
 
               <!--Game Text-->
@@ -262,7 +262,7 @@ Fantastic Arcade celebrates, amplifies, and supports the unique and underreprese
                <!-- <div class="dev-social">	
                   <h6>@DelaneyBannon</h6>
                   <a href="https://twitter.com/DelaneyBannon">
-                    <img src="../img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
+                    <img src="/img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
                   </a>-->
          
                 </div>
@@ -274,7 +274,7 @@ Fantastic Arcade celebrates, amplifies, and supports the unique and underreprese
           <div class="row" style="background-color: #9BE9FF; border-radius: 10px; margin-bottom: 25px;">
             <div class="game-card-long">
               <div>
-                <img src="../img/Archived-img/February-2023/games/hidden-storybook.jpeg" alt="A square promotional image for The Hidden Storybook. It features an illustration of an open hardcover book with a three dimensional forest scene unfolding behind the game title rendered in white letters.">
+                <img src="/img/Archived-img/February-2023/games/hidden-storybook.jpeg" alt="A square promotional image for The Hidden Storybook. It features an illustration of an open hardcover book with a three dimensional forest scene unfolding behind the game title rendered in white letters.">
                 </div>  
 
               <!--Game Text-->
@@ -303,7 +303,7 @@ Fantastic Arcade celebrates, amplifies, and supports the unique and underreprese
               <div class="dev-social">	
                   <h6>@MakeEveryMediaATX</h6>
                   <a href="https://www.instagram.com/MakeEveryMediaATX/">
-                    <img src="../img/Social-buttons/instagram-button.png" style="width: 64px; height: auto;">
+                    <img src="/img/Social-buttons/instagram-button.png" style="width: 64px; height: auto;">
                   </a>
                 </div>
               </div>
@@ -314,7 +314,7 @@ Fantastic Arcade celebrates, amplifies, and supports the unique and underreprese
           <div class="row" style="background-color: #F2D335; border-radius: 10px; margin-bottom: 25px;">
             <div class="game-card-long">
               <div>
-                <img src="../img/Archived-img/February-2023/games/sail-forth.png" alt="A square promotional image for Fantastic Arcade’s game of the month Sail Forth. It features a small sailboat on open water with islands, a Lighthouse, and a pirate haven in the background."> 
+                <img src="/img/Archived-img/February-2023/games/sail-forth.png" alt="A square promotional image for Fantastic Arcade’s game of the month Sail Forth. It features a small sailboat on open water with islands, a Lighthouse, and a pirate haven in the background."> 
               </div>  
 
               <!--Game Text-->
@@ -340,7 +340,7 @@ The Quantum Astrophysicists Guild was founded in 2011 and received global critic
                 <div class="dev-social">
                   <h6>@festivevector</h6>
                   <a href="https://twitter.com/festivevector">
-                    <img src="../img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;"> </a>
+                    <img src="/img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;"> </a>
                 </div>
               </div>
             </div>
@@ -350,7 +350,7 @@ The Quantum Astrophysicists Guild was founded in 2011 and received global critic
           <div class="row" style="background-color: #9BE9FF; border-radius: 10px; margin-bottom: 25px;">
             <div class="game-card-long">
               <div>
-                <img src="../img/Archived-img/February-2023/games/uncanny-solutions.jpeg" alt="A square promotional image for Uncanny Solutions, it features the title Uncanny Solutions in black lettering with a pink vine weaving through the letters in the foreground. In the background is an ethereal pink backdrop with brain like forms floating around the title.">
+                <img src="/img/Archived-img/February-2023/games/uncanny-solutions.jpeg" alt="A square promotional image for Uncanny Solutions, it features the title Uncanny Solutions in black lettering with a pink vine weaving through the letters in the foreground. In the background is an ethereal pink backdrop with brain like forms floating around the title.">
                 </div>  
 
               <!--Game Text-->
@@ -375,7 +375,7 @@ The Quantum Astrophysicists Guild was founded in 2011 and received global critic
                 <div class="dev-social">	
                   <h6>@elizabethdexia</h6>
                   <a href="https://www.instagram.com/elizabethdexia/">
-                    <img src="../img/Social-buttons/instagram-button.png" style="width: 64px; height: auto;">
+                    <img src="/img/Social-buttons/instagram-button.png" style="width: 64px; height: auto;">
                   </a>
          
                 </div>
@@ -387,7 +387,7 @@ The Quantum Astrophysicists Guild was founded in 2011 and received global critic
           <div class="row" style="background-color: #F2D335; border-radius: 10px; margin-bottom: 25px;">
             <div class="game-card-long">
               <div>
-                <img src="../img/Archived-img/February-2023/games/quilt.png" alt="A square image for Quilt. A net art project consisting of patterns generated by user submitted prompts which create a digital quilt. It show several layers of blue, green, yellow, black, and purple patterns layered over eachother with scratchy and checkerboard textures.">
+                <img src="/img/Archived-img/February-2023/games/quilt.png" alt="A square image for Quilt. A net art project consisting of patterns generated by user submitted prompts which create a digital quilt. It show several layers of blue, green, yellow, black, and purple patterns layered over eachother with scratchy and checkerboard textures.">
                 </div>  
 
               <!--Game Text-->
@@ -409,7 +409,7 @@ The Quantum Astrophysicists Guild was founded in 2011 and received global critic
                            <!--Dev <div class="dev-social">	
                   <h6>@?</h6>
                   <a href="https://twitter.com/">
-                    <img src="../img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
+                    <img src="/img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
                   </a>-->
          
                 </div>
@@ -424,12 +424,12 @@ The Quantum Astrophysicists Guild was founded in 2011 and received global critic
                 <h2 style="text-align: center;">Gallery</h2>
 
                 <div class="flex-container-row">
-                    <img src="../img/Archived-img/February-2023/photos/GY-Feb-1.png" style="width: 375px; height: 375px;"> 
-                    <img src="../img/Archived-img/February-2023/photos/GY-Feb-2.png" style="width: 375px; height: 375px;"> 
-                    <img src="../img/Archived-img/February-2023/photos/GY-Feb-3.png" style="width: 375px; height: 375px;"> 
-                    <img src="../img/Archived-img/February-2023/photos/GY-Feb-4.png" style="width: 375px; height: 375px;">
-                    <img src="../img/Archived-img/February-2023/photos/GY-Feb-5.png" style="width: 375px; height: 375px;"> 
-                    <img src="../img/Archived-img/February-2023/photos/GY-Feb-6.png" style="width: 375px; height: 375px;">
+                    <img src="/img/Archived-img/February-2023/photos/GY-Feb-1.png" style="width: 375px; height: 375px;"> 
+                    <img src="/img/Archived-img/February-2023/photos/GY-Feb-2.png" style="width: 375px; height: 375px;"> 
+                    <img src="/img/Archived-img/February-2023/photos/GY-Feb-3.png" style="width: 375px; height: 375px;"> 
+                    <img src="/img/Archived-img/February-2023/photos/GY-Feb-4.png" style="width: 375px; height: 375px;">
+                    <img src="/img/Archived-img/February-2023/photos/GY-Feb-5.png" style="width: 375px; height: 375px;"> 
+                    <img src="/img/Archived-img/February-2023/photos/GY-Feb-6.png" style="width: 375px; height: 375px;">
                   
                 </div>
             </div>

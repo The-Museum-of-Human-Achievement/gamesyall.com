@@ -34,14 +34,14 @@ require(__DIR__ . "/../partials/html-head.php");
                 <h4> Problem, Issue, Concern? </h4>
                 <br>
                 <hr>
-                <Img src="../img/misc-img/yellow-lanyard.png"></Img>
+                <Img src="/img/misc-img/yellow-lanyard.png"></Img>
                 <p>
                     
                     Reach out to anyone wearing a <b>yellow lanyard</b> at the event <br>
                   <hr>
                   <br><br>
                     Text our help hotline - <b>(512) 666-7862</b><br>
-                       <Img src="../img/misc-img/cellphone.png"></Img>
+                       <Img src="/img/misc-img/cellphone.png"></Img>
                     Report a Code of Conduct Violation - <a href="http://fantasticarcade.com/forms/coc/">Here</a><br>
                     <br><br><br>     <br><br><br>
                     Email us at <b>info@themuseumofhumanachievement.com</b>
@@ -58,7 +58,7 @@ require(__DIR__ . "/../partials/html-head.php");
                 <br>
                 with a staff member about immediate safety concerns or issues <p/>
                 <div id="look-for-yell-img-desktop">
-                    <img src="../img/misc-img//yellow-lanyard.png" alt="A yellow staff lanyard.">
+                    <img src="/img/misc-img//yellow-lanyard.png" alt="A yellow staff lanyard.">
                     
                 </div>
             </div>
@@ -74,7 +74,7 @@ require(__DIR__ . "/../partials/html-head.php");
                     Text our help hotline - <b>(512) 957-6642</b><br>
                     Email us at <b>info@themuseumofhumanachievement.com</b>
                     <br>
-                     <Img src="../img/misc-img/cellphone.png" width="75" height="100" ></Img>
+                     <Img src="/img/misc-img/cellphone.png" width="75" height="100" ></Img>
                 </p>
                       Report a Code of Conduct Violation
                          <button class="button" id="Report'"><a href="https://form.jotform.com/231854725944162">Report</a></button>

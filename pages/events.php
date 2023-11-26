@@ -34,24 +34,24 @@ require(__DIR__ . "/../partials/html-head.php");
                 <!--DATE-->
                     <h4>September 22nd, 2023</h4>
                     <!--image-->
-                    <a href="../event-september-2023">
-                    <img src="../img/event-img/GY-Square-Sep-23.png" alt="A link to September 2023 Games Y'all'" style="box-shadow: 2.5px 5px;">
+                    <a href="/event-september-2023">
+                    <img src="/img/event-img/GY-Square-Sep-23.png" alt="A link to September 2023 Games Y'all'" style="box-shadow: 2.5px 5px;">
                     </a>
                 </div>
                     <div class="past-event">
                     <!--DATE-->
                     <h4>August 24th, 2023</h4>
                     <!--image-->
-                    <a href="../event-august-2023">
-                    <img src="../img/event-img/GY-Square-Aug-23.png" alt="A link to August 2023 Games Y'all'" style="box-shadow: 2.5px 5px;">
+                    <a href="/event-august-2023">
+                    <img src="/img/event-img/GY-Square-Aug-23.png" alt="A link to August 2023 Games Y'all'" style="box-shadow: 2.5px 5px;">
                     </a>
                 </div>
                     <div class="past-event">
                 <!--DATE-->
                     <h4>July 27th, 2023</h4>
                     <!--image-->
-                    <a href="../event-july-2023">
-                    <img src="../img/event-img/GY-Square-July-23.png" alt="A link to July 2023 Games Y'all'" style="box-shadow: 2.5px 5px;">
+                    <a href="/event-july-2023">
+                    <img src="/img/event-img/GY-Square-July-23.png" alt="A link to July 2023 Games Y'all'" style="box-shadow: 2.5px 5px;">
                     </a>
                 </div>
                     <div class="past-event">
@@ -59,8 +59,8 @@ require(__DIR__ . "/../partials/html-head.php");
                 <!--DATE-->
                     <h4>June 24th, 2023</h4>
                     <!--image-->
-                    <a href="../event-june-2023">
-                    <img src="../img/event-img/GY-Square-June-23.png" alt="A link to June 2023 Games Y'all'" style="box-shadow: 2.5px 5px;">
+                    <a href="/event-june-2023">
+                    <img src="/img/event-img/GY-Square-June-23.png" alt="A link to June 2023 Games Y'all'" style="box-shadow: 2.5px 5px;">
                     </a>
                 </div>
                     <div class="past-event">
@@ -68,8 +68,8 @@ require(__DIR__ . "/../partials/html-head.php");
                 <!--DATE-->
                     <h4>May 27th, 2023</h4>
                     <!--image-->
-                    <a href="../event-may-2023">
-                    <img src="../img/event-img/GY-Square-May-23.png" alt="A link to May 2023 Games Y'all'" style="box-shadow: 2.5px 5px;">
+                    <a href="/event-may-2023">
+                    <img src="/img/event-img/GY-Square-May-23.png" alt="A link to May 2023 Games Y'all'" style="box-shadow: 2.5px 5px;">
                     </a>
                 </div>
                     <div class="past-event">
@@ -77,104 +77,104 @@ require(__DIR__ . "/../partials/html-head.php");
                     <!--DATE-->
                     <h4>April 15th, 2023</h4>
                     <!--image-->
-                    <a href="../event-april-2023">
-                    <img src="../img/event-img/GY-Square-April-23.png" alt="A link to April 2023 Games Y'all'" style="box-shadow: 2.5px 5px;">
+                    <a href="/event-april-2023">
+                    <img src="/img/event-img/GY-Square-April-23.png" alt="A link to April 2023 Games Y'all'" style="box-shadow: 2.5px 5px;">
                     </a>
                 </div>
                     <div class="past-event">
                     <!--DATE-->
                     <h4>March 11th, 2023</h4>
                     <!--image-->
-                    <a href="../event-march-2023">
-                    <img src="../img/event-img/GY-Square-Mar-23.png" alt="A link to March 2023 Games Y'all'" style="box-shadow: 2.5px 5px;">
+                    <a href="/event-march-2023">
+                    <img src="/img/event-img/GY-Square-Mar-23.png" alt="A link to March 2023 Games Y'all'" style="box-shadow: 2.5px 5px;">
                     </a>
                 </div>
                     <div class="past-event">
             <!--DATE-->
                     <h4>February 19th, 2023</h4>
                     <!--image-->
-                    <a href="../event-february-2023">
-                    <img src="../img/event-img/GY-Square-Feb-23.png" alt="A link to February 2023 Games Y'all'" style="box-shadow: 2.5px 5px;">
+                    <a href="/event-february-2023">
+                    <img src="/img/event-img/GY-Square-Feb-23.png" alt="A link to February 2023 Games Y'all'" style="box-shadow: 2.5px 5px;">
                     </a>
                 </div>
                     <div class="past-event">
             <!--DATE-->
                     <h4>January 21st, 2023</h4>
                     <!--image-->
-                    <a href="../event-january-2023">
-                    <img src="../img/event-img/GY-Square-Jan-23.png" alt="A link to January 2023 Games Y'all'" style="box-shadow: 2.5px 5px;">
+                    <a href="/event-january-2023">
+                    <img src="/img/event-img/GY-Square-Jan-23.png" alt="A link to January 2023 Games Y'all'" style="box-shadow: 2.5px 5px;">
                     </a>
                 </div>
                     <div class="past-event">
                 <!--DATE-->
                     <h4>December 3rd, 2022</h4>
                     <!--image-->
-                    <a href="../event-december-2022">
-                    <img src="../img/event-img/GY-Square-Dec.png" alt="A link to December Games Y'all'" style="box-shadow: 2.5px 5px;">
+                    <a href="/event-december-2022">
+                    <img src="/img/event-img/GY-Square-Dec.png" alt="A link to December Games Y'all'" style="box-shadow: 2.5px 5px;">
                     </a>
                 </div>
                     <div class="past-event">
                     <!--DATE-->
                     <h4>November 12th, 2022</h4>
                     <!--image-->
-                    <a href="../event-november-2022">
-                    <img src="../img/event-img/GY-Square-Nov.png" alt="A link to the Queer Indie Games Showcase" style="box-shadow: 2.5px 5px;">
+                    <a href="/event-november-2022">
+                    <img src="/img/event-img/GY-Square-Nov.png" alt="A link to the Queer Indie Games Showcase" style="box-shadow: 2.5px 5px;">
                     </a>
                 </div>
                     <div class="past-event">
                 <!--DATE-->
                     <h4>October 27, 2022</h4>
                     <!--image-->
-                    <a href="../event-october-2022">
-                    <img src="../img/event-img/GY-Square-Oct.png" alt="A link to the October Games Y'all" style="box-shadow: 2.5px 5px;">
+                    <a href="/event-october-2022">
+                    <img src="/img/event-img/GY-Square-Oct.png" alt="A link to the October Games Y'all" style="box-shadow: 2.5px 5px;">
                     </a>
                 </div>
                     <div class="past-event">
                     <!--DATE-->
                     <h4>September 22, 2022</h4>
                     <!--image-->
-                    <a href="../event-september-2022">
-                    <img src="../img/event-img/GY-Square-Sep.png" alt="A link to the September Games Y'all" style="box-shadow: 2.5px 5px;">
+                    <a href="/event-september-2022">
+                    <img src="/img/event-img/GY-Square-Sep.png" alt="A link to the September Games Y'all" style="box-shadow: 2.5px 5px;">
                     </a>
                 </div>
                     <div class="past-event">
                     <!--DATE-->
                     <h4>August 19, 2022</h4>
                     <!--image-->
-                    <a href="../event-august-2022">
-                    <img src="../img/event-img/GY-Square-Aug.png" alt="A link to the August Games Y'all" style="box-shadow: 2.5px 5px;">
+                    <a href="/event-august-2022">
+                    <img src="/img/event-img/GY-Square-Aug.png" alt="A link to the August Games Y'all" style="box-shadow: 2.5px 5px;">
                     </a>
                 </div>
                 <div class="past-event">
                     <!--DATE-->
                     <h4>July 15, 2022</h4>
                     <!--image-->
-                    <a href="../event-july-2022">
-                    <img src="../img/event-img/GY-Square-July.png" alt="A link to the July Games Y'all" style="box-shadow: 2.5px 5px;">
+                    <a href="/event-july-2022">
+                    <img src="/img/event-img/GY-Square-July.png" alt="A link to the July Games Y'all" style="box-shadow: 2.5px 5px;">
                     </a>
                 </div>
                 <div class="past-event">
                     <!--DATE-->
                     <h4>June 16, 2022</h4>
                     <!--image-->
-                    <a href="event-june-2022">
-                        <img src="../img/event-img/GY-Square-June.jpg" alt="A link to June Games Y'all event." style="box-shadow: 2.5px 5px;">
+                    <a href="/event-june-2022">
+                        <img src="/img/event-img/GY-Square-June.jpg" alt="A link to June Games Y'all event." style="box-shadow: 2.5px 5px;">
                     </a>
                 </div>
                 <div class="past-event">
                     <!--DATE-->
                     <h4>May 6, 2022</h4>
                     <!--image-->
-                    <a href="event-may-2022">
-                        <img src="../img/event-img/GY-Square-May.jpg" alt="A link to May Games Y'all." style="box-shadow: 2.5px 5px;" >
+                    <a href="/event-may-2022">
+                        <img src="/img/event-img/GY-Square-May.jpg" alt="A link to May Games Y'all." style="box-shadow: 2.5px 5px;" >
                     </a>
                 </div>
                 <div class="past-event">
                     <!--DATE-->
                     <h4>April 1, 2022</h4>
                     <!--image-->
-                    <a href="event-april-2022">
-                        <img src="../img/event-img/GY-Square-April.jpg" alt="Fantastic Arcade presents Games Y'all!" style="box-shadow: 2.5px 5px;">
+                    <a href="/event-april-2022">
+                        <img src="/img/event-img/GY-Square-April.jpg" alt="Fantastic Arcade presents Games Y'all!" style="box-shadow: 2.5px 5px;">
                     </a>  
                 </div>                       
             </div>
@@ -190,24 +190,24 @@ require(__DIR__ . "/../partials/html-head.php");
                     <!--DATE-->
                     <h4>June 30th, 2023</h4>
                     <!--image-->
-                    <a href="../event-dream-mail">
-                    <img src="../img/event-img/DA-Square-Dream-Mail-23.png" alt="A link to our 1-800-dream-mail information page" style="box-shadow: 2.5px 5px;">
+                    <a href="/event-dream-mail">
+                    <img src="/img/event-img/DA-Square-Dream-Mail-23.png" alt="A link to our 1-800-dream-mail information page" style="box-shadow: 2.5px 5px;">
                     </a>
                 </div>
                     <div class="past-event">
                     <!--DATE-->
                     <h4>December 31st,2022</h4>
                     <!--image-->
-                    <a href="../event-season-of-gifing">
-                    <img src="../img/event-img/DA-season-of-gifing-22.gif" alt="A link to our Season of GIFing information page" style="box-shadow: 2.5px 5px;">
+                    <a href="/event-season-of-gifing">
+                    <img src="/img/event-img/DA-season-of-gifing-22.gif" alt="A link to our Season of GIFing information page" style="box-shadow: 2.5px 5px;">
                     </a>
                 </div>
                     <div class="past-event">
                     <!--DATE-->
                     <h4>October 22nd, 2022</h4>
                     <!--image-->
-                    <a href="../event-october-GJ-2022">
-                    <img src="../img/event-img/DA-Square-Oct-gamejam.png" alt="A link to our Game Show Game Jam Information page'" style="box-shadow: 2.5px 5px;">
+                    <a href="/event-october-GJ-2022">
+                    <img src="/img/event-img/DA-Square-Oct-gamejam.png" alt="A link to our Game Show Game Jam Information page'" style="box-shadow: 2.5px 5px;">
                     </a>
                 </div>
                     <div class="past-event">

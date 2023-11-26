@@ -41,7 +41,7 @@ require(__DIR__ . "/../partials/html-head.php");
 				    
 			 <div class="col-8">
                 <!--Add your event image here-->
-                <img src="../img/event-img/GOTM-Banner-Nov-23.png" alt="The Museum of Human Achievement presents, Games Y'all Game of the Month Meetup">
+                <img src="/img/event-img/GOTM-Banner-Nov-23.png" alt="The Museum of Human Achievement presents, Games Y'all Game of the Month Meetup">
             </div>
             
 
@@ -80,7 +80,7 @@ We strongly encourage that everyone be vaccinated or have recently tested negati
           <div class="row" style="background-color: #9BE9FF; border-radius: 10px; margin-bottom: 25px;">
             <div class="game-card-long">
               <div>
-                <img src="../img/Archived-img/November-2023/games/goodbye-volcano-high.jpeg" alt="A promotional image for the November Games Y'all Game of the Month"> 
+                <img src="/img/Archived-img/November-2023/games/goodbye-volcano-high.jpeg" alt="A promotional image for the November Games Y'all Game of the Month"> 
               </div>  
 
               <!--Game Text-->
@@ -102,7 +102,7 @@ KO_OP is an artist run and owned studio. Founded in 2012, we've been experimenti
                      <div class="dev-social">
                   <h6>@ko_opmode</h6>
                   <a href="https://www.instagram.com/ko_opmode/">
-                    <img src="../img/Social-buttons/instagram-button.png" style="width: 64px; height: auto;">
+                    <img src="/img/Social-buttons/instagram-button.png" style="width: 64px; height: auto;">
                   </a>
                 </div>
               </div>
@@ -113,7 +113,7 @@ KO_OP is an artist run and owned studio. Founded in 2012, we've been experimenti
           <div class="row" style="background-color: #F2D335; border-radius: 10px; margin-bottom: 25px;">
             <div class="game-card-long">
               <div>
-               <img src="../img/Archived-img/October-2023/games/el-paso-sq.png" alt="A  promotional image for El Paso, Elsewhere"> 
+               <img src="/img/Archived-img/October-2023/games/el-paso-sq.png" alt="A  promotional image for El Paso, Elsewhere"> 
               </div>  
 
               <!--Game Text-->
@@ -136,7 +136,7 @@ Strange Scaffold is the development label of Xalavier Nelson Jr., who you might 
                 <div class="dev-social">
                   <h6>@StrangeScaffold</h6>
                   <a href="https://twitter.com/StrangeScaffold">
-                    <img src="../img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
+                    <img src="/img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
                   </a>
                 </div>
               </div>
@@ -147,7 +147,7 @@ Strange Scaffold is the development label of Xalavier Nelson Jr., who you might 
           <div class="row" style="background-color: #9BE9FF; border-radius: 10px; margin-bottom: 25px;">
             <div class="game-card-long">
               <div>
-                <img src="../img/Archived-img/September-2023/games/viewfinder.png" alt="A promotional image for the September Game of the Month Meetup showing a digitally rendered living room"> 
+                <img src="/img/Archived-img/September-2023/games/viewfinder.png" alt="A promotional image for the September Game of the Month Meetup showing a digitally rendered living room"> 
               </div>  
 
               <!--Game Text-->
@@ -169,11 +169,11 @@ Viewfinder was developed by Sad Owl Studios in Scotland.</p>
                      <div class="dev-social">
                   <h6>@sadowlstudios</h6>
                   <a href="https://twitter.com/sadowlstudios">
-                    <img src="../img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
+                    <img src="/img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
                   </a>
                   <h6>@Thunderfulgames</h6>
                   <a href="https://twitter.com/Thunderfulgames">
-                    <img src="../img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
+                    <img src="/img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
                   </a>
                 </div>
               </div>
@@ -184,7 +184,7 @@ Viewfinder was developed by Sad Owl Studios in Scotland.</p>
           <div class="row" style="background-color: #F2D335; border-radius: 10px; margin-bottom: 25px;">
             <div class="game-card-long">
               <div>
-               <img src="../img/Archived-img/August-2023/games/venba.png" alt="A  promotional image for Venba showing an Indian Mother, Son, and Father cooking together"> 
+               <img src="/img/Archived-img/August-2023/games/venba.png" alt="A  promotional image for Venba showing an Indian Mother, Son, and Father cooking together"> 
               </div>  
 
               <!--Game Text-->
@@ -207,7 +207,7 @@ Visai Games is a small studio based in Toronto that's focused on telling intimat
                 <div class="dev-social">
                   <h6>@venbaGame</h6>
                   <a href="https://twitter.com/venbaGame/">
-                    <img src="../img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
+                    <img src="/img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
                   </a>
                 </div>
               </div>
@@ -221,12 +221,12 @@ Visai Games is a small studio based in Toronto that's focused on telling intimat
                 <h2 style="text-align: center;">Gallery</h2>
 
                 <div class="flex-container-row">
-                    <img src="../img/Archived-img/August-2023/photos/GY-august-1.png" style="width: 375px; height: 375px;"> 
-                    <img src="../img/Archived-img/August-2023/photos/GY-august-2.png" style="width: 375px; height: 375px;"> 
-                    <img src="../img/Archived-img/August-2023/photos/GY-august-3.png" style="width: 375px; height: 375px;"> 
-                    <img src="../img/Archived-img/August-2023/photos/GY-august-4.png" style="width: 375px; height: 375px;">
-                    <img src="../img/Archived-img/August-2023/photos/GY-august-5.png" style="width: 375px; height: 375px;"> 
-                    <img src="../img/Archived-img/August-2023/photos/GY-august-6.png" style="width: 375px; height: 375px;">
+                    <img src="/img/Archived-img/August-2023/photos/GY-august-1.png" style="width: 375px; height: 375px;"> 
+                    <img src="/img/Archived-img/August-2023/photos/GY-august-2.png" style="width: 375px; height: 375px;"> 
+                    <img src="/img/Archived-img/August-2023/photos/GY-august-3.png" style="width: 375px; height: 375px;"> 
+                    <img src="/img/Archived-img/August-2023/photos/GY-august-4.png" style="width: 375px; height: 375px;">
+                    <img src="/img/Archived-img/August-2023/photos/GY-august-5.png" style="width: 375px; height: 375px;"> 
+                    <img src="/img/Archived-img/August-2023/photos/GY-august-6.png" style="width: 375px; height: 375px;">
                 </div>
             </div>
         </div>-->

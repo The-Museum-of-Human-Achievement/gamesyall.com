@@ -43,7 +43,7 @@ require(__DIR__ . "/../partials/html-head.php");
                  
             <div class="col-8">
                 <!--Add your event image here-->
-                <img src="../img/event-img/DA-season-of-gifing-22.gif" alt="A GIF with the words Season of Gifing A Digital Do-Si-Do. There are flashing christmas lights on a large string above 5 small evergreen trees with christmas lights on snow capped brown hills.'">
+                <img src="/img/event-img/DA-season-of-gifing-22.gif" alt="A GIF with the words Season of Gifing A Digital Do-Si-Do. There are flashing christmas lights on a large string above 5 small evergreen trees with christmas lights on snow capped brown hills.'">
             </div>
             
              <div class="col-10">
@@ -124,27 +124,27 @@ existing GIF this way by altering the individual frames of the animation
                 <h2 style="text-align: center;">Gallery</h2>
 
                 <div class="flex-container-row">
-                    <img src="../img/Archived-img/December-2022/gifing/Cherrys - By Ish for Lady Cherry.gif" alt="Cherrys">
+                    <img src="/img/Archived-img/December-2022/gifing/Cherrys - By Ish for Lady Cherry.gif" alt="Cherrys">
                     <p> .GIF Art by Ish Archbold<p/>
-                    <img src="../img/Archived-img/December-2022/gifing/Cube Schematic - By Rachel for Adam.gif" alt="Cube Schematic">
+                    <img src="/img/Archived-img/December-2022/gifing/Cube Schematic - By Rachel for Adam.gif" alt="Cube Schematic">
                      <p> .GIF Art by Rachel Stuckey<p/>
-                    <img src="../img/Archived-img/December-2022/gifing/Cumbia Cryptid - By Andrew for Jay.gif" alt="Cumbia Cryptid">
+                    <img src="/img/Archived-img/December-2022/gifing/Cumbia Cryptid - By Andrew for Jay.gif" alt="Cumbia Cryptid">
                      <p> .GIF Art by Andrew Gansky<p/>
-                    <img src="../img/Archived-img/December-2022/gifing/dragon gargoyle in a bowl of noodles - By Vidya for Alice.gif" alt="dragon gargoyle in a bowl of noodles">
+                    <img src="/img/Archived-img/December-2022/gifing/dragon gargoyle in a bowl of noodles - By Vidya for Alice.gif" alt="dragon gargoyle in a bowl of noodles">
                      <p> .GIF Art by Vidya<p/>
-                    <img src="../img/Archived-img/December-2022/gifing/Goth Lisa Frank - By Lady Cherry for Rachel.gif" alt="Goth Lisa Frank">
+                    <img src="/img/Archived-img/December-2022/gifing/Goth Lisa Frank - By Lady Cherry for Rachel.gif" alt="Goth Lisa Frank">
                      <p> .GIF Art by Lady Cherry<p/>
-                    <img src="../img/Archived-img/December-2022/gifing/Pangolin - By Dylan for Vidya.gif" alt="Pangolin">
+                    <img src="/img/Archived-img/December-2022/gifing/Pangolin - By Dylan for Vidya.gif" alt="Pangolin">
                      <p> .GIF Art by Dylan Ledbetter<p/>
-                    <img src="../img/Archived-img/December-2022/gifing/Pasta nonstop 24 7 and or the downfall of academia - By Seppi for Andrew.gif" alt="Pasta nonstop 24 7 and the downfall of academia">
+                    <img src="/img/Archived-img/December-2022/gifing/Pasta nonstop 24 7 and or the downfall of academia - By Seppi for Andrew.gif" alt="Pasta nonstop 24 7 and the downfall of academia">
                     <p> .GIF Art by Seppi P<p/>
-                    <img src="../img/Archived-img/December-2022/gifing/raccoons, skunks, coatimundis, possums underwater - By Jay for Ish.gif" alt="raccoons, skunks, coatimundis, possums underwater">
+                    <img src="/img/Archived-img/December-2022/gifing/raccoons, skunks, coatimundis, possums underwater - By Jay for Ish.gif" alt="raccoons, skunks, coatimundis, possums underwater">
                     <p> .GIF Art by Jay Roff-Garcia<p/>
-                    <img src="../img/Archived-img/December-2022/gifing/blackhole - by Alice for Lauren.gif" alt="Blackhole">
+                    <img src="/img/Archived-img/December-2022/gifing/blackhole - by Alice for Lauren.gif" alt="Blackhole">
                      <p> .GIF Art by Alice<p/>
-                    <img src="../img/Archived-img/December-2022/gifing/Alice in Wonderland's Cheshire Cat - By Adam for Seppi.gif" alt="Alice in Wonderland's Cheshire Cat">
+                    <img src="/img/Archived-img/December-2022/gifing/Alice in Wonderland's Cheshire Cat - By Adam for Seppi.gif" alt="Alice in Wonderland's Cheshire Cat">
                     <p> .GIF Art by Adam Zeiner<p/>
-                    <img src="../img/Archived-img/December-2022/gifing/all your dreams - By Lauren for Dylan.gif" alt="all your dreams">
+                    <img src="/img/Archived-img/December-2022/gifing/all your dreams - By Lauren for Dylan.gif" alt="all your dreams">
                      <p> .GIF Art by Lauren Schroeder<p/>
             </div>
                 </div>

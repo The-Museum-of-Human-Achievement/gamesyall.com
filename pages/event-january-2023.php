@@ -56,7 +56,7 @@ require(__DIR__ . "/../partials/html-head.php");
 				    
 			 <div class="col-8">
                 <!--Add your event image here-->
-                <img src="../img/event-img/GY-Banner-Jan-23.png" alt="Fantastic Arcade presents, Games Y'all January Meetup, Family Edition'">
+                <img src="/img/event-img/GY-Banner-Jan-23.png" alt="Fantastic Arcade presents, Games Y'all January Meetup, Family Edition'">
             </div>
             
 
@@ -94,7 +94,7 @@ Fantastic Arcade celebrates, amplifies, and supports the unique and underreprese
           <div class="row" style="background-color: #F2D335; border-radius: 10px; margin-bottom: 25px;">
             <div class="game-card-long">
               <div>
-                <img src="../img/Archived-img/January-2023/games/ozwomp.jpeg" alt="A square promotional image for the Ozwomp Series. Title of the series is oriented in a circular fashion with the word Ozwomp repeated three times in Green, Yellow, and Orange. The title surrounds a multi-colored polygon shaped character from the series."> 
+                <img src="/img/Archived-img/January-2023/games/ozwomp.jpeg" alt="A square promotional image for the Ozwomp Series. Title of the series is oriented in a circular fashion with the word Ozwomp repeated three times in Green, Yellow, and Orange. The title surrounds a multi-colored polygon shaped character from the series."> 
               </div>  
 
               <!--Game Text-->
@@ -125,7 +125,7 @@ Ozwomp has been invited to a party at the end of the universe - you will accompa
                 <div class="dev-social">
                   <h6>@melon</h6>
                   <a href="https://social.yesterweb.org/web/@melon">
-                    <img src="../img/Social-buttons/mastodon-button.png" style="width: 64px; height: auto;">
+                    <img src="/img/Social-buttons/mastodon-button.png" style="width: 64px; height: auto;">
                   </a>
                 </div>
               </div>
@@ -136,7 +136,7 @@ Ozwomp has been invited to a party at the end of the universe - you will accompa
           <div class="row" style="background-color: #9BE9FF; border-radius: 10px; margin-bottom: 25px;">
             <div class="game-card-long">
               <div>
-                <img src="../img/Archived-img/January-2023/games/star-stuff.jpeg" alt="A rectangular promotional image for Star Stuff featuring a Red Star character from the game with its yellow robotic companion standing on a space platform with ringed planets in the background. ">
+                <img src="/img/Archived-img/January-2023/games/star-stuff.jpeg" alt="A rectangular promotional image for Star Stuff featuring a Red Star character from the game with its yellow robotic companion standing on a space platform with ringed planets in the background. ">
                 </div>  
 
               <!--Game Text-->
@@ -161,7 +161,7 @@ Ozwomp has been invited to a party at the end of the universe - you will accompa
                 <div class="dev-social">	
                   <h6>@animogames_</h6>
                   <a href="https://twitter.com/animogames_">
-                    <img src="../img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
+                    <img src="/img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
                   </a>
          
                 </div>
@@ -173,7 +173,7 @@ Ozwomp has been invited to a party at the end of the universe - you will accompa
           <div class="row" style="background-color: #F2D335; border-radius: 10px; margin-bottom: 25px;">
             <div class="game-card-long">
               <div>
-                <img src="../img/Archived-img/January-2023/games/refresh.jpeg" alt="A rectangular promotional image for Refresh. It features the title in white over a screenshot of the game featuring a green hilly landscape, wind turbines, and some blue colored characters from the game."> 
+                <img src="/img/Archived-img/January-2023/games/refresh.jpeg" alt="A rectangular promotional image for Refresh. It features the title in white over a screenshot of the game featuring a green hilly landscape, wind turbines, and some blue colored characters from the game."> 
               </div>  
 
               <!--Game Text-->
@@ -193,7 +193,7 @@ Ozwomp has been invited to a party at the end of the universe - you will accompa
                 <div class="dev-social">
                   <h6>@ReFreshTheGame</h6>
                   <a href="https://twitter.com/ReFreshTheGame">
-                    <img src="../img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
+                    <img src="/img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
                   </a>
                 
                 </div>
@@ -204,7 +204,7 @@ Ozwomp has been invited to a party at the end of the universe - you will accompa
           <div class="row" style="background-color: #9BE9FF; border-radius: 10px; margin-bottom: 25px;">
             <div class="game-card-long">
               <div>
-                <img src="../img/Archived-img/January-2023/games/amazing-chicken.jpeg" alt="A rectangular promotional image for The Amazing Chicken Adventures. It features the game title with yellow lettering on a green rectangle, in the background is a scene from the game featuring a green hilly landscape with one of the chicken protagonists.">
+                <img src="/img/Archived-img/January-2023/games/amazing-chicken.jpeg" alt="A rectangular promotional image for The Amazing Chicken Adventures. It features the game title with yellow lettering on a green rectangle, in the background is a scene from the game featuring a green hilly landscape with one of the chicken protagonists.">
                 </div>  
 
               <!--Game Text-->
@@ -229,7 +229,7 @@ With no instructions to guide you, this game will keep you on your toes and prov
                 <div class="dev-social">	
                   <h6>@thechickgame</h6>
                   <a href="https://twitter.com/thechickgame">
-                    <img src="../img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
+                    <img src="/img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
                   </a>
          
                 </div>
@@ -241,7 +241,7 @@ With no instructions to guide you, this game will keep you on your toes and prov
           <div class="row" style="background-color: #F2D335; border-radius: 10px; margin-bottom: 25px;">
             <div class="game-card-long">
               <div>
-                <img src="../img/Archived-img/January-2023/games/rooster-kick.png" alt="A rectangular promotional image for Rooster Kick featuring a rooster standing on a dirtmound with the game title above in Western lettering. ">
+                <img src="/img/Archived-img/January-2023/games/rooster-kick.png" alt="A rectangular promotional image for Rooster Kick featuring a rooster standing on a dirtmound with the game title above in Western lettering. ">
                 </div>  
 
               <!--Game Text-->
@@ -266,7 +266,7 @@ With no instructions to guide you, this game will keep you on your toes and prov
                 <!-- <div class="dev-social">	
                   <h6>@animogames_</h6>
                   <a href="https://twitter.com/animogames_">
-                    <img src="../img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
+                    <img src="/img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
                   </a>
          
                 </div>
@@ -278,7 +278,7 @@ With no instructions to guide you, this game will keep you on your toes and prov
           <div class="row" style="background-color: #9BE9FF; border-radius: 10px; margin-bottom: 25px;">
             <div class="game-card-long">
               <div>
-                <img src="../img/Archived-img/January-2023/games/pentiment.jpeg" alt="A rectangular promotional image for Pentiment. There is an unidentified character leaning over a table painting, their head is shrouded in orange smoke."> 
+                <img src="/img/Archived-img/January-2023/games/pentiment.jpeg" alt="A rectangular promotional image for Pentiment. There is an unidentified character leaning over a table painting, their head is shrouded in orange smoke."> 
               </div>  
 
               <!--Game Text-->
@@ -300,7 +300,7 @@ From Obsidian, this game is a historical narrative-driven game focusing on chara
                 <div class="dev-social">
                   <h6>@obsient</h6>
                   <a href="https://twitter.com/obsient">
-                    <img src="../img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
+                    <img src="/img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
                   </a>
                 
                 </div>
@@ -316,17 +316,17 @@ From Obsidian, this game is a historical narrative-driven game focusing on chara
                 <h2 style="text-align: center;">Gallery</h2>
 
                 <div class="flex-container-row">
-                    <img src="../img/Archived-img/January-2023/photos/GY-Jan-1.png" style="width: 375px; height: 375px;"> 
-                    <img src="../img/Archived-img/January-2023/photos/GY-Jan-2.png" style="width: 375px; height: 375px;"> 
-                    <img src="../img/Archived-img/January-2023/photos/GY-Jan-3.png" style="width: 375px; height: 375px;"> 
-                    <img src="../img/Archived-img/January-2023/photos/GY-Jan-4.png" style="width: 375px; height: 375px;">
-                    <img src="../img/Archived-img/January-2023/photos/GY-Jan-5.png" style="width: 375px; height: 375px;"> 
-                    <img src="../img/Archived-img/January-2023/photos/GY-Jan-6.png" style="width: 375px; height: 375px;">    
+                    <img src="/img/Archived-img/January-2023/photos/GY-Jan-1.png" style="width: 375px; height: 375px;"> 
+                    <img src="/img/Archived-img/January-2023/photos/GY-Jan-2.png" style="width: 375px; height: 375px;"> 
+                    <img src="/img/Archived-img/January-2023/photos/GY-Jan-3.png" style="width: 375px; height: 375px;"> 
+                    <img src="/img/Archived-img/January-2023/photos/GY-Jan-4.png" style="width: 375px; height: 375px;">
+                    <img src="/img/Archived-img/January-2023/photos/GY-Jan-5.png" style="width: 375px; height: 375px;"> 
+                    <img src="/img/Archived-img/January-2023/photos/GY-Jan-6.png" style="width: 375px; height: 375px;">    
                       </div>
             </div>
         </div>
                      <div class="flex-container-row">
-                    <img src="../img/Archived-img/January-2023/photos/daniel-murray-ozwomp-thank-you.gif" style="width: 375; height: 375;">
+                    <img src="/img/Archived-img/January-2023/photos/daniel-murray-ozwomp-thank-you.gif" style="width: 375; height: 375;">
                 </div>
             </div>
         </div>

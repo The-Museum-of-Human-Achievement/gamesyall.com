@@ -54,7 +54,7 @@ require(__DIR__ . "/../partials/html-head.php");
 				    
 			 <div class="col-8">
                 <!--Add your event image here-->
-                <img src="../img/event-img/GY-Banner-April-23.png" alt="Fantastic Arcade presents, Games Y'all April Meetup">
+                <img src="/img/event-img/GY-Banner-April-23.png" alt="Fantastic Arcade presents, Games Y'all April Meetup">
             </div>
             
 
@@ -92,7 +92,7 @@ Fantastic Arcade celebrates, amplifies, and supports the unique and underreprese
           <div class="row" style="background-color: #9BE9FF; border-radius: 10px; margin-bottom: 25px;">
             <div class="game-card-long">
               <div>
-                <img src="../img/Archived-img/April-2023/games/aatnc.png" alt="A rectangular promotional image for Astra and the New Constellation showing the title in a bold yellow and white pixelated font."> 
+                <img src="/img/Archived-img/April-2023/games/aatnc.png" alt="A rectangular promotional image for Astra and the New Constellation showing the title in a bold yellow and white pixelated font."> 
               </div>  
 
               <!--Game Text-->
@@ -114,7 +114,7 @@ Created by hobbyist developer Travis "rarelikeaunicorn" Antosh as a passion proj
                 <div class="dev-social">
                   <h6>@travisakarare</h6>
                   <a href="https://twitter.com/travisakarare">
-                    <img src="../img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
+                    <img src="/img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
                   </a>
                 </div>
               </div>
@@ -125,7 +125,7 @@ Created by hobbyist developer Travis "rarelikeaunicorn" Antosh as a passion proj
           <div class="row" style="background-color: #F2D335; border-radius: 10px; margin-bottom: 25px;">
             <div class="game-card-long">
               <div>
-               <img src="../img/Archived-img/April-2023/games/alter-ego.png" alt="A rectangular promotional image for Alter Ego featuring the title of the game in white with a subtitle “a game by fruit salad torture”. In the bottom right there a drawing of their raccoon character in blue, then red, and then yellow in order from left to right."> 
+               <img src="/img/Archived-img/April-2023/games/alter-ego.png" alt="A rectangular promotional image for Alter Ego featuring the title of the game in white with a subtitle “a game by fruit salad torture”. In the bottom right there a drawing of their raccoon character in blue, then red, and then yellow in order from left to right."> 
               </div>  
 
               <!--Game Text-->
@@ -146,7 +146,7 @@ Created by hobbyist developer Travis "rarelikeaunicorn" Antosh as a passion proj
                 <div class="dev-social">
                   <h6>@ALTER_EGOGAME</h6>
                   <a href="https://twitter.com/ALTER_EGOGAME">
-                    <img src="../img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
+                    <img src="/img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
                   </a>
                 </div>
               </div>
@@ -157,7 +157,7 @@ Created by hobbyist developer Travis "rarelikeaunicorn" Antosh as a passion proj
           <div class="row" style="background-color: #9BE9FF; border-radius: 10px; margin-bottom: 25px;">
             <div class="game-card-long">
               <div>
-                <img src="../img/Archived-img/April-2023/games/stellar-watch.jpeg" alt="A rectangular promotional image for  Stellar Watch that features an outer space scene rendered in basic geometric shapes. The title is centered on the image in a white font, the background is a blend of purples, blues, and yellows."> 
+                <img src="/img/Archived-img/April-2023/games/stellar-watch.jpeg" alt="A rectangular promotional image for  Stellar Watch that features an outer space scene rendered in basic geometric shapes. The title is centered on the image in a white font, the background is a blend of purples, blues, and yellows."> 
               </div>  
 
               <!--Game Text-->
@@ -177,7 +177,7 @@ Created by hobbyist developer Travis "rarelikeaunicorn" Antosh as a passion proj
                 <div class="dev-social">
                   <h6>@StellarWatch_gg</h6>
                   <a href="https://twitter.com/StellarWatch_gg">
-                    <img src="../img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
+                    <img src="/img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
                   </a>
                 </div>
               </div>
@@ -188,7 +188,7 @@ Created by hobbyist developer Travis "rarelikeaunicorn" Antosh as a passion proj
           <div class="row" style="background-color: #F2D335; border-radius: 10px; margin-bottom: 25px;">
             <div class="game-card-long">
               <div>
-               <img src="../img/Archived-img/April-2023/games/light-of-alariya.jpeg" alt="A rectangular promotional image for Light of Alariya which features the games main character standing on a rocky planet surface with the game title."> 
+               <img src="/img/Archived-img/April-2023/games/light-of-alariya.jpeg" alt="A rectangular promotional image for Light of Alariya which features the games main character standing on a rocky planet surface with the game title."> 
               </div>  
 
               <!--Game Text-->
@@ -216,7 +216,7 @@ Created by hobbyist developer Travis "rarelikeaunicorn" Antosh as a passion proj
           <div class="row" style="background-color: #9BE9FF; border-radius: 10px; margin-bottom: 25px;">
             <div class="game-card-long">
               <div>
-                <img src="../img/Archived-img/April-2023/games/spacekraft.jpeg" alt="A rectangular promotional image for Space Kraft that features an outer space scene with a planet to the left and a rocket ship to the left with the game title in the center."> 
+                <img src="/img/Archived-img/April-2023/games/spacekraft.jpeg" alt="A rectangular promotional image for Space Kraft that features an outer space scene with a planet to the left and a rocket ship to the left with the game title in the center."> 
               </div>  
 
               <!--Game Text-->
@@ -238,7 +238,7 @@ SpaceKraft is a physics based space arcade game, with a story, simulation, puzzl
                 <div class="dev-social">
                   <h6>@SpaceKraft_game</h6>
                   <a href="https://twitter.com/SpaceKraft_game">
-                    <img src="../img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
+                    <img src="/img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
                   </a>
                 </div>
               </div>
@@ -249,7 +249,7 @@ SpaceKraft is a physics based space arcade game, with a story, simulation, puzzl
           <div class="row" style="background-color: #F2D335; border-radius: 10px; margin-bottom: 25px;">
             <div class="game-card-long">
               <div>
-               <img src="../img/Archived-img/April-2023/games/boneraiser-minions.jpeg" alt="A rectangular promotional image for Boneraiser Minions that shows the game title in Pink and Fuchsia on a purple, blue, and black graveyard background. The image is rendered in the pixel style."> 
+               <img src="/img/Archived-img/April-2023/games/boneraiser-minions.jpeg" alt="A rectangular promotional image for Boneraiser Minions that shows the game title in Pink and Fuchsia on a purple, blue, and black graveyard background. The image is rendered in the pixel style."> 
               </div>  
 
               <!--Game Text-->
@@ -272,7 +272,7 @@ SpaceKraft is a physics based space arcade game, with a story, simulation, puzzl
                 <div class="dev-social">
                   <h6>@caiysware</h6>
                   <a href="https://twitter.com/caiysware">
-                    <img src="../img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
+                    <img src="/img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
                   </a>
                 </div>
               </div>
@@ -283,7 +283,7 @@ SpaceKraft is a physics based space arcade game, with a story, simulation, puzzl
           <div class="row" style="background-color: #9BE9FF; border-radius: 10px; margin-bottom: 25px;">
             <div class="game-card-long">
               <div>
-                <img src="../img/Archived-img/April-2023/games/espada-de-sheris.png" alt="A rectangular promotional image for Espada de Sheris, or Sword of Sheris, which features the game title rendered in a pixel font with a start button below."> 
+                <img src="/img/Archived-img/April-2023/games/espada-de-sheris.png" alt="A rectangular promotional image for Espada de Sheris, or Sword of Sheris, which features the game title rendered in a pixel font with a start button below."> 
               </div>  
 
               <!--Game Text-->
@@ -306,7 +306,7 @@ SpaceKraft is a physics based space arcade game, with a story, simulation, puzzl
                 <div class="dev-social">
                   <h6>@Sket#3815</h6>
                   <a href="https://discord.gg/mg9MdPqg5N">
-                    <img src="../img/Social-buttons/discord-button.png" style="width: 64px; height: auto;">
+                    <img src="/img/Social-buttons/discord-button.png" style="width: 64px; height: auto;">
                   </a>
                 </div>
               </div>
@@ -317,7 +317,7 @@ SpaceKraft is a physics based space arcade game, with a story, simulation, puzzl
           <div class="row" style="background-color: #F2D335; border-radius: 10px; margin-bottom: 25px;">
             <div class="game-card-long">
               <div>
-               <img src="../img/Archived-img/April-2023/games/pfft.jpg" alt="A rectangular promotional mixed media image for Pfft!"> 
+               <img src="/img/Archived-img/April-2023/games/pfft.jpg" alt="A rectangular promotional mixed media image for Pfft!"> 
               </div>  
 
               <!--Game Text-->
@@ -340,7 +340,7 @@ SpaceKraft is a physics based space arcade game, with a story, simulation, puzzl
                 <div class="dev-social">
                   <h6>@partytimehxlnt</h6>
                   <a href="https://twitter.com/partytimehxlnt">
-                    <img src="../img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
+                    <img src="/img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
                   </a>
                 </div>
               </div>
@@ -351,7 +351,7 @@ SpaceKraft is a physics based space arcade game, with a story, simulation, puzzl
           <div class="row" style="background-color: #9BE9FF; border-radius: 10px; margin-bottom: 25px;">
             <div class="game-card-long">
               <div>
-                <img src="../img/Archived-img/April-2023/games/joshua-kerry.png" alt="A rectangular promotional image for A forthcoming archive of lost art."> 
+                <img src="/img/Archived-img/April-2023/games/joshua-kerry.png" alt="A rectangular promotional image for A forthcoming archive of lost art."> 
               </div>  
 
               <!--Game Text-->
@@ -375,7 +375,7 @@ Josh Kery is a multidisciplinary artist making work about passing down stories a
                 <div class="dev-social">
                   <h6>@joshuatkery</h6>
                   <a href="https://www.instagram.com/joshuatkery">
-                    <img src="../img/Social-buttons/instagram-button.png" style="width: 64px; height: auto;">
+                    <img src="/img/Social-buttons/instagram-button.png" style="width: 64px; height: auto;">
                   </a>
                 </div>
               </div>
@@ -391,12 +391,12 @@ Josh Kery is a multidisciplinary artist making work about passing down stories a
                 <h2 style="text-align: center;">Gallery</h2>
 
                 <div class="flex-container-row">
-                    <img src="../img/Archived-img/April-2023/photos/GY-apr-1.png" style="width: 375px; height: 375px;"> 
-                    <img src="../img/Archived-img/April-2023/photos/GY-apr-2.png" style="width: 375px; height: 375px;"> 
-                    <img src="../img/Archived-img/April-2023/photos/GY-apr-3.png" style="width: 375px; height: 375px;"> 
-                    <img src="../img/Archived-img/April-2023/photos/GY-apr-4.png" style="width: 375px; height: 375px;">
-                    <img src="../img/Archived-img/April-2023/photos/GY-apr-5.png" style="width: 375px; height: 375px;"> 
-                    <img src="../img/Archived-img/April-2023/photos/GY-apr-6.png" style="width: 375px; height: 375px;">
+                    <img src="/img/Archived-img/April-2023/photos/GY-apr-1.png" style="width: 375px; height: 375px;"> 
+                    <img src="/img/Archived-img/April-2023/photos/GY-apr-2.png" style="width: 375px; height: 375px;"> 
+                    <img src="/img/Archived-img/April-2023/photos/GY-apr-3.png" style="width: 375px; height: 375px;"> 
+                    <img src="/img/Archived-img/April-2023/photos/GY-apr-4.png" style="width: 375px; height: 375px;">
+                    <img src="/img/Archived-img/April-2023/photos/GY-apr-5.png" style="width: 375px; height: 375px;"> 
+                    <img src="/img/Archived-img/April-2023/photos/GY-apr-6.png" style="width: 375px; height: 375px;">
                 </div>
             </div>
         </div>

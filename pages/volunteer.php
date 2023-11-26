@@ -39,7 +39,7 @@ require(__DIR__ . "/../partials/html-head.php");
         </div>
 
         <div class="col-8">
-          <img src="../img/Archived-img/July-2022/photos/GY-july-1.jpeg" alt="Three volunteers smiling at the information both.">
+          <img src="/img/Archived-img/July-2022/photos/GY-july-1.jpeg" alt="Three volunteers smiling at the information both.">
         </div>
       </div>
 

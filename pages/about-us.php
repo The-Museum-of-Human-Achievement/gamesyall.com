@@ -50,7 +50,7 @@ require(__DIR__ . "/../partials/html-head.php");
         </div>
 
         <div class="col-2">
-            <img src="../img/Social-buttons/games-yall-logo-square.png" alt="The games Y'all logo" style="width:72px; height:72px;">
+            <img src="/img/Social-buttons/games-yall-logo-square.png" alt="The games Y'all logo" style="width:72px; height:72px;">
         </div>
     </div>
 
@@ -67,7 +67,7 @@ require(__DIR__ . "/../partials/html-head.php");
                 </p>
         </div>
         <div class="col-2">
-            <img src="../img/Social-buttons/MoHA_icon-blue.png" alt="The Fantastic arcade logo" style="width:72px; height:72px;">
+            <img src="/img/Social-buttons/MoHA_icon-blue.png" alt="The Fantastic arcade logo" style="width:72px; height:72px;">
         </div>
     </div>
 

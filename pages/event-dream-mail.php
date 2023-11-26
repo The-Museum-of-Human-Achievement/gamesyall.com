@@ -56,7 +56,7 @@ require(__DIR__ . "/../partials/html-head.php");
 				    
 			 <div class="col-8">
                 <!--Add your event image here-->
-                <img src="../img/event-img/DA-Banner-Dream-Mail-23.png" alt="Fantastic Arcade & the Museum of Human Achievement present, 1-800-DREAM-MAIL a digital do-si-do">
+                <img src="/img/event-img/DA-Banner-Dream-Mail-23.png" alt="Fantastic Arcade & the Museum of Human Achievement present, 1-800-DREAM-MAIL a digital do-si-do">
             </div>
             
 

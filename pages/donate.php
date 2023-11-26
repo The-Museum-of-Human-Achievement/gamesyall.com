@@ -69,7 +69,7 @@ require(__DIR__ . "/../partials/html-head.php");
         <!--Volunteer-->
         <div class="col-4" style="text-align: center;">
         <!--
-        <img src="../img/horse-img/horse-volunteer-blue.png" class="horse-img" style="  margin-left: auto; margin-right: auto; padding-left: 5px;">
+        <img src="/img/horse-img/horse-volunteer-blue.png" class="horse-img" style="  margin-left: auto; margin-right: auto; padding-left: 5px;">
         <br>
         -->
         <button class="button" style="  margin-left: auto; margin-right: auto;">
@@ -80,7 +80,7 @@ require(__DIR__ . "/../partials/html-head.php");
         <!--Submit a Game-->
         <div class="col-4" style="text-align: center;">
         <!--
-        <img src="../img/horse-img/horse-submit.png" class="horse-img" style="  margin-left: auto; margin-right: auto; padding-left: 5px;">
+        <img src="/img/horse-img/horse-submit.png" class="horse-img" style="  margin-left: auto; margin-right: auto; padding-left: 5px;">
         <br>
         -->
         <button class="button" style="  margin-left: auto; margin-right: auto;">
@@ -91,7 +91,7 @@ require(__DIR__ . "/../partials/html-head.php");
         <!--Join the Committee-->
         <div class="col-4" style="text-align: center;">
         <!--
-        <img src="../img/horse-img/horse-standing-left - Crop.png" class="horse-img" style="  margin-left: auto; margin-right: auto; padding-left: 5px;">
+        <img src="/img/horse-img/horse-standing-left - Crop.png" class="horse-img" style="  margin-left: auto; margin-right: auto; padding-left: 5px;">
         <br>
         -->
         <button class="button" style="  margin-left: auto; margin-right: auto;">

@@ -58,7 +58,7 @@ require(__DIR__ . "/../partials/html-head.php");
         </div>
         <div class="col-8">
             <!--Add your event image here-->
-            <img src="../img/event-img/GY-Banner-April.png" alt="The Museum of Human Achievement presents the first ever Games Y'all!">
+            <img src="/img/event-img/GY-Banner-April.png" alt="The Museum of Human Achievement presents the first ever Games Y'all!">
         </div>
     </div>
 
@@ -66,7 +66,7 @@ require(__DIR__ . "/../partials/html-head.php");
     <div class="row" style="background-color: #F2D335; border-radius: 10px; margin-bottom: 25px;">
         <div class="game-card-long">
             <div>
-            <img src="../img/Archived-img/April-2022/games/pipsqueak-img.png">
+            <img src="/img/Archived-img/April-2022/games/pipsqueak-img.png">
             </div>  
 
             <!--Game Text -->
@@ -96,7 +96,7 @@ require(__DIR__ . "/../partials/html-head.php");
             <div class="dev-social">
                 <h6>@q_dork</h6>
                 <a href="https://twitter.com/q_dork">
-                <img src="../img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
+                <img src="/img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
                 </a>
             </div>
             </div>
@@ -107,7 +107,7 @@ require(__DIR__ . "/../partials/html-head.php");
         <div class="row" style="background-color: #9BE9FF; border-radius: 10px; margin-bottom: 25px;">
         <div class="game-card-long">
             <div>
-            <img src="../img/Archived-img/April-2022/games/risky-bison-img.png">
+            <img src="/img/Archived-img/April-2022/games/risky-bison-img.png">
             </div>  
 
             <!--Game Text -->
@@ -133,7 +133,7 @@ require(__DIR__ . "/../partials/html-head.php");
             <div class="dev-social">
                 <h6>@manbearcar</h6>
                 <a href="https://twitter.com/manbearcar">
-                <img src="../img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
+                <img src="/img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
                 </a>
             </div>
             </div>
@@ -144,7 +144,7 @@ require(__DIR__ . "/../partials/html-head.php");
         <div class="row" style="background-color: #F2D335; border-radius: 10px; margin-bottom: 25px;">
         <div class="game-card-long">
             <div>
-            <img src="../img/Archived-img/April-2022/games/MULTIBOWL-img.jpg">
+            <img src="/img/Archived-img/April-2022/games/MULTIBOWL-img.jpg">
             </div>  
 
             <!--Game Text -->
@@ -172,13 +172,13 @@ require(__DIR__ . "/../partials/html-head.php");
             <div class="dev-social">
                 <h6>@bfod</h6>
                 <a href="https://twitter.com/bfod">
-                <img src="../img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
+                <img src="/img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
                 </a>
             </div>
             <div class="dev-social">
                 <h6>@bad_tetris</h6>
                 <a href="https://twitter.com/bad_tetris">
-                <img src="../img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
+                <img src="/img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
                 </a>
             </div>
             </div>
@@ -189,7 +189,7 @@ require(__DIR__ . "/../partials/html-head.php");
         <div class="row" style="background-color: #9BE9FF; border-radius: 10px; margin-bottom: 25px;">
         <div class="game-card-long">
             <div>
-            <img src="../img/Archived-img/April-2022/games/Johann-Sebastian-Joust-img.jfif">
+            <img src="/img/Archived-img/April-2022/games/Johann-Sebastian-Joust-img.jfif">
             </div>  
 
             <!--Game Text -->
@@ -214,7 +214,7 @@ require(__DIR__ . "/../partials/html-head.php");
             <div class="dev-social">
                 <h6>@gutefabrik</h6>
                 <a href="https://twitter.com/gutefabrik">
-                <img src="../img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
+                <img src="/img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
                 </a>
             </div>
             </div>
@@ -225,7 +225,7 @@ require(__DIR__ . "/../partials/html-head.php");
         <div class="row" style="background-color: #F2D335; border-radius: 10px; margin-bottom: 25px;">
         <div class="game-card-long">
             <div>
-            <img src="../img/Archived-img/April-2022/games/Nidhogg-img.jpg">
+            <img src="/img/Archived-img/April-2022/games/Nidhogg-img.jpg">
             </div>  
 
             <!--Game Text -->
@@ -251,13 +251,13 @@ require(__DIR__ . "/../partials/html-head.php");
             <div class="dev-social">
                 <h6>@messhof</h6>
                 <a href="https://twitter.com/messhof">
-                <img src="../img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
+                <img src="/img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
                 </a>
             </div>
             <div class="dev-social">
                 <h6>@kr15t3a</h6>
                 <a href="https://twitter.com/kr15t3a">
-                <img src="../img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
+                <img src="/img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
                 </a>
             </div>
             </div>
