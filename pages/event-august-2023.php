@@ -11,7 +11,8 @@
 //      $headDescription = "A longer description of the page in question, with a bit more information than the title.";
 //      $headImage = "/img/event-img/some-cool-event-image.jpg";
 
-$headTitle = "April 2023 Meetup - Games Y'all";
+$headTitle = "August 2023 Meetup - Games Y'all";
+$headDescription = "Finish off your summer with Games Y'all! Come to our casual monthly meetup to play indie games and experience some unique digital arts projects.";
 $headImage = "/img/event-img/GY-Banner-Aug-23.png"; // this is optional! only needed if the page has an image
 
 require(__DIR__ . "/../partials/html-head.php");

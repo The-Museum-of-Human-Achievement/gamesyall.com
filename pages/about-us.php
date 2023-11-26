@@ -112,11 +112,11 @@ require(__DIR__ . "/../partials/html-head.php");
                 Alamo Drafthouse.
                 <br> <br>
                     In 2019 Fantastic Arcade merged with The Museum of Human Achievement and presented the Fantastic Arcade 
-                Retro(spective). Read more about the two orgs joining forces <a href="https://fantasticarcade.com/news/2019/06/17/juegos_and_moha.html">here.</a>
+                Retro(spective). Read more about the two orgs joining forces <a href="https://fantasticarcade.com/news/2019/06/17/juegos_and_moha">here.</a>
                 <br> <br>
-                In 2020 the new Fantastic Arcade committee gathered input from the community to build a more inclusive and supportive indie game community in Austin. Read about the process <a href="https://fantasticarcade.com/news/2020/04/04/Community_Letter.html">here.</a>  
+                In 2020 the new Fantastic Arcade committee gathered input from the community to build a more inclusive and supportive indie game community in Austin. Read about the process <a href="https://fantasticarcade.com/news/2020/04/04/Community_Letter">here.</a>  
                 <br> <br>
-                In March 2022, we launched Games Y'all! Read more about it <a href="https://fantasticarcade.com/news/2020/04/04/GamesYall_Announcement.html">here</a>. 
+                In March 2022, we launched Games Y'all! Read more about it <a href="https://fantasticarcade.com/news/2020/04/04/GamesYall_Announcement">here</a>. 
                 <br></p>
             <p>The annual festival is on pause, stay tuned! </p>
         </div>

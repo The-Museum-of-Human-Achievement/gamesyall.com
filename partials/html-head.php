@@ -31,7 +31,7 @@ if (empty($headImage))
     <meta name="twitter:description" content="<?php echo($headDescription) ?>">
     <meta name="twitter:image" content="<?php echo($headImage) ?>">
 
-    <link rel="stylesheet" href="../mystyle.css">
+    <link rel="stylesheet" href="/mystyle.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -42,14 +42,14 @@ if (empty($headImage))
     <meta charset="UTF-8">
 
     <!--Favicon Information-->
-    <link rel="apple-touch-icon" sizes="180x180" href="../img/favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="../img/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="../img/favicons/favicon-16x16.png">
-    <link rel="manifest" href="../img/favicons/site.webmanifest">
-    <link rel="mask-icon" href="../img/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicons/favicon-16x16.png">
+    <link rel="manifest" href="/img/favicons/site.webmanifest">
+    <link rel="mask-icon" href="/img/favicons/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
 
     <!--Java Script reference-->
-    <script src="../javaScript/myscripts.js"></script>        
+    <script src="/javaScript/myscripts.js"></script>        
 </head>

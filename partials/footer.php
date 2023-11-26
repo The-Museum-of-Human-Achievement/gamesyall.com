@@ -83,9 +83,9 @@
         <!--GET INVOLVED-->
         <div class="flex-container-column">
             <h6>Get Involved</h6>
-            <a href="https://gamesyall.com/html/Submit-a-game.html">Submit a Game</a>
+            <a href="https://gamesyall.com/Submit-a-game">Submit a Game</a>
             <a href="https://themuseumofhumanachievement.com/forms/volunteer/">Volunteer</a>
-            <a href="https://gamesyall.com/html/apply-to-committee.html">Apply to a Committee</a>
+            <a href="https://gamesyall.com/apply-to-committee">Apply to a Committee</a>
             <a href="https://form.jotform.com/231855146635157">Feedback Form</a>
         </div>
     </div>

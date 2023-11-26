@@ -37,7 +37,7 @@ require(__DIR__ . "/../partials/html-head.php");
 
           Currently, we are in the process of updating our application form and committee systems to match our changing needs
           and reflect what we've heard from community members. There are many ways we hope to have y'all involved! Stay tuned 
-          for more information on our committee program. In the meantime, let us know you're interested or sign up to <a href="./volunteer.html">volunteer</a>!<br> <br>
+          for more information on our committee program. In the meantime, let us know you're interested or sign up to <a href="./volunteer">volunteer</a>!<br> <br>
         </p>
 
         <p>

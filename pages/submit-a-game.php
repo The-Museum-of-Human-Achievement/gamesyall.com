@@ -60,7 +60,7 @@ Applications are reviewed by the selection committee on a rolling basis and don'
             <div class="col-4">
                 <div class="game-card">
                     <h4>Star Stuff</h4>
-                      <a href="./event-january-2023.html">
+                      <a href="./event-january-2023">
               <img src="../img/Archived-img/January-2023/games/star-stuff.jpeg" class="game-card-img" alt="A rectangular promotional image for Star Stuff featuring a Red Star character from the game with its yellow robotic companion standing on a space platform with ringed planets in the background" style="box-shadow: 5px 10px;">
             </a>
             
@@ -69,7 +69,7 @@ Applications are reviewed by the selection committee on a rolling basis and don'
             <div class="col-4">
                 <div class="game-card">
                           <h4>The Barnacle Goose Experiment</h4>
-                    <a href="./event-december-2022.html">
+                    <a href="./event-december-2022">
               <img src="../img/Archived-img/December-2022/games/barnacle-goose.png" class="game-card-img" alt="A square promotional image for The Barnacle Goose Experiment. It features the game title in gothic black text on a white background." style="box-shadow: 5px 10px;">
             </a>
             
@@ -78,7 +78,7 @@ Applications are reviewed by the selection committee on a rolling basis and don'
             <div class="col-4">
                 <div class="game-card">
                     <h4>Art7</h4>
-                    <a href="./event-october-2022.html">
+                    <a href="./event-october-2022">
               <img src="../img/Archived-img/October-2022/games/art-7.png" class="game-card-img" alt="This is a promotional image for ART7 featuring pixel art of the word “love” written on a canvas that is set on an easel. It is black and white." style="box-shadow: 5px 10px;">
             </a>
                   </div>  

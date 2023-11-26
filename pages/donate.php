@@ -73,7 +73,7 @@ require(__DIR__ . "/../partials/html-head.php");
         <br>
         -->
         <button class="button" style="  margin-left: auto; margin-right: auto;">
-            <a href="./volunteer.html"> Volunteer </a>
+            <a href="./volunteer"> Volunteer </a>
         </button>
         </div>
 
@@ -84,7 +84,7 @@ require(__DIR__ . "/../partials/html-head.php");
         <br>
         -->
         <button class="button" style="  margin-left: auto; margin-right: auto;">
-            <a href="./Submit-a-game.html"> Submit a Game </a>
+            <a href="./Submit-a-game"> Submit a Game </a>
         </button>          
     </div>
         
@@ -95,7 +95,7 @@ require(__DIR__ . "/../partials/html-head.php");
         <br>
         -->
         <button class="button" style="  margin-left: auto; margin-right: auto;">
-            <a href="./apply-to-committee.html"> Join a Committee </a>
+            <a href="./apply-to-committee"> Join a Committee </a>
         </button>
         </div>          
     </div>

@@ -7,6 +7,7 @@ $viewDirectory = "/pages/";
 if ($request == ""
 	|| $request == "/"
 	|| $request == "/home"
+	|| $request == "/index"
 	|| $request == "/index.html")
 {
 	require __DIR__ . $viewDirectory . "home.php";
