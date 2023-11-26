@@ -3,14 +3,18 @@
 // Populate meta info defaults
 if (empty($headTitle))
 {
-    $headTitle = "Games Y'all";
+    $headTitle = "Games Y'all - Austin Indie Games Meetup";
 }
+
 if (empty($headDescription))
 {
     $headDescription = "Games Y’all is an Austin indie games meetup held every month for indie devs, digital artists, and games fans.";
 }
+
+$cardType = "summary_large_image";
 if (empty($headImage))
 {
+    $cardType = "summary";
     $headImage = "/img/games-yall-logo-full.jpg";
 }
 
@@ -25,11 +29,11 @@ if (empty($headImage))
     <meta property="og:description" content="<?php echo($headDescription) ?>">
     <meta property="og:url" content="https://gamesyall.com">
     <meta property="og:site_name" content="Games Y'all">
-    <meta property="og:image" content="<?php echo($headImage) ?>">
-    <meta name="twitter:card" content="summary">
+    <meta property="og:image" content="<?php echo("https://gamesyall.com" . $headImage) ?>">
+    <meta name="twitter:card" content="<?php echo($cardType) ?>">
     <meta name="twitter:title" content="<?php echo($headTitle) ?>">
     <meta name="twitter:description" content="<?php echo($headDescription) ?>">
-    <meta name="twitter:image" content="<?php echo($headImage) ?>">
+    <meta name="twitter:image" content="<?php echo("https://gamesyall.com" . $headImage) ?>">
 
     <link rel="stylesheet" href="/mystyle.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">

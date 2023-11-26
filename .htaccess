@@ -1,7 +1,16 @@
+Options +FollowSymLinks
 RewriteEngine On
+RewriteBase /
 
-RewriteRule ^(.*)\.html$ http://%{HTTP_HOST}/$1 [NC,R]
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /.*index\ HTTP/
+RewriteRule ^(.*)index$ /$1 [L,R=301]
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([^/]+)/$ /$1 [L,R=301]
+
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /(.+)\.html\ HTTP/
+RewriteRule ^(.+)\.html$ /$1 [L,R=301]
+RewriteRule ^([a-z]+)$ /$1.html[L]
 
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . index.php [L]

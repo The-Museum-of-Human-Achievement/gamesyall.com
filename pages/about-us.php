@@ -38,7 +38,7 @@ require(__DIR__ . "/../partials/html-head.php");
     <div class="row" style="margin-bottom: 0px;">
         <div class="col-10">
             <p>
-            <b> Games Y’all <b> is a meetup presented by the Museum of Human Achievement, 
+            <b> Games Y’all </b> is a meetup presented by the Museum of Human Achievement, 
             held every month at venues around Austin for indie devs, digital artists, and 
             games fans. Games Y’all celebrates, amplifies, and supports the unique and 
             underrepresented within indie games and beyond.Come play games, share what 
@@ -57,7 +57,7 @@ require(__DIR__ . "/../partials/html-head.php");
     <!--MoHA-->
     <div class="row">
         <div class="col-10">
-            <p><b> The Museum of Human Achievement <b> is a multi-disciplinary art space and 
+            <p><b> The Museum of Human Achievement </b> is a multi-disciplinary art space and 
             non-profit organization in Austin, Texas. We cultivate new work, community, and vibe 
             by providing radically affordable arts space to support artists and audiences in the
                 creation of new ideas. MoHA fosters unconventional interactions between artists and 

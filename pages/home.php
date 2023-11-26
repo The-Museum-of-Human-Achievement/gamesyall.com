@@ -58,7 +58,7 @@ require(__DIR__ . "/../partials/html-head.php");
     <!-- OPEN CALL-->
     <div class="row">
         <div class="col-8" id="announcement-banner">
-            <a href="/Submit-a-game">
+            <a href="/submit-a-game">
                 <img src="./img/misc-img/GY-open-call-general.png" id="upcoming-event-img" alt="Fantastic Arcade presents, Open Call for Games." width="400" height="500" />
             </a>
         </div>
@@ -68,7 +68,7 @@ require(__DIR__ . "/../partials/html-head.php");
             <h3>✅Open Call✅</h3>
             <p>Show us your stuff y’all! New or old, finished or beta, game or not-quite game. Submit today!</p>
             <br>
-            <button class="button" id="More Info'"><a href="/Submit-a-game">More Info</a></button>
+            <button class="button" id="More Info'"><a href="/submit-a-game">More Info</a></button>
         </div>
     </div>
             
@@ -81,7 +81,7 @@ require(__DIR__ . "/../partials/html-head.php");
                 <h4 style="text-align: center;">Submit Your Game</h4>
                 <img src="./img/horse-img/horse-submit.png" class="horse-img" alt="A cute horse submiting their game." >
                 <button class="button">
-                    <a href="/Submit-a-game">SUBMIT</a> 
+                    <a href="/submit-a-game">SUBMIT</a> 
                 </button>
             </div>
         </div>

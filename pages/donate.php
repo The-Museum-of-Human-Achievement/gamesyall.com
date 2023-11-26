@@ -84,7 +84,7 @@ require(__DIR__ . "/../partials/html-head.php");
         <br>
         -->
         <button class="button" style="  margin-left: auto; margin-right: auto;">
-            <a href="./Submit-a-game"> Submit a Game </a>
+            <a href="./submit-a-game"> Submit a Game </a>
         </button>          
     </div>
         

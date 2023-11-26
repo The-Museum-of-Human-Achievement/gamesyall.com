@@ -1,7 +1,9 @@
 <header>
     <div class="row" style="margin-bottom: 0px;">
         <div class="col-12">
-            <img src="/img/GY_banner.jpg" class="banner-img" alt="Games Y'all Home page." > 
+            <a href="/">
+                <img src="/img/GY_banner.jpg" class="banner-img" alt="Games Y'all Home page." /> 
+            </a>
         </div>
     </div>
 
@@ -30,7 +32,7 @@
                         <i class="about-us-dropdown"></i>
                     </a>
                     <div class="dropdown-content">
-                        <a href="/Submit-a-game"> Submit a Game</a>
+                        <a href="/submit-a-game"> Submit a Game</a>
                         <a href="/volunteer">Volunteer</a>
                         <a href="/apply-to-committee">Apply to Committee</a>
                     </div>
@@ -70,7 +72,7 @@
             <!--Get Involved has a drop down-->
             <a href="javascript:void(0);" onclick="openGetInvolved()"> Get Involved </a>
             <div id="get-involved-submenu">
-                <a href="/Submit-a-game"> Submit a Game</a>
+                <a href="/submit-a-game"> Submit a Game</a>
                 <a href="/volunteer">Volunteer</a>
                 <a href="/apply-to-committee">Apply to Committee</a>
             </div>
