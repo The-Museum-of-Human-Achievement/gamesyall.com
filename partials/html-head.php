@@ -35,9 +35,12 @@ if (empty($headImage))
     <meta name="twitter:description" content="<?php echo($headDescription) ?>">
     <meta name="twitter:image" content="<?php echo("https://gamesyall.com" . $headImage) ?>">
 
+    <!--Analytics -->
+    <script defer data-domain="gamesyall.com" src="https://plausible.io/js/script.js"></script>
+
+    <!--Styles and fonts -->
     <link rel="stylesheet" href="/mystyle.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Roboto&display=swap" rel="stylesheet">
@@ -55,5 +58,5 @@ if (empty($headImage))
     <meta name="theme-color" content="#ffffff">
 
     <!--Java Script reference-->
-    <script src="/javaScript/myscripts.js"></script>        
+    <script src="/javaScript/myscripts.js"></script>
 </head>

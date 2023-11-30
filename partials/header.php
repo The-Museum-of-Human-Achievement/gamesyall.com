@@ -1,7 +1,7 @@
 <header>
     <div class="row" style="margin-bottom: 0px;">
         <div class="col-12">
-            <a href="/">
+            <a class="banner-link" href="/">
                 <img src="/img/GY_banner.jpg" class="banner-img" alt="Games Y'all Home page." /> 
             </a>
         </div>

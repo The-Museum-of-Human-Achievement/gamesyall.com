@@ -85,7 +85,7 @@ header{
 
 body{
     color: #020873;
-
+    
     margin-top: 0px;
     margin-bottom: 0px;
 }
@@ -175,10 +175,17 @@ footer {
     box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
 }
 
+.banner-link {
+    margin: 0 auto;
+}
+
+.banner-img {
+    margin: 0 auto;
+}
+
 .navbar-items {
     float: left;
 }
-
 
 .navbar-link {
     display: block;
