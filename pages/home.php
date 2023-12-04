@@ -24,17 +24,17 @@ require(__DIR__ . "/../partials/html-head.php");
     <!-- UPCOMING EVENT-->
     <div class="row" style="margin-top: 80px;">
         <div class="col-8" id="announcement-banner">
-            <a href="/event-november-2023">
-                <img src="./img/event-img/GY-Banner-Nov-23.png" id="upcoming-event-img" alt="The Museum of Human Achievement presents, Games Y'all November Meetup" width="400" height="500" />
+            <a href="/event-january-2024">
+                <img src="/img/event-img/GY-Banner-Jan-24.png" id="upcoming-event-img" alt="The Museum of Human Achievement presents, Games Y'all January Meetup" width="400" height="500" />
             </a>
         </div>
 
         <!--Event info-->
         <div class="col-4" id="upcoming-event-text">
-            <h3>November Meetup</h3>
-            <p>🎮Women & Non-Binary led Indie Games Showcase🎮</p>
-                <br>
-            <button class="button" id="More Info'"><a href="/event-november-2023">More Info</a></button>
+            <h3>Janurary Meetup</h3>
+            <p>🎟 Free admission, donations are encouraged! Please RSVP, walk ups are welcome.</p>
+            <br>
+            <button class="button" id="More Info'"><a href="/event-january-2024">More Info</a></button>
         </div>
     </div>
             
