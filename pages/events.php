@@ -29,16 +29,31 @@ require(__DIR__ . "/../partials/html-head.php");
         <div class="col-12">
             <h1>Past Meetups</h1>
             <div class="flex-container-row" style="justify-content: left;">
-            <div class="past-event">
-    
-                <!--DATE-->
+                <div class="past-event">
+                    <!--DATE-->
+                    <h4>November 11-12 + 18-19, 2023</h4>
+                    <!--image-->
+                    <a href="/event-november-2023">
+                    <img src="/img/event-img/GY-Square-Nov-23.png" alt="A link to November 2023 Games Y'all'" style="box-shadow: 2.5px 5px;">
+                    </a>
+                </div>
+                <div class="past-event">
+                    <!--DATE-->
+                    <h4>October 27th, 2023</h4>
+                    <!--image-->
+                    <a href="/event-october-2023">
+                    <img src="/img/event-img/GY-Square-Oct-23.png" alt="A link to October 2023 Games Y'all'" style="box-shadow: 2.5px 5px;">
+                    </a>
+                </div>
+                <div class="past-event">
+                    <!--DATE-->
                     <h4>September 22nd, 2023</h4>
                     <!--image-->
                     <a href="/event-september-2023">
                     <img src="/img/event-img/GY-Square-Sep-23.png" alt="A link to September 2023 Games Y'all'" style="box-shadow: 2.5px 5px;">
                     </a>
                 </div>
-                    <div class="past-event">
+                <div class="past-event">
                     <!--DATE-->
                     <h4>August 24th, 2023</h4>
                     <!--image-->
@@ -46,7 +61,7 @@ require(__DIR__ . "/../partials/html-head.php");
                     <img src="/img/event-img/GY-Square-Aug-23.png" alt="A link to August 2023 Games Y'all'" style="box-shadow: 2.5px 5px;">
                     </a>
                 </div>
-                    <div class="past-event">
+                <div class="past-event">
                 <!--DATE-->
                     <h4>July 27th, 2023</h4>
                     <!--image-->
@@ -54,7 +69,7 @@ require(__DIR__ . "/../partials/html-head.php");
                     <img src="/img/event-img/GY-Square-July-23.png" alt="A link to July 2023 Games Y'all'" style="box-shadow: 2.5px 5px;">
                     </a>
                 </div>
-                    <div class="past-event">
+                <div class="past-event">
                             
                 <!--DATE-->
                     <h4>June 24th, 2023</h4>
@@ -63,7 +78,7 @@ require(__DIR__ . "/../partials/html-head.php");
                     <img src="/img/event-img/GY-Square-June-23.png" alt="A link to June 2023 Games Y'all'" style="box-shadow: 2.5px 5px;">
                     </a>
                 </div>
-                    <div class="past-event">
+                <div class="past-event">
                     
                 <!--DATE-->
                     <h4>May 27th, 2023</h4>
@@ -72,7 +87,7 @@ require(__DIR__ . "/../partials/html-head.php");
                     <img src="/img/event-img/GY-Square-May-23.png" alt="A link to May 2023 Games Y'all'" style="box-shadow: 2.5px 5px;">
                     </a>
                 </div>
-                    <div class="past-event">
+                <div class="past-event">
                     
                     <!--DATE-->
                     <h4>April 15th, 2023</h4>
@@ -81,7 +96,7 @@ require(__DIR__ . "/../partials/html-head.php");
                     <img src="/img/event-img/GY-Square-April-23.png" alt="A link to April 2023 Games Y'all'" style="box-shadow: 2.5px 5px;">
                     </a>
                 </div>
-                    <div class="past-event">
+                <div class="past-event">
                     <!--DATE-->
                     <h4>March 11th, 2023</h4>
                     <!--image-->
@@ -89,7 +104,7 @@ require(__DIR__ . "/../partials/html-head.php");
                     <img src="/img/event-img/GY-Square-Mar-23.png" alt="A link to March 2023 Games Y'all'" style="box-shadow: 2.5px 5px;">
                     </a>
                 </div>
-                    <div class="past-event">
+                <div class="past-event">
             <!--DATE-->
                     <h4>February 19th, 2023</h4>
                     <!--image-->
@@ -97,7 +112,7 @@ require(__DIR__ . "/../partials/html-head.php");
                     <img src="/img/event-img/GY-Square-Feb-23.png" alt="A link to February 2023 Games Y'all'" style="box-shadow: 2.5px 5px;">
                     </a>
                 </div>
-                    <div class="past-event">
+                <div class="past-event">
             <!--DATE-->
                     <h4>January 21st, 2023</h4>
                     <!--image-->
@@ -105,7 +120,7 @@ require(__DIR__ . "/../partials/html-head.php");
                     <img src="/img/event-img/GY-Square-Jan-23.png" alt="A link to January 2023 Games Y'all'" style="box-shadow: 2.5px 5px;">
                     </a>
                 </div>
-                    <div class="past-event">
+                <div class="past-event">
                 <!--DATE-->
                     <h4>December 3rd, 2022</h4>
                     <!--image-->
@@ -113,7 +128,7 @@ require(__DIR__ . "/../partials/html-head.php");
                     <img src="/img/event-img/GY-Square-Dec.png" alt="A link to December Games Y'all'" style="box-shadow: 2.5px 5px;">
                     </a>
                 </div>
-                    <div class="past-event">
+                <div class="past-event">
                     <!--DATE-->
                     <h4>November 12th, 2022</h4>
                     <!--image-->
@@ -121,7 +136,7 @@ require(__DIR__ . "/../partials/html-head.php");
                     <img src="/img/event-img/GY-Square-Nov.png" alt="A link to the Queer Indie Games Showcase" style="box-shadow: 2.5px 5px;">
                     </a>
                 </div>
-                    <div class="past-event">
+                <div class="past-event">
                 <!--DATE-->
                     <h4>October 27, 2022</h4>
                     <!--image-->
@@ -129,7 +144,7 @@ require(__DIR__ . "/../partials/html-head.php");
                     <img src="/img/event-img/GY-Square-Oct.png" alt="A link to the October Games Y'all" style="box-shadow: 2.5px 5px;">
                     </a>
                 </div>
-                    <div class="past-event">
+                <div class="past-event">
                     <!--DATE-->
                     <h4>September 22, 2022</h4>
                     <!--image-->
@@ -137,7 +152,7 @@ require(__DIR__ . "/../partials/html-head.php");
                     <img src="/img/event-img/GY-Square-Sep.png" alt="A link to the September Games Y'all" style="box-shadow: 2.5px 5px;">
                     </a>
                 </div>
-                    <div class="past-event">
+                <div class="past-event">
                     <!--DATE-->
                     <h4>August 19, 2022</h4>
                     <!--image-->

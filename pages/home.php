@@ -24,36 +24,35 @@ require(__DIR__ . "/../partials/html-head.php");
     <!-- UPCOMING EVENT-->
     <div class="row" style="margin-top: 80px;">
         <div class="col-8" id="announcement-banner">
-        <a href="/event-november-2023">
-            <img src="./img/event-img/GY-Banner-Nov-23.png" id="upcoming-event-img" alt="The Museum of Human Achievement presents, Games Y'all November Meetup" width="400" height="500" />
-        </a>
-    </div>
+            <a href="/event-november-2023">
+                <img src="./img/event-img/GY-Banner-Nov-23.png" id="upcoming-event-img" alt="The Museum of Human Achievement presents, Games Y'all November Meetup" width="400" height="500" />
+            </a>
+        </div>
 
         <!--Event info-->
-    <div class="col-4" id="upcoming-event-text">
-        <h3>November Meetup</h3>
-        <p>🎮Women & Non-Binary led Indie Games Showcase🎮</p>
-            <br>
-        <button class="button" id="More Info'"><a href="/event-november-2023">More Info</a></button>
+        <div class="col-4" id="upcoming-event-text">
+            <h3>November Meetup</h3>
+            <p>🎮Women & Non-Binary led Indie Games Showcase🎮</p>
+                <br>
+            <button class="button" id="More Info'"><a href="/event-november-2023">More Info</a></button>
         </div>
     </div>
             
     <!-- UPCOMING EVENT-->
-    <div class="row">
+    <!-- <div class="row">
         <div class="col-8" id="announcement-banner">
             <a href="/event-gotm-meetup">
                 <img src="./img/event-img/GOTM-Banner-Nov-23.png" id="upcoming-event-img" alt="The Museum of Human Achievement presents, Games Y'all Game of the Month Meetup" width="400" height="500" />
             </a>
         </div>
 
-            <!--Event info-->
         <div class="col-4" id="upcoming-event-text">
             <h3>Game of the Month Meetup</h3>
             <p>Wednesday November 15th <br> November GOTM: Goodbye Volcano Hugh</p>
             <br>
             <button class="button" id="More Info'"><a href="/event-gotm-meetup">More Info</a></button>
         </div>
-    </div>
+    </div> -->
             
     <!-- OPEN CALL-->
     <div class="row">
