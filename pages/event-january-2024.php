@@ -135,7 +135,7 @@ require(__DIR__ . "/../partials/html-head.php");
                 <div class="dev-social">
                   <h6>@highway2helliot</h6>
                   <a href="https://www.instagram.com/highway2helliot/">
-                    <img src="/img/Social-buttons/instagram-alt-button.png" style="width: 64px; height: auto;">
+                    <img src="/img/Social-buttons/instagram-button-alt.png" style="width: 64px; height: auto;">
                   </a>
                 </div>
               </div>
@@ -267,7 +267,7 @@ require(__DIR__ . "/../partials/html-head.php");
                 <div class="dev-social">
                   <h6>@angelicaburgosc</h6>
                   <a href="https://www.instagram.com/angelicaburgosc/">
-                    <img src="/img/Social-buttons/instagram-alt-button.png" style="width: 64px; height: auto;">
+                    <img src="/img/Social-buttons/instagram-button-alt.png" style="width: 64px; height: auto;">
                   </a>
                 </div>
               </div>

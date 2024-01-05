@@ -117,7 +117,7 @@ Tony and Abby live in Toronto with their cat (Spoons), their ball python (Wednes
             </div>
           </div> 
 <!--Risk of Rain Returns card-->
-          <div class="row" style="background-color: #9BE9FF; border-radius: 10px; margin-bottom: 25px;">
+          <div class="row" style="background-color: #F2D335; border-radius: 10px; margin-bottom: 25px;">
             <div class="game-card-long">
               <div>
                 <img src="/img/Archived-img/January-2024/games/risk-of-rain-returns.jpeg" alt="A promotional image for the November Games Y'all Game of the Month"> 
@@ -130,7 +130,7 @@ Tony and Abby live in Toronto with their cat (Spoons), their ball python (Wednes
 <br><br>
 Hopoo Games was founded in 2012 with a creative vision – to make games we like to play! Since then, we have made multiple award-winning, genre defining games – and intend to continue doing just that. We pride ourselves in our innovative and agile designs, and we’re always looking for exciting game ideas to bring to life.
 </p>
-                <button class="button"  style="margin: 10px; background-color: #F2D335;">
+                <button class="button"  style="margin: 10px; background-color: #9BE9FF;">
                   <a href="https://store.steampowered.com/app/1337520/Risk_of_Rain_Returns/">Play it Here</a>
                 </button>
 
