@@ -68,51 +68,289 @@ require(__DIR__ . "/../partials/html-head.php");
         </div>
     </div>
 
-    <!--Games at the event -->
-    <!-- <div>
-        <h2 style="text-align: center;">Games This Month</h2>
-
-
-        <!--How to Say Goodbye card--
-        <div class="row" style="background-color: #9BE9FF; border-radius: 10px; margin-bottom: 25px;">
+  <!--Games at the event -->
+        <div>
+          <h2 style="text-align: center;">Games This Month</h2>
+          
+          
+ <!--HouseKeeping card-->
+          <div class="row" style="background-color: #9BE9FF; border-radius: 10px; margin-bottom: 25px;">
             <div class="game-card-long">
-                <div>
-                    <img src="/img/Archived-img/November-2023/games/how-to-say-goodbye.jpeg" alt="- A promotional image for How to Say Goodbye">
+              <div>
+                <img src="/img/Archived-img/January-2024/games/housekeeping.png" alt="- A promotional image for House Keeping">
                 </div>  
 
-                <!--Game Text --
-                <div>
-                    <h4>How to Say Goodbye</h4>
-                    <p>How to Say Goodbye is a beautiful narrative puzzle game inspired by picture books. Reorganize the environment and solve puzzles to help a group of ghosts on their quest to finally move on.
-                    <br><br>
-                    Florian and Baptiste started working together when they were studying graphic design and illustration. They both had a deep interest in storytelling and interactivity. After having spent time at various companies and other game related freelance missions, they join up to get back to what got them talking in the first place: making beautiful, emotional and entertaining games for everyone.
-                    </p>
-                    <button class="button"  style="margin: 10px; background-color: #F2D335;">
-                    <a href="https://store.steampowered.com/app/1709700/How_to_Say_Goodbye/">Play It Here</a>
-                    </button>
+              <!--Game Text -->
+              <div>
+                <h4>HouseKeeping</h4>
+                <p>HouseKeeping is an Isometric Couch Co-Op party game similar to Overcooked or Splatoon. Two teams of players must battle for control of the House. The Keepers (House Cleaners) must clean the house. While the Cats must destroy the house and of course cause chaos. Whoever has more control of the house at the end of the round wins. We hope to take this game further and hopefully publish it at some point!
+                <br><br>
+               HouseKeeping was developed by a small team of students at Austin Community College as our final project in college. We as a team enjoyed developing this game so much we recently submitted it to the Independent Games Festival. In hopes of being nominated for "Best Student Game". 
+               </p>
+                <button class="button"  style="margin: 10px; background-color: #F2D335;">
+                  <a href="https://tom9671.itch.io/housekeeping">Play It Here</a>
+                </button>
+
+              </div>
+
+              <!--Dev Text-->
+              <div>
+                <h6>Developer: Team HouseKeeping</h6>
+
+                <div class="dev-social">	
+                  <h6>@IfItWorksStudio</h6>
+                  <a href="https://twitter.com/IfItWorksStudio">
+                    <img src="/img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
+                  </a>
                 </div>
-
-                <!--Dev Text--
-                <div>
-                    <h6>Developer: Florian Veltman & Baptiste Portefaix</h6>
-
-                    <div class="dev-social">	
-                        <h6>@baptisteworks</h6>
-                        <a href="https://twitter.com/baptisteworks">
-                        <img src="/img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
-                        </a>
-                        <h6>@FlorianVltmn</h6>
-                        <a href="https://twitter.com/FlorianVltmn">
-                        <img src="/img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
-                        </a>
-                    </div>
-                </div>
-
+              </div>
             </div>
-        </div>
-    </div>-->
+          </div>          
+          
+          
+ <!--don't rock the boat card-->
+          <div class="row" style="background-color: #F2D335; border-radius: 10px; margin-bottom: 25px;">
+            <div class="game-card-long">
+              <div>
+                <img src="/img/Archived-img/January-2024/games/rock-boat.jpeg" alt="- A promotional image for don't rock the boat"> 
+              </div>  
 
+              <!--Game Text -->
+              <div>
+                <h4>don't rock the boat</h4>
+                <p>don't rock the boat - an interactive story by elliot degrassi. A women's crew team plagued with internal debate over who is allowed to row in their league finds themselves stalked by a river monster. Written for and awarded Best Story of Scream Dunk 2023. Cover art by Ravi Teixeira.
+                <br><br>
+                 TW: transphobia, off-screen sexual assault
+                <br><br>
+				Elliot Degrassi (they/them) is normally a sound designer and composer. </p>
+                <button class="button"  style="margin: 10px; background-color: #9BE9FF;">
+                  <a href="https://elliotdegrassi.itch.io/dont-rock-the-boat">Play It Here</a>
+                </button>
 
+              </div>
+
+              <!--Dev Text-->
+              <div>
+                <h6>Developer: Elliot Degrassi<h6> 
+                <div class="dev-social">
+                  <h6>@highway2helliot</h6>
+                  <a href="https://www.instagram.com/highway2helliot/">
+                    <img src="/img/Social-buttons/instagram-button.png" style="width: 64px; height: auto;">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>     
+
+ <!--1 Friend Online card-->
+          <div class="row" style="background-color: #9BE9FF; border-radius: 10px; margin-bottom: 25px;">
+            <div class="game-card-long">
+              <div>
+                <img src="/img/Archived-img/January-2024/games/one-friend.png" alt="- A promotional image for 1 Friend Online">
+                </div>  
+
+              <!--Game Text -->
+              <div>
+                <h4>1 Friend Online</h4>
+                <p>You take on the role of Scott, a college freshman playing through an online RPG with your best friend in the year 2003. However, as you and Robin talk over the action, it becomes clear that your friend is really struggling. The way you interact with him in-game throughout this adventure-- from stealing his loot, to trusting his input on which path to take, or even whether you fight monsters as a team-- will impact whether you 2 stay friends after this tumultuous time in his life.
+             </p>
+             <button class="button"  style="margin: 10px; background-color: #F2D335;">
+                  <a href="https://wolfpengames.itch.io/1fo">Play It Here</a>
+                </button>
+
+              </div>
+
+              <!--Dev Text-->
+              <div>
+                <h6>Developer: Wolf-Pen Games</h6>
+
+               <!-- <div class="dev-social">	
+                  <h6>@?</h6>
+                  <a href="https://twitter.com/?">
+                    <img src="/img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
+                  </a> -->
+                </div>
+              </div>
+            </div>
+          </div>          
+          
+          
+ <!--Project: Petra card-->
+          <div class="row" style="background-color: #F2D335; border-radius: 10px; margin-bottom: 25px;">
+            <div class="game-card-long">
+              <div>
+                <img src="/img/Archived-img/January-2024/games/merge-conflct.png" alt="- A promotional image for Project: Petra"> 
+              </div>  
+
+              <!--Game Text -->
+              <div>
+                <h4>Project: Petra</h4>
+                <p>Project: Petra” is a third-person action game that pairs kinetic combat and platforming with an impactful climate narrative. Throughout the game, you climb the ranks of The Bubble Brigade rebellion and fight against ZENITH, the evil corporation responsible for the destruction of your village. Wielding a giant bubble wand, you chain together bubble-based attacks to create a satisfying combo of pops!
+				<br><br>
+				Merge Conflict is an Indie Game Studio focused on centering marginalized perspectives and environmental awareness, based out of Austin, Texas.
+				</p>
+                <button class="button"  style="margin: 10px; background-color: #9BE9FF;">
+                  <a href="https://www.mergeconflictstudio.com/">More Info</a>
+                </button>
+
+              </div>
+
+              <!--Dev Text-->
+              <div>
+                <h6>Developer: Merge Conflict Studios<h6> 
+                <div class="dev-social">
+                  <h6>@refreshthegame</h6>
+                  <a href="https://twitter.com/refreshthegame">
+                    <img src="/img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div> 
+          
+<!--Zombeats card-->
+          <div class="row" style="background-color: #9BE9FF; border-radius: 10px; margin-bottom: 25px;">
+            <div class="game-card-long">
+              <div>
+                <img src="/img/Archived-img/January-2024/games/zombeats.png" alt="- A promotional image for Zombeats">
+                </div>  
+
+              <!--Game Text -->
+              <div>
+                <h4>Zombeats</h4>
+                <p>Zombeats is a high-octane rhythm game set in the apocalypse. Shoot zombies to the beat as they swarm from all directions, while managing limited ammo reserves. Unlock original songs as you progress through each character's story, import your own levels with the custom level editor, chase high scores on the global leaderboard, and customize your experience with difficulty modifiers!
+                </p>
+             <button class="button"  style="margin: 10px; background-color: #F2D335;">
+                  <a href="https://umbresp.itch.io/zombeats">Play It Here</a>
+                </button>
+
+              </div>
+
+              <!--Dev Text-->
+              <div>
+                <h6>Developer: Brain Dead Studios</h6>
+
+               <!-- <div class="dev-social">	
+                  <h6>@?</h6>
+                  <a href="https://twitter.com/?">
+                    <img src="/img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
+                  </a> -->
+                </div>
+              </div>
+            </div>
+          </div>          
+          
+          
+ <!--Ludus card-->
+          <div class="row" style="background-color: #F2D335; border-radius: 10px; margin-bottom: 25px;">
+            <div class="game-card-long">
+              <div>
+                <img src="/img/Archived-img/January-2024/games/ludus.png" alt="- A promotional image for Ludus"> 
+              </div>  
+
+              <!--Game Text -->
+              <div>
+                <h4>Ludus</h4>
+                <p>For her Welcome to my Homepage residency Angélica focused on researching the artisanal production of toys in Mérida, a moderately sized city located in the center of the Venezuelan Andes. A new multidisciplinary project titled Ludus has emerged from this research. Its objective is to exalt this artisanal tradition through the long-term development of collaborations in film, music, and performance art.
+                <br><br>
+				Angélica Burgos Colls (b. 1994) is a Venezuelan visual artist and art director. She continues to develop her skills in several disciplines in order to nourish her fundamental passion of studying the language of created spaces.
+				</p>
+                <button class="button"  style="margin: 10px; background-color: #9BE9FF;">
+                  <a href="https://www.welcometomyhomepage.net/">Explore</a>
+                </button>
+
+              </div>
+
+              <!--Dev Text-->
+              <div>
+                <h6>Artist: Angelica Burgos Colls<h6> 
+                <div class="dev-social">
+                  <h6>@angelicaburgosc</h6>
+                  <a href="https://www.instagram.com/angelicaburgosc/">
+                    <img src="/img/Social-buttons/instagram-button.png" style="width: 64px; height: auto;">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>   
+          
+<!--Trend Watch 2024 card-->
+          <div class="row" style="background-color: #9BE9FF; border-radius: 10px; margin-bottom: 25px;">
+            <div class="game-card-long">
+              <div>
+                <img src="/img/Archived-img/January-2024/games/trend-watch-2024.jpg" alt="- A promotional image for Trend Watch 2024"> 
+              </div>  
+
+              <!--Game Text -->
+              <div>
+                <h4>Trend Watch 2024</h4>
+                <p>"Make your own Trend Watch 2024 workbook as you explore trend predictions, dig into your memories and your purse to find lifestyle inspiration, and upload your assignments to be graded by Julia Kunze herself (don’t worry, I hear she’s an easy grader). Julia’s mixed media aesthetic and background as an educator make for an incredibly playful, exploratory, and creative experience.
+				<br><br>
+				MTVs catfish, superhero costumes, fantasy romance novels, country music and anything low-rent help Julia Kunze make sculptures and drawings. She has had many fashion shows and knows a lot about trends. Her favorite line is the one between funny and serious and that is what she hopes to achieve in her work. "
+				<br><br>
+				Julia is an artist and collaborator. She loves horses, writing, making clothing and making friends. She has a clothing brand with her best friend called horse misterys and she just bought a Prius.
+				</p>
+                <button class="button"  style="margin: 10px; background-color: #9BE9FF;">
+                  <a href="https://www.welcometomyhomepage.net/">Explore</a>
+                </button>
+
+              </div>
+
+              <!--Dev Text-->
+              <div>
+                <h6>Artist: Julia Kunze<h6> 
+                <div class="dev-social">
+                  <h6>@horsemisterys</h6>
+                  <a href="https://www.instagram.com/horsemisterys/">
+                    <img src="/img/Social-buttons/instagram-button.png" style="width: 64px; height: auto;">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+<!--Slay the Princess card-->
+          <div class="row" style="background-color: #F2D335; border-radius: 10px; margin-bottom: 25px;">
+            <div class="game-card-long">
+              <div>
+                <img src="/img/Archived-img/January-2024/games/slay-the-princess.jpeg" alt="- A promotional image for Slay the Princess">
+                </div>  
+
+              <!--Game Text -->
+              <div>
+                <h4>Slay the Princess</h4>
+<p>"You're on a path in the woods. And at the end of that path is a cabin. And in the basement of that cabin is a Princess (Nichole Goodnight).
+<br><br>
+You're here to slay her. If you don't, it will mean the end of the world. 
+
+At least, that's what The Narrator (Jonathan Sims) tells you. But can you trust him? Can you trust her? Sure, you can do as you're told, killing the entity in the basement, whether she's a Princess or... something else. Or you can try to find some other way out of the eternity of choices and twisting paths youand the ""Princess"" have found yourselves in.
+
+After all... is the world that tasked you to save it really worth saving?"
+<br><br>
+"Black Tabby Games is a two person studio that consists of Abby Howard (she/her) and Tony Howard-Arias (he/him). They share a last night because they're married. You might be familiar with Abby's work from her decade-long career as a graphic novelist, where she wrote and illustrated such works as The Crossroads at Midnight, The Last Halloween, The Earth Before Us, and Junior Scientist Power Hour. You're probably not familiar with Tony's work outside of games, though he did a stint doing analytics for The Boston Globe.
+<br><br>
+Tony and Abby live in Toronto with their cat (Spoons), their ball python (Wednesday) and their Axolotl (Nubs)."
+</p>
+             <button class="button"  style="margin: 10px; background-color: #F2D335;">
+                  <a href="https://store.steampowered.com/app/1989270/Slay_the_Princess/">Play It Here</a>
+                </button>
+
+              </div>
+
+              <!--Dev Text-->
+              <div>
+                <h6>Developer: Black Tabby Games</h6>
+
+               <div class="dev-social">	
+                  <h6>@blacktabbygames</h6>
+                  <a href="https://twitter.com/blacktabbygames">
+                    <img src="/img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>          
+          
+          
     <!--Event Images-->
     <!--Only use this section after an event to house images from the past
     <div class="row">

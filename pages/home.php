@@ -31,7 +31,7 @@ require(__DIR__ . "/../partials/html-head.php");
 
         <!--Event info-->
         <div class="col-4" id="upcoming-event-text">
-            <h3>Janurary Meetup</h3>
+            <h3>January Meetup</h3>
             <p>🎟 Free admission, donations are encouraged! Please RSVP, walk ups are welcome.</p>
             <br>
             <button class="button" id="More Info'"><a href="/event-january-2024">More Info</a></button>
@@ -39,20 +39,20 @@ require(__DIR__ . "/../partials/html-head.php");
     </div>
             
     <!-- UPCOMING EVENT-->
-    <!-- <div class="row">
+    <div class="row">
         <div class="col-8" id="announcement-banner">
             <a href="/event-gotm-meetup">
-                <img src="./img/event-img/GOTM-Banner-Nov-23.png" id="upcoming-event-img" alt="The Museum of Human Achievement presents, Games Y'all Game of the Month Meetup" width="400" height="500" />
+                <img src="./img/event-img/GOTM-Banner-Jan-24.png" id="upcoming-event-img" alt="The Museum of Human Achievement presents, Games Y'all Game of the Month Meetup" width="400" height="500" />
             </a>
         </div>
 
         <div class="col-4" id="upcoming-event-text">
             <h3>Game of the Month Meetup</h3>
-            <p>Wednesday November 15th <br> November GOTM: Goodbye Volcano Hugh</p>
+            <p>Wednesday January 31st<br> January GOTM: Slay the Princess</p>
             <br>
             <button class="button" id="More Info'"><a href="/event-gotm-meetup">More Info</a></button>
         </div>
-    </div> -->
+    </div>
             
     <!-- OPEN CALL-->
     <div class="row">

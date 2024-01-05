@@ -22,7 +22,7 @@
                     </a>
                     <div class="dropdown-content">
                         <a href="/event-january-2024">January Games Y'all</a>
-                        <!-- <a href="/event-gotm-meetup">GOTM Meetup</a> -->
+                        <a href="/event-gotm-meetup">GOTM Meetup</a>
                         <a href="/events">Past Events</a>
                     </div>
                 </li>

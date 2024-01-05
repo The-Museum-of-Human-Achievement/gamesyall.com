@@ -29,27 +29,27 @@ require(__DIR__ . "/../partials/html-head.php");
      <div class="col-4"style="justify-content: left;">
                     <h1>GOTM Meetup</h1>
                 
-                    <h4>November 15th, 2023 - 7-9pm</h4>
+                    <h4>January 31st, 2024 - 7-9pm</h4>
 				<p>Museum of Human Achievement <a href="https://goo.gl/maps/ahZcZEw7Dp1QDWcHA">3600 Lyons Rd, Austin, TX 78702</a> 
 				<br><br>🎟 Free admission, donations welcome! RSVPs required, space is limited.</p>
 	
 			
 				<!--RSVP Button -->
-            <button class="button" id="RSVP'"><a href="https://withfriends.co/event/16914609/gotm_november_meetup">RSVP</a></button>
+            <button class="button" id="RSVP'"><a href="https://withfriends.co/event/17328577/gotm_january_meetup">RSVP</a></button>
             
 				    </div>
 				    
 			 <div class="col-8">
                 <!--Add your event image here-->
-                <img src="/img/event-img/GOTM-Banner-Nov-23.png" alt="The Museum of Human Achievement presents, Games Y'all Game of the Month Meetup">
+                <img src="/img/event-img/GOTM-Banner-Jan-24.png" alt="The Museum of Human Achievement presents, Games Y'all Game of the Month Meetup">
             </div>
             
 
 		 <div class="col-10">
 
-<p>This months game: Goodbye Volcano High
+<p>This months game: Slay the Princess
 <br><br>
-Goodbye Volcano High is a cinematic narrative adventure about love, change, and the end of the world. Guide Fang through their final year of high school as they try to make things right before time is up.
+You're on a path in the woods. And at the end of that path is a cabin. And in the basement of that cabin is a Princess (Nichole Goodnight). You're here to slay her. If you don't, it will mean the end of the world. Slay the Princess is a 2023 horror adventure game developed and published by Black Tabby Games
 <br><br>
 It’s like a book club, but for games! Meet once a month with fellow members of the Games Y'all community to discuss the Game of the Month. Share your thoughts about the game design, narrative, art, and your experience playing the game! Meetings will be held 7-9pm on the last Wednesday of every month at the Museum of Human Achievement in the IRL Computer Lab. Snacks and drinks are permitted, but not provided.
 <p/>
@@ -75,6 +75,79 @@ We strongly encourage that everyone be vaccinated or have recently tested negati
   <!--GOTM-->
         <div>
           <h2 style="text-align: center;">Game of the Month</h2>
+
+<!--Slay the Princess card-->
+          <div class="row" style="background-color: #9BE9FF; border-radius: 10px; margin-bottom: 25px;">
+            <div class="game-card-long">
+              <div>
+                <img src="/img/Archived-img/January-2024/games/slay-the-princess.jpeg" alt="A promotional image for the November Games Y'all Game of the Month"> 
+              </div>  
+
+              <!--Game Text-->
+              <div>
+                <h4>Slay the Princess - January</h4>
+<p>"You're on a path in the woods. And at the end of that path is a cabin. And in the basement of that cabin is a Princess (Nichole Goodnight).
+<br><br>
+You're here to slay her. If you don't, it will mean the end of the world. 
+
+At least, that's what The Narrator (Jonathan Sims) tells you. But can you trust him? Can you trust her? Sure, you can do as you're told, killing the entity in the basement, whether she's a Princess or... something else. Or you can try to find some other way out of the eternity of choices and twisting paths youand the ""Princess"" have found yourselves in.
+
+After all... is the world that tasked you to save it really worth saving?"
+<br><br>
+"Black Tabby Games is a two person studio that consists of Abby Howard (she/her) and Tony Howard-Arias (he/him). They share a last night because they're married. You might be familiar with Abby's work from her decade-long career as a graphic novelist, where she wrote and illustrated such works as The Crossroads at Midnight, The Last Halloween, The Earth Before Us, and Junior Scientist Power Hour. You're probably not familiar with Tony's work outside of games, though he did a stint doing analytics for The Boston Globe.
+<br><br>
+Tony and Abby live in Toronto with their cat (Spoons), their ball python (Wednesday) and their Axolotl (Nubs)."
+</p>
+                <button class="button"  style="margin: 10px; background-color: #F2D335;">
+                  <a href="https://store.steampowered.com/app/1989270/Slay_the_Princess/">Play it Here</a>
+                </button>
+
+              </div>
+
+              <!--Dev Text-->
+              <div>
+                <h6>Developer: Black Tabby Games</h6> 
+                     <div class="dev-social">
+                  <h6>@blacktabbygames</h6>
+                  <a href="https://twitter.com/blacktabbygames">
+                    <img src="/img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div> 
+<!--Risk of Rain Returns card-->
+          <div class="row" style="background-color: #9BE9FF; border-radius: 10px; margin-bottom: 25px;">
+            <div class="game-card-long">
+              <div>
+                <img src="/img/Archived-img/January-2024/games/risk-of-rain-returns.jpeg" alt="A promotional image for the November Games Y'all Game of the Month"> 
+              </div>  
+
+              <!--Game Text-->
+              <div>
+                <h4>Risk of Rain Returns - December</h4>
+<p>Carefully designed, beautifully remastered, and loaded with new ways to play—Risk of Rain is back and better than ever! Dive into the iconic roguelike full of unique loot combinations, enhanced with new Survivors, overhauled multiplayer, fan favorite content from Risk of Rain 2, and more!
+<br><br>
+Hopoo Games was founded in 2012 with a creative vision – to make games we like to play! Since then, we have made multiple award-winning, genre defining games – and intend to continue doing just that. We pride ourselves in our innovative and agile designs, and we’re always looking for exciting game ideas to bring to life.
+</p>
+                <button class="button"  style="margin: 10px; background-color: #F2D335;">
+                  <a href="https://store.steampowered.com/app/1337520/Risk_of_Rain_Returns/">Play it Here</a>
+                </button>
+
+              </div>
+
+              <!--Dev Text-->
+              <div>
+                <h6>Developer:Hopoo Games</h6> 
+                     <div class="dev-social">
+                  <h6>@RiskofRain</h6>
+                  <a href="https://twitter.com/RiskofRain">
+                    <img src="/img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div> 
           
 <!--Goodbye Volcano High card-->
           <div class="row" style="background-color: #9BE9FF; border-radius: 10px; margin-bottom: 25px;">
@@ -91,7 +164,7 @@ We strongly encourage that everyone be vaccinated or have recently tested negati
 KO_OP is an artist run and owned studio. Founded in 2012, we've been experimenting with games and interactive art ever since. The studio is known for acclaimed games like GNOG, Lara Croft Go: Mirror of Spirits and Winding Worlds.
 </p>
                 <button class="button"  style="margin: 10px; background-color: #F2D335;">
-                  <a href="https://store.steampowered.com/app/1382070/Viewfinder/">Play it Here</a>
+                  <a href="https://goodbyevolcanohigh.com/">Play it Here</a>
                 </button>
 
               </div>
