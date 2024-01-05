@@ -135,7 +135,7 @@ require(__DIR__ . "/../partials/html-head.php");
                 <div class="dev-social">
                   <h6>@highway2helliot</h6>
                   <a href="https://www.instagram.com/highway2helliot/">
-                    <img src="/img/Social-buttons/instagram-button.png" style="width: 64px; height: auto;">
+                    <img src="/img/Social-buttons/instagram-alt-button.png" style="width: 64px; height: auto;">
                   </a>
                 </div>
               </div>
@@ -267,7 +267,7 @@ require(__DIR__ . "/../partials/html-head.php");
                 <div class="dev-social">
                   <h6>@angelicaburgosc</h6>
                   <a href="https://www.instagram.com/angelicaburgosc/">
-                    <img src="/img/Social-buttons/instagram-button.png" style="width: 64px; height: auto;">
+                    <img src="/img/Social-buttons/instagram-alt-button.png" style="width: 64px; height: auto;">
                   </a>
                 </div>
               </div>
@@ -290,7 +290,7 @@ require(__DIR__ . "/../partials/html-head.php");
 				<br><br>
 				Julia is an artist and collaborator. She loves horses, writing, making clothing and making friends. She has a clothing brand with her best friend called horse misterys and she just bought a Prius.
 				</p>
-                <button class="button"  style="margin: 10px; background-color: #9BE9FF;">
+                <button class="button"  style="margin: 10px; background-color: #F2D335;">
                   <a href="https://www.welcometomyhomepage.net/">Explore</a>
                 </button>
 
@@ -330,7 +330,7 @@ After all... is the world that tasked you to save it really worth saving?"
 <br><br>
 Tony and Abby live in Toronto with their cat (Spoons), their ball python (Wednesday) and their Axolotl (Nubs)."
 </p>
-             <button class="button"  style="margin: 10px; background-color: #F2D335;">
+             <button class="button"  style="margin: 10px; background-color: #9BE9FF;">
                   <a href="https://store.steampowered.com/app/1989270/Slay_the_Princess/">Play It Here</a>
                 </button>
 

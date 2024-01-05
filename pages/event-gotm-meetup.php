@@ -138,7 +138,7 @@ Hopoo Games was founded in 2012 with a creative vision – to make games we like
 
               <!--Dev Text-->
               <div>
-                <h6>Developer:Hopoo Games</h6> 
+                <h6>Developer: Hopoo Games</h6> 
                      <div class="dev-social">
                   <h6>@RiskofRain</h6>
                   <a href="https://twitter.com/RiskofRain">
