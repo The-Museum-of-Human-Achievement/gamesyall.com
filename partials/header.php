@@ -64,7 +64,7 @@
             <!--Events has a drop down-->
             <a href="javascript:void(0);" onclick="openEvents()"> Events </a>
             <div id="events-submenu">
-                <a href="/event-november-2023">November Games Y'all</a>
+                <a href="/event-january-2024">January Games Y'all</a>
                 <a href="/event-gotm-meetup">GOTM Meetup</a>
                 <a href="/events"> Past Events </a>
             </div>
