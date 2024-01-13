@@ -191,8 +191,8 @@ Ozwomp has been invited to a party at the end of the universe - you will accompa
               <div>
                 <h6>Developer: Team Merge Conflict<h6> 
                 <div class="dev-social">
-                  <h6>@ReFreshTheGame</h6>
-                  <a href="https://twitter.com/ReFreshTheGame">
+                  <h6>@mergeconflict</h6>
+                  <a href="https://twitter.com/mergeconflict">
                     <img src="/img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
                   </a>
                 

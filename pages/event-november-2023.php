@@ -284,8 +284,8 @@ Ethan Godwin (he/him) Design Director</p>
               <div>
                 <h6>Developer: Merge Conflict<h6> 
                 <div class="dev-social">
-                  <h6>@ReFreshTheGame</h6>
-                  <a href="https://twitter.com/ReFreshTheGame">
+                  <h6>@mergeconflict</h6>
+                  <a href="https://twitter.com/mergeconflict">
                     <img src="/img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
                   </a>
                 </div>

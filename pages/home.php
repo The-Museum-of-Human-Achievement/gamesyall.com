@@ -110,7 +110,7 @@ require(__DIR__ . "/../partials/html-head.php");
     <div class="row">
         <div class="col-6">
             <h2>What is Games Y'all?</h2>
-            <p>Games Y’all is a casual meetup hosted by Fantastic Arcade for indie devs, digital artists, and games fans held
+            <p>Games Y’all is a casual meetup hosted by The Museum of Human Achievement for indie devs, digital artists, and games fans held
                 every month. Come play games, hang out, meet friends, and learn how to share your work at future meetups. We 
                 celebrate, amplify, and support the unique and underrepresented within indie games and beyond.</p>
             <a href="/about-us">Learn More</a>

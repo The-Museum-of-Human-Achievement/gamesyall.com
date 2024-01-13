@@ -57,7 +57,25 @@ require(__DIR__ . "/../partials/html-head.php");
         <button class="button" id="Email List"><a href="https://themuseumofhumanachievement.com/forms/email/">Join Email List</a></button> -->
 
         <div class="col-10">
-            <h5>Games Y'all</h5>
+           <p> Our friends at the Central branch of Austin Public Library have invited us to bring Games Y'all to their Innovation Lab!
+<br>
+The APL Innovation Lab is a digital makerspace for collaboration and creation. They provide community access to state-of-the-art computer hardware and software to create digital content such as podcasts, videos, 3D renderings, music, and more. Located on the 5th floor of the Central Public Library!
+<br>
+Join us and come play local indie games, explore digital art projects from Welcome to My Homepage, and connect with the wider Austin digital arts community.
+</p>
+<h5>Venue & Parking Details</h5>
+<p>APL Innovate is Austin Public Library’s digital makerspace for collaboration and creation. The lab is located on the 5th floor of the Central Library, you can ride the elevators up to the 5th floor and take a left to locate the lab. We highly recommend giving yourself plenty of time to arrive and locate the lab.
+<br>
+You can find parking at:
+<br>
+Seaholm Garage - Validated for 2 hours if you buy something at Trader Joes.
+Without validation, $10 for one hour, $18 for second hour.
+<br>
+Central Library Garage - Free for 1st hour, 2 hours--$5, 4 hours--$9
+<br>
+Street Parking (Available along West Ave + 3rd Street) - 1 hour--$2
+</p>
+<h5>Games Y'all</h5>
             <p>Games Y’all is a monthly meetup presented by the Museum of Human Achievement for indie devs, digital artists, and games fans. We showcase indie games and digital art projects from our local community and beyond. You can come to our meetups to play games, experience digital art, and connect with the local Austin games community. <p/>
             <br>
             <h5>The Museum of Human Achievement</h5>
@@ -118,11 +136,12 @@ require(__DIR__ . "/../partials/html-head.php");
               <!--Game Text -->
               <div>
                 <h4>don't rock the boat</h4>
-                <p>don't rock the boat - an interactive story by elliot degrassi. A women's crew team plagued with internal debate over who is allowed to row in their league finds themselves stalked by a river monster. Written for and awarded Best Story of Scream Dunk 2023. Cover art by Ravi Teixeira.
-                <br><br>
-                 TW: transphobia, off-screen sexual assault
-                <br><br>
-				Elliot Degrassi (they/them) is normally a sound designer and composer. </p>
+                <p>"don't rock the boat - an interactive story by elliot degrassi. A women's crew team plagued with internal debate over who is allowed to row in their league finds themselves stalked by a river monster. Written for and awarded Best Story of Scream Dunk 2023. Cover art by Ravi Teixeira. 
+			<br><br>
+			Dev Disclaimer: I am transgender and this piece is pro-trans rights. some characters are transgender and others are transphobes. their stories are told from their perspectives.
+			this story is for mature audiences.
+			<br><br>
+			Content Warnings: transphobia, sexual assault (off-screen)"</p>
                 <button class="button"  style="margin: 10px; background-color: #9BE9FF;">
                   <a href="https://elliotdegrassi.itch.io/dont-rock-the-boat">Play It Here</a>
                 </button>
@@ -153,6 +172,8 @@ require(__DIR__ . "/../partials/html-head.php");
               <div>
                 <h4>1 Friend Online</h4>
                 <p>You take on the role of Scott, a college freshman playing through an online RPG with your best friend in the year 2003. However, as you and Robin talk over the action, it becomes clear that your friend is really struggling. The way you interact with him in-game throughout this adventure-- from stealing his loot, to trusting his input on which path to take, or even whether you fight monsters as a team-- will impact whether you 2 stay friends after this tumultuous time in his life.
+            <br><br>
+            1 Friend Online was created by a team of 3 A&M students over 6 months. Gameplay and level designer Logan Diebold enjoys creating novel game systems and implementing them within levels tailored to showcasing their unique elements. Narrative Designer Ransom Linder explores the intersection of gameplay and story, utilizing player agency to communicate character moments and themes in ways other media can’t. Kaylyn Luna is a 2D and Environment Artist who is most interested in delivering and reinforcing game narratives through grounded environmental storytelling.
              </p>
              <button class="button"  style="margin: 10px; background-color: #F2D335;">
                   <a href="https://wolfpengames.itch.io/1fo">Play It Here</a>
@@ -164,11 +185,19 @@ require(__DIR__ . "/../partials/html-head.php");
               <div>
                 <h6>Developer: Wolf-Pen Games</h6>
 
-               <!-- <div class="dev-social">	
-                  <h6>@?</h6>
-                  <a href="https://twitter.com/?">
+               <!-- <div class="dev-social"> -->
+                  <h6>@StoryBoredDev</h6>
+                  <a href="https://twitter.com/StoryBoredDev">
                     <img src="/img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
-                  </a> -->
+                  </a>
+                   <h6>@RansomLinder</h6>
+                  <a href="https://twitter.com/RansomLinder">
+                    <img src="/img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
+                  </a>
+                   <h6>@notsoluckyluna</h6>
+                  <a href="https://twitter.com/notsoluckyluna">
+                    <img src="/img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
+                  </a>
                 </div>
               </div>
             </div>
@@ -187,7 +216,7 @@ require(__DIR__ . "/../partials/html-head.php");
                 <h4>Project: Petra</h4>
                 <p>Project: Petra” is a third-person action game that pairs kinetic combat and platforming with an impactful climate narrative. Throughout the game, you climb the ranks of The Bubble Brigade rebellion and fight against ZENITH, the evil corporation responsible for the destruction of your village. Wielding a giant bubble wand, you chain together bubble-based attacks to create a satisfying combo of pops!
 				<br><br>
-				Merge Conflict is an Indie Game Studio focused on centering marginalized perspectives and environmental awareness, based out of Austin, Texas.
+				Merge Conflict started as a senior capstone project and a dream that is now six goofy and passionate developers. We are an Indie Game Studio focused on centering marginalized perspectives and environmental awareness based out of Austin, Texas. Our goal is to create games that not only are fun for everyone but make the world a better place :)
 				</p>
                 <button class="button"  style="margin: 10px; background-color: #9BE9FF;">
                   <a href="https://www.mergeconflictstudio.com/">More Info</a>
@@ -199,8 +228,8 @@ require(__DIR__ . "/../partials/html-head.php");
               <div>
                 <h6>Developer: Merge Conflict Studios<h6> 
                 <div class="dev-social">
-                  <h6>@refreshthegame</h6>
-                  <a href="https://twitter.com/refreshthegame">
+                  <h6>@mergeconflict</h6>
+                  <a href="https://twitter.com/mergeconflict">
                     <img src="/img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
                   </a>
                 </div>
