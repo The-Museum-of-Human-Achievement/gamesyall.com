@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>HierarchyData</key>
+	<array>
+		<string>D0B07F4A-87E3-4528-9342-66174E0CC67E</string>
+	</array>
+	<key>ProjectItems</key>
+	<dict>
+		<key>D0B07F4A-87E3-4528-9342-66174E0CC67E</key>
+		<dict>
+			<key>ItemData</key>
+			<dict>
+				<key>BookmarkData</key>
+				<data>
+				Ym9va/ACAAAAAAQQMAAAAJbQE3OCCXnPN9D9M6TLs+yG
+				kokHi9C/QNzBq9/L/CMG7AEAAAQAAAADAwAAAAgAKAUA
+				AAABAQAAVXNlcnMAAAAPAAAAAQEAAGpheXdyb2ZmLWdh
+				cmNpYQAJAAAAAQEAAERvY3VtZW50cwAAAAYAAAABAQAA
+				R2l0SHViAAANAAAAAQEAAGdhbWVzeWFsbC5jb20AAAAU
+				AAAAAQYAABAAAAAgAAAAOAAAAEwAAABcAAAACAAAAAQD
+				AAAgvAoAAwAAAAgAAAAEAwAA3WcLAAMAAAAIAAAABAMA
+				AOpnCwADAAAACAAAAAQDAAC0K3AAAwAAAAgAAAAEAwAA
+				tStwAAMAAAAUAAAAAQYAAJAAAACgAAAAsAAAAMAAAADQ
+				AAAACAAAAAAEAABBxaQymlc9+RgAAAABAgAAAgAAAAAA
+				AAAPAAAAAAAAAAAAAAAAAAAACAAAAAQDAAADAAAAAAAA
+				AAQAAAADAwAA9QEAAAgAAAABCQAAZmlsZTovLy8KAAAA
+				AQEAAE1hY2Jvb2sgSEQAAAgAAAAEAwAAAGB/MxwAAAAI
+				AAAAAAQAAEHFa/+IAAAAJAAAAAEBAAAxOTE3QkNEMC1G
+				NDIxLTNFQzItOEZBNS00MTI4OEQ4NzAyMjYYAAAAAQIA
+				AIEAAAABAAAA7xMAAAEAAAAAAAAAAAAAAAEAAAABAQAA
+				LwAAAAAAAAABBQAAzAAAAP7///8BAAAAAAAAABAAAAAE
+				EAAAdAAAAAAAAAAFEAAA4AAAAAAAAAAQEAAADAEAAAAA
+				AABAEAAA/AAAAAAAAAACIAAA2AEAAAAAAAAFIAAASAEA
+				AAAAAAAQIAAAWAEAAAAAAAARIAAAjAEAAAAAAAASIAAA
+				bAEAAAAAAAATIAAAfAEAAAAAAAAgIAAAuAEAAAAAAAAw
+				IAAA5AEAAAAAAAABwAAALAEAAAAAAAARwAAAIAAAAAAA
+				AAASwAAAPAEAAAAAAAAQ0AAABAAAAAAAAAA=
+				</data>
+				<key>FileURL</key>
+				<string>file:///Users/jaywroff-garcia/Documents/GitHub/gamesyall.com/</string>
+				<key>HasSecurityScope</key>
+				<true/>
+				<key>RelativePath</key>
+				<string>./</string>
+				<key>TypeID</key>
+				<string>_CFileLocator</string>
+				<key>Version</key>
+				<integer>1</integer>
+			</dict>
+			<key>ItemName</key>
+			<string>gamesyall.com</string>
+			<key>ItemType</key>
+			<string>FolderReference</string>
+		</dict>
+	</dict>
+	<key>com.barebones.DocumentFormatVersion</key>
+	<integer>5</integer>
+	<key>com.barebones.DocumentType</key>
+	<string>Project</string>
+</dict>
+</plist>

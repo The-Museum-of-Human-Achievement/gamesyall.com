@@ -60,19 +60,19 @@ require(__DIR__ . "/../partials/html-head.php");
            <p> Our friends at the Central branch of Austin Public Library have invited us to bring Games Y'all to their Innovation Lab!
 <br>
 The APL Innovation Lab is a digital makerspace for collaboration and creation. They provide community access to state-of-the-art computer hardware and software to create digital content such as podcasts, videos, 3D renderings, music, and more. Located on the 5th floor of the Central Public Library!
-<br>
+<br><br>
 Join us and come play local indie games, explore digital art projects from Welcome to My Homepage, and connect with the wider Austin digital arts community.
 </p>
 <h5>Venue & Parking Details</h5>
 <p>APL Innovate is Austin Public Library’s digital makerspace for collaboration and creation. The lab is located on the 5th floor of the Central Library, you can ride the elevators up to the 5th floor and take a left to locate the lab. We highly recommend giving yourself plenty of time to arrive and locate the lab.
-<br>
+<br><br>
 You can find parking at:
-<br>
+<br><br>
 Seaholm Garage - Validated for 2 hours if you buy something at Trader Joes.
 Without validation, $10 for one hour, $18 for second hour.
-<br>
+<br><br>
 Central Library Garage - Free for 1st hour, 2 hours--$5, 4 hours--$9
-<br>
+<br><br>
 Street Parking (Available along West Ave + 3rd Street) - 1 hour--$2
 </p>
 <h5>Games Y'all</h5>
