@@ -208,7 +208,7 @@ Street Parking (Available along West Ave + 3rd Street) - 1 hour--$2
           <div class="row" style="background-color: #F2D335; border-radius: 10px; margin-bottom: 25px;">
             <div class="game-card-long">
               <div>
-                <img src="/img/Archived-img/January-2024/games/merge-conflct.png" alt="- A promotional image for Project: Petra"> 
+                <img src="/img/Archived-img/January-2024/games/merge-conflict.png" alt="- A promotional image for Project: Petra"> 
               </div>  
 
               <!--Game Text -->
