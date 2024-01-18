@@ -38,19 +38,18 @@ require(__DIR__ . "/../partials/html-head.php");
             </div>
         </div>
   
-
-       <!--Content and infomration-->
+<!--Content and infomration-->
         <div class="row">
-                 
-            <div class="col-8">
+          <div class="col-4"style="justify-content: left;">         
+    <h1>Fantastic Arcade and The Museum of Human Achievement present</h1>
+                
+                   <h4>✨ 🎇 & A HAPPY NEW GIF! - A Digital Do-Si-Do 🎇 ✨</h4>
                 <!--Add your event image here-->
                 <img src="/img/event-img/DA-a-happy-new-23.gif" alt="A promotional GIF with the text and a happy new gif emblazoned over video of a large fireworks explosion">
             </div>
             
              <div class="col-10">
-                    <h1>Fantastic Arcade and The Museum of Human Achievement present</h1>
-                    <br>
-<h2>✨ 🎇 & A HAPPY NEW GIF! - A Digital Do-Si-Do 🎇 ✨</h2>
+<h5>✨ 🎇 & A HAPPY NEW GIF! - A Digital Do-Si-Do 🎇 ✨</h5>
 <br>
                 <button class="button" id="Join Our Discord"><a href="https://discord.gg/zUGqntHu">Join Our Discord</a></button <br>
 <br><br>		
@@ -126,55 +125,55 @@ existing GIF this way by altering the individual frames of the animation
                 <div class="flex-container-row">
                     <img src="/img/Archived-img/January-2024/gifing/time_travel_mashup.gif" alt="GIF Art depicting time travel mashup">
                     <p> .GIF Art by Andrew Gansky<p/>
-                 <div class="flex-container-row">
+                 
                     <img src="/img/Archived-img/January-2024/gifing/Things_posters_stickers_on_poles_in_a_city_Lost_kittens_weird_stickers_tutor_available_Interpret_freely.gif" alt="GIF art depicting missing cat posters on a pole">
                     <p> .GIF Art by Jessie Kuse<p/>
-                 <div class="flex-container-row">
+                 
                     <img src="/img/Archived-img/January-2024/gifing/street_fighter_but_its_don_quixote_vs_a_windmill.gif" alt="GIF art depicting literary character don quixote fighting an actual windmill in the fashion of street fighter">
                     <p> .GIF Art by Itai Almor<p/>
-                 <div class="flex-container-row">
+                
                     <img src="/img/Archived-img/January-2024/gifing/office_holiday_party_at_the_cult.gif" alt="GIF art depicting a holiday office party with cult vibes">
                     <p> .GIF Art by Laurel Barickman<p/>
-                 <div class="flex-container-row">
+                 
                     <img src="/img/Archived-img/January-2024/gifing/Lil_guys_(animals)_doing_a_big_steppy.gif" alt="GIF art depicting a cat doing a large step">
                     <p> .GIF Art by Walt Mitchell<p/>
-                 <div class="flex-container-row">
+              
                     <img src="/img/Archived-img/January-2024/gifing/Kid asked for a sea urchin for the holidays, elf in the north pole has to wrap a sea urchin for said kid. How_do_you_wrap_a_sea_urchin?_Wrong_answers_only.gif" alt="GIF art depicting an elf holding a Sea Urchin wrapped as a christmas present.">
                     <p> .GIF Art by Vidya Giri<p/>
-                 <div class="flex-container-row">
+                
                     <img src="/img/Archived-img/January-2024/gifing/iridescent-solarpunk.gif" alt="GIF art depicting a small handmade windmill spinning on a bright and colorful background">
                     <p> .GIF Art by Jay Roff-Garcia <p/>
-                 <div class="flex-container-row">
+               
                     <img src="/img/Archived-img/January-2024/gifing/I_would_like_to_request_a_LOUD_gif_I_would_like_to_be_able_to_hear_it_with_my_eyes_a.gif" alt="GIF art depicting a video of a stomping T-Rex with a compounding zoom effect">
                     <p> .GIF Art by Beth Fileti<p/>
-                     <div class="flex-container-row">
+                 
                     <img src="/img/Archived-img/January-2024/gifing/hug_from_grandma_in_any_form_color_sound_a _feeling_literally_metaphorically_abstractly_whatever_I_just_want_a_hug_from_some_nice_gramma.gif" alt="GIF art depicting a abstract hug from a grandmother">
                     <p> .GIF Art by Michael Ferstenfeld<p/>
-                 <div class="flex-container-row">
+                
                     <img src="/img/Archived-img/January-2024/gifing/horrifying_snow_globe.gif" alt="GIF art depicting a creepy snowglobe with an eye">
                     <p> .GIF Art by Alex<p/>
-                 <div class="flex-container-row">
+                 
                     <img src="/img/Archived-img/January-2024/gifing/hello.gif" alt="GIF art depicting a series of animations depicting the word hello">
                     <p> .GIF Art by Samantha Mohler<p/>
-                 <div class="flex-container-row">
+                
                     <img src="/img/Archived-img/January-2024/gifing/femme_fatal_dino_derby.gif" alt="GIF art depicting scenes from a femme fatale themed film overlayed onto the animated series Dino Derby">
                     <p> .GIF Art by Rachel Stuckey<p/>
-                 <div class="flex-container-row">
+                 
                     <img src="/img/Archived-img/January-2024/gifing/eyeball_s_in_space.gif" alt="GIF art depicting eyeballs in space">
                     <p> .GIF Art by Tori Reynolds<p/>
-                 <div class="flex-container-row">
+               
                     <img src="/img/Archived-img/January-2024/gifing/DJ_Napping.gif" alt="GIF art depicting a animated sleepy robot dj">
                     <p> .GIF Art by Plutonist<p/>
-                 <div class="flex-container-row">
+               
                     <img src="/img/Archived-img/January-2024/gifing/cute_woodland_creatures_enjoying_a_meal.gif" alt="GIF art depicting cute woodland creatures enjoying a meal">
                     <p> .GIF Art by Linda Rodriguez<p/>
-                 <div class="flex-container-row">
+              
                     <img src="/img/Archived-img/January-2024/gifing/clowns_and_animals.gif" alt="GIF art depicting a killer clown chihuahua">
                     <p> .GIF Art by Anonymous<p/>
-                 <div class="flex-container-row">
+              
                     <img src="/img/Archived-img/January-2024/gifing/an_incredibly_rowdy_mind_melting_situation_involving_some_kind_of_dark_magic.gif" alt="GIF art depicting chaotic handrawn animations overlayed onto a clip of the Criss Angel Mindfreak television show">
                     <p> .GIF Art by Kayla Drzewicki<p/>
-                 <div class="flex-container-row">
+               
                     <img src="/img/Archived-img/January-2024/gifing/a_huge_raw_juicy_bloody_etc_t-bone_steak_with_a_big_red_or_pink)_velvet_bow_tied_around_it.gif" alt="GIF art depicting a huge raw bloody t-bone steak with a red velvet bow tied around it">
                     <p> .GIF Art by Coby West<p/>
             </div>
