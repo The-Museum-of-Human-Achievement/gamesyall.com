@@ -203,6 +203,14 @@ require(__DIR__ . "/../partials/html-head.php");
             <div class="past-event">
             
                     <!--DATE-->
+                    <h4>January 6th, 2024</h4>
+                    <!--image-->
+                    <a href="/event-and-a-happy-new-gif">
+                    <img src="/img/event-img/DA-Square-a-happy-new-23.gif" alt="A link to our and a happy new gif information page" style="box-shadow: 2.5px 5px;">
+                    </a>
+                </div>
+                    <div class="past-event">
+                        <!--DATE-->
                     <h4>June 30th, 2023</h4>
                     <!--image-->
                     <a href="/event-dream-mail">

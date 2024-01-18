@@ -55,11 +55,11 @@ require(__DIR__ . "/../partials/html-head.php");
 <br><br>		
 <p>Let’s celebrate the end of 2022 by making animated GIFs for each other! Think secret santa, but more pixels and more lolz. Sign up by Dec 9, submit on Dec 31. 
  <br><br>
-• Friday Dec 9 - Sign up deadline. Join the discord channel!
+○ Friday Dec 9 - Sign up deadline. Join the discord channel!
 <br><br>
-• Friday Dec 16 - Do-si-do! We’ll tell you who you’re making a .GIF for and what their prompt is. Interpret your prompt however you wish - get literal, get festive, get silly.
+○ Friday Dec 16 - Do-si-do! We’ll tell you who you’re making a .GIF for and what their prompt is. Interpret your prompt however you wish - get literal, get festive, get silly.
 <br><br>
-• Saturday Dec 31 - Post what you made in the #season-of-gifing channel and tag your partner! </p>
+○ Saturday Dec 31 - Post what you made in the #season-of-gifing channel and tag your partner! </p>
 <br><br>
 <p>
 ☁️🌵 Swing your Partner 🌵☁️
