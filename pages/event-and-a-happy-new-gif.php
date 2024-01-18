@@ -42,14 +42,15 @@ require(__DIR__ . "/../partials/html-head.php");
         <div class="row">
           <div class="col-4"style="justify-content: left;">         
     <h1>Fantastic Arcade and The Museum of Human Achievement present</h1>
-                
-                   <h4>✨ 🎇 & A HAPPY NEW GIF! - A Digital Do-Si-Do 🎇 ✨</h4>
-                <!--Add your event image here-->
+    
+<!--Add your event image here-->
+   <div class="col-8">
                 <img src="/img/event-img/DA-a-happy-new-23.gif" alt="A promotional GIF with the text and a happy new gif emblazoned over video of a large fireworks explosion">
-            </div>
+            </div>               
+                   <h4>✨ 🎇 & A HAPPY NEW GIF! - A Digital Do-Si-Do 🎇 ✨</h4>
+            
             
              <div class="col-10">
-<h5>✨ 🎇 & A HAPPY NEW GIF! - A Digital Do-Si-Do 🎇 ✨</h5>
 <br>
                 <button class="button" id="Join Our Discord"><a href="https://discord.gg/zUGqntHu">Join Our Discord</a></button <br>
 <br><br>		
