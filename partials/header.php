@@ -21,7 +21,7 @@
                         <i class="events-dropdown"></i>
                     </a>
                     <div class="dropdown-content">
-                        <a href="/event-january-2024">January Games Y'all</a>
+                        <a href="/event-february-2024">February Games Y'all</a>
                         <a href="/event-gotm-meetup">GOTM Meetup</a>
                         <a href="/events">Past Events</a>
                     </div>
@@ -46,6 +46,9 @@
                 <li class="navbar-items">
                     <a href="/donate" class="navbar-link">Donate</a>
                 </li>
+                  <li class="navbar-items">
+                    <a href="/sponsorship" class="navbar-link">Sponsorship</a>
+                </li>
             </ul>
         </div>
     </div>
@@ -64,7 +67,7 @@
             <!--Events has a drop down-->
             <a href="javascript:void(0);" onclick="openEvents()"> Events </a>
             <div id="events-submenu">
-                <a href="/event-january-2024">January Games Y'all</a>
+                <a href="/event-february-2024">February Games Y'all</a>
                 <a href="/event-gotm-meetup">GOTM Meetup</a>
                 <a href="/events"> Past Events </a>
             </div>
@@ -80,6 +83,7 @@
             <a href="/about-us"> About Us </a>
             <a href="/safety"> Safety </a> 
             <a href="/donate"> Donate </a>
+              <a href="/sponsorship"> Sponsorship </a>
         </div>
     </div>      
 </header>

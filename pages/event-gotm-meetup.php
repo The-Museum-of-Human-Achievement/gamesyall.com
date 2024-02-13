@@ -29,30 +29,27 @@ require(__DIR__ . "/../partials/html-head.php");
      <div class="col-4"style="justify-content: left;">
                     <h1>GOTM Meetup</h1>
                 
-                    <h4>January 31st, 2024 - 7-9pm</h4>
+                    <h4>February 20th, 2024 - 7-9pm</h4>
 				<p>Museum of Human Achievement <a href="https://goo.gl/maps/ahZcZEw7Dp1QDWcHA">3600 Lyons Rd, Austin, TX 78702</a> 
 				<br><br>🎟 Free admission, donations welcome! RSVPs required, space is limited.</p>
 	
 			
 				<!--RSVP Button -->
-            <button class="button" id="RSVP'"><a href="https://withfriends.co/event/17328577/gotm_january_meetup">RSVP</a></button>
+            <button class="button" id="RSVP'"><a href="https://withfriends.co/event/17482389/gotm_february_meetup">RSVP</a></button>
             
 				    </div>
 				    
 			 <div class="col-8">
                 <!--Add your event image here-->
-                <img src="/img/event-img/GOTM-Banner-Jan-24.png" alt="The Museum of Human Achievement presents, Games Y'all Game of the Month Meetup">
+                <img src="/img/event-img/GOTM-Banner-Feb-24.png" alt="The Museum of Human Achievement presents, Games Y'all Game of the Month Meetup">
             </div>
             
 
 		 <div class="col-10">
 
-<p>This months game: Slay the Princess
+<p>This months game: The Case of the Golden Idol
 <br><br>
-You're on a path in the woods. And at the end of that path is a cabin. And in the basement of that cabin is a Princess (Nichole Goodnight). You're here to slay her. If you don't, it will mean the end of the world. Slay the Princess is a 2023 horror adventure game developed and published by Black Tabby Games
-<br><br>
-It’s like a book club, but for games! Meet once a month with fellow members of the Games Y'all community to discuss the Game of the Month. Share your thoughts about the game design, narrative, art, and your experience playing the game! Meetings will be held 7-9pm on the last Wednesday of every month at the Museum of Human Achievement in the IRL Computer Lab. Snacks and drinks are permitted, but not provided.
-<p/>
+A new kind of detective game that allows you to think and investigate freely. Discover clues surrounding 12 strange and gruesome deaths and build your own theory. Pick your suspect, deduce the motive, unmask the awful truth.<p/>
 <br>
     <h5>Games Y'all</h5>
 <p>Games Y’all is a monthly meetup presented by the Museum of Human Achievement for indie devs, digital artists, and games fans. We showcase indie games and digital art projects from our local community and beyond. You can come to our meetups to play games, experience digital art, and connect with the local Austin games community. 
@@ -75,6 +72,39 @@ We strongly encourage that everyone be vaccinated or have recently tested negati
   <!--GOTM-->
         <div>
           <h2 style="text-align: center;">Game of the Month</h2>
+
+<!--The Case of the Golden Idol card-->
+          <div class="row" style="background-color: #9BE9FF; border-radius: 10px; margin-bottom: 25px;">
+            <div class="game-card-long">
+              <div>
+                <img src="/img/Archived-img/February-2024/games/the-golden-idol.jpeg" alt="A promotional image for the November Games Y'all Game of the Month"> 
+              </div>  
+
+              <!--Game Text-->
+              <div>
+                <h4>The Case of the Golden Idol - February</h4>
+<p>A new kind of detective game that allows you to think and investigate freely. Discover clues surrounding 12 strange and gruesome deaths and build your own theory. Pick your suspect, deduce the motive, unmask the awful truth.
+<br><br>
+Color Gray Studio was founded in 2021 by two brothers Andrejs and Ernests to explore if they can use their many years’ experience in the industry to make creatively fulfilling and financially viable games. The Case of the Golden Idol is the studio's first game.
+</p>
+                <button class="button"  style="margin: 10px; background-color: #F2D335;">
+                  <a href="https://store.steampowered.com/app/1677770/The_Case_of_the_Golden_Idol/">Play it Here</a>
+                </button>
+
+              </div>
+
+              <!--Dev Text-->
+              <div>
+                <h6>Developer: Color Gray Studio</h6> 
+                     <div class="dev-social">
+                  <h6>@colorgray7</h6>
+                  <a href="https://twitter.com/colorgray7">
+                    <img src="/img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div> 
 
 <!--Slay the Princess card-->
           <div class="row" style="background-color: #9BE9FF; border-radius: 10px; margin-bottom: 25px;">
@@ -116,6 +146,7 @@ Tony and Abby live in Toronto with their cat (Spoons), their ball python (Wednes
               </div>
             </div>
           </div> 
+          
 <!--Risk of Rain Returns card-->
           <div class="row" style="background-color: #F2D335; border-radius: 10px; margin-bottom: 25px;">
             <div class="game-card-long">

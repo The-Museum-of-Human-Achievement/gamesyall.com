@@ -48,7 +48,7 @@ require(__DIR__ . "/../partials/html-head.php");
                    </div>
                    <div class="col-8">
                 <!--Add your event image here-->
-                <img src="/img/event-img/DA-a-happy-new-23.gif" alt="A promotional GIF with the text and a happy new gif emblazoned over video of a large fireworks explosion">
+                <img src="/img/event-img/DA-Banner-a-happy-new-23.gif" alt="A promotional GIF with the text and a happy new gif emblazoned over video of a large fireworks explosion">
             </div>
             
              <div class="col-10">

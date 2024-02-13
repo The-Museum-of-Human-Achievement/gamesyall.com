@@ -6,7 +6,7 @@
 // Meta information for this page, to appear in browser and in social media previews: title, description, and preview image
 // Title should up no more than 70 characters, and description no more than 160.
 $headTitle = "January 2024 Meetup - Games Y'all";
-$headDescription = "Fantastic Arcade presents, Games Y'all January Meetup";
+$headDescription = "Games Y'all January Meetup";
 $headImage = "/img/event-img/GY-Banner-Jan-24.png"; // this is optional! only needed if the page has an image
 
 require(__DIR__ . "/../partials/html-head.php");
@@ -43,13 +43,13 @@ require(__DIR__ . "/../partials/html-head.php");
                 🎟 Free admission, donations are encouraged! Please RSVP, walk ups are welcome.
             </p>
                 
-            <!--RSVP Button-->
-            <button class="button" id="RSVP'"><a href="https://withfriends.co/event/17063117/games_yall_january_meetup">RSVP</a></button>
-        </div>
+            <!--RSVP Button
+            <button class="button" id="RSVP'"><a href="https://withfriends.co/event/17063117/games_yall_january_meetup">RSVP</a></button>-->
+        </div> 
                         
         <div class="col-8">
             <!--Add your event image here-->
-            <img src="/img/event-img/GY-Banner-Jan-24.png" alt="Fantastic Arcade presents, Games Y'all January Meetup">
+            <img src="/img/event-img/GY-Banner-Jan-24.png" alt="The Museum of Human Achievement presents, Games Y'all January Meetup">
         </div>
 
         <!--If this is a upcoming event, uncomment the button element below-->
@@ -208,7 +208,7 @@ Street Parking (Available along West Ave + 3rd Street) - 1 hour--$2
           <div class="row" style="background-color: #F2D335; border-radius: 10px; margin-bottom: 25px;">
             <div class="game-card-long">
               <div>
-                <img src="/img/Archived-img/January-2024/games/merge-conflict.png" alt="- A promotional image for Project: Petra"> 
+                <img src="/img/Archived-img/January-2024/games/project-petra.png" alt="- A promotional image for Project: Petra"> 
               </div>  
 
               <!--Game Text -->
@@ -381,22 +381,22 @@ Tony and Abby live in Toronto with their cat (Spoons), their ball python (Wednes
           
           
     <!--Event Images-->
-    <!--Only use this section after an event to house images from the past
+    <!--Only use this section after an event to house images from the past-->
     <div class="row">
         <div class="col-12">
             <h2 style="text-align: center;">Gallery</h2>
 
             <div class="flex-container-row">
-                <img src="/img/Archived-img/November-2022/photos/nov-gy-photo-1.png" style="width: 375px; height: 375px;"> 
-                <img src="/img/Archived-img/November-2022/photos/nov-gy-photo-2.png" style="width: 375px; height: 375px;"> 
-                <img src="/img/Archived-img/November-2022/photos/nov-gy-photo-3.png" style="width: 375px; height: 375px;"> 
-                <img src="/img/Archived-img/November-2022/photos/nov-gy-photo-4.png" style="width: 375px; height: 375px;">
-                <img src="/img/Archived-img/November-2022/photos/nov-gy-photo-5.png" style="width: 375px; height: 375px;"> 
-                <img src="/img/Archived-img/November-2022/photos/nov-gy-photo-6.png" style="width: 375px; height: 375px;">
+                <img src="/img/Archived-img/January-2024/photos/jan-gy-photo-1.jpg" style="width: 375px; height: 375px;"> 
+                <img src="/img/Archived-img/January-2024/photos/jan-gy-photo-2.jpg" style="width: 375px; height: 375px;"> 
+                <img src="/img/Archived-img/January-2024/photos/jan-gy-photo-3.jpg" style="width: 375px; height: 375px;"> 
+                <img src="/img/Archived-img/January-2024/photos/jan-gy-photo-4.jpg" style="width: 375px; height: 375px;">
+                <img src="/img/Archived-img/January-2024/photos/jan-gy-photo-5.jpg" style="width: 375px; height: 375px;"> 
+                <img src="/img/Archived-img/January-2024/photos/jan-gy-photo-6.jpg" style="width: 375px; height: 375px;">
             </div>
         </div>
     </div>
-    -->
+
 
     <?php 
     // Include the Community links and footer

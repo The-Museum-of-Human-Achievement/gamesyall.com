@@ -30,6 +30,15 @@ require(__DIR__ . "/../partials/html-head.php");
             <h1>Past Meetups</h1>
             <div class="flex-container-row" style="justify-content: left;">
                 <div class="past-event">
+              
+                    <!--DATE-->
+                    <h4>January 21st, 2024</h4>
+                    <!--image-->
+                    <a href="/event-january-2024">
+                    <img src="/img/event-img/GY-Square-Jan-24.png" alt="A link to January 2024 Games Y'all'" style="box-shadow: 2.5px 5px;">
+                    </a>
+                </div>
+                <div class="past-event">
                     <!--DATE-->
                     <h4>November 11-12 + 18-19, 2023</h4>
                     <!--image-->
