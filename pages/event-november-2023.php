@@ -441,7 +441,7 @@ Ethan Godwin (he/him) Design Director</p>
                 <h2 style="text-align: center;">Gallery</h2>
 
                 <div class="flex-container-row">
-                    <img src="/img/Archived-img/November-2023/photos/nov-gy-photo-1.png" style="width: 375px; height: 375px;"> 
+                    <img src="/img/Archived-img/November-2023/photos/nov-gy-photo-1.jpg" style="width: 375px; height: 375px;"> 
                 </div>
             </div>
         </div>

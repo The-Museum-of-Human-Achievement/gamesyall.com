@@ -140,7 +140,7 @@ existing GIF this way by altering the individual frames of the animation
                     <img src="/img/Archived-img/January-2024/gifing/Lil_guys_(animals)_doing_a_big_steppy.gif" alt="GIF art depicting a cat doing a large step">
                     <p> .GIF Art by Walt Mitchell<p/>
               
-                    <img src="/img/Archived-img/January-2024/gifing/Kid asked for a sea urchin for the holidays, elf in the north pole has to wrap a sea urchin for said kid. How_do_you_wrap_a_sea_urchin?_Wrong_answers_only.gif" alt="GIF art depicting an elf holding a Sea Urchin wrapped as a christmas present.">
+                    <img src="/img/Archived-img/January-2024/gifing/How_do_you_wrap_a_sea_urchin?_Wrong_answers_only.gif" alt="GIF art depicting an elf holding a Sea Urchin wrapped as a christmas present.">
                     <p> .GIF Art by Vidya Giri<p/>
                 
                     <img src="/img/Archived-img/January-2024/gifing/iridescent-solarpunk.gif" alt="GIF art depicting a small handmade windmill spinning on a bright and colorful background">
