@@ -74,7 +74,7 @@ We strongly encourage that everyone be vaccinated or have recently tested negati
           <h2 style="text-align: center;">Game of the Month</h2>
 
 <!--The Case of the Golden Idol card-->
-          <div class="row" style="background-color: #9BE9FF; border-radius: 10px; margin-bottom: 25px;">
+          <div class="row" style="background-color: #F2D335; border-radius: 10px; margin-bottom: 25px;">
             <div class="game-card-long">
               <div>
                 <img src="/img/Archived-img/February-2024/games/the-golden-idol.jpeg" alt="A promotional image for the November Games Y'all Game of the Month"> 
@@ -87,7 +87,7 @@ We strongly encourage that everyone be vaccinated or have recently tested negati
 <br><br>
 Color Gray Studio was founded in 2021 by two brothers Andrejs and Ernests to explore if they can use their many years’ experience in the industry to make creatively fulfilling and financially viable games. The Case of the Golden Idol is the studio's first game.
 </p>
-                <button class="button"  style="margin: 10px; background-color: #F2D335;">
+                <button class="button"  style="margin: 10px; background-color: #9BE9FF;">
                   <a href="https://store.steampowered.com/app/1677770/The_Case_of_the_Golden_Idol/">Play it Here</a>
                 </button>
 
