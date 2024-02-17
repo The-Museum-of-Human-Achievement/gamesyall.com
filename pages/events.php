@@ -40,7 +40,7 @@ require(__DIR__ . "/../partials/html-head.php");
                 </div>
                 <div class="past-event">
                     <!--DATE-->
-                    <h4>November 11-12 + 18-19, 2023</h4>
+                    <h4>November 11th, 2023</h4>
                     <!--image-->
                     <a href="/event-november-2023">
                     <img src="/img/event-img/GY-Square-Nov-23.png" alt="A link to November 2023 Games Y'all'" style="box-shadow: 2.5px 5px;">

@@ -32,7 +32,9 @@ require(__DIR__ . "/../partials/html-head.php");
         <!--Event info-->
         <div class="col-4" id="upcoming-event-text">
             <h3>February Meetup</h3>
-            <p>🎟 Free admission, donations are encouraged! Please RSVP, walk ups are welcome.</p>
+            <p>Tuesday February 27th 7-10pm
+            <br><br> 
+            🎟 Free admission, donations are encouraged! Please RSVP, walk ups are welcome.</p>
             <br>
             <button class="button" id="More Info'"><a href="/event-february-2024">More Info</a></button>
         </div>

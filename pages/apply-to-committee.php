@@ -50,7 +50,7 @@ require(__DIR__ . "/../partials/html-head.php");
     
 <h1>Committees Roles</h1>
 <p>
-<h4>General Committee Members - Jonathan Levine</h4>
+<h4>General Committee Members - Jonathan Levine, Cat Musgrove</h4>
 This role is for NEW Indie Games committee members. General Committee Members will assist in person at meetups as well as offering support to committee coordinators in their tasks. Committee members will receive tasks from the committee secretary and chair.
 <br><br>
 <h4>Chair - Coby West</h4>
@@ -59,7 +59,7 @@ This role organizes and leads committee meetings. They write committee meeting a
 <h4>Deputy Chair - Jay Roff-Garcia</h4>
 This role assists the chair. They help organize our committee meeting agenda, they are a stand-in if the chair or MoHA staff is unavailable, they are available for games y'all events and help to coordinate the volunteers at said events as well as answer questions from attendees.
 <br><br>
-<h4>Archivist - Cat Musgrove</h4>
+<h4>Archivist - OPEN</h4>
 This role involves gathering/ taking notes during meetings  and sending those notes to the appropriate people whether they be missing members of the committee, Jay  or Rachel. The role is also responsible for distributing information via Discord and Asana, including direct contact with other members and  creating event notifications and invites. They collaborate with the MoHA Digital Art Coordinator in assigning tasks to Committee Members via Asana.
 <br><br>
 <h4>Games Coordinator - Maya Andow</h4>
