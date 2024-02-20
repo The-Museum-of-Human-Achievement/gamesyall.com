@@ -50,7 +50,7 @@ require(__DIR__ . "/../partials/html-head.php");
     
 <h1>Committees Roles</h1>
 <p>
-<h4>General Committee Members - Jonathan Levine, Cat Musgrove</h4>
+<h4>General Committee Members - Jonathan Levine</h4>
 This role is for NEW Indie Games committee members. General Committee Members will assist in person at meetups as well as offering support to committee coordinators in their tasks. Committee members will receive tasks from the committee secretary and chair.
 <br><br>
 <h4>Chair - Coby West</h4>
@@ -64,6 +64,9 @@ This role involves gathering/ taking notes during meetings  and sending those no
 <br><br>
 <h4>Games Coordinator - Maya Andow</h4>
 The Games Coordinator recruits submissions from BIPOC, LGBTQIA+, disabled, women, and non-binary game developers/artists, inform folks about our open calls and meetups, socialize with and support devs at the event, develop themes for meetups based on submissions, pitch guest curators for meetups/showcases. They organize the monthly voting for Games Y’all selections. All committee members vote on selections!
+<br><br>
+<h4>GOTM  Coordinator - Cat Musgrove</h4>
+The Game of the Month Coordinator organizes our GOTM program.  They curate the game nominations, organize the monthly community voting, and host the in-person GOTM Meetup. Individual nominations are always welcome, drop them in the GOTM suggestions post on Discord.
 <br><br>
 <h4>Communications Coordinator - Eriane Austria</h4>
 The communication coordinator is responsible for coordinating or performing documentation of events, writing social media copy, and posting on social media. They also help with Discord moderation. 
