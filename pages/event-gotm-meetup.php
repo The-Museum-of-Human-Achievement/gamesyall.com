@@ -13,7 +13,7 @@
 
 $headTitle = "GOTM Meetup - Games Y'all";
 $headDescription = "It's like a book club, but for games! Meet with fellow members of the Games Y'all community to discuss the Game of the Month.";
-$headImage = "/img/event-img/GOTM-Banner-Nov-23.png";
+$headImage = "/img/event-img/GOTM-Banner-Feb-24.png";
 require(__DIR__ . "/../partials/html-head.php");
 
 ?>
