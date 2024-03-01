@@ -13,7 +13,7 @@
 
 $headTitle = "GOTM Meetup - Games Y'all";
 $headDescription = "It's like a book club, but for games! Meet with fellow members of the Games Y'all community to discuss the Game of the Month.";
-$headImage = "/img/event-img/GOTM-Banner-Feb-24.png";
+$headImage = "/img/event-img/GOTM-Banner-Mar-24.png";
 require(__DIR__ . "/../partials/html-head.php");
 
 ?>
@@ -29,27 +29,27 @@ require(__DIR__ . "/../partials/html-head.php");
      <div class="col-4"style="justify-content: left;">
                     <h1>GOTM Meetup</h1>
                 
-                    <h4>February 20th, 2024 - 7-9pm</h4>
+                    <h4>March 26th, 2024 - 7-9pm</h4>
 				<p>Museum of Human Achievement <a href="https://goo.gl/maps/ahZcZEw7Dp1QDWcHA">3600 Lyons Rd, Austin, TX 78702</a> 
 				<br><br>🎟 Free admission, donations welcome! RSVPs required, space is limited.</p>
 	
 			
 				<!--RSVP Button -->
-            <button class="button" id="RSVP'"><a href="https://withfriends.co/event/17482389/gotm_february_meetup">RSVP</a></button>
+            <button class="button" id="RSVP'"><a href="https://withfriends.co/event/17663413/gotm_march_meetup">RSVP</a></button>
             
 				    </div>
 				    
 			 <div class="col-8">
                 <!--Add your event image here-->
-                <img src="/img/event-img/GOTM-Banner-Feb-24.png" alt="The Museum of Human Achievement presents, Games Y'all Game of the Month Meetup">
+                <img src="/img/event-img/GOTM-Banner-Mar-24.png" alt="The Museum of Human Achievement presents, Games Y'all Game of the Month Meetup">
             </div>
             
 
 		 <div class="col-10">
 
-<p>This months game: The Case of the Golden Idol
+<p>This months game: Pacific Drive
 <br><br>
-A new kind of detective game that allows you to think and investigate freely. Discover clues surrounding 12 strange and gruesome deaths and build your own theory. Pick your suspect, deduce the motive, unmask the awful truth.<p/>
+Face the supernatural dangers of the Olympic Exclusion Zone with a car as your only lifeline in this driving survival adventure! Scavenge resources, load up your trusty station wagon, and drive like hell to make it through alive.
 <br>
     <h5>Games Y'all</h5>
 <p>Games Y’all is a monthly meetup presented by the Museum of Human Achievement for indie devs, digital artists, and games fans. We showcase indie games and digital art projects from our local community and beyond. You can come to our meetups to play games, experience digital art, and connect with the local Austin games community. 
@@ -73,11 +73,44 @@ We strongly encourage that everyone be vaccinated or have recently tested negati
         <div>
           <h2 style="text-align: center;">Game of the Month</h2>
 
+<!--Pacific Drive card-->
+          <div class="row" style="background-color: #9BE9FF; border-radius: 10px; margin-bottom: 25px;">
+            <div class="game-card-long">
+              <div>
+                <img src="/img/Archived-img/March-2024/games/pacific-drive.jpeg" alt="A promotional image for Pacific Drive"> 
+              </div>  
+
+              <!--Game Text-->
+              <div>
+                <h4>Pacific Drive - March</h4>
+<p>Face the supernatural dangers of the Olympic Exclusion Zone with a car as your only lifeline in this driving survival adventure! Scavenge resources, load up your trusty station wagon, and drive like hell to make it through alive.
+<br><br>
+Ironwood Studios is a Seattle based game development team made up of experienced developers with a long history in the industry. Driven forward by surreal settings and compelling gameplay that actually tells a story, we've been putting those values towards our first title.
+</p>
+                <button class="button"  style="margin: 10px; background-color: #F2D335;">
+                  <a href="https://www.pacificdrivegame.com/">Play it Here</a>
+                </button>
+
+              </div>
+
+              <!--Dev Text-->
+              <div>
+                <h6>Developer: Ironwood Studios</h6> 
+                     <div class="dev-social">
+                  <h6>@ironwoodtweets</h6>
+                  <a href="https://twitter.com/ironwoodtweets">
+                    <img src="/img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div> 
+          
 <!--The Case of the Golden Idol card-->
           <div class="row" style="background-color: #F2D335; border-radius: 10px; margin-bottom: 25px;">
             <div class="game-card-long">
               <div>
-                <img src="/img/Archived-img/February-2024/games/the-golden-idol.jpeg" alt="A promotional image for the November Games Y'all Game of the Month"> 
+                <img src="/img/Archived-img/February-2024/games/the-golden-idol.jpeg" alt="A promotional image for The Case of the Golden Idol"> 
               </div>  
 
               <!--Game Text-->
@@ -110,7 +143,7 @@ Color Gray Studio was founded in 2021 by two brothers Andrejs and Ernests to exp
           <div class="row" style="background-color: #9BE9FF; border-radius: 10px; margin-bottom: 25px;">
             <div class="game-card-long">
               <div>
-                <img src="/img/Archived-img/January-2024/games/slay-the-princess.jpeg" alt="A promotional image for the November Games Y'all Game of the Month"> 
+                <img src="/img/Archived-img/January-2024/games/slay-the-princess.jpeg" alt="A promotional image for Slay the Princess"> 
               </div>  
 
               <!--Game Text-->
@@ -151,7 +184,7 @@ Tony and Abby live in Toronto with their cat (Spoons), their ball python (Wednes
           <div class="row" style="background-color: #F2D335; border-radius: 10px; margin-bottom: 25px;">
             <div class="game-card-long">
               <div>
-                <img src="/img/Archived-img/January-2024/games/risk-of-rain-returns.jpeg" alt="A promotional image for the November Games Y'all Game of the Month"> 
+                <img src="/img/Archived-img/January-2024/games/risk-of-rain-returns.jpeg" alt="A promotional image for Risk of Rain Returns"> 
               </div>  
 
               <!--Game Text-->
@@ -184,7 +217,7 @@ Hopoo Games was founded in 2012 with a creative vision – to make games we like
           <div class="row" style="background-color: #9BE9FF; border-radius: 10px; margin-bottom: 25px;">
             <div class="game-card-long">
               <div>
-                <img src="/img/Archived-img/November-2023/games/goodbye-volcano-high.jpeg" alt="A promotional image for the November Games Y'all Game of the Month"> 
+                <img src="/img/Archived-img/November-2023/games/goodbye-volcano-high.jpeg" alt="A promotional image for Goodbye Volcano High"> 
               </div>  
 
               <!--Game Text-->
@@ -251,7 +284,7 @@ Strange Scaffold is the development label of Xalavier Nelson Jr., who you might 
           <div class="row" style="background-color: #9BE9FF; border-radius: 10px; margin-bottom: 25px;">
             <div class="game-card-long">
               <div>
-                <img src="/img/Archived-img/September-2023/games/viewfinder.png" alt="A promotional image for the September Game of the Month Meetup showing a digitally rendered living room"> 
+                <img src="/img/Archived-img/September-2023/games/viewfinder.png" alt="A promotional image for Viewfinder"> 
               </div>  
 
               <!--Game Text-->
@@ -288,7 +321,7 @@ Viewfinder was developed by Sad Owl Studios in Scotland.</p>
           <div class="row" style="background-color: #F2D335; border-radius: 10px; margin-bottom: 25px;">
             <div class="game-card-long">
               <div>
-               <img src="/img/Archived-img/August-2023/games/venba.png" alt="A  promotional image for Venba showing an Indian Mother, Son, and Father cooking together"> 
+               <img src="/img/Archived-img/August-2023/games/venba.png" alt="A  promotional image for Venba"> 
               </div>  
 
               <!--Game Text-->

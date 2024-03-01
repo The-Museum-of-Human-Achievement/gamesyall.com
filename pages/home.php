@@ -44,13 +44,13 @@ require(__DIR__ . "/../partials/html-head.php");
     <div class="row">
         <div class="col-8" id="announcement-banner">
             <a href="/event-gotm-meetup">
-                <img src="./img/event-img/GOTM-Banner-Feb-24.png" id="upcoming-event-img" alt="The Museum of Human Achievement presents, Games Y'all Game of the Month Meetup" width="400" height="500" />
+                <img src="./img/event-img/GOTM-Banner-Mar-24.png" id="upcoming-event-img" alt="The Museum of Human Achievement presents, Games Y'all Game of the Month Meetup" width="400" height="500" />
             </a>
         </div>
 
         <div class="col-4" id="upcoming-event-text">
             <h3>Game of the Month Meetup</h3>
-            <p>Tuesday February 20th<br> February GOTM: The Case of the Golden Idol</p>
+            <p>Tuesday March 26th<br> March GOTM: Pacific Drive</p>
             <br>
             <button class="button" id="More Info'"><a href="/event-gotm-meetup">More Info</a></button>
         </div>
