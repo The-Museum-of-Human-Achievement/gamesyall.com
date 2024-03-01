@@ -53,8 +53,8 @@ require(__DIR__ . "/../partials/html-head.php");
         </div>
 
         <div class="col-10">
-           <p>EVENT DESCRIPTION</p>
-			 <br>
+           <p>Join us on the last Saturday of March for Games Y’all! We’ll be back at The Museum of Human Achievement with a fresh selection of locally produced Indie Games. Interested in submitting a game? We are currently accepting submissions for our April and May Games Y’all Meetups.
+           <br><br>
 <h5>Venue & Parking Details</h5>
 			<p>This event will be held at The Museum of Human Achievement. There is a large parking lot as well as street parking available. MoHA is a large warehouse space and is not climate controlled, please dress according to weather.
 			</p>

@@ -24,19 +24,19 @@ require(__DIR__ . "/../partials/html-head.php");
     <!-- UPCOMING EVENT-->
     <div class="row" style="margin-top: 80px;">
         <div class="col-8" id="announcement-banner">
-            <a href="/event-february-2024">
-                <img src="/img/event-img/GY-Banner-Feb-24.png" id="upcoming-event-img" alt="The Museum of Human Achievement presents, Games Y'all February Meetup" width="400" height="500" />
+            <a href="/event-march-2024">
+                <img src="/img/event-img/GY-Banner-Mar-24.png" id="upcoming-event-img" alt="The Museum of Human Achievement presents, Games Y'all Meetup" width="400" height="500" />
             </a>
         </div>
 
         <!--Event info-->
         <div class="col-4" id="upcoming-event-text">
-            <h3>February Meetup</h3>
-            <p>Tuesday February 27th 7-10pm
+            <h3>March Meetup</h3>
+            <p>Saturday March 30th 7-10pm
             <br><br> 
             🎟 Free admission, donations are encouraged! Please RSVP, walk ups are welcome.</p>
             <br>
-            <button class="button" id="More Info'"><a href="/event-february-2024">More Info</a></button>
+            <button class="button" id="More Info'"><a href="/event-march-2024">More Info</a></button>
         </div>
     </div>
             
