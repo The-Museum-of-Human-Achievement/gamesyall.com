@@ -5,9 +5,9 @@
 
 // Meta information for this page, to appear in browser and in social media previews: title, description, and preview image
 // Title should up no more than 70 characters, and description no more than 160.
-$headTitle = "March 2024 Meetup - Games Y'all";
+$headTitle = "April 2024 Meetup - Games Y'all";
 $headDescription = "Games Y'all March Meetup";
-$headImage = "/img/event-img/GY-Banner-Mar-24.png"; // this is optional! only needed if the page has an image
+$headImage = "/img/event-img/GY-Banner-Apr-24.png"; // this is optional! only needed if the page has an image
 
 require(__DIR__ . "/../partials/html-head.php");
 
@@ -25,7 +25,7 @@ require(__DIR__ . "/../partials/html-head.php");
         <p>
             <a href="/events">Past Events</a> 
             >
-            <a href="/event-march-2024">March 30th, 2024</a>
+            <a href="/event-april-2024">April 20th, 2024</a>
         </p>
         </div>
     </div>
@@ -33,9 +33,9 @@ require(__DIR__ . "/../partials/html-head.php");
     <!--Content and Information-->
     <div class="row">    
         <div class="col-4"style="justify-content: left;">
-            <h1>March Meetup</h1>
+            <h1>April Meetup</h1>
         
-            <h4>March 30th, 2024 - 7-10pm</h4>
+            <h4>April 20th, 2024 - 7-10pm</h4>
         
             <p>
                 The Museum of Human Achievement <a href="https://maps.app.goo.gl/4RQviD9mDGSGXdFh6" target="_blank">3600 Lyons Road, Austin, Texas, 78702</a>
@@ -44,18 +44,18 @@ require(__DIR__ . "/../partials/html-head.php");
             </p>
                 
             <!--RSVP Button-->
-            <button class="button" id="RSVP'"><a href="https://withfriends.co/event/17630057/games_yall_march_meetup">RSVP</a></button>
+            <button class="button" id="RSVP'"><a href="https://withfriends.co/event/17732225/games_yall_april_meetup">RSVP</a></button>
         </div>
                         
         <div class="col-8">
             <!--Add your event image here-->
-            <img src="/img/event-img/GY-Banner-Mar-24.png" alt="The Museum of Human Achievement presents, Games Y'all March Meetup">
+            <img src="/img/event-img/GY-Banner-Apr-24.png" alt="The Museum of Human Achievement presents, Games Y'all April Meetup">
         </div>
 
         <div class="col-10">
-           <p>Join us on the last Saturday of March for Games Y’all! We’ll be back at The Museum of Human Achievement with a fresh selection of locally produced Indie Games. Interested in submitting a game? We are currently accepting submissions for our April and May Games Y’all Meetups.
-           <br><br>
-<h5>Venue & Parking Details</h5>
+           <p>
+           
+           <h5>Venue & Parking Details</h5>
 			<p>This event will be held at The Museum of Human Achievement. There is a large parking lot as well as street parking available. MoHA is a large warehouse space and is not climate controlled, please dress according to weather.
 			</p>
  <br>

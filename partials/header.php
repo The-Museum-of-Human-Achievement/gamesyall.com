@@ -23,6 +23,7 @@
                     <div class="dropdown-content">
                         <a href="/event-march-2024">March Games Y'all</a>
                         <a href="/event-gotm-meetup">GOTM Meetup</a>
+                        <a href="/event-april-2024">April Games Y'all</a>
                         <a href="/events">Past Events</a>
                     </div>
                 </li>
@@ -69,6 +70,7 @@
             <div id="events-submenu">
                 <a href="/event-march-2024">March Games Y'all</a>
                 <a href="/event-gotm-meetup">GOTM Meetup</a>
+                <a href="/event-april-2024">April Games Y'all</a>
                 <a href="/events"> Past Events </a>
             </div>
 

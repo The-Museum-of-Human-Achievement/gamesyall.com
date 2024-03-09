@@ -33,11 +33,10 @@ require(__DIR__ . "/../partials/html-head.php");
         <p>
             Consider helping Games Y'all roll along through a donation. Donations help us pay for email service, supplies, games, rent, 
             equipment maintenance, etc.
-            
+            <br> <br>
             The Museum of Human Achievement is our administrator and 501(c)3 nonprofit fiscal sponsor - your memberships and
-            donations are processed through them and are tax deductible to the extent allowed by the law. <br> <br>
+            donations are processed through them and are tax deductible to the extent allowed by the law.
 
-            If your workplace does donation matching or corporate giving, let’s talk! <br> <br>
         </p>
             
             <button class="button" style="margin: 10px">
@@ -51,6 +50,25 @@ require(__DIR__ . "/../partials/html-head.php");
                 Venmo
             </a>
             </button>
+        </div>
+        </div>
+
+    </div>
+    
+        <!--Matching Gift Programs Text-->
+    <div class="row">
+        <div class="col-12">
+        <h1> Matching Gift Programs </h1>
+        <hr>
+        <p>
+        Employee matching gift programs are corporate giving programs in which the company matches donations made by employees to eligible nonprofit organizations. It's an easy way to double your contribution to us!
+     	  <br> <br>
+	 	Do you work for any of the following companies:
+        <br> <br>
+		Intel, Microsoft, Activision Blizzard, Epic Games, Unity, NVIDIA, Riot Games, Sony, Nintendo, Zynga, Electronic Arts, Roblox, Apple, Meta, RetailMeNot, IBM, AMD, Dell, Oracle, Silicon Labs, Adobe, or Samsung Austin Semiconductor.
+		<br> <br>
+      	 If your workplace does donation matching or corporate giving, let’s talk! You can email us at games@themuseumofhumanachievement.com
+        </p>
         </div>
         </div>
 
