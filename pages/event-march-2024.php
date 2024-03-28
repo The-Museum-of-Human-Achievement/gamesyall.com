@@ -112,42 +112,8 @@ Their work has been shown in spaces across Texas including MoHA, the Orange Show
             </div>
           </div>         
           
-          
-<!--Dashboard Confessionals card-->
-          <div class="row" style="background-color: #F2D335; border-radius: 10px; margin-bottom: 25px;">
-            <div class="game-card-long">
-              <div>
-                <img src="/img/Archived-img/March-2024/games/dashboard-confessionals.png" alt="- A promotional image for Dashboard Confessionals"> 
-              </div>  
-
-              <!--Game Text-->
-              <div>
-                <h4>Dashboard Confessionals</h4>
-                <p>In 2022 Jamie DeAngelo began tracking how they spent their time in a conditionally-formatted excel spreadsheet. As an artist who has worked “fairly soullessly” with data analysis in their day job, reclaiming data collection as a meditative personal practice became a gratifying way to find purpose in daily life. Dashboard Confessionals is a humorous, vulnerable, and highly self aware presentation of this data, consolidated into 6 categories. It borrows from corporate visuals of sales growth graphs and web traffic heatmaps, subtly subverted with wiggly hand drawn charts, stories, and metrics chronicling their anxious thoughts, personal judgements, and little treats.
-                <br><br>
-				Jamie DeAngelo is a former graphic designer and current bureaucrat/desk surfer who loves illustration, but lately loves charts even more.
-				</p>
-                <button class="button"  style="margin: 10px; background-color: #9BE9FF;">
-                  <a href="https://homepageguest.wixsite.com/jamie-deangelo">Play It Here</a>
-                </button>
-
-              </div>
-
-              <!--Dev Text-->
-              <div>
-                <h6>Artist: Jamie DeAngelo<h6> 
-                <div class="dev-social">
-                  <h6>@romen_cake</h6>
-                  <a href="https://www.instagram.com/romen_cake/">
-                    <img src="/img/Social-buttons/instagram-button-alt.png" style="width: 64px; height: auto;">
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>  
-          
 <!--ILIAGC: I Live In A Graphing Calculator card-->
-          <div class="row" style="background-color: #9BE9FF; border-radius: 10px; margin-bottom: 25px;">
+          <div class="row" style="background-color: #F2D335; border-radius: 10px; margin-bottom: 25px;">
             <div class="game-card-long">
               <div>
                 <img src="/img/Archived-img/March-2024/games/iliagc.png" alt="- A promotional image for ILIAGC: I Live In A Graphing Calculator"> 
@@ -162,7 +128,7 @@ I started it as a final project for an education class  I was taking (Spring 202
 <br><br>
 nandbolt (Alexander Wilson) is a current UT student in his 3rd year studying computational physics. He loves video games and has mainly focused on making 2D games independently using various engines (but mainly GameMaker). His current game development goals are to bring to life the various ridiculous ideas that come to his mind that can potentially bring some joy to others.
 </p>
-                <button class="button"  style="margin: 10px; background-color: #F2D335;">
+                <button class="button"  style="margin: 10px; background-color: #9BE9FF;">
                   <a href="https://nandbolt.itch.io/iliagc">Play It Here</a>
                 </button>
 
@@ -179,41 +145,7 @@ nandbolt (Alexander Wilson) is a current UT student in his 3rd year studying com
                 </div>
               </div>
             </div>
-          </div>         
-          
-          
-<!--Dashboard Confessionals card-->
-          <div class="row" style="background-color: #F2D335; border-radius: 10px; margin-bottom: 25px;">
-            <div class="game-card-long">
-              <div>
-                <img src="/img/Archived-img/March-2024/games/dashboard-confessionals.png" alt="- A promotional image for Dashboard Confessionals"> 
-              </div>  
-
-              <!--Game Text-->
-              <div>
-                <h4>Dashboard Confessionals</h4>
-                <p>In 2022 Jamie DeAngelo began tracking how they spent their time in a conditionally-formatted excel spreadsheet. As an artist who has worked “fairly soullessly” with data analysis in their day job, reclaiming data collection as a meditative personal practice became a gratifying way to find purpose in daily life. Dashboard Confessionals is a humorous, vulnerable, and highly self aware presentation of this data, consolidated into 6 categories. It borrows from corporate visuals of sales growth graphs and web traffic heatmaps, subtly subverted with wiggly hand drawn charts, stories, and metrics chronicling their anxious thoughts, personal judgements, and little treats.
-                <br><br>
-				Jamie DeAngelo is a former graphic designer and current bureaucrat/desk surfer who loves illustration, but lately loves charts even more.
-				</p>
-                <button class="button"  style="margin: 10px; background-color: #9BE9FF;">
-                  <a href="https://homepageguest.wixsite.com/jamie-deangelo">Play It Here</a>
-                </button>
-
-              </div>
-
-              <!--Dev Text-->
-              <div>
-                <h6>Artist: Jamie DeAngelo<h6> 
-                <div class="dev-social">
-                  <h6>@romen_cake</h6>
-                  <a href="https://www.instagram.com/romen_cake/">
-                    <img src="/img/Social-buttons/instagram-button-alt.png" style="width: 64px; height: auto;">
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>  
+          </div>          
           
 <!--Cows Vs Aliens card-->
           <div class="row" style="background-color: #9BE9FF; border-radius: 10px; margin-bottom: 25px;">
@@ -343,7 +275,7 @@ Moo-niverse Entertainment is a team of students from UT Austin that was formed i
                 <div class="dev-social">
                   <h6>@identikitten</h6>
                   <a href="https://www.instagram.com/identikitten/">
-                    <img src="/img/Social-buttons/instagram-button.png" style="width: 64px; height: auto;">
+                    <img src="/img/Social-buttons/instagram-button-alt.png" style="width: 64px; height: auto;">
                   </a>
                 </div>
               </div>
