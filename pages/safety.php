@@ -42,7 +42,7 @@ require(__DIR__ . "/../partials/html-head.php");
                   <br><br>
                     Text our help hotline - <b>(512) 666-7862</b><br>
                        <Img src="/img/misc-img/cellphone.png"></Img>
-                    Report a Code of Conduct Violation - <a href="http://fantasticarcade.com/forms/coc/">Here</a><br>
+                    Report a Code of Conduct Violation - <a href="https://form.jotform.com/231854725944162">Here</a><br>
                     <br><br><br>     <br><br><br>
                     Email us at <b>info@themuseumofhumanachievement.com</b>
                 </p>
@@ -119,7 +119,7 @@ require(__DIR__ . "/../partials/html-head.php");
 
                 <div style="text-align: center;">                
                     <button class="button">
-                        <a href="https://docs.google.com/document/d/1vA1P_608XVhhz3-PQTwZcrDHjXG53W3L-MoQU8cY1TI/edit?usp=sharing">Full Code of Conduct</a>
+                        <a href="https://moha.wiki/Code_of_Conduct">Full Code of Conduct</a>
                     </button>
                 </div>
 
