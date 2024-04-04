@@ -42,9 +42,9 @@ require(__DIR__ . "/../partials/html-head.php");
             </p>
                 
             <!--RSVP Button
-            <button class="button" id="RSVP'"><a href="https://withfriends.co/event/17630057/games_yall_march_meetup">RSVP</a></button>
+            <button class="button" id="RSVP'"><a href="https://withfriends.co/event/17630057/games_yall_march_meetup">RSVP</a></button> -->
         </div>
-                        -->
+    
         <div class="col-8">
             <!--Add your event image here-->
             <img src="/img/event-img/GY-Banner-Mar-24.png" alt="The Museum of Human Achievement presents, Games Y'all March Meetup">
