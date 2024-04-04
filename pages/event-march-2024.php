@@ -39,11 +39,9 @@ require(__DIR__ . "/../partials/html-head.php");
         
             <p>
                 The Museum of Human Achievement <a href="https://maps.app.goo.gl/4RQviD9mDGSGXdFh6" target="_blank">3600 Lyons Road, Austin, Texas, 78702</a>
-                <br /><br />
-                🎟 Free admission, donations are encouraged! Please RSVP, walk ups are welcome.
             </p>
                 
-            <!--RSVP Button-->
+            <!--RSVP Button
             <button class="button" id="RSVP'"><a href="https://withfriends.co/event/17630057/games_yall_march_meetup">RSVP</a></button>
         </div>
                         
@@ -316,22 +314,21 @@ Moo-niverse Entertainment is a team of students from UT Austin that was formed i
           </div>                    
             
     <!--Event Images-->
-    <!--Only use this section after an event to house images from the past
+    <!--Only use this section after an event to house images from the past-->
     <div class="row">
         <div class="col-12">
             <h2 style="text-align: center;">Gallery</h2>
 
             <div class="flex-container-row">
-                <img src="/img/Archived-img/November-2022/photos/nov-gy-photo-1.png" style="width: 375px; height: 375px;"> 
-                <img src="/img/Archived-img/November-2022/photos/nov-gy-photo-2.png" style="width: 375px; height: 375px;"> 
-                <img src="/img/Archived-img/November-2022/photos/nov-gy-photo-3.png" style="width: 375px; height: 375px;"> 
-                <img src="/img/Archived-img/November-2022/photos/nov-gy-photo-4.png" style="width: 375px; height: 375px;">
-                <img src="/img/Archived-img/November-2022/photos/nov-gy-photo-5.png" style="width: 375px; height: 375px;"> 
-                <img src="/img/Archived-img/November-2022/photos/nov-gy-photo-6.png" style="width: 375px; height: 375px;">
+                <img src="/img/Archived-img/March-2024/photos/mar-gy-photo-1.jpg" style="width: 375px; height: 375px;"> 
+                <img src="/img/Archived-img/March-2024/photos/mar-gy-photo-2.jpg" style="width: 375px; height: 375px;"> 
+                <img src="/img/Archived-img/March-2024/photos/mar-gy-photo-3.jpg" style="width: 375px; height: 375px;"> 
+                <img src="/img/Archived-img/March-2024/photos/mar-gy-photo-4.jpg" style="width: 375px; height: 375px;">
+                <img src="/img/Archived-img/March-2024/photos/mar-gy-photo-5.jpg" style="width: 375px; height: 375px;"> 
+                <img src="/img/Archived-img/March-2024/photos/mar-gy-photo-6.jpg" style="width: 375px; height: 375px;">
             </div>
         </div>
     </div>
-    -->
 
     <?php 
     // Include the Community links and footer
