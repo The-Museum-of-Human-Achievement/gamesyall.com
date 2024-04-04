@@ -44,7 +44,7 @@ require(__DIR__ . "/../partials/html-head.php");
             <!--RSVP Button
             <button class="button" id="RSVP'"><a href="https://withfriends.co/event/17630057/games_yall_march_meetup">RSVP</a></button>
         </div>
-                        
+                        -->
         <div class="col-8">
             <!--Add your event image here-->
             <img src="/img/event-img/GY-Banner-Mar-24.png" alt="The Museum of Human Achievement presents, Games Y'all March Meetup">
@@ -323,9 +323,7 @@ Moo-niverse Entertainment is a team of students from UT Austin that was formed i
                 <img src="/img/Archived-img/March-2024/photos/mar-gy-photo-1.jpg" style="width: 375px; height: 375px;"> 
                 <img src="/img/Archived-img/March-2024/photos/mar-gy-photo-2.jpg" style="width: 375px; height: 375px;"> 
                 <img src="/img/Archived-img/March-2024/photos/mar-gy-photo-3.jpg" style="width: 375px; height: 375px;"> 
-                <img src="/img/Archived-img/March-2024/photos/mar-gy-photo-4.jpg" style="width: 375px; height: 375px;">
                 <img src="/img/Archived-img/March-2024/photos/mar-gy-photo-5.jpg" style="width: 375px; height: 375px;"> 
-                <img src="/img/Archived-img/March-2024/photos/mar-gy-photo-6.jpg" style="width: 375px; height: 375px;">
             </div>
         </div>
     </div>
