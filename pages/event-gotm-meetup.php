@@ -29,28 +29,28 @@ require(__DIR__ . "/../partials/html-head.php");
      <div class="col-4"style="justify-content: left;">
                     <h1>GOTM Meetup</h1>
                 
-                    <h4>March 26th, 2024 - 7-9pm</h4>
+                    <h4>April 30th, 2024 - 7-9pm</h4>
 				<p>Museum of Human Achievement <a href="https://goo.gl/maps/ahZcZEw7Dp1QDWcHA">3600 Lyons Rd, Austin, TX 78702</a> 
 				<br><br>🎟 Free admission, donations welcome! RSVPs required, space is limited.</p>
 	
 			
 				<!--RSVP Button -->
-            <button class="button" id="RSVP'"><a href="https://withfriends.co/event/17663413/gotm_march_meetup">RSVP</a></button>
+            <button class="button" id="RSVP'"><a href="https://withfriends.co/event/19906095/gotm_april_meetup">RSVP</a></button>
             
 				    </div>
 				    
 			 <div class="col-8">
                 <!--Add your event image here-->
-                <img src="/img/event-img/GOTM-Banner-Mar-24.png" alt="The Museum of Human Achievement presents, Games Y'all Game of the Month Meetup">
+                <img src="/img/event-img/GOTM-Banner-Apr-24.png" alt="The Museum of Human Achievement presents, Games Y'all Game of the Month Meetup">
             </div>
             
 
 		 <div class="col-10">
 
-<p>This months game: Pacific Drive
+<p>This months game: Open Roads
 <br><br>
-Face the supernatural dangers of the Olympic Exclusion Zone with a car as your only lifeline in this driving survival adventure! Scavenge resources, load up your trusty station wagon, and drive like hell to make it through alive.
-<br>
+Long-lost family secrets. Hints of a hidden fortune. And miles to go before they sleep. Tess Devine’s relationship with her mom has never been easy, but they’re about to set out together on a journey into the past that they’ll never forget.
+<br><br>
     <h5>Games Y'all</h5>
 <p>Games Y’all is a monthly meetup presented by the Museum of Human Achievement for indie devs, digital artists, and games fans. We showcase indie games and digital art projects from our local community and beyond. You can come to our meetups to play games, experience digital art, and connect with the local Austin games community. 
 <p/>
@@ -72,6 +72,39 @@ We strongly encourage that everyone be vaccinated or have recently tested negati
   <!--GOTM-->
         <div>
           <h2 style="text-align: center;">Game of the Month</h2>
+
+<!--Open Roads card-->
+          <div class="row" style="background-color: #F2D335; border-radius: 10px; margin-bottom: 25px;">
+            <div class="game-card-long">
+              <div>
+                <img src="/img/Archived-img/April-2024/games/open-roads.jpeg" alt="A promotional image for Open Roads"> 
+              </div>  
+
+              <!--Game Text-->
+              <div>
+                <h4>Open Roads - April</h4>
+<p>Long-lost family secrets. Hints of a hidden fortune. And miles to go before they sleep. Tess Devine’s relationship with her mom has never been easy, but they’re about to set out together on a journey into the past that they’ll never forget.
+<br><br>
+Established in 2016, Annapurna Interactive works with game creators from around the world, helping them create and release personal experiences for everyone.
+</p>
+                <button class="button"  style="margin: 10px; background-color: #9BE9FF;">
+                  <a href="https://store.steampowered.com/publisher/annapurnainteractive">Play it Here</a>
+                </button>
+
+              </div>
+
+              <!--Dev Text-->
+              <div>
+                <h6>Developer: Annapurna Interactive</h6> 
+                     <div class="dev-social">
+                  <h6>@A_i</h6>
+                  <a href="https://twitter.com/A_i">
+                    <img src="/img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div> 
 
 <!--Pacific Drive card-->
           <div class="row" style="background-color: #9BE9FF; border-radius: 10px; margin-bottom: 25px;">
