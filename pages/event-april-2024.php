@@ -54,7 +54,7 @@ require(__DIR__ . "/../partials/html-head.php");
 
         <div class="col-10">
            <p>
-           
+           April showers come and play games for 3 hours! YOU are invited to April Games Y’all. Join us for a selection of regional projects from across central Texas featuring play styles such as Roguelite, Shoot em up, Narrative based, and Fish Capitalism!
            <h5>Venue & Parking Details</h5>
 			<p>This event will be held at The Museum of Human Achievement. There is a large parking lot as well as street parking available. MoHA is a large warehouse space and is not climate controlled, please dress according to weather.
 			</p>
