@@ -43,8 +43,8 @@ require(__DIR__ . "/../partials/html-head.php");
                 🎟 Free admission, donations are encouraged! Please RSVP, walk ups are welcome.
             </p>
                 
-            <!--RSVP Button-->
-            <button class="button" id="RSVP'"><a href="https://withfriends.co/event/17732225/games_yall_april_meetup">RSVP</a></button>
+            <!--RSVP Button
+            <button class="button" id="RSVP'"><a href="https://withfriends.co/event/17732225/games_yall_april_meetup">RSVP</a></button>-->
         </div>
                         
         <div class="col-8">
