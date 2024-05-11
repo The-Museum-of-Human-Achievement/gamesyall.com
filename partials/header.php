@@ -22,7 +22,6 @@
                     </a>
                     <div class="dropdown-content">
                         <a href="/event-may-2024">May Games Y'all</a>
-                        <a href="/event-gotm-meetup">GOTM Meetup</a>
                         <a href="/events">Past Events</a>
                     </div>
                 </li>
@@ -68,7 +67,6 @@
             <a href="javascript:void(0);" onclick="openEvents()"> Events </a>
             <div id="events-submenu">
                <a href="/event-may-2024">May Games Y'all</a>
-                <a href="/event-gotm-meetup">GOTM Meetup</a>
                 <a href="/events"> Past Events </a>
             </div>
 

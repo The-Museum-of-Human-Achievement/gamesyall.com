@@ -54,22 +54,6 @@ require(__DIR__ . "/../partials/html-head.php");
         </div>
     </div>
             
-    <!-- UPCOMING EVENT-->
-    <div class="row">
-        <div class="col-8" id="announcement-banner">
-            <a href="/event-gotm-meetup">
-                <img src="./img/event-img/GOTM-Banner-Apr-24.png" id="upcoming-event-img" alt="The Museum of Human Achievement presents, Games Y'all Game of the Month Meetup" width="400" height="500" />
-            </a>
-        </div>
-
-        <div class="col-4" id="upcoming-event-text">
-            <h3>Game of the Month Meetup</h3>
-            <p>Tuesday April 30th<br> April GOTM: Open Roads</p>
-            <br>
-            <button class="button" id="More Info'"><a href="/event-gotm-meetup">More Info</a></button>
-        </div>
-    </div>
-            
     <!-- OPEN CALL-->
     <div class="row">
         <div class="col-8" id="announcement-banner">
