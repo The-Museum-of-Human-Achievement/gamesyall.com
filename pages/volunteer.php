@@ -28,7 +28,6 @@ require(__DIR__ . "/../partials/html-head.php");
     <!-- Volunter Information-->
     <div class="row">
         <div class="col-4">
-          <h1> Volunteer </h1>
           <p>
             Join in! Wear a cool lanyard and help set up, check in guests, whisper nice things to computers, demo games, etc.
              Help all night or just for a bit.
@@ -39,7 +38,7 @@ require(__DIR__ . "/../partials/html-head.php");
         </div>
 
         <div class="col-8">
-          <img src="/img/Archived-img/July-2022/photos/GY-july-1.jpeg" alt="Three volunteers smiling at the information both.">
+          <img src="/img/misc-img/volunteer.png" alt="Volunteer Promo Image">
         </div>
       </div>
 

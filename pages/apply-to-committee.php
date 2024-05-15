@@ -27,7 +27,7 @@ require(__DIR__ . "/../partials/html-head.php");
   <div class="row" style="margin-bottom: 0px;">
       <div class="col-2"></div>
       <div class="col-8">
-        <h1>Indie Games Committee Application</h1>
+         <img src="/img/misc-img/committee-app.png" alt="Apply to a Games Y'all Committee Position"
         <p>
           We are seeking new voices to shape the reality of Fantastic Arcade and Games Y’all. <br> <br>
           

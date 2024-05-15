@@ -25,8 +25,8 @@ require(__DIR__ . "/../partials/html-head.php");
     ?>
 
     <div class="row" style="margin-bottom: 0px;">
-        <div class="col-12" >
-            <h1>About Us</h1>
+        <div class="col-10" >
+             <img src="/img/misc-img/about-us.png" alt="About Games Y'all"
         </div>
 
         <div class="col-12">

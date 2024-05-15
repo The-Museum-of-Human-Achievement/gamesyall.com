@@ -29,7 +29,7 @@ require(__DIR__ . "/../partials/html-head.php");
             <div class="col-2"></div>
             <div class="col-8" style="text-align: left;">
                  <h2>Submit Your Game!</h2>
-                  <img src="/img/misc-img/GY-open-call-general.png" alt="Fantastic Arcade presents, our open call for indie games. Caption reads rolling deadline apply today and features a pixelated armadillo inspired from the game armadillo run.">
+                  <img src="/img/misc-img/call-for-games.png" alt="Games Y'all presents our open call for indie games. Caption reads rolling deadline apply today and features a pixelated armadillo inspired from the game armadillo run.">
                 
                 <hr>
                 <h2>How This Works</h2>

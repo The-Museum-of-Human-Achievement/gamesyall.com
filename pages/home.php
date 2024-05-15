@@ -21,7 +21,7 @@ require(__DIR__ . "/../partials/html-head.php");
     require(__DIR__ . "/../partials/header.php")
     ?>
 
-    <!-- UPCOMING EVENT-->
+    <!-- NEXT EVENT-->
     <div class="row" style="margin-top: 80px;">
         <div class="col-8" id="announcement-banner">
             <a href="/event-march-2024">
@@ -39,7 +39,7 @@ require(__DIR__ . "/../partials/html-head.php");
             <button class="button" id="More Info'"><a href="/event-may-2024">More Info</a></button>
         </div>
     </div>
-    
+ 
         <!-- WHAT IS GAMES Y'ALL-->
     <div class="row">
         <div class="col-6">
@@ -50,15 +50,41 @@ require(__DIR__ . "/../partials/html-head.php");
             <a href="/about-us">Learn More</a>
         </div>
         <div class="col-6">
-            <img src="./img/example-of-event.png" alt="Fantastic Arcade presents Games Y'all, Party Games edition." >
+            <img src="./img/example-of-event.png" alt="What is a Games Y'all?" >
         </div>
     </div>
-            
-    <!-- OPEN CALL-->
+    
+ <!-- UPCOMING  EVENT-->
+    <div class="row" style="margin-top: 80px;">
+        <div class="col-8" id="announcement-banner">
+            <a href="/event-march-2024">
+                <img src="/img/misc-img/upcoming-events.png" id="upcoming-event-img" alt="The Museum of Human Achievement presents, Games Y'all Meetup" width="400" height="500" />
+            </a>
+        </div>   
+          <!--Upcoming Event info-->
+        <div class="col-4" id="upcoming-event-text">
+            <h3>Upcoming Meetups</h3>
+            <p>Mark your calendars!</p>
+        </div>
+    </div>
+
+             <!-- NEWSLETTER -->
+    <div class="row">
+        <div class="col-6">
+            <h2>Newsletter</h2>
+            <p>Keep up to date with our events, opportunities, and announcements by signing up for our newsletter.</p>
+            <button class="button" id="More Info'"><a href="https://www.themuseumofhumanachievement.com/forms/email/">Sign Up</a></button>
+        </div>
+        <div class="col-6">
+            <img src="./img/misc-img/newsletter.png" alt="Sign up for our newsletter!" >
+        </div>
+    </div>
+    
+             <!-- OPEN CALL-->
     <div class="row">
         <div class="col-8" id="announcement-banner">
             <a href="/submit-a-game">
-                <img src="./img/misc-img/GY-open-call-general.png" id="upcoming-event-img" alt="Fantastic Arcade presents, Open Call for Games." width="400" height="500" />
+ 			<img src="/img/misc-img/call-for-games.png" id="upcoming-event-img" alt="The Museum of Human Achievement presents, Games Y'all Meetup" width="400" height="500" />
             </a>
         </div>
 
