@@ -21,7 +21,7 @@
                         <i class="events-dropdown"></i>
                     </a>
                     <div class="dropdown-content">
-                        <a href="/event-may-2024">May Games Y'all</a>
+                        <a href="/event-june-2024">June Games Y'all</a>
                         <a href="/events">Past Events</a>
                     </div>
                 </li>
@@ -66,7 +66,7 @@
             <!--Events has a drop down-->
             <a href="javascript:void(0);" onclick="openEvents()"> Events </a>
             <div id="events-submenu">
-               <a href="/event-may-2024">May Games Y'all</a>
+               <a href="/event-june-2024">June Games Y'all</a>
                 <a href="/events"> Past Events </a>
             </div>
 

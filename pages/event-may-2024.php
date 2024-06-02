@@ -43,8 +43,8 @@ require(__DIR__ . "/../partials/html-head.php");
                 🎟 Free admission, donations are encouraged! Please RSVP, walk ups are welcome.
             </p>
                 
-            <!--RSVP Button-->
-            <button class="button" id="RSVP'"><a href="https://withfriends.co/event/19993747/games_yall_may_meetup">RSVP</a></button>
+            <!--RSVP Button
+            <button class="button" id="RSVP'"><a href="https://withfriends.co/event/19993747/games_yall_may_meetup">RSVP</a></button> -->
         </div>
                         
         <div class="col-8">
@@ -345,22 +345,21 @@ Frank Force is an experienced game developer and creative coder known for his wo
           </div> 
                               
     <!--Event Images-->
-    <!--Only use this section after an event to house images from the past--
+    <!--Only use this section after an event to house images from the past-->
     <div class="row">-
         <div class="col-12">
             <h2 style="text-align: center;">Gallery</h2>
 
             <div class="flex-container-row">
-                <img src="/img/Archived-img/November-2022/photos/nov-gy-photo-1.png" style="width: 375px; height: 375px;"> 
-                <img src="/img/Archived-img/November-2022/photos/nov-gy-photo-2.png" style="width: 375px; height: 375px;"> 
-                <img src="/img/Archived-img/November-2022/photos/nov-gy-photo-3.png" style="width: 375px; height: 375px;"> 
-                <img src="/img/Archived-img/November-2022/photos/nov-gy-photo-4.png" style="width: 375px; height: 375px;">
-                <img src="/img/Archived-img/November-2022/photos/nov-gy-photo-5.png" style="width: 375px; height: 375px;"> 
-                <img src="/img/Archived-img/November-2022/photos/nov-gy-photo-6.png" style="width: 375px; height: 375px;">
+                <img src="/img/Archived-img/May-2024/photos/may-gy-photo-1.png" style="width: 375px; height: 375px;"> 
+                <img src="/img/Archived-img/May-2024/photos/may-gy-photo-2.png" style="width: 375px; height: 375px;"> 
+                <img src="/img/Archived-img/May-2024/photos/may-gy-photo-3.png" style="width: 375px; height: 375px;"> 
+                <img src="/img/Archived-img/May-2024/photos/may-gy-photo-4.png" style="width: 375px; height: 375px;">
+                <img src="/img/Archived-img/May-2024/photos/may-gy-photo-5.png" style="width: 375px; height: 375px;"> 
+                <img src="/img/Archived-img/May-2024/photos/may-gy-photo-6.png" style="width: 375px; height: 375px;">
             </div>
         </div>
     </div>
-    -->
 
     <?php 
     // Include the Community links and footer

@@ -24,19 +24,19 @@ require(__DIR__ . "/../partials/html-head.php");
     <!-- NEXT EVENT-->
     <div class="row" style="margin-top: 80px;">
         <div class="col-8" id="announcement-banner">
-            <a href="/event-march-2024">
-                <img src="/img/event-img/GY-Banner-May-24.png" id="upcoming-event-img" alt="The Museum of Human Achievement presents, Games Y'all Meetup" width="400" height="500" />
+            <a href="/event-june-2024">
+                <img src="/img/event-img/GY-Banner-June-24.png" id="upcoming-event-img" alt="The Museum of Human Achievement presents, Games Y'all Meetup" width="400" height="500" />
             </a>
         </div>
 
         <!--Event info-->
         <div class="col-4" id="upcoming-event-text">
-            <h3>May Meetup</h3>
-            <p>Friday May 24th 7-10pm
+            <h3>June Meetup</h3>
+            <p>Thursday June 20th 7-10pm
             <br><br> 
             🎟 Free admission, donations are encouraged! Please RSVP, walk ups are welcome.</p>
             <br>
-            <button class="button" id="More Info'"><a href="/event-may-2024">More Info</a></button>
+            <button class="button" id="More Info'"><a href="/event-june-2024">More Info</a></button>
         </div>
     </div>
  
@@ -57,14 +57,14 @@ require(__DIR__ . "/../partials/html-head.php");
  <!-- UPCOMING  EVENT-->
     <div class="row" style="margin-top: 80px;">
         <div class="col-8" id="announcement-banner">
-            <a href="/event-march-2024">
+            <a href="/event-june-2024">
                 <img src="/img/misc-img/upcoming-events.png" id="upcoming-event-img" alt="The Museum of Human Achievement presents, Games Y'all Meetup" width="400" height="500" />
             </a>
         </div>   
           <!--Upcoming Event info-->
         <div class="col-4" id="upcoming-event-text">
             <h3>Upcoming Meetups</h3>
-            <p>Mark your calendars!</p>
+            <p>Mark your calendars! We host Games Y'all monthly January through November at The Museum of Human Achievement and other fun spaces like breweries, libraries, and game stores! Interested in hosting us? Email us at games@themuseumofhumanachievement.com</p>
         </div>
     </div>
 
