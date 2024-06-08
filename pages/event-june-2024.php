@@ -55,8 +55,8 @@ require(__DIR__ . "/../partials/html-head.php");
         <div class="col-10">
            <p>We’re returning to Last Stand Brewing for our 2nd Tabletop Edition of Games Y’all. We’ll have AC (YAY!), Tabletop RPGS, new Welcome to My Homepage Residents, and more!
 			<br><br>
-		GOOD NEWS! Clean Air Club will be providing an air purifier for our meetup to help provide a safer space for our community. Read more about their organization farther down!
-			<br><br>
+		GOOD NEWS! Clear The Air ATX will be providing an air purifier for our meetup to help provide a safer space for our community. Clear The Air ATX is a volunteer organization that provides free air purifiers for Austin events so that organizers can provide a safer environment for the artists, audiences, and staff at the venues.
+		<br><br>
 		Last Stand Brewing is located in The Collective on South Congress Avenue, Last Stand Brewing boasts a full bar and kitchen. They offer house made soda, craft beer, cocktails, a curated wine list as well as a kitchen with a strong focus on farm to fork food.
 		</p>
  <br>
@@ -315,6 +315,39 @@ require(__DIR__ . "/../partials/html-head.php");
                   <h6>@cindy.popp</h6>
                   <a href="https://www.instagram.com/cindy.popp">
                     <img src="/img/Social-buttons/instagram-button.png" style="width: 64px; height: auto;">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div> 
+          
+<!--TITANOMACHY: Dreams of the Hue Game-->
+          <div class="row" style="background-color: #F2D335; border-radius: 10px; margin-bottom: 25px;">
+            <div class="game-card-long">
+              <div>
+                <img src="/img/Archived-img/June-2024/games/tdoth.jpg" alt="A promotional image for TITANOMACHY: Dreams of the Hue"> 
+              </div>  
+
+              <!--Game Text-->
+              <div>
+                <h4>TITANOMACHY: Dreams of the Hue</h4>
+                <p>A tabletop Roleplaying built on the Wild Words engine popularized by Kickstarter successs The Wildsea, TDotH narratively simulates bringing down the last trillionaires to their knees in a crumbling CyberBioPunk future all set in an overgrown futuristic Houston - The Hue.
+				<br><br>
+				Join us for quick city and character generation, and a quick overview of TDotH’s mechanical system and the adventure that await its protagonists - the Omens.
+				</p>
+                <button class="button"  style="margin: 10px; background-color: #9BE9FF;">
+                  <a href="https://www.tumblr.com/tdoth">More Info</a>
+                </button>
+
+              </div>
+
+              <!--Dev Text-->
+              <div>
+                <h6>Developer: Sillion L<h6> 
+                <div class="dev-social">
+                  <h6>@tdoth</h6>
+                  <a href="https://www.tumblr.com/tdoth">
+                    <img src="/img/Social-buttons/tumblr-button.png" style="width: 64px; height: auto;">
                   </a>
                 </div>
               </div>
