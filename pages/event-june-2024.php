@@ -124,7 +124,9 @@ require(__DIR__ . "/../partials/html-head.php");
               <div>
                 <h4>Culture Cue</h4>
                 <p>Culture Cue is the board game that focuses on players' stories and experiences. In Culture Cue, players get to share their own personal experiences with each other while trying to get all their tokens to Generational Enlightenment.
-                </p>
+               <br><br>
+               Culture Cue was developed by Paul Quinones and Lisa Poon. Paul is a game industry professional that has worked on several mobile titles and smaller Tabletop RPGs like Modern Unicorns. Lisa is Hong Kong born and Jacksonville, Fl raised UX Researched always looking to create new opportunities to bring people together.
+            </p>
                 <button class="button"  style="margin: 10px; background-color: #9BE9FF;">
                   <a href="https://culturecue.games/">More Info</a>
                 </button>
@@ -357,6 +359,37 @@ require(__DIR__ . "/../partials/html-head.php");
               </div>
             </div>
           </div> 
+          
+<!--Power Creeps card-->
+          <div class="row" style="background-color: #9BE9FF; border-radius: 10px; margin-bottom: 25px;">
+            <div class="game-card-long">
+              <div>
+                <img src="/img/Archived-img/June-2024/games/power-creeps.PNG" alt="A promotional image for Power Creeps"> 
+              </div>  
+
+              <!--Game Text-->
+              <div>
+                <h4>Power Creeps</h4>
+                <p>Power Creeps is a simple and chaotic TTRPG system that blends dice mechanics with party-game style rules. It is played with 2-6 players and 1 Creep Master (CM.) Players cast spells from an ever changing collection of words created by the group at the start of the game. The players work together as a party to pursue and acquire their one true Desire.
+                </p>
+                <button class="button"  style="margin: 10px; background-color: #F2D335;">
+                  <a href="https://hunterjallen.itch.io/">More Info</a>
+                </button>
+
+              </div>
+
+   <!--Dev Text-->
+              <div>
+                <h6>Developer: Hunter J Allen<h6> 
+                <div class="dev-social">
+                  <h6>@HunterJAllen</h6>
+                  <a href="https://x.com/HunterJAllen">
+                    <img src="/img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>   
           
     <!--Event Images-->
     <!--Only use this section after an event to house images from the past--
