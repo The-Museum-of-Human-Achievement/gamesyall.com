@@ -6,7 +6,7 @@
 // Meta information for this page, to appear in browser and in social media previews: title, description, and preview image
 // Title should up no more than 70 characters, and description no more than 160.
 $headTitle = "April 2024 Meetup - Games Y'all";
-$headDescription = "Games Y'all March Meetup";
+$headDescription = "Games Y'all April Meetup";
 $headImage = "/img/event-img/GY-Banner-Apr-24.png"; // this is optional! only needed if the page has an image
 
 require(__DIR__ . "/../partials/html-head.php");
