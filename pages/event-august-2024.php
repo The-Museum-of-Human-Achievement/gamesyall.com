@@ -5,9 +5,9 @@
 
 // Meta information for this page, to appear in browser and in social media previews: title, description, and preview image
 // Title should up no more than 70 characters, and description no more than 160.
-$headTitle = "July 2024 Meetup - Games Y'all";
-$headDescription = "Games Y'all July Meetup";
-$headImage = "/img/event-img/GY-Banner-June-24.png"; // this is optional! only needed if the page has an image
+$headTitle = "August 2024 Meetup - Games Y'all";
+$headDescription = "Games Y'all August Meetup";
+$headImage = "/img/event-img/GY-Banner-Aug-24.png"; // this is optional! only needed if the page has an image
 
 require(__DIR__ . "/../partials/html-head.php");
 
@@ -25,7 +25,7 @@ require(__DIR__ . "/../partials/html-head.php");
         <p>
             <a href="/events">Past Events</a> 
             >
-            <a href="/event-june-2024">June 24th, 2024</a>
+            <a href="/event-august-2024">August 23rd, 2024</a>
         </p>
         </div>
     </div>
@@ -33,31 +33,29 @@ require(__DIR__ . "/../partials/html-head.php");
     <!--Content and Information-->
     <div class="row">    
         <div class="col-4"style="justify-content: left;">
-            <h1>July Meetup</h1>
+            <h1>August Meetup</h1>
         
-            <h4>July 25th, 2024 - 7-10pm</h4>
+            <h4>August 23rd, 2024 - 7-10pm</h4>
         
             <p>
-                RADIO/EAST <a href="https://maps.app.goo.gl/9QKeY1ZLcNW3Z2Zj7" target="_blank">3504 Montopolis Dr, Austin, TX 78744</a>
+                Howson Branch Austin Public Library <a href="https://maps.app.goo.gl/QRFUXkgfq1u1F1JHA" target="_blank">2500 Exposition Blvd, Austin, TX 78703</a>
                 <br /><br />
                 🎟 Free admission, donations are encouraged! Please RSVP, walk ups are welcome.
             </p>
                 
             <!--RSVP Button-->
-            <button class="button" id="RSVP'"><a href="https://withfriends.co/event/20269818/games_yall_july_meetup">RSVP</a></button>
+            <button class="button" id="RSVP'"><a href="https://withfriends.co/event/20292114/games_yall_august_meetup">RSVP</a></button>
         </div>
                         
         <div class="col-8">
             <!--Add your event image here-->
-            <img src="/img/event-img/GY-Banner-July-24.png" alt="The Museum of Human Achievement presents, Games Y'all July Meetup">
+            <img src="/img/event-img/GY-Banner-Aug-24.png" alt="The Museum of Human Achievement presents, Games Y'all August Meetup">
         </div>
 
         <div class="col-10">
-           <p>Our new friends down at RADIO/EAST are welcoming us into their coffeehouse to host our July Games Y’all. Join us for cold drinks, hot drinks pastries, and games! This month's roundup showcases the wide variety of projects we receive for our open call.
- <br> <br>
-Did you know you could submit your indie game or digital art project to show at future meetups? <a href="https://gamesyall.com/submit-a-game" target="_blank">Submit your game here!</a>
- <br> <br>
-RADIO/EAST is a bakery and coffeehouse that boasts a diverse menu of drinks and snacks! There are 3 food trucks on site and plenty of parking.</p>
+           <p>This August, we are celebrating Pride! Our Games Roundup will focus on projects developed by LGBTQ+ creators, and/or projects that prominently feature queer characters or the queer experience!
+ 			<br> <br>
+			Shout out to Austin Public Library and our new friends at the Howson Branch. Not only are they our wonderful hosts but they are helping provide snacks, bevs, and some sweet surprises!</p>
  <br>
 <h5>Games Y'all</h5>
             <p>Games Y’all is a monthly meetup presented by the Museum of Human Achievement for indie devs, digital artists, and games fans. We showcase indie games and digital art projects from our local community and beyond. You can come to our meetups to play games, experience digital art, and connect with the local Austin games community. <p/>
