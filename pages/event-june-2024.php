@@ -39,14 +39,12 @@ require(__DIR__ . "/../partials/html-head.php");
         
             <p>
                 Last Stand Brewing <a href="https://maps.app.goo.gl/eUtjWRte5caGLkun9" target="_blank">Building 6, 7601 S Congress Ave, Austin, TX 78745</a>
-                <br /><br />
-                🎟 Free admission, donations are encouraged! Please RSVP, walk ups are welcome.
             </p>
                 
-            <!--RSVP Button-->
+            <!--RSVP Button
             <button class="button" id="RSVP'"><a href="https://withfriends.co/event/20202067/games_yall_june_meetup">RSVP</a></button>
-        </div>
-                        
+         -->
+        </div>           
         <div class="col-8">
             <!--Add your event image here-->
             <img src="/img/event-img/GY-Banner-June-24.png" alt="The Museum of Human Achievement presents, Games Y'all June Meetup">
@@ -394,7 +392,7 @@ require(__DIR__ . "/../partials/html-head.php");
           </div>   
           
     <!--Event Images-->
-    <!--Only use this section after an event to house images from the past--
+    <!--Only use this section after an event to house images from the past-->
     <div class="row">-
         <div class="col-12">
             <h2 style="text-align: center;">Gallery</h2>
@@ -409,7 +407,7 @@ require(__DIR__ . "/../partials/html-head.php");
             </div>
         </div>
     </div>
-    -->
+
 
     <?php 
     // Include the Community links and footer
