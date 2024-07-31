@@ -7,7 +7,7 @@
 // Title should up no more than 70 characters, and description no more than 160.
 $headTitle = "July 2024 Meetup - Games Y'all";
 $headDescription = "Games Y'all July Meetup";
-$headImage = "/img/event-img/GY-Banner-June-24.png"; // this is optional! only needed if the page has an image
+$headImage = "/img/event-img/GY-Banner-July-24.png"; // this is optional! only needed if the page has an image
 
 require(__DIR__ . "/../partials/html-head.php");
 

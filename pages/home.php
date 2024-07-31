@@ -24,33 +24,34 @@ require(__DIR__ . "/../partials/html-head.php");
     <!-- NEXT EVENT-->
     <div class="row" style="margin-top: 80px;">
         <div class="col-8" id="announcement-banner">
-            <a href="/event-june-2024">
-                <img src="/img/event-img/GY-Banner-July-24.png" id="upcoming-event-img" alt="The Museum of Human Achievement presents, Games Y'all Meetup" width="400" height="500" />
+            <a href="/event-august-2024">
+                <img src="/img/event-img/GY-Banner-Aug-24.png" id="upcoming-event-img" alt="The Museum of Human Achievement presents, Games Y'all Meetup" width="400" height="500" />
             </a>
         </div>
 
         <!--Event info-->
         <div class="col-4" id="upcoming-event-text">
-            <h3>July Meetup</h3>
-            <p>Thursday July 25th 7-10pm
+            <h3>August Meetup</h3>
+            <p>🗓️ August 23rd 🕛 7-10pm 📍 Howson Branch Austin Public Library
             <br><br> 
-            🎟 Free admission, donations are encouraged! Please RSVP, walk ups are welcome.</p>
+            Games Y’all is a casual meetup for indie devs, digital artists, and games fans held
+                every month. 🎟 Free admission, donations are encouraged!</p>
             <br>
-            <button class="button" id="More Info'"><a href="/event-july-2024">More Info</a></button>
+            <button class="button" id="More Info'"><a href="/event-august-2024">More Info</a></button>
         </div>
     </div>
  
-        <!-- WHAT IS GAMES Y'ALL-->
+        <!--Fantastic Arcade-->
     <div class="row">
         <div class="col-6">
-            <h2>What is Games Y'all?</h2>
-            <p>Games Y’all is a casual meetup hosted by The Museum of Human Achievement for indie devs, digital artists, and games fans held
-                every month. Come play games, hang out, meet friends, and learn how to share your work at future meetups. We 
-                celebrate, amplify, and support the unique and underrepresented within indie games and beyond.</p>
-            <a href="/about-us">Learn More</a>
+            <h3>Fantastic Arcade: Fun Size Edition!</h3>
+            <p>Learn more about our one-day event showcasing a curated selection of groundbreaking talks and independent games. Saturday October 26th, save the date!
+            </p>
+              <br>
+            <button class="button" id="Learn More'"><a href="https://fantasticarcade.com/news/">Learn More</a></button>
         </div>
         <div class="col-6">
-            <img src="./img/example-of-event.png" alt="What is a Games Y'all?" >
+            <img src="/img/event-img/FA-Banner-Oct-24.png" alt="Fantastic Arcade: Fun Size Edition!" >
         </div>
     </div>
     
