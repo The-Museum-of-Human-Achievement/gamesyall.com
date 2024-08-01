@@ -43,8 +43,8 @@ require(__DIR__ . "/../partials/html-head.php");
                 🎟 Free admission, donations are encouraged! Please RSVP, walk ups are welcome.
             </p>
                 
-            <!--RSVP Button-->
-            <button class="button" id="RSVP'"><a href="https://withfriends.co/event/20269818/games_yall_july_meetup">RSVP</a></button>
+            <!--RSVP Button
+            <button class="button" id="RSVP'"><a href="https://withfriends.co/event/20269818/games_yall_july_meetup">RSVP</a></button>-->
         </div>
                         
         <div class="col-8">
@@ -310,22 +310,20 @@ Theatrics aside, this game was made by a group of friends wanting to learn more 
           </div>        
           
     <!--Event Images-->
-    <!--Only use this section after an event to house images from the past--
+    <!--Only use this section after an event to house images from the past-->
     <div class="row">-
         <div class="col-12">
             <h2 style="text-align: center;">Gallery</h2>
 
             <div class="flex-container-row">
-                <img src="/img/Archived-img/June-2024/photos/june-gy-photo-1.png" style="width: 375px; height: 375px;"> 
-                <img src="/img/Archived-img/June-2024/photos/june-gy-photo-2.png" style="width: 375px; height: 375px;"> 
-                <img src="/img/Archived-img/June-2024/photos/june-gy-photo-3.png" style="width: 375px; height: 375px;"> 
-                <img src="/img/Archived-img/June-2024/photos/june-gy-photo-4.png" style="width: 375px; height: 375px;">
-                <img src="/img/Archived-img/June-2024/photos/june-gy-photo-5.png" style="width: 375px; height: 375px;"> 
-                <img src="/img/Archived-img/June-2024/photos/june-gy-photo-6.png" style="width: 375px; height: 375px;">
+                <img src="/img/Archived-img/July-2024/photos/july-gy-photo-1.png" style="width: 375px; height: 375px;"> 
+                <img src="/img/Archived-img/July-2024/photos/july-gy-photo-2.png" style="width: 375px; height: 375px;"> 
+                <img src="/img/Archived-img/July-2024/photos/july-gy-photo-3.png" style="width: 375px; height: 375px;"> 
+                <img src="/img/Archived-img/July-2024/photos/july-gy-photo-4.png" style="width: 375px; height: 375px;">
+                <img src="/img/Archived-img/July-2024/photos/july-gy-photo-5.png" style="width: 375px; height: 375px;"> 
             </div>
         </div>
     </div>
-    -->
 
     <?php 
     // Include the Community links and footer
