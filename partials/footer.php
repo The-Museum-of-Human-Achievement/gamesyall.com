@@ -43,7 +43,7 @@
 </div>
 
 <footer>
-    <p>Games Y’all is a program of The Museum of Human Achievement. 
+    <p>Games Y’all is a meetup presented by The Museum of Human Achievement. 
         We endeavor to  celebrate, amplify, and support the unique and underrepresented within 
         indie games and beyond. </p>
     
