@@ -23,11 +23,7 @@ require(__DIR__ . "/../partials/html-head.php");
     // Include the navbar
     require(__DIR__ . "/../partials/header.php")
     ?>
-
-<div class="row" style="margin-bottom: 40px;">
-        </div>
-             <hr>
-                <Img src="/img/misc-img/safety.png"></Img>
+    <Img src="/img/misc-img/safety.png" alt="SAFETY" width="400" height="400" style="display: block; margin-left: auto; margin-right: auto;">
         <!--Universal Safety card only appears on MOBILE-->
         <div class="row">
             <div class="col-12"  id="safety-card-mobile">

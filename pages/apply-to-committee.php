@@ -27,9 +27,7 @@ require(__DIR__ . "/../partials/html-head.php");
   <div class="row" style="margin-bottom: 0px;">
       <div class="col-2"></div>
       <div class="col-8">
-         <img src="/img/misc-img/committee-app.png" alt="Apply to a Games Y'all Committee Position"
-        <p>
-          We are seeking new voices to shape the reality of Fantastic Arcade and Games Y’all. <br> <br>
+         <img src="/img/misc-img/committee-app.png" alt="Apply to a Games Y'all Committee Position" width="400" height="400" style="float:left">We are seeking new voices to shape the reality of Fantastic Arcade and Games Y’all. <br> <br>
           
           We strive for strong representation of BIPOC, LGBTQIA+, female, gender nonbinary, and disabled individuals in our 
           leadership to best serve our diverse community. Folks of identities that are underrepresented in the games industry 

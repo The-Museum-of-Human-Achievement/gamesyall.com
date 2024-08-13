@@ -28,9 +28,7 @@ require(__DIR__ . "/../partials/html-head.php");
     <!--Donation Text-->
     <div class="row">
         <div class="col-10">
-         <img src="/img/misc-img/donations.png" alt="Sponsor Games Y'all"
-        <hr>
-        <p>
+         <img src="/img/misc-img/donations.png" alt="Sponsor Games Y'all" width="400" height="400" style="float:left">
             Consider helping Games Y'all roll along through a donation. Donations help us pay for email service, supplies, games, rent, 
             equipment maintenance, etc.
             <br> <br>

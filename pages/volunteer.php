@@ -38,7 +38,7 @@ require(__DIR__ . "/../partials/html-head.php");
         </div>
 
         <div class="col-8">
-          <img src="/img/misc-img/volunteer.png" alt="Volunteer Promo Image">
+          <img src="/img/misc-img/volunteer.png" alt="Volunteer Promo Image" width="400" height="400" style="float:right">
         </div>
       </div>
 

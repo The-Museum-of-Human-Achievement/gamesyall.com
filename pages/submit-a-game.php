@@ -25,28 +25,29 @@ require(__DIR__ . "/../partials/html-head.php");
     require(__DIR__ . "/../partials/header.php")
     ?>
 
-<Div class="row">
-            <div class="col-2"></div>
-            <div class="col-8" style="text-align: left;">
+<div class="row">
                  <h2>Submit Your Game!</h2>
-                  <img src="/img/misc-img/call-for-games.png" alt="Games Y'all presents our open call for indie games. Caption reads rolling deadline apply today and features a pixelated armadillo inspired from the game armadillo run.">
+                  <img src="/img/misc-img/call-for-games.png" alt="Games Y'all presents our open call for indie games. Caption reads rolling deadline apply today and features a pixelated armadillo inspired from the game armadillo run." width="400" height="400" style="float:left">
                 
                 <hr>
-                <h2>How This Works</h2>
-                <p>Our mission is to celebrate, amplify, and support unique games and underrepresented groups within indie games and beyond. This form and our selection process are an extension of our mission. We are specifically looking to uplift smaller teams, smaller games, and projects that don't quite fit the "games" mold.
-<br><br>
-We use the words game and project interchangeably in this form but, if selected, we will be in contact to ask which term you prefer for your project! Things that aren't necessarily games like net art, interactive media and experimental controllers are also accepted. 
-<br><br>
-Show us your stuff y’all! New or old, finished or beta, game or not-quite game. 
-<br><br>
-If you have a project that doesn't fit the form please email us at games@themuseumofhumanachievement.com.
-<br><br>
-Applications are reviewed by the selection committee on a rolling basis and don't expire. If accepted, we'll reach out to discuss schedule and logistics. Every month we will post a deadline to be featured for our next roundup, but don’t fret! Games that do not get selected will be considered for future meetups.
-
-             </p>
                 <button class="button">
                     <a href="https://form.jotform.com/231816434607153">Submission Form</a>
                 </button>
+                <br><br>
+                <p>Show us your stuff y’all! New or old, finished or beta, game or not-quite game.</p>
+</div>
+<div class="row">
+                <h2>How This Works</h2>
+                <p>Our mission is to celebrate, amplify, and support unique games and underrepresented groups within indie games and beyond. This form and our selection process are an extension of our mission. We are specifically looking to uplift smaller teams, smaller games, and projects that don't quite fit the "games" mold.
+                    <br><br>
+                    We use the words game and project interchangeably in this form but, if selected, we will be in contact to ask which term you prefer for your project! Things that aren't necessarily games like net art, interactive media and experimental controllers are also accepted. 
+                    <br><br>
+                    If you have a project that doesn't fit the form please email us at games@themuseumofhumanachievement.com.
+                    <br><br>
+                    Applications are reviewed by the selection committee on a rolling basis and don't expire. If accepted, we'll reach out to discuss schedule and logistics. Every month we will post a deadline to be featured for our next roundup, but don’t fret! Games that do not get selected will be considered for future meetups.
+
+             </p>
+                
             </div>
             <div class="col-2"></div>
         </Div>
