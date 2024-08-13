@@ -24,12 +24,12 @@ require(__DIR__ . "/../partials/html-head.php");
     // Include the navbar
     require(__DIR__ . "/../partials/header.php")
     ?>
-    
 <!--Sponsorship Text-->
     <div class="row">
-        <div class="col-8">
+    <div class="col-10">
         <h2>Sponsorship!</h2>
  <img src="/img/misc-img/sponsorship.png" alt="Sponsor Games Y'all" width="400" height="400" style="float:left">
+ <hr>
         <p>
             Interested in sponsoring Games Y’all and the Indie Games programs at The Museum of Human Achievement? All sponsors receive a shoutout on stage at the meetup, a mention in our newsletter, plus company name and logo on our website.
 			<br> <br>
@@ -43,7 +43,7 @@ require(__DIR__ . "/../partials/html-head.php");
             </a>
             </button>
 
-        </div>
+        
         </div>
 
     </div>

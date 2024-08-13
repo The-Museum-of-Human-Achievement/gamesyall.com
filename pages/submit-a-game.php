@@ -26,15 +26,16 @@ require(__DIR__ . "/../partials/html-head.php");
     ?>
 
 <div class="row">
+<div class="col-10">
                  <h2>Submit Your Game!</h2>
                   <img src="/img/misc-img/call-for-games.png" alt="Games Y'all presents our open call for indie games. Caption reads rolling deadline apply today and features a pixelated armadillo inspired from the game armadillo run." width="400" height="400" style="float:left">
-                
                 <hr>
                 <button class="button">
                     <a href="https://form.jotform.com/231816434607153">Submission Form</a>
                 </button>
                 <br><br>
                 <p>Show us your stuff y’all! New or old, finished or beta, game or not-quite game.</p>
+</div>
 </div>
 <div class="row">
                 <h2>How This Works</h2>

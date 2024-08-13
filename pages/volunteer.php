@@ -25,22 +25,21 @@ require(__DIR__ . "/../partials/html-head.php");
     require(__DIR__ . "/../partials/header.php")
     ?>
 
-    <!-- Volunter Information-->
-    <div class="row">
-        <div class="col-4">
-          <p>
-            Join in! Wear a cool lanyard and help set up, check in guests, whisper nice things to computers, demo games, etc.
-             Help all night or just for a bit.
-          </p>
-          <button class="button" style="margin-left: 0px;">
-            <a href="https://themuseumofhumanachievement.com/forms/volunteer/"> Sign Up</a>
-          </button>
-        </div>
+<!-- Volunter Information-->
 
-        <div class="col-8">
-          <img src="/img/misc-img/volunteer.png" alt="Volunteer Promo Image" width="400" height="400" style="float:right">
-        </div>
-      </div>
+  <div class="row">
+  <div class="col-10">
+    <h2>Volunteer!</h2>
+    <img src="/img/misc-img/volunteer.png" alt="Volunteer Promo Image" width="400" height="400" style="float:left">
+    <hr>
+    <button class="button">
+        <a href="https://themuseumofhumanachievement.com/forms/volunteer/">Sign Up</a>
+    </button>
+    <br><br>
+    <p>Join in! Wear a cool lanyard and help set up, check in guests, whisper nice things to computers, demo games, etc.
+    Help all night or just for a bit.</p>
+  </div>
+  </div>
 
       <!-- Types of volunteers-->
       <div class="row" style="margin-bottom: 0px;">

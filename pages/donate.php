@@ -24,16 +24,17 @@ require(__DIR__ . "/../partials/html-head.php");
     // Include the navbar
     require(__DIR__ . "/../partials/header.php")
     ?>
-
     <!--Donation Text-->
     <div class="row">
         <div class="col-10">
-         <img src="/img/misc-img/donations.png" alt="Sponsor Games Y'all" width="400" height="400" style="float:left">
-            Consider helping Games Y'all roll along through a donation. Donations help us pay for email service, supplies, games, rent, 
+        <h2>Donate!</h2>
+         <img src="/img/misc-img/donations.png" alt="DONATIONS" width="400" height="400" style="float:left">
+         <hr>
+            <p>Consider helping Games Y'all roll along through a donation. Donations help us pay for email service, supplies, games, rent, 
             equipment maintenance, etc.
             <br> <br>
             The Museum of Human Achievement is our administrator and 501(c)3 nonprofit fiscal sponsor - your memberships and
-            donations are processed through them and are tax deductible to the extent allowed by the law.
+            donations are processed through them and are tax deductible to the extent allowed by the law.</p>
 
         </p>
             

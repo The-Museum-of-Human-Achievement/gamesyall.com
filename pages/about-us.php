@@ -23,29 +23,31 @@ require(__DIR__ . "/../partials/html-head.php");
     // Include the navbar
     require(__DIR__ . "/../partials/header.php")
     ?>
-
-    <div class="row" style="margin-bottom: 0px;">
-        <div class="col-10" >
-             <img src="/img/misc-img/about-us.png" alt="About Games Y'all" width="400" height="400">
-        </div>
-
-        <div class="col-12">
-            <h2>Who are we?</h2>
-        </div>
+    <div class="row">
+    <div class="col-10">
+         <h2>About Us</h2>
+          <img src="/img/misc-img/about-us.png" alt="About Games Y'all" width="400" height="400" style="float:left">
+        <hr>
+        
+        <p><b> Games Y’all </b> is a meetup presented by the Museum of Human Achievement, 
+        held every month at venues around Austin for indie devs, digital artists, and 
+        games fans. Games Y’all celebrates, amplifies, and supports the unique and 
+        underrepresented within indie games and beyond. Come play games, share what 
+        you’re working on, hang out and meet friends.</p>      
     </div>
-
+    </div>
     <!--Games Y'all-->
     <div class="row" style="margin-bottom: 0px;">
+    <h2>Tell me more!</h2>
         <div class="col-10">
             <p>
-            <b> Games Y’all </b> is a meetup presented by the Museum of Human Achievement, 
+            As above: <b>Games Y’all </b> is a meetup presented by the Museum of Human Achievement, 
             held every month at venues around Austin for indie devs, digital artists, and 
             games fans. Games Y’all celebrates, amplifies, and supports the unique and 
             underrepresented within indie games and beyond.Come play games, share what 
-            you’re working on, hang out and meet friends. Game submissions are accepted on 
+            you’re working on, hang out and meet friends. <a href="/submit-a-game">Game submissions</a> are accepted on 
             a rolling basis, with occasional themed calls for specific months. Throughout the 
-            year we host Game Jams, Digital Do-Si-Dos and our Game of the Month meetup.
-            <a href="https://www.gamesyall.com/ ">gamesyall.com/ </a>
+            year we host Game Jams, Digital Do-Si-Dos and our monthly meetup.
             </p>
         </div>
 
