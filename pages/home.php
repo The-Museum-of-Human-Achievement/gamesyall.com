@@ -58,14 +58,12 @@ require(__DIR__ . "/../partials/html-head.php");
  <!-- UPCOMING  EVENT-->
     <div class="row" style="margin-top: 80px;">
         <div class="col-8" id="announcement-banner">
-            <a href="/event-june-2024">
-                <img src="/img/misc-img/upcoming-events.png" id="upcoming-event-img" alt="The Museum of Human Achievement presents, Games Y'all Meetup" width="400" height="500" />
-            </a>
+            <img src="/img/misc-img/upcoming-events.png" id="upcoming-event-img" alt="UPCOMING EVENTS: Aug 23, Sep 20, Oct 26th" width="400" height="500" />
         </div>   
           <!--Upcoming Event info-->
         <div class="col-4" id="upcoming-event-text">
             <h3>Upcoming Meetups</h3>
-            <p>Mark your calendars! We host Games Y'all monthly January through November at The Museum of Human Achievement and other fun spaces like breweries, libraries, and game stores! Interested in hosting us? Email us at games@themuseumofhumanachievement.com</p>
+            <p>Mark your calendars! Games Y'all has upcoming evnets on August 23rd, September 20th, and October 26th! We host Games Y'all monthly January through November at The Museum of Human Achievement and other fun spaces like breweries, libraries, and game stores! Interested in hosting us? Email us at games@themuseumofhumanachievement.com</p>
         </div>
     </div>
 
