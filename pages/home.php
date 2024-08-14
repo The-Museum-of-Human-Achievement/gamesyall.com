@@ -63,7 +63,7 @@ require(__DIR__ . "/../partials/html-head.php");
           <!--Upcoming Event info-->
         <div class="col-4" id="upcoming-event-text">
             <h3>Upcoming Meetups</h3>
-            <p>Mark your calendars! Games Y'all has upcoming evnets on August 23rd, September 20th, and October 26th! We host Games Y'all monthly January through November at The Museum of Human Achievement and other fun spaces like breweries, libraries, and game stores! Interested in hosting us? Email us at games@themuseumofhumanachievement.com</p>
+            <p>Mark your calendars! Games Y'all has upcoming events on August 23rd, September 20th, and October 26th! We host Games Y'all monthly January through November at The Museum of Human Achievement and other fun spaces like breweries, libraries, and game stores! Interested in hosting us? Email us at games@themuseumofhumanachievement.com</p>
         </div>
     </div>
 
