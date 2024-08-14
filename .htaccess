@@ -14,3 +14,6 @@ RewriteRule ^([a-z]+)$ /$1.html[L]
 
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule . index.php [L]
+
+RewriteCond      %{QUERY_STRING}    .
+RewriteRule      (.*)               /$1?     [R=permanent,L]
