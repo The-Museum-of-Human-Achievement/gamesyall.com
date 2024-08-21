@@ -69,40 +69,102 @@ require(__DIR__ . "/../partials/html-head.php");
         </div>
     </div>
 
-  <!--Games at the event--
+  <!--Games at the event-->
         <div>
           <h2 style="text-align: center;">Games This Month</h2>
           
-<!--1-1(bit) card--
+<!--Dance Machine 2000 card-->
           <div class="row" style="background-color: #9BE9FF; border-radius: 10px; margin-bottom: 25px;">
             <div class="game-card-long">
               <div>
-                <img src="/img/Archived-img/June-2024/games/1-1-playdate.jpg" alt="A promotional image for 1-1(bit)"> 
+                <img src="/img/Archived-img/August-2024/games/dance-machine.png" alt="A promotional image for the Dance Machine 2000"> 
               </div>  
 
-              <!--Game Text--
+              <!--Game Text-->
               <div>
-                <h4>1-1(bit)</h4>
-                <p>Dying is Feedback. Death is information. 1-1(bit) is a puzzle platformer made in Pulp for the Playdate. The platforms are invisible and the player builds a mental map of the level layout through traversal and observation... but is there more to the game than a grid of dots? You must be dreaming.
-				<br>
-					Players Can reveal the level using the B menu. Players also tend Not to do that. 
+                <h4>Dance Machine 2000</h4>
+                <p>The Dance Machine 2000 is a jukebox-inspired vessel that serves up dance videos that are as playful, absurdist, and unpolished as the currencies you can offer it. Will you choose to give the machine a round of applause or dense fog? What sort of dance will it inspire? 
 				<br><br>
-				Inspiration This game was inspired by a similar project shown at Fantastic Arcade. It was a beautiful wooden arcade wall mount that consisted of a joystick and a single, vertical strip of red LEDs. As you navigated the level you 'viewed' it 1-pixel slice at a time by observing your dot's position.
-				<br><br>
-				Ledbetter Games has been making and showing Playdate games in Austin, Tx for the last couple years. They created the ART series, CHEK for 2-4 players and are very much looking forward to seeing you play 1-1(bit) Off-Planet Dreams and perhaps creating a level or two of your own!
+				Tay Hall spent their residency month considering alternative economies, ways of connecting with dance without the stakes of live performance, and exploring movement for camera. Like an old machine, they encountered some rusty parts while returning to a practice of video editing and collaboration. The resulting collection of videos and interactions are satisfyingly groovy, improvisational, and thoughtful.
 				</p>
                 <button class="button"  style="margin: 10px; background-color: #F2D335;">
-                  <a href="https://ledbetter-games.itch.io/1-1bit">Play it Here</a>
+                  <a href="https://homepageguest.wixsite.com/dancemachine2000">Explore</a>
                 </button>
 
               </div>
 
-   <!--Dev Text--
+   <!--Dev Text-->
               <div>
-                <h6>Developer: Ledbetter Games<h6> 
+                <h6>Artist: Tay Hall<h6> 
                 <div class="dev-social">
-                  <h6>@ledbetter-games</h6>
-                  <a href="https://ledbetter-games.itch.io/">
+                  <h6>@t4yh4ll</h6>
+                  <a href="https://www.instagram.com/t4yh4ll/">
+                    <img src="/img/Social-buttons/instagram-button.png" style="width: 64px; height: auto;">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div> 
+
+<!--Murder at the Magic Rave Game-->
+          <div class="row" style="background-color: #F2D335; border-radius: 10px; margin-bottom: 25px;">
+            <div class="game-card-long">
+              <div>
+                <img src="/img/Archived-img/August-2024/games/magic-rave.png" alt="A promotional image for Murder at the Magic Rave"> 
+              </div>  
+
+              <!--Game Text-->
+              <div>
+                <h4>Murder at the Magic Rave</h4>
+                <p>Murder at the Magic Rave is a tabletop roleplaying game about finding a wizard’s killer designed for 3-5 players.
+                <br><br>
+               Emily Weller(she/they) is a writer, game designer, and recent graduate from the University of Texas with a passion for compelling stories and clever mechanics.
+               </p>
+                <button class="button"  style="margin: 10px; background-color: #9BE9FF;">
+                  <a href="https://gremil.itch.io/murder-at-the-magic-rave">Play It Here</a>
+                </button>
+
+              </div>
+
+              <!--Dev Text-->
+              <div>
+                <h6>Developer: Emily Weller<h6> 
+                <div class="dev-social">
+                  <h6>@gremilwrites</h6>
+                  <a href="https://twitter.com/gremilwrites">
+                    <img src="/img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div> 
+          
+<!--Cute Patoots card-->
+          <div class="row" style="background-color: #9BE9FF; border-radius: 10px; margin-bottom: 25px;">
+            <div class="game-card-long">
+              <div>
+                <img src="/img/Archived-img/August-2024/games/cute-patoots.png" alt="A promotional image for Cute Patoots"> 
+              </div>  
+
+              <!--Game Text-->
+              <div>
+                <h4>Cute Patoots</h4>
+                <p>Cute Patoots is a cheerful jaunt of colorful characters, cozy stages, and silly mysteries. See how nostalgic elements from games like Kirby and Mega Man fold into a dynamic adventure where cute meets danger.
+                <br><br>
+				OKiPOKiGAMES is a cute games project by Patrick Randazzo, a queer dev working in educational product design.
+				</p>
+                <button class="button"  style="margin: 10px; background-color: #F2D335;">
+                  <a href="https://okipokigames.itch.io/cute-patoots">Play It Here</a>
+                </button>
+
+              </div>
+
+   <!--Dev Text-->
+              <div>
+                <h6>Developer: OKiPOKi GAMES<h6> 
+                <div class="dev-social">
+                  <h6>@okipokigames</h6>
+                  <a href="https://okipokigames.com/">
                     <img src="/img/Social-buttons/itch-button.png" style="width: 64px; height: auto;">
                   </a>
                 </div>
@@ -110,39 +172,153 @@ require(__DIR__ . "/../partials/html-head.php");
             </div>
           </div> 
 
-<!--Culture Cue Game--
+<!--UPDOG Game-->
           <div class="row" style="background-color: #F2D335; border-radius: 10px; margin-bottom: 25px;">
             <div class="game-card-long">
               <div>
-                <img src="/img/Archived-img/June-2024/games/culture-cue.jpeg" alt="A promotional image for Culture Cue"> 
+                <img src="/img/Archived-img/August-2024/games/updog.png" alt="A promotional image for UPDOG"> 
               </div>  
 
-              <!--Game Text--
+              <!--Game Text-->
               <div>
-                <h4>Culture Cue</h4>
-                <p>Culture Cue is the board game that focuses on players' stories and experiences. In Culture Cue, players get to share their own personal experiences with each other while trying to get all their tokens to Generational Enlightenment.
-               <br><br>
-               Culture Cue was developed by Paul Quinones and Lisa Poon. Paul is a game industry professional that has worked on several mobile titles and smaller Tabletop RPGs like Modern Unicorns. Lisa is Hong Kong born and Jacksonville, Fl raised UX Researched always looking to create new opportunities to bring people together.
-            </p>
+                <h4>UPDOG</h4>
+                <p>"UPDOG is a side-scrolling typing game about trying to walk way too many dogs at once. I cannot emphasize enough how many dogs there are. It's like... So many dogs. 
+				<br><br>
+				Hit the keys mapped to your dogs to keep them from floating away, but be careful! If you hit the wrong key, you'll get a lot of updog. Play what our friends have called ""the dark souls of dog walking”.
+				<br><br>
+				UPDOG was created in 2 weeks for the PIG Squad Summer Slow Jam - Random Generation."
+				<br><br>
+              Updog was created over the course of a few weeks by a group of friends who met through Blaseball, the infamous baseball horror sim.
+              </p>
                 <button class="button"  style="margin: 10px; background-color: #9BE9FF;">
-                  <a href="https://culturecue.games/">More Info</a>
+                  <a href="https://thecoby.itch.io/updog">Play It Here</a>
                 </button>
 
               </div>
 
-              <!--Dev Text--
+              <!--Dev Text-->
               <div>
-                <h6>Developer: Paul & Lisa<h6> 
+                <h6>Developer: The Keep<h6> 
+              <p>In alpha order by first name:
+			<br><br>
+			Aleksandria Minmaximus - Writing
+			<br><br>
+			Alex Hawke - Additional Art & Writing
+			<br><br>
+			Bria Davis - Art Lead
+			<br><br>
+			Coby West - Engineering, Design, & Additional Art
+			<br><br>
+			Colin McInerney  - Engineering, Design, & Sound Design
+			<br><br>
+			Matthew Drake - Additional Art
+			<br><br>
+			Quinn Palmer - Writing
+			<br><br>
+			Rachel DuBois McInerney - Additional Art
+			<br><br>
+			Rachel Stuckey - Dog Photography
+				</p>
+                
+                </div>
+              </div>
+            </div>
+          </div>     
+
+<!--Rollin' Along card-->
+          <div class="row" style="background-color: #9BE9FF; border-radius: 10px; margin-bottom: 25px;">
+            <div class="game-card-long">
+              <div>
+                <img src="/img/Archived-img/August-2024/games/rollin-along.png" alt="A promotional image for Rollin' Along"> 
+              </div>  
+
+              <!--Game Text-->
+              <div>
+                <h4>Rollin' Along</h4>
+                <p>Rollin' Along is an endless marble shooter game about an armadillo's journey! Play as Arma the Armadillo on her quest to save her cactus friends. See how far you can last through multiple in-game nights while using different power-ups and strategies!
+                <br><br>
+				Rollin' Along was developed by a group of artists and developers from a mix of Austin and Chicago. Led by Victoria Bonzani, everyone came together and lended their unique skills to the project. Programming was done by Ron Harvey, Jackson Van Horn Art and Animation by Victoria Bonzani, Emily Garmen Sound by Bryson Brooks Music by Alice Quintanilla Character Design by Sydney Klinghoffer
+				</p>
+                <button class="button"  style="margin: 10px; background-color: #F2D335;">
+                  <a href="https://store.steampowered.com/app/3087820/Rollin_Along/">Play It Here</a>
+                </button>
+
+              </div>
+
+   <!--Dev Text-->
+              <div>
+                <h6>Developers: Victoria Bonzani, Ronald Harvey, Jackie Van Horn, Emily Garmen, Bryson Brooks, Alice Quintanilla, and Sydney Klinghoffer<h6> 
                 <div class="dev-social">
-                  <h6>@culturecuegame</h6>
-                  <a href="https://www.instagram.com/culturecuegame">
+                  <h6>@RollinAlongGame</h6>
+                  <a href="https://twitter.com/RollinAlongGame">
+                    <img src="/img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div> 
+
+<!--Hostyle Game-->
+          <div class="row" style="background-color: #F2D335; border-radius: 10px; margin-bottom: 25px;">
+            <div class="game-card-long">
+              <div>
+                <img src="/img/Archived-img/August-2024/games/Hostyle.png" alt="A promotional image for Hostyle"> 
+              </div>  
+
+              <!--Game Text-->
+              <div>
+                <h4>Hostyle</h4>
+                <p>Hostyle is a 3D platformer that mixes speed focused gameplay with stylish movement options alongside a PS2/Dreamcast inspired aesthetic. The game follows a secret agent's job interview for one of the most corrupt companies on earth, wherein the player is tasked with traversing various simulated obstacle courses as quickly and as stylishly as possible.
+                <br><br>
+               I'm Jordan Shoemaker(he/they), a current UT student with a background in art and animation. I've had no experience in programming or game design prior to making Hostyle but I'm eager to finally share what I've been making over the past 4 months. Excited to be here for the first time!
+               </p>
+                <button class="button"  style="margin: 10px; background-color: #9BE9FF;">
+                  <a href="https://gamesyall.com/event-august-2024">TBA</a>
+                </button>
+
+              </div>
+
+              <!--Dev Text-->
+              <div>
+                <h6>Developer:  Jorb_EX<h6> 
+                <div class="dev-social">
+                  <h6>@jorb_ex</h6>
+                  <a href="https://www.instagram.com/jorb_ex">
                     <img src="/img/Social-buttons/instagram-button-alt.png" style="width: 64px; height: auto;">
                   </a>
                 </div>
               </div>
             </div>
           </div> 
-          
+      
+<!--Prometheus Unbound card-->
+          <div class="row" style="background-color: #9BE9FF; border-radius: 10px; margin-bottom: 25px;">
+            <div class="game-card-long">
+              <div>
+                <img src="/img/Archived-img/August-2024/games/prometheus-unbound.png" alt="A promotional image for Prometheus Unbound"> 
+              </div>  
+
+              <!--Game Text-->
+              <div>
+                <h4>Prometheus Unbound</h4>
+                <p>Prometheus Unbound is a 2D stealth platformer with graceful speed and machine-precision movement. The player controls Anala Piers, a cyborg-corpse laborer under the control of CarpoTech. Anala regains consciousness and immediately seeks answers and revenge for what happened to her. Gameplay includes fast-paced parkour movement and jumps, as well as stealth mechanics like sneaking, hiding, and wall sticking. Each stage is timed, allowing players to re-attempt levels for faster times, or even to challenge the clear times the developers set! In addition to the main story levels, there are five challenge levels where players can test their platforming and parkouring abilities to the limits. In addition, many levels are open to explore in multiple ways, allowing the player to find hidden collectibles and other areas. Following its release in March, Prometheus Unbound made the longlist for the 2024 Yugo BAFTA Student Awards.
+                <br><br>
+				The Prometheus Unbound team formed to create the game as a group project in UT Austin's 2D game design capstone course. The six of us came from many disciplines within the university, including programmers, film background, artists, and music. Our team is made up of Luke Mason, Jake Gollub, Cory Mason, Arnold Venter, Ainsley Johnston, and Rodrigo Okamoto Corbelli.
+				</p>
+                <button class="button"  style="margin: 10px; background-color: #F2D335;">
+                  <a href="https://store.steampowered.com/app/2846110/Prometheus_Unbound/">Play It Here</a>
+                </button>
+
+              </div>
+
+   <!--Dev Text-->
+              <div>
+                <h6>Developer: Carpot Team<h6> 
+                </div>
+              </div>
+            </div>
+          </div>
+                              
     <!--Event Images-->
     <!--Only use this section after an event to house images from the past--
     <div class="row">-
