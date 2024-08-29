@@ -31,7 +31,14 @@ require(__DIR__ . "/../partials/html-head.php");
             <div class="flex-container-row" style="justify-content: left;">
                 <div class="past-event">
 
-
+               <!--DATE-->
+                    <h4>August 23rd, 2024</h4>
+                    <!--image-->
+                    <a href="/event-august-2024">
+                    <img src="/img/event-img/GY-Square-Aug-24.png" alt="A link to August 2024 Games Y'all'" style="box-shadow: 2.5px 5px;">
+                    </a>
+                </div>
+                <div class="past-event">  
                <!--DATE-->
                     <h4>July 25th, 2024</h4>
                     <!--image-->

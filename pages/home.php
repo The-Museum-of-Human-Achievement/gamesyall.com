@@ -24,20 +24,20 @@ require(__DIR__ . "/../partials/html-head.php");
     <!-- NEXT EVENT-->
     <div class="row" style="margin-top: 80px;">
         <div class="col-8" id="announcement-banner">
-            <a href="/event-august-2024">
-                <img src="/img/event-img/GY-Banner-Aug-24.png" id="upcoming-event-img" alt="The Museum of Human Achievement presents, Games Y'all Meetup" width="400" height="500" />
+            <a href="/event-september-2024">
+                <img src="/img/event-img/GY-Banner-Sep-24.png" id="upcoming-event-img" alt="The Museum of Human Achievement presents, Games Y'all Meetup" width="400" height="500" />
             </a>
         </div>
 
         <!--Event info-->
         <div class="col-4" id="upcoming-event-text">
-            <h3>August Meetup</h3>
-            <p>🗓️ August 23rd 🕛 7-10pm 📍 Howson Branch Austin Public Library
+            <h3>September Meetup</h3>
+            <p>🗓️ September 20th 🕛 7-10pm 📍 The Museum of Human Achievement
             <br><br> 
             Games Y’all is a casual meetup for indie devs, digital artists, and games fans held
                 every month. 🎟 Free admission, donations are encouraged!</p>
             <br>
-            <button class="button" id="More Info'"><a href="/event-august-2024">More Info</a></button>
+            <button class="button" id="More Info'"><a href="/event-september-2024">More Info</a></button>
         </div>
     </div>
  
