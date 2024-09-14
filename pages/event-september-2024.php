@@ -86,66 +86,61 @@ require(__DIR__ . "/../partials/html-head.php");
         </div>
     </div>
 
-  <!--Games at the event--
+  <!--Games at the event-->
         <div>
           <h2 style="text-align: center;">Games This Month</h2>
           
-<!--Dance Machine 2000 card--
+<!--Wormspell card-->
           <div class="row" style="background-color: #9BE9FF; border-radius: 10px; margin-bottom: 25px;">
             <div class="game-card-long">
               <div>
-                <img src="/img/Archived-img/August-2024/games/dance-machine.png" alt="A promotional image for the Dance Machine 2000"> 
+                <img src="/img/Archived-img/September-2024/games/wormspell.png" alt="A promotional image for Wormspell"> 
               </div>  
               
-              <!--Game Text--
+              <!--Game Text-->
               <div>
-                <h4>Dance Machine 2000</h4>
-                <p>The Dance Machine 2000 is a jukebox-inspired vessel that serves up dance videos that are as playful, absurdist, and unpolished as the currencies you can offer it. Will you choose to give the machine a round of applause or dense fog? What sort of dance will it inspire? 
-				<br><br>
-				Tay Hall spent their residency month considering alternative economies, ways of connecting with dance without the stakes of live performance, and exploring movement for camera. Like an old machine, they encountered some rusty parts while returning to a practice of video editing and collaboration. The resulting collection of videos and interactions are satisfyingly groovy, improvisational, and thoughtful.
+                <h4>Wormspell</h4>
+                <p>Wormspell is a magical spelling game where you're a Worm who learns to read when an Orb falls from the sky and bonks your head. Use your new spelling power to explore, help illiterate bugs, and rewrite the story of the world!
+                <br><br>
+				Crimp Team is a collection of local Austin devs who met rock climbing. For the last few years we've been excited to plan long weekend trips to jam together at AirBnbs in the privacy of rural Texas. Wormspell is our 5th game together and you can get it for free on Itch.io along with our past games: Honked! a clown noir, Gob N' Go, Card Cowboy, and Crash Land Crystal.
 				</p>
                 <button class="button"  style="margin: 10px; background-color: #F2D335;">
-                  <a href="https://homepageguest.wixsite.com/dancemachine2000">Explore</a>
+                  <a href="https://chriswade.itch.io/wormspell">Play It Here</a>
                 </button>
 
               </div>
 
-   <!--Dev Text--
+   <!--Dev Text-->
               <div>
-                <h6>Artist: Tay Hall<h6> 
-                <div class="dev-social">
-                  <h6>@t4yh4ll</h6>
-                  <a href="https://www.instagram.com/t4yh4ll/">
-                    <img src="/img/Social-buttons/instagram-button.png" style="width: 64px; height: auto;">
-                  </a>
+                <h6>Developer: Crimp Games<h6> 
                 </div>
               </div>
             </div>
           </div> 
 
-<!--Murder at the Magic Rave Game--
+<!--Oblivion Eye Game-->
           <div class="row" style="background-color: #F2D335; border-radius: 10px; margin-bottom: 25px;">
             <div class="game-card-long">
               <div>
-                <img src="/img/Archived-img/August-2024/games/magic-rave.png" alt="A promotional image for Murder at the Magic Rave"> 
+                <img src="/img/Archived-img/September-2024/games/oblivion-eye.png" alt="A promotional image for Oblivion Eye"> 
               </div>  
 
-              <!--Game Text--
+              <!--Game Text-->
               <div>
-                <h4>Murder at the Magic Rave</h4>
-                <p>Murder at the Magic Rave is a tabletop roleplaying game about finding a wizard’s killer designed for 3-5 players.
+                <h4>Oblivion Eye</h4>
+                <p>A roguelike action-platformer where you use upgradeable weapons to combo powerful enemies to their doom! Overcome tough fights, platforming challenges, puzzles, and more in your effort to free the titan who is incarcerated in the shifting prison's depths.
                 <br><br>
-               Emily Weller(she/they) is a writer, game designer, and recent graduate from the University of Texas with a passion for compelling stories and clever mechanics.
+              Andrew (SmartAlloc) works as a software engineer and game developer, while moonlighting as an indie game developer, his true passion. For over a decade, Andrew has been developing games for the smallest and most restrictive environments - from calculators to washing machines to chatbots. Now he develops for the Pico-8, where he strives to create fun and deep games which can be compressed down to fit within the pixels of a 120x120 png file.
                </p>
                 <button class="button"  style="margin: 10px; background-color: #9BE9FF;">
-                  <a href="https://gremil.itch.io/murder-at-the-magic-rave">Play It Here</a>
+                  <a href="https://smartalloc.itch.io/oblivion-ev">Play It Here</a>
                 </button>
 
               </div>
 
-              <!--Dev Text--
+              <!--Dev Text-->
               <div>
-                <h6>Developer: Emily Weller<h6> 
+                <h6>Developer: SmartAlloc<h6> 
                 <div class="dev-social">
                   <h6>@gremilwrites</h6>
                   <a href="https://twitter.com/gremilwrites">
@@ -156,7 +151,71 @@ require(__DIR__ . "/../partials/html-head.php");
             </div>
           </div> 
           
- 
+ <!--Time Teddy card-->
+          <div class="row" style="background-color: #9BE9FF; border-radius: 10px; margin-bottom: 25px;">
+            <div class="game-card-long">
+              <div>
+                <img src="/img/Archived-img/September-2024/games/time-teddy.png" alt="A promotional image for Time Teddy"> 
+              </div>  
+              
+              <!--Game Text-->
+              <div>
+                <h4>Time Teddy</h4>
+                <p>Play as Teddy, a lost baby polar bear in the melting Arctic. Navigate through 3D platforms, travel through time, and solve puzzles as you try to reunite with the mama bear! Solve climate change along the way!
+                <br><br>
+			This game was made for IndieCade's Climate Jam 2024, which was hosted June 16th, 2024 - July 14th, 2024 (a total of 4 weeks). The team consisted of 2 programmers, 1 3D artist, 1 3D animator, 1 2D artist, and 1 sound designer/ composer. We all met through Discord and conducted various meetings and work sessions via Discord's call feature. Though some of us are in the same time zones, others are all across the US! Time Teddy recieved an honorable mention and was among 48 games submitted to the 2024 IndieCade Climate Jam. 
+			</p>
+                <button class="button"  style="margin: 10px; background-color: #F2D335;">
+                  <a href="https://gemxo.itch.io/timeteddy">Play It Here</a>
+                </button>
+
+              </div>
+
+   <!--Dev Text-->
+              <div>
+                <h6>Developer: Time Teddy Games<h6> 
+                </div>
+              </div>
+            </div>
+          </div> 
+
+<!--Hidden in my Paradise Game-->
+          <div class="row" style="background-color: #F2D335; border-radius: 10px; margin-bottom: 25px;">
+            <div class="game-card-long">
+              <div>
+                <img src="/img/Archived-img/September-2024/games/hidden-paradise.jpg" alt="A promotional image for Hidden in my Paradise"> 
+              </div>  
+
+              <!--Game Text-->
+              <div>
+                <h4>Hidden in my Paradise</h4>
+                <p>Hide objects, decorate, and complete missions in this cozy hidden-object game where you can create little paradises and share them with the world!
+                <br><br>
+              	Creating fantasy stories in form of indie video games.
+				<br>
+				Ogre Pixel is an indie game development studio settled in Aguascalientes, México since March 2014. Our slogan and philosophy is: Working hard to live the dream...
+				<br>
+				Ogre Pixel is currently composed of: Steve Durán (Director, Programmer), Gabriela Godínez (Script Writer), Marco Elizondo (Lead Programmer), Mahelet (Lead Artist), Majo Félix (Audio Director & Composer).
+				</p>
+                <button class="button"  style="margin: 10px; background-color: #9BE9FF;">
+                  <a href="https://store.steampowered.com/app/2834330/Hidden_in_my_Paradise/">Play It Here</a>
+                </button>
+
+              </div>
+
+              <!--Dev Text-->
+              <div>
+                <h6>Developer: Ogre Pixel<h6> 
+                <div class="dev-social">
+                  <h6>@ogrepixel</h6>
+                  <a href="https://twitter.com/ogrepixel/">
+                    <img src="/img/Social-buttons/twitter-button.png" style="width: 64px; height: auto;">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div> 
+          
     <!--Event Images-->
     <!--Only use this section after an event to house images from the past--
     <div class="row">-
