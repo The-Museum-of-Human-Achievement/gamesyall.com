@@ -173,7 +173,7 @@ require(__DIR__ . "/../partials/html-head.php");
 
    <!--Dev Text-->
               <div>
-                <h6>Developer: Time Teddy Games<h6> 
+                <h6>Developer: Glacier Guardians<h6> 
                 </div>
               </div>
             </div>
