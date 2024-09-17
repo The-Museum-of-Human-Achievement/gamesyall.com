@@ -118,16 +118,16 @@ require(__DIR__ . "/../partials/html-head.php");
             </div>
           </div> 
 
-<!--Oblivion Eye Game-->
+<!--Oblivion Eve Game-->
           <div class="row" style="background-color: #F2D335; border-radius: 10px; margin-bottom: 25px;">
             <div class="game-card-long">
               <div>
-                <img src="/img/Archived-img/September-2024/games/oblivion-eye.png" alt="A promotional image for Oblivion Eye"> 
+                <img src="/img/Archived-img/September-2024/games/oblivion-eve.png" alt="A promotional image for Oblivion Eve"> 
               </div>  
 
               <!--Game Text-->
               <div>
-                <h4>Oblivion Eye</h4>
+                <h4>Oblivion Eve</h4>
                 <p>A roguelike action-platformer where you use upgradeable weapons to combo powerful enemies to their doom! Overcome tough fights, platforming challenges, puzzles, and more in your effort to free the titan who is incarcerated in the shifting prison's depths.
                 <br><br>
               Andrew (SmartAlloc) works as a software engineer and game developer, while moonlighting as an indie game developer, his true passion. For over a decade, Andrew has been developing games for the smallest and most restrictive environments - from calculators to washing machines to chatbots. Now he develops for the Pico-8, where he strives to create fun and deep games which can be compressed down to fit within the pixels of a 120x120 png file.
