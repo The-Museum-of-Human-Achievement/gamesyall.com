@@ -216,6 +216,34 @@ require(__DIR__ . "/../partials/html-head.php");
             </div>
           </div> 
           
+ <!--Revision on Reunification card-->
+          <div class="row" style="background-color: #9BE9FF; border-radius: 10px; margin-bottom: 25px;">
+            <div class="game-card-long">
+              <div>
+                <img src="/img/Archived-img/September-2024/games/revision-reunification.png" alt="A promotional image for Revision on Reunification"> 
+              </div>  
+              
+              <!--Game Text-->
+              <div>
+                <h4>Revision on Reunification</h4>
+                <p>Jo Suk's Revision on Reunification is a digital memorial for the Arch of Reunification, which stood in Pyongyang, North Korea from 2001 to 2024. Its intentional demolition by the North Korean government confirmed a new era for South-North relations on the Korean peninsula, characterized by open antagonism. This inflection point follows decades of failed efforts at peaceful reunification, incurred in part by U.S. interventionism. Though now nonexistent, the Arch of Reunification continues with a new nature through this digital memorial, one that personalizes, politicizes, and questions the posthumous symbolism of the monument.
+                <br><br>
+				Jo Suk / 석조 is an artist and writer whose practice contemplates the relational, quotidian, and temporal elements of our short time here on Earth. Their work can be found at The Wrong Biennale, Are.na, Crawlspace, and Rhizome. They are present online at <a href="https://joannesuk.com/" target="_blank">joannesuk.com</a>
+				</p>
+                <button class="button"  style="margin: 10px; background-color: #F2D335;">
+                  <a href="https://joannesuk.com/revision-on-reunification/">Explore</a>
+                </button>
+
+              </div>
+
+   <!--Dev Text-->
+              <div>
+                <h6>Artist: Jo Suk / 석조<h6> 
+                </div>
+              </div>
+            </div>
+          </div>           
+          
     <!--Event Images-->
     <!--Only use this section after an event to house images from the past--
     <div class="row">-
