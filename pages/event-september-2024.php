@@ -239,6 +239,11 @@ require(__DIR__ . "/../partials/html-head.php");
    <!--Dev Text-->
               <div>
                 <h6>Artist: Jo Suk / 석조<h6> 
+                <div class="dev-social">
+                  <h6>@jo.stor</h6>
+                  <a href="https://www.instagram.com/jo.stor">
+                    <img src="/img/Social-buttons/instagram-button.png" style="width: 64px; height: auto;">
+                  </a>
                 </div>
               </div>
             </div>
