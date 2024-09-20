@@ -25,7 +25,7 @@ require(__DIR__ . "/../partials/html-head.php");
         <p>
             <a href="/events">Past Events</a> 
             >
-            <a href="/event-august-2024">September 20th, 2024</a>
+            <a href="/event-september-2024">September 20th, 2024</a>
         </p>
         </div>
     </div>
