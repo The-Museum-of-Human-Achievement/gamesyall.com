@@ -53,7 +53,7 @@ require(__DIR__ . "/../partials/html-head.php");
         </div>
 
         <div class="col-10">
-           <p>Our September meetup is a special one: ConnectiQuest is a fun, gamified networking event with quests to complete and swag to earn! It is a collaboration between four games organizations in Austin, TX: Games Y’all, IGDA, EGaDS!, and WIGA. Come and meet new friends, play new games, and learn about new orgs!
+           <p>Our September meetup is a special one: ConnectiQuest is a fun, gamified networking event with quests to complete and swag to earn! It is a collaboration between four games organizations in Austin, TX: Games Y’all, IGDA, EGaDS!, and WIGA. Come and meet new friends, play new games, and learn about new orgs! Full details can be found on the<a href="/connectiquest">ConnectiQuest</a> page!
 				<br><br>
 				Free admission, donations welcome! RSVPs encouraged, or check-in at the door. <p/>
 				
