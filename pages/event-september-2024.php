@@ -133,7 +133,7 @@ require(__DIR__ . "/../partials/html-head.php");
               Andrew (SmartAlloc) works as a software engineer and game developer, while moonlighting as an indie game developer, his true passion. For over a decade, Andrew has been developing games for the smallest and most restrictive environments - from calculators to washing machines to chatbots. Now he develops for the Pico-8, where he strives to create fun and deep games which can be compressed down to fit within the pixels of a 120x120 png file.
                </p>
                 <button class="button"  style="margin: 10px; background-color: #9BE9FF;">
-                  <a href="https://smartalloc.itch.io/oblivion-ev">Play It Here</a>
+                  <a href="https://smartalloc.itch.io/oblivion-eve">Play It Here</a>
                 </button>
 
               </div>
