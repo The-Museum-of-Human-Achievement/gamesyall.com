@@ -32,6 +32,14 @@ require(__DIR__ . "/../partials/html-head.php");
                 <div class="past-event">
 
                <!--DATE-->
+                    <h4>September 20th, 2024</h4>
+                    <!--image-->
+                    <a href="/event-september-2024">
+                    <img src="/img/event-img/GY-Square-Sep-24.png" alt="A link to September 2024 Games Y'all'" style="box-shadow: 2.5px 5px;">
+                    </a>
+                </div>
+                <div class="past-event">  
+               <!--DATE-->
                     <h4>August 23rd, 2024</h4>
                     <!--image-->
                     <a href="/event-august-2024">
