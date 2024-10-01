@@ -24,48 +24,37 @@ require(__DIR__ . "/../partials/html-head.php");
     <!-- NEXT EVENT-->
     <div class="row" style="margin-top: 80px;">
         <div class="col-8" id="announcement-banner">
-            <a href="/event-september-2024">
-                <img src="/img/event-img/GY-Banner-Sep-24.png" id="upcoming-event-img" alt="The Museum of Human Achievement presents, Games Y'all Meetup" width="400" height="500" />
+            <a href="https://withfriends.co/event/20872516/fantastic_arcade_fun_size_edition">
+                <img src="/img/event-img/FA-Banner-Oct-24.png" id="upcoming-event-img" alt="The Museum of Human Achievement presents Fantastic Arcade" width="400" height="500" />
             </a>
         </div>
 
         <!--Event info-->
         <div class="col-4" id="upcoming-event-text">
-            <h3>September Meetup</h3>
-            <p>🗓️ September 20th 🕛 7-10pm 📍 The Museum of Human Achievement
+            <h3>Fantastic Arcade: Fun Size Edition!</h3>
+            <p>🗓️ October 26th 📍 Baker Center
             <br><br> 
-            Games Y’all is a casual meetup for indie devs, digital artists, and games fans held
-                every month. 🎟 Free admission, donations are encouraged!</p>
+            October is here and Fantastic Arcade is back for our 10th event, Fantastic Arcade: Fun Size Edition! 🎟 Tickets on sale now!
+</p>
             <br>
-            <button class="button" id="More Info'"><a href="/event-september-2024">More Info</a></button>
+  <button class="button" id="Tickets'"><a href="https://withfriends.co/event/20872516/fantastic_arcade_fun_size_edition">Tickets</a></button>
         </div>
     </div>
  
-        <!--Fantastic Arcade-->
+        <!--Upcoming Event Info-->
     <div class="row">
         <div class="col-6">
-            <h3>Fantastic Arcade: Fun Size Edition!</h3>
-            <p>Learn more about our one-day event showcasing a curated selection of groundbreaking talks and independent games. Saturday October 26th, save the date!
-            </p>
+            <h3>November Games Y'all</h3>
+            <p>Games Y’all is a casual meetup for indie devs, digital artists, and games fans held
+                every month. 🎟 Free admission, donations are encouraged!</p>
               <br>
-            <button class="button" id="Learn More'"><a href="https://fantasticarcade.com/news/">Learn More</a></button>
+            <button class="button" id="More Info'"><a href="/event-november-2024">More Info</a></button>
         </div>
         <div class="col-6">
-            <img src="/img/event-img/FA-Banner-Oct-24.png" alt="Fantastic Arcade: Fun Size Edition!" >
+            <img src="/img/event-img/GY-Banner-Nov-24.png" alt="Fantastic Arcade: Fun Size Edition!" >
         </div>
     </div>
     
- <!-- UPCOMING  EVENT-->
-    <div class="row" style="margin-top: 80px;">
-        <div class="col-8" id="announcement-banner">
-            <img src="/img/misc-img/upcoming-events.png" id="upcoming-event-img" alt="UPCOMING EVENTS: Aug 23, Sep 20, Oct 26th" width="400" height="500" />
-        </div>   
-          <!--Upcoming Event info-->
-        <div class="col-4" id="upcoming-event-text">
-            <h3>Upcoming Meetups</h3>
-            <p>Mark your calendars! Games Y'all has upcoming events on September 20th, October 26th, and November 22nd! We host Games Y'all monthly January through November at The Museum of Human Achievement and other fun spaces like breweries, libraries, and game stores! Interested in hosting us? Email us at games@themuseumofhumanachievement.com</p>
-        </div>
-    </div>
 
              <!-- NEWSLETTER -->
     <div class="row">

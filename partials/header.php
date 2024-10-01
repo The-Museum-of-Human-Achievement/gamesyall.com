@@ -21,8 +21,8 @@
                         <i class="events-dropdown"></i>
                     </a>
                     <div class="dropdown-content">
-                           <a href="/event-september-2024">September Games Y'all</a>
                            <a href="https://fantasticarcade.com/">Fantastic Arcade</a>
+                           <a href="/event-november-2024">November Games Y'all</a>
                         <a href="/events">Past Events</a>
                     </div>
                 </li>
@@ -67,8 +67,8 @@
             <!--Events has a drop down-->
             <a href="javascript:void(0);" onclick="openEvents()"> Events </a>
             <div id="events-submenu">
-                <a href="/event-september-2024">September Games Y'all</a>
-                <a href="https://fantasticarcade.com/">Fantastic Arcade</a>
+ 					<a href="https://fantasticarcade.com/">Fantastic Arcade</a>
+                    <a href="/event-november-2024">November Games Y'all</a>
                 <a href="/events"> Past Events </a>
             </div>
 
