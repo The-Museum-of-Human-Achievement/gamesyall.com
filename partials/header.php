@@ -21,7 +21,7 @@
                         <i class="events-dropdown"></i>
                     </a>
                     <div class="dropdown-content">
-                           <a href="https://fantasticarcade.com/">Fantastic Arcade</a>
+                           <a href="https://withfriends.co/event/20872516/fantastic_arcade_fun_size_edition">Fantastic Arcade</a>
                            <a href="/event-november-2024">November Games Y'all</a>
                         <a href="/events">Past Events</a>
                     </div>
@@ -67,7 +67,7 @@
             <!--Events has a drop down-->
             <a href="javascript:void(0);" onclick="openEvents()"> Events </a>
             <div id="events-submenu">
- 					<a href="https://fantasticarcade.com/">Fantastic Arcade</a>
+ 					<a href="hhttps://withfriends.co/event/20872516/fantastic_arcade_fun_size_edition">Fantastic Arcade</a>
                     <a href="/event-november-2024">November Games Y'all</a>
                 <a href="/events"> Past Events </a>
             </div>
@@ -76,7 +76,7 @@
             <a href="javascript:void(0);" onclick="openGetInvolved()"> Get Involved </a>
             <div id="get-involved-submenu">
                 <a href="/submit-a-game"> Submit a Game</a>
-                <a href="/volunteer">Volunteer</a>
+                <a href="https://forms.gle/Hyetd1B6MBBXw4wGA">Volunteer</a>
                 <a href="/apply-to-committee">Apply to Committee</a>
             </div>
 
