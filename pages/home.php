@@ -104,7 +104,7 @@ require(__DIR__ . "/../partials/html-head.php");
                 <h4 style="text-align: center;">Sign up to Volunteer</h4>
                 <img src="./img/horse-img/horse-volunteer-blue.png" class="horse-img" alt="A horse getting ready to volunteer." >
                 <button class="button">
-                    <a href="https://themuseumofhumanachievement.com/forms/volunteer/">VOLUNTEER</a>
+                    <a href="https://forms.gle/Hyetd1B6MBBXw4wGA">VOLUNTEER</a>
                 </button>
             </div>
         </div>
