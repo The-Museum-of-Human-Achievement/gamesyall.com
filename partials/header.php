@@ -33,7 +33,7 @@
                     </a>
                     <div class="dropdown-content">
                         <a href="/submit-a-game"> Submit a Game</a>
-                        <a href="https://forms.gle/Hyetd1B6MBBXw4wGA">Volunteer</a>
+                        <a href="http://fantasticarcade.com/join/hey/">Volunteer</a>
                         <a href="/apply-to-committee">Apply to Committee</a>
                     </div>
                 </li>
@@ -76,7 +76,7 @@
             <a href="javascript:void(0);" onclick="openGetInvolved()"> Get Involved </a>
             <div id="get-involved-submenu">
                 <a href="/submit-a-game"> Submit a Game</a>
-                <a href="https://forms.gle/Hyetd1B6MBBXw4wGA">Volunteer</a>
+                <a href="http://fantasticarcade.com/join/hey/">Volunteer</a>
                 <a href="/apply-to-committee">Apply to Committee</a>
             </div>
 
