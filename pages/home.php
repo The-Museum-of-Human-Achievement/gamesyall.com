@@ -29,18 +29,6 @@ require(__DIR__ . "/../partials/html-head.php");
             </a>
         </div>
 
-        <!--Event info-->
-        <div class="col-4" id="upcoming-event-text">
-            <h3>Fantastic Arcade: Fun Size Edition!</h3>
-            <p>🗓️ October 26th 📍 Baker Center
-            <br><br> 
-            October is here and Fantastic Arcade is back for our 10th event, Fantastic Arcade: Fun Size Edition! 🎟 Tickets on sale now!
-</p>
-            <br>
-  <button class="button" id="Tickets'"><a href="https://withfriends.co/event/20872516/fantastic_arcade_fun_size_edition">Tickets</a></button>
-        </div>
-    </div>
- 
         <!--Upcoming Event Info-->
     <div class="row">
         <div class="col-6">
@@ -55,6 +43,17 @@ require(__DIR__ . "/../partials/html-head.php");
         </div>
     </div>
     
+        <!--Event info-->
+        <div class="col-4" id="upcoming-event-text">
+            <h3>Fantastic Arcade: Fun Size Edition!</h3>
+            <p>🗓️ October 26th 📍 Baker Center
+            <br><br> 
+            October is here and Fantastic Arcade is back for our 10th event, Fantastic Arcade: Fun Size Edition! 🎟 Tickets on sale now!
+</p>
+            <br>
+  <button class="button" id="Tickets'"><a href="https://withfriends.co/event/20872516/fantastic_arcade_fun_size_edition">Tickets</a></button>
+        </div>
+    </div>
 
              <!-- NEWSLETTER -->
     <div class="row">
