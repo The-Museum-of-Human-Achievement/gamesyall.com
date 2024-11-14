@@ -84,7 +84,7 @@
         <div class="flex-container-column">
             <h6>Get Involved</h6>
             <a href="/submit-a-game">Submit a Game</a>
-            <a target="_blank" href="http://fantasticarcade.com/join/hey/">Volunteer</a>
+            <a target="_blank" href="https://forms.gle/Hyetd1B6MBBXw4wGA">Volunteer</a>
             <a href="/apply-to-committee">Apply to a Committee</a>
             <a target="_blank" href="https://form.jotform.com/231855146635157">Feedback Form</a>
         </div>
