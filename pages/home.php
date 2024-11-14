@@ -23,15 +23,7 @@ require(__DIR__ . "/../partials/html-head.php");
 
     <!-- NEXT EVENT-->
     <div class="row" style="margin-top: 80px;">
-        <div class="col-8" id="announcement-banner">
-            <a href="https://withfriends.co/event/20872516/fantastic_arcade_fun_size_edition">
-                <img src="/img/event-img/FA-Banner-Oct-24.png" id="upcoming-event-img" alt="The Museum of Human Achievement presents Fantastic Arcade" width="400" height="500" />
-            </a>
-        </div>
-
-        <!--Upcoming Event Info-->
-    <div class="row">
-        <div class="col-6">
+    <div class="col-6">
             <h3>November Games Y'all</h3>
             <p>Games Y’all is a casual meetup for indie devs, digital artists, and games fans held
                 every month. 🎟 Free admission, donations are encouraged!</p>
@@ -42,19 +34,26 @@ require(__DIR__ . "/../partials/html-head.php");
             <img src="/img/event-img/GY-Banner-Nov-24.png" alt="Fantastic Arcade: Fun Size Edition!" >
         </div>
     </div>
-    
-        <!--Event info-->
-        <div class="col-4" id="upcoming-event-text">
-            <h3>Fantastic Arcade: Fun Size Edition!</h3>
-            <p>🗓️ October 26th 📍 Baker Center
-            <br><br> 
-            October is here and Fantastic Arcade is back for our 10th event, Fantastic Arcade: Fun Size Edition! 🎟 Tickets on sale now!
-</p>
-            <br>
-  <button class="button" id="Tickets'"><a href="https://withfriends.co/event/20872516/fantastic_arcade_fun_size_edition">Tickets</a></button>
-        </div>
-    </div>
+ 
+        <!--Upcoming Event Info-->
+        <div class="row">
+            <div class="col-8" id="announcement-banner">
+                <a href="https://withfriends.co/event/20872516/fantastic_arcade_fun_size_edition">
+                    <img src="/img/event-img/FA-Banner-Oct-24.png" id="upcoming-event-img" alt="The Museum of Human Achievement presents Fantastic Arcade" width="400" height="500" />
+                </a>
+            </div>
 
+            <!--Event info-->
+            <div class="col-4" id="upcoming-event-text">
+                <h3>Fantastic Arcade: Fun Size Edition!</h3>
+                <p>🗓️ October 26th 📍 Baker Center
+                <br><br> 
+                October is here and Fantastic Arcade is back for our 10th event, Fantastic Arcade: Fun Size Edition! 🎟 Tickets on sale now!
+                </p>
+                <br>
+                <button class="button" id="Tickets'"><a href="https://withfriends.co/event/20872516/fantastic_arcade_fun_size_edition">Tickets</a></button>
+            </div>
+        </div>
              <!-- NEWSLETTER -->
     <div class="row">
         <div class="col-6">
@@ -103,7 +102,7 @@ require(__DIR__ . "/../partials/html-head.php");
                 <h4 style="text-align: center;">Sign up to Volunteer</h4>
                 <img src="./img/horse-img/horse-volunteer-blue.png" class="horse-img" alt="A horse getting ready to volunteer." >
                 <button class="button">
-                    <a href="https://forms.gle/Hyetd1B6MBBXw4wGA">VOLUNTEER</a>
+                    <a href="http://fantasticarcade.com/join/hey/">VOLUNTEER</a>
                 </button>
             </div>
         </div>
