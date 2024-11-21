@@ -63,6 +63,9 @@ require(__DIR__ . "/../partials/html-head.php");
     <br><br>
     <h4>Membership Coordinator - Albert Mancias</h4>
     They welcome new members into the Discord and invite members to gatherings. They help with communications, Discord moderation, and in-person onboarding to newsletter, discord, etc at events. They also help onboard new committee members.
+    <br><br>  
+    <!-- <h4>Web Admin - Franco Ramos</h4> -->
+    
     </p>
     <hr>
     <p style="text-align:center">Questions? Reach out to <a href="mailto:jay@themuseumofhumanachievement.com">jay@themuseumofhumanachievement.com</a></p>
