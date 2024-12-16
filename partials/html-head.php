@@ -36,7 +36,9 @@ if (empty($headImage))
     <meta name="twitter:image" content="<?php echo("https://gamesyall.com" . $headImage) ?>">
 
     <!--Analytics -->
-    <script defer data-domain="gamesyall.com" src="https://plausible.io/js/script.js"></script>
+    <script defer data-domain="gamesyall.com" src="https://plausible.io/js/script.outbound-links.js"></script>
+    <script>window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
+
 
     <!--Styles and fonts -->
     <link rel="stylesheet" href="/mystyle.css">
