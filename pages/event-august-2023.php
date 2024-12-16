@@ -44,13 +44,13 @@ require(__DIR__ . "/../partials/html-head.php");
                 
                     <h4>August 24th, 2023 - 7-10pm</h4>
 				<p>Central Machine Works <a href="https://goo.gl/maps/ALUmu8pEEr4uNYY37">4824 E Cesar Chavez St, Austin, TX 78702</a> 
-				<br><br>🎟 Free admission, donations welcome! RSVPs encouraged, or check-in at the door.</p>
+				<!-- <br><br>🎟 Free admission, donations welcome! RSVPs encouraged, or check-in at the door.</p> -->
 	
 			
 				<!--RSVP Button -->
-            <button class="button" id="RSVP'"><a href="https://withfriends.co/event/16473042/games_yall_august_meetup">RSVP</a></button>
+        <!-- <button class="button" id="RSVP'"><a href="https://withfriends.co/event/16473042/games_yall_august_meetup">RSVP</a></button> -->
             
-				    </div>
+      </div>
 				    
 			 <div class="col-8">
                 <!--Add your event image here-->

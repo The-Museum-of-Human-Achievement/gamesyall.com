@@ -38,12 +38,11 @@ require(__DIR__ . "/../partials/html-head.php");
           <h4>November 22nd, 2024 - 7-10pm</h4>
       
           <p> <a href="https://maps.app.goo.gl/xTKBS7ctHXhmwhvH7" target="_blank">1908 Kramer Ln, Suite 250, 78758</a>
-              <br /><br />
-              🎟 Free admission, donations are encouraged! Please RSVP, walk ups are welcome.
+              <!-- <br /><br /> 🎟 Free admission, donations are encouraged! Please RSVP, walk ups are welcome. -->
           </p>
               
           <!--RSVP Button-->
-          <button class="button" id="RSVP'"><a href="https://withfriends.co/event/20882942/games_yall_november">RSVP</a></button>
+          <!-- <button class="button" id="RSVP'"><a href="https://withfriends.co/event/20882942/games_yall_november">RSVP</a></button> -->
         </div>
                         
         <div class="col-8">
@@ -303,19 +302,19 @@ require(__DIR__ . "/../partials/html-head.php");
           </div>
         </div> 
     <!--Event Images-->
-    <!--Only use this section after an event to house images from the past
+    <!--Only use this section after an event to house images from the past-->
     <div class="row">-
         <div class="col-12">
             <h2 style="text-align: center;">Gallery</h2>
 
             <div class="flex-container-row">
-                <img src="/img/Archived-img/September-2024/photos/sep-gy-photo-1.png" style="width: 375px; height: 375px;"> 
-                <img src="/img/Archived-img/September-2024/photos/sep-gy-photo-2.png" style="width: 375px; height: 375px;"> 
-                <img src="/img/Archived-img/September-2024/photos/sep-gy-photo-3.png" style="width: 375px; height: 375px;"> 
-                <img src="/img/Archived-img/September-2024/photos/sep-gy-photo-4.png" style="width: 375px; height: 375px;">
-                <img src="/img/Archived-img/September-2024/photos/sep-gy-photo-5.png" style="width: 375px; height: 375px;"> 
-                <img src="/img/Archived-img/September-2024/photos/sep-gy-photo-6.png" style="width: 375px; height: 375px;">
-                -->
+                <img src="/img/Archived-img/November-2024/photos/nov-gy-photo-1.png" style="width: 375px; height: 375px;"> 
+                <img src="/img/Archived-img/November-2024/photos/nov-gy-photo-2.png" style="width: 375px; height: 375px;"> 
+                <img src="/img/Archived-img/November-2024/photos/nov-gy-photo-3.png" style="width: 375px; height: 375px;"> 
+                <img src="/img/Archived-img/November-2024/photos/nov-gy-photo-4.png" style="width: 375px; height: 375px;">
+                <img src="/img/Archived-img/November-2024/photos/nov-gy-photo-5.png" style="width: 375px; height: 375px;"> 
+                <img src="/img/Archived-img/November-2024/photos/nov-gy-photo-6.png" style="width: 375px; height: 375px;">
+                
             </div>
         </div>
     </div>

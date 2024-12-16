@@ -22,20 +22,25 @@ require(__DIR__ . "/../partials/html-head.php");
     ?>
 
     <!-- NEXT EVENT-->
-    <div class="row" style="margin-top: 80px;">
-    <div class="col-6">
-            <h3>November Games Y'all</h3>
-            <p>Games Y’all is a casual meetup for indie devs, digital artists, and games fans held
-                every month. 🎟 Free admission, donations are encouraged!</p>
-              <br>
-            <button class="button" id="More Info'"><a href="/event-november-2024">More Info</a></button>
-        </div>
+        <!-- 
+        <div class="row" style="margin-top: 80px;">
         <div class="col-6">
-            <img src="/img/event-img/GY-Banner-Nov-24.png" alt="Fantastic Arcade: Fun Size Edition!" >
-        </div>
-    </div>
+                <h3>November Games Y'all</h3>
+                <p>Games Y’all is a casual meetup for indie devs, digital artists, and games fans held
+                    every month. 🎟 Free admission, donations are encouraged!</p>
+                <br>
+                <button class="button" id="More Info'"><a href="/event-november-2024">More Info</a></button>
+            </div>
+            <div class="col-6">
+                <img src="/img/event-img/GY-Banner-Nov-24.png" alt="Fantastic Arcade: Fun Size Edition!" >
+            </div>
+        </div> 
+        -->
  
+        <!--Event info-->
+
         <!--Upcoming Event Info-->
+        <!-- 
         <div class="row">
             <div class="col-8" id="announcement-banner">
                 <a href="https://withfriends.co/event/20872516/fantastic_arcade_fun_size_edition">
@@ -43,7 +48,7 @@ require(__DIR__ . "/../partials/html-head.php");
                 </a>
             </div>
 
-            <!--Event info-->
+            
             <div class="col-4" id="upcoming-event-text">
                 <h3>Fantastic Arcade: Fun Size Edition!</h3>
                 <p>🗓️ October 26th 📍 Baker Center
@@ -53,7 +58,8 @@ require(__DIR__ . "/../partials/html-head.php");
                 <br>
                 <button class="button" id="Tickets'"><a href="https://withfriends.co/event/20872516/fantastic_arcade_fun_size_edition">Tickets</a></button>
             </div>
-        </div>
+        </div> -->
+        
              <!-- NEWSLETTER -->
     <div class="row">
         <div class="col-6">

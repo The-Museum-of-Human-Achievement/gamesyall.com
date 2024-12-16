@@ -22,7 +22,6 @@
                     </a>
                     <div class="dropdown-content">
                            <a href="https://withfriends.co/event/20872516/fantastic_arcade_fun_size_edition">Fantastic Arcade</a>
-                           <a href="/event-november-2024">November Games Y'all</a>
                         <a href="/events">Past Events</a>
                     </div>
                 </li>
@@ -68,7 +67,6 @@
             <a href="javascript:void(0);" onclick="openEvents()"> Events </a>
             <div id="events-submenu">
  					<a href="hhttps://withfriends.co/event/20872516/fantastic_arcade_fun_size_edition">Fantastic Arcade</a>
-                    <a href="/event-november-2024">November Games Y'all</a>
                 <a href="/events"> Past Events </a>
             </div>
 
