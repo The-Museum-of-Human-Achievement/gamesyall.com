@@ -21,7 +21,8 @@
                         <i class="events-dropdown"></i>
                     </a>
                     <div class="dropdown-content">
-                           <a href="https://withfriends.co/event/20872516/fantastic_arcade_fun_size_edition">Fantastic Arcade</a>
+                        <a href="/event-january-2025">Games Y'all x IGDA collab</a>
+                        <!-- <a href="https://withfriends.co/event/20872516/fantastic_arcade_fun_size_edition">Fantastic Arcade</a> -->
                         <a href="/events">Past Events</a>
                     </div>
                 </li>

@@ -62,8 +62,8 @@ require(__DIR__ . "/../partials/html-head.php");
           <br>
 
           <h5>The Museum of Human Achievement</h5>
-                <p>The Museum of Human Achievement is a multi-disciplinary art space and non-profit organization in Austin, Texas. We cultivate new work, community, and vibe by providing radically affordable arts space to support artists and audiences in the creation of new ideas.</p>
-                <br>
+            <p>The Museum of Human Achievement is a multi-disciplinary art space and non-profit organization in Austin, Texas. We cultivate new work, community, and vibe by providing radically affordable arts space to support artists and audiences in the creation of new ideas.</p>
+            <br>
         </div>
     </div>
 
