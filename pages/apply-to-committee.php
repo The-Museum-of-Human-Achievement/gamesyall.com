@@ -30,7 +30,7 @@ require(__DIR__ . "/../partials/html-head.php");
     <img src="/img/misc-img/committee-app.png" alt="COMMITTEE APPLICATION" width="400" height="400" style="float:left">
     <hr>
     <button class="button">
-        <a href="https://form.jotform.com/231844967692169">I'm interested!</a>
+        <a href="https://form.jotform.com/231844967692169" target="_blank">I'm interested!</a>
     </button>
     <br><br>
     <p>We are seeking new voices to shape the reality of Fantastic Arcade and Games Y’all. </p>
@@ -76,7 +76,7 @@ require(__DIR__ . "/../partials/html-head.php");
 
     </p>
     <hr>
-    <p style="text-align:center">Questions? Reach out to <a href="mailto:jay@themuseumofhumanachievement.com">jay@themuseumofhumanachievement.com</a></p>
+    <p style="text-align:center">Questions? Reach out to <a href="mailto:games@themuseumofhumanachievement.com">games@themuseumofhumanachievement.com</a></p>
   </div>
     <?php 
     // Include the Community links and footer

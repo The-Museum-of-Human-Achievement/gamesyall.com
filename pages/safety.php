@@ -36,7 +36,7 @@ require(__DIR__ . "/../partials/html-head.php");
                <hr>
                <br><br>
                  Text our help hotline - <b>(512) 666-7862</b><br>
-                 Report a Code of Conduct Violation - <a href="https://form.jotform.com/231854725944162">Here</a><br>
+                 Report a Code of Conduct Violation - <a href="https://form.jotform.com/231854725944162" target="_blank">Here</a><br>
                  <br><br><br>     <br><br><br>
                  Email us at <b>info@themuseumofhumanachievement.com</b>
              </p>
@@ -50,7 +50,7 @@ require(__DIR__ . "/../partials/html-head.php");
         <img src="/img/misc-img/safety.png" alt="SAFETY" width="400" height="400" style="float:left">
         <hr>
         <button class="button">
-            <a href="https://form.jotform.com/231854725944162">Report</a>
+            <a href="https://form.jotform.com/231854725944162" target="_blank">Report</a>
         </button>
         <br><br>
         <p><b>We want you to feel safe and to be safe at our events.</b> The most important thing we want you to know is that if 
@@ -84,7 +84,7 @@ require(__DIR__ . "/../partials/html-head.php");
                  <br>
              </p>
                    Report a Code of Conduct Violation
-                      <button class="button" id="Report'"><a href="https://form.jotform.com/231854725944162">Report</a></button>
+                      <button class="button" id="Report'"><a href="https://form.jotform.com/231854725944162" target="_blank">Report</a></button>
          </div>
      </div>
 </div>

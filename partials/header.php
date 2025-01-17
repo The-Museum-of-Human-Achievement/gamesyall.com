@@ -33,7 +33,7 @@
                     </a>
                     <div class="dropdown-content">
                         <a href="/submit-a-game"> Submit a Game</a>
-                        <a href="https://forms.gle/Hyetd1B6MBBXw4wGA">Volunteer</a>
+                        <a href="https://themuseumofhumanachievement.com/forms/volunteer/" target="_blank">Volunteer</a>
                         <a href="/apply-to-committee">Apply to Committee</a>
                     </div>
                 </li>
@@ -67,15 +67,15 @@
             <!--Events has a drop down-->
             <a href="javascript:void(0);" onclick="openEvents()"> Events </a>
             <div id="events-submenu">
- 					<a href="hhttps://withfriends.co/event/20872516/fantastic_arcade_fun_size_edition">Fantastic Arcade</a>
-                <a href="/events"> Past Events </a>
+ 					<a href="/event-january-2025">Games Y'all x IGDA collab</a>
+                    <a href="/events"> Past Events </a>
             </div>
 
             <!--Get Involved has a drop down-->
             <a href="javascript:void(0);" onclick="openGetInvolved()"> Get Involved </a>
             <div id="get-involved-submenu">
                 <a href="/submit-a-game"> Submit a Game</a>
-                <a href="https://forms.gle/Hyetd1B6MBBXw4wGA">Volunteer</a>
+                <a href="https://themuseumofhumanachievement.com/forms/volunteer/" target="_blank">Volunteer</a>
                 <a href="/apply-to-committee">Apply to Committee</a>
             </div>
 

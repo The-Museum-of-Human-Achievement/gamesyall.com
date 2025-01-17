@@ -38,7 +38,7 @@ require(__DIR__ . "/../partials/html-head.php");
         </p>
             
             <button class="button" style="margin: 10px">
-            <a href="https://opencollective.com/gamesyall/projects/games-yall-donations#category-CONTRIBUTE">
+            <a href="https://opencollective.com/gamesyall/projects/games-yall-donations#category-CONTRIBUTE" target="_blank">
                 Annual, Monthly, or one-time Donations!
             </a>
             </button>

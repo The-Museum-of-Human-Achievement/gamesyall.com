@@ -65,7 +65,7 @@ require(__DIR__ . "/../partials/html-head.php");
         <div class="col-6">
             <h2>Newsletter</h2>
             <p>Keep up to date with our events, opportunities, and announcements by signing up for our newsletter.</p>
-            <button class="button" id="More Info'"><a href="https://www.themuseumofhumanachievement.com/forms/email/">Sign Up</a></button>
+            <button class="button" id="More Info'"><a href="https://www.themuseumofhumanachievement.com/forms/email/" target="_blank">Sign Up</a></button>
         </div>
         <div class="col-6">
             <img src="./img/misc-img/newsletter.png" alt="Sign up for our newsletter!" >
@@ -108,7 +108,7 @@ require(__DIR__ . "/../partials/html-head.php");
                 <h4 style="text-align: center;">Sign up to Volunteer</h4>
                 <img src="./img/horse-img/horse-volunteer-blue.png" class="horse-img" alt="A horse getting ready to volunteer." >
                 <button class="button">
-                    <a href="http://fantasticarcade.com/join/hey/">VOLUNTEER</a>
+                    <a href="http://fantasticarcade.com/join/hey/" target="_blank">VOLUNTEER</a>
                 </button>
             </div>
         </div>
@@ -118,7 +118,7 @@ require(__DIR__ . "/../partials/html-head.php");
                 <h4 style="text-align: center;">Give us Feedback</h4> 
                 <img src="./img/horse-img/horse-feedback.png" class="horse-img" alt="A horse writing his thoughts about the show on paper." >
                 <button class="button">
-                <a href="https://form.jotform.com/231855146635157">FEEDBACK</a>
+                <a href="https://form.jotform.com/231855146635157" target="_blank">FEEDBACK</a>
                 </button>
             </div>
         </div>
