@@ -44,7 +44,7 @@ require(__DIR__ . "/../partials/html-head.php");
             </p>
                 
             <!--RSVP Button-->
-            <button class="button" id="RSVP'"><a href="https://withfriends.co/event/20292114/games_yall_august_meetup">RSVP</a></button>
+            <!-- <button class="button" id="RSVP'"><a href="https://withfriends.co/event/20292114/games_yall_august_meetup">RSVP</a></button> -->
         </div>
                         
         <div class="col-8">

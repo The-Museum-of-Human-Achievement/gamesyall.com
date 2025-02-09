@@ -29,17 +29,26 @@ require(__DIR__ . "/../partials/html-head.php");
         <div class="col-12">
             <h1>Past Meetups</h1>
             <div class="flex-container-row" style="justify-content: left;">
-                <div class="past-event">
                 
-                <!--DATE-->
-                <h4>November 22nd, 2024</h4>
-                    <!--image-->
-                    <a href="/event-november-2024">
-                    <img src="/img/event-img/GY-Square-Nov-24.png" alt="A link to November 2024 Games Y'all'" style="box-shadow: 2.5px 5px;">
-                    </a>
+                <div class="past-event">
+                        <!--DATE-->
+                        <h4>January 26th, 2025</h4>
+                        <!--image-->
+                        <a href="/event-january-2025">
+                        <img src="/img/event-img/GY-Square-Jan-25.png" alt="A link to January 2025 Games Y'all'" style="box-shadow: 2.5px 5px;">
+                        </a>
                 </div>
+                <div class="past-event">
+                    <!--DATE-->
+                    <h4>November 22nd, 2024</h4>
+                        <!--image-->
+                        <a href="/event-november-2024">
+                        <img src="/img/event-img/GY-Square-Nov-24.png" alt="A link to November 2024 Games Y'all'" style="box-shadow: 2.5px 5px;">
+                        </a>
+                </div>
+                
                 <div class="past-event">  
-               <!--DATE-->
+                    <!--DATE-->
                     <h4>September 20th, 2024</h4>
                     <!--image-->
                     <a href="/event-september-2024">
@@ -47,7 +56,7 @@ require(__DIR__ . "/../partials/html-head.php");
                     </a>
                 </div>
                 <div class="past-event">  
-               <!--DATE-->
+                    <!--DATE-->
                     <h4>August 23rd, 2024</h4>
                     <!--image-->
                     <a href="/event-august-2024">
@@ -55,7 +64,7 @@ require(__DIR__ . "/../partials/html-head.php");
                     </a>
                 </div>
                 <div class="past-event">  
-               <!--DATE-->
+                    <!--DATE-->
                     <h4>July 25th, 2024</h4>
                     <!--image-->
                     <a href="/event-july-2024">
@@ -63,7 +72,7 @@ require(__DIR__ . "/../partials/html-head.php");
                     </a>
                 </div>
                 <div class="past-event">              
-               <!--DATE-->
+                    <!--DATE-->
                     <h4>June 20th, 2024</h4>
                     <!--image-->
                     <a href="/event-june-2024">
@@ -71,7 +80,7 @@ require(__DIR__ . "/../partials/html-head.php");
                     </a>
                 </div>
                 <div class="past-event">  
-               <!--DATE-->
+                    <!--DATE-->
                     <h4>May 24th, 2024</h4>
                     <!--image-->
                     <a href="/event-may-2024">
@@ -79,7 +88,7 @@ require(__DIR__ . "/../partials/html-head.php");
                     </a>
                 </div>
                 <div class="past-event">    
-               <!--DATE-->
+                    <!--DATE-->
                     <h4>April 20th, 2024</h4>
                     <!--image-->
                     <a href="/event-april-2024">
@@ -87,7 +96,7 @@ require(__DIR__ . "/../partials/html-head.php");
                     </a>
                 </div>
                 <div class="past-event"> 
-                <!--DATE-->
+                    <!--DATE-->
                     <h4>March 30th, 2024</h4>
                     <!--image-->
                     <a href="/event-march-2024">
@@ -95,7 +104,7 @@ require(__DIR__ . "/../partials/html-head.php");
                     </a>
                 </div>
                 <div class="past-event">   
-                <!--DATE-->
+                    <!--DATE-->
                     <h4>February 27th, 2024</h4>
                     <!--image-->
                     <a href="/event-february-2024">

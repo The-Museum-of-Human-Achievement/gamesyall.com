@@ -25,14 +25,14 @@ require(__DIR__ . "/../partials/html-head.php");
         
         <div class="row" style="margin-top: 80px;">
         <div class="col-6">
-                <h3>Games Y'all x IGDA collab</h3>
+                <h3>Powerpoint Night</h3>
                 <p>Games Y’all is a casual meetup for indie devs, digital artists, and games fans held
                     every month. 🎟 Free admission, donations are encouraged!</p>
                 <br>
-                <button class="button" id="More Info'"><a href="/event-january-2025">More Info</a></button>
+                <button class="button" id="More Info'"><a href="/event-february-2025">More Info</a></button>
             </div>
             <div class="col-6">
-                <img src="/img/event-img/GY-Banner-Jan-25.png" alt="Games Y'all x IGDA collab" >
+                <img src="/img/event-img/GY-Banner-Feb-25.png" alt="Games Y'all x IGDA collab" >
             </div>
         </div> 
         

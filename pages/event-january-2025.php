@@ -5,9 +5,9 @@
 
 // Meta information for this page, to appear in browser and in social media previews: title, description, and preview image
 // Title should up no more than 70 characters, and description no more than 160.
-$headTitle = "January 2024 Meetup - Games Y'all";
+$headTitle = "January 2025 Meetup - Games Y'all";
 $headDescription = "Games Y'all January Meetup";
-$headImage = "/img/event-img/GY-Banner-Jan-25"; // this is optional! only needed if the page has an image
+$headImage = "/img/event-img/GY-Banner-Jan-25.png"; // this is optional! only needed if the page has an image
 
 require(__DIR__ . "/../partials/html-head.php");
 
@@ -40,12 +40,11 @@ require(__DIR__ . "/../partials/html-head.php");
             <!-- The Museum of Human Achievement  -->
             <a href="https://maps.app.goo.gl/xTKBS7ctHXhmwhvH7" target="_blank">1908 Kramer Ln, Suite 250, 78758</a>
             <br /><br />
-            🎟 Free admission, donations are encouraged! Please RSVP, walk ups are welcome.
+            <!-- 🎟 Free admission, donations are encouraged! Please RSVP, walk ups are welcome. -->
         </p>
             
         <!--RSVP Button-->
-        <!--TODO:get right link-->
-        <button class="button" id="RSVP'"><a href="https://withfriends.co/event/22573514/games_yall_january">RSVP</a></button>
+        <!-- <button class="button" id="RSVP'"><a href="https://withfriends.co/event/22573514/games_yall_january">RSVP</a></button> -->
     </div>
                         
         <div class="col-8">
@@ -83,16 +82,24 @@ require(__DIR__ . "/../partials/html-head.php");
   <!--Games at the event-->
         <div>
           <h2 style="text-align: center;">Games This Month</h2>
-
+          <p style="text-align: center;">
+            This month's games were made during the ATX Global Gam Jam 2025 and can be found here: <a href="https://globalgamejam.org/group/11685/games" target="_blank">https://globalgamejam.org/group/11685/games</a>
+          </p>
         </div>
     <!--Event Images-->
     <!--Only use this section after an event to house images from the past-->
-    <div class="row">-
+    <div class="row">
         <div class="col-12">
             <h2 style="text-align: center;">Gallery</h2>
 
             <div class="flex-container-row">
                 <!-- <img src="/img/Archived-img/September-2024/photos/sep-gy-photo-1.png" style="width: 375px; height: 375px;">  -->
+                 <img src="/img/Archived-img/January-2025/photos/GY-january-1.png" style="width: 375px; height: 375px;">
+                 <img src="/img/Archived-img/January-2025/photos/GY-january-2.png" style="width: 375px; height: 375px;">
+                 <img src="/img/Archived-img/January-2025/photos/GY-january-3.png" style="width: 375px; height: 375px;">
+                 <img src="/img/Archived-img/January-2025/photos/GY-january-4.png" style="width: 375px; height: 375px;">
+                 <img src="/img/Archived-img/January-2025/photos/GY-january-5.png" style="width: 375px; height: 375px;">
+                 <img src="/img/Archived-img/January-2025/photos/GY-january-6.png" style="width: 375px; height: 375px;">
             </div>
         </div>
     </div>
