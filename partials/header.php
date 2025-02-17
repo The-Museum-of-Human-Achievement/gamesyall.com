@@ -67,7 +67,7 @@
             <!--Events has a drop down-->
             <a href="javascript:void(0);" onclick="openEvents()"> Events </a>
             <div id="events-submenu">
- 					<a href="/event-february-2025">Powerpint Night</a>
+ 					<a href="/event-february-2025">Powerpoint Night</a>
                     <a href="/events"> Past Events </a>
             </div>
 
