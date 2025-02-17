@@ -348,12 +348,16 @@ footer {
     float: left;
     margin-left: 10px;
     margin-right: 10px;
+    display: contents;
 }
+
 .dev-social h6{
     width: 100%;
 }
 
-
+.dev-social a{
+    text-decoration: unset;
+}
 
 /* ////// MOBILE ////// */
 /* Extra small devices (phones, 600px and down)  */
