@@ -21,34 +21,27 @@ require(__DIR__ . "/../partials/html-head.php");
     require(__DIR__ . "/../partials/header.php")
     ?>
 
-    <!-- NEXT EVENT-->
+    <!--Event info-->
+        <!-- NEXT EVENT-->
         
         <div class="row" style="margin-top: 80px;">
         <div class="col-6">
-                <h3>Powerpoint Night</h3>
+                <h3>Games Y'all X EGaDS @ GDC^2</h3>
                 <p>Games Y’all is a casual meetup for indie devs, digital artists, and games fans held
                     every month. 🎟 Free admission, donations are encouraged!</p>
                 <br>
-                <button class="button" id="More Info'"><a href="/event-february-2025">More Info</a></button>
+                <!-- TODO: make page public -->
+                <!-- <button class="button" id="More Info'"><a href="/event-march-2025">More Info</a></button> -->
             </div>
             <div class="col-6">
-                <img src="/img/event-img/GY-Banner-Feb-25.png" alt="Games Y'all x IGDA collab" >
+                <!-- TODO: change event image -->
+                <!-- <img src="/img/event-img/GY-Banner-Feb-25.png" alt="Games Y'all x IGDA collab" > -->
             </div>
         </div> 
-        
- 
-        <!--Event info-->
 
         <!--Upcoming Event Info-->
         <!-- 
-        <div class="row">
-            <div class="col-8" id="announcement-banner">
-                <a href="https://withfriends.co/event/20872516/fantastic_arcade_fun_size_edition">
-                    <img src="/img/event-img/FA-Banner-Oct-24.png" id="upcoming-event-img" alt="The Museum of Human Achievement presents Fantastic Arcade" width="400" height="500" />
-                </a>
-            </div>
 
-            
             <div class="col-4" id="upcoming-event-text">
                 <h3>Fantastic Arcade: Fun Size Edition!</h3>
                 <p>🗓️ October 26th 📍 Baker Center
@@ -60,7 +53,7 @@ require(__DIR__ . "/../partials/html-head.php");
             </div>
         </div> -->
         
-             <!-- NEWSLETTER -->
+    <!-- NEWSLETTER -->
     <div class="row">
         <div class="col-6">
             <h2>Newsletter</h2>

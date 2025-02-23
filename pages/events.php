@@ -31,12 +31,20 @@ require(__DIR__ . "/../partials/html-head.php");
             <div class="flex-container-row" style="justify-content: left;">
                 
                 <div class="past-event">
-                        <!--DATE-->
-                        <h4>January 26th, 2025</h4>
-                        <!--image-->
-                        <a href="/event-january-2025">
-                        <img src="/img/event-img/GY-Square-Jan-25.png" alt="A link to January 2025 Games Y'all'" style="box-shadow: 2.5px 5px;">
-                        </a>
+                    <!--DATE-->
+                    <h4>February 20th, 2025</h4>
+                    <!--image-->
+                    <a href="/event-february-2025">
+                    <img src="/img/event-img/GY-Square-Feb-25.png" alt="A link to February 2025 Games Y'all'" style="box-shadow: 2.5px 5px;">
+                    </a>
+                </div>
+                <div class="past-event">
+                    <!--DATE-->
+                    <h4>January 26th, 2025</h4>
+                    <!--image-->
+                    <a href="/event-january-2025">
+                    <img src="/img/event-img/GY-Square-Jan-25.png" alt="A link to January 2025 Games Y'all'" style="box-shadow: 2.5px 5px;">
+                    </a>
                 </div>
                 <div class="past-event">
                     <!--DATE-->

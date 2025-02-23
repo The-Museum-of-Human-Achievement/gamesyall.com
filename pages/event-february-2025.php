@@ -44,8 +44,7 @@ require(__DIR__ . "/../partials/html-head.php");
         </p>
             
         <!--RSVP Button-->
-        <!--TODO:get right link-->
-        <button class="button" id="RSVP'"><a href="https://withfriends.co/event/22777518/games_yall_february_powerpoint_night" target="_blank">RSVP</a></button>
+        <!-- <button class="button" id="RSVP'"><a href="https://withfriends.co/event/22777518/games_yall_february_powerpoint_night" target="_blank">RSVP</a></button> -->
     </div>
                         
         <div class="col-8">
@@ -72,7 +71,6 @@ require(__DIR__ . "/../partials/html-head.php");
     <div>
         <h2 style="text-align: center;">Presentations This Month</h2>
         <div class="row" style="background-color: #9BE9FF; border-radius: 10px; margin-bottom: 25px;">
-            
             <div class="game-card-long">
                 <h4>Patrix Randazzo </h4>
             </div>
@@ -122,7 +120,7 @@ require(__DIR__ . "/../partials/html-head.php");
         <div class="row" style="background-color: #9BE9FF; border-radius: 10px; margin-bottom: 25px;">
             
             <div class="game-card-long">
-            <h4>Enrique "Ricki" "Trii" Torres</h4>
+            <h4>Trinidad "Trii" Torres</h4>
             </div>
         </div>
         <div class="row" style="background-color: #F2D335; border-radius: 10px; margin-bottom: 25px;">
@@ -331,9 +329,12 @@ require(__DIR__ . "/../partials/html-head.php");
                 <h6>Developer: Merge Conflict Studio</h6>
                 <p>Merge Conflict Studio is an ATX based, indie game studio co-founded by 6 passionate developers who met at UT Austin. At Merge Conflict, we strive to make games that center on environmental awareness and marginalized perspectives, and we do not use generative AI in any capacity. We released our first game "Re:Fresh" in 2023 and have just released the demo for our second game "Gemporium" this year. If you are interested in reaching out, you can find us on our socials under @MergeConflictStudio :) </p>
                 <div class="dev-social">
-                    <!-- <a target="_blank" href="https://bsky.app/profile/froggy-loops.bsky.social">
-                        <img src="/img/Social-buttons/bluesky-button.png" style="width: 64px; height: auto;" alt="A link to the Grant Ross' Bluesky account.">
-                    </a> -->
+                    <a target="_blank" href="https://linktr.ee/mergeconflictstudio">
+                        https://linktr.ee/mergeconflictstudio
+                    </a>
+                    <a target="_blank" href="https://mergeconflictstudio.com/">
+                        https://mergeconflictstudio.com/
+                    </a>
                 </div>
                 </div>
                 
@@ -348,7 +349,12 @@ require(__DIR__ . "/../partials/html-head.php");
             <h2 style="text-align: center;">Gallery</h2>
 
             <div class="flex-container-row">
-                <!-- <img src="/img/Archived-img/September-2024/photos/sep-gy-photo-1.png" style="width: 375px; height: 375px;">  -->
+                <img src="/img/Archived-img/February-2025/photos/feb-gy-photo-1.jpg" style="width: 375px; height: 375px;"> 
+                <img src="/img/Archived-img/February-2025/photos/feb-gy-photo-2.jpg" style="width: 375px; height: 375px;"> 
+                <img src="/img/Archived-img/February-2025/photos/feb-gy-photo-3.jpg" style="width: 375px; height: 375px;"> 
+                <img src="/img/Archived-img/February-2025/photos/feb-gy-photo-4.jpg" style="width: 375px; height: 375px;"> 
+                <img src="/img/Archived-img/February-2025/photos/feb-gy-photo-5.jpg" style="width: 375px; height: 375px;"> 
+                <img src="/img/Archived-img/February-2025/photos/feb-gy-photo-6.jpg" style="width: 375px; height: 375px;"> 
             </div>
         </div>
     </div>
