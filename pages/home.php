@@ -30,12 +30,10 @@ require(__DIR__ . "/../partials/html-head.php");
                 <p>Games Y’all is a casual meetup for indie devs, digital artists, and games fans held
                     every month. 🎟 Free admission, donations are encouraged!</p>
                 <br>
-                <!-- TODO: make page public -->
-                <!-- <button class="button" id="More Info'"><a href="/event-march-2025">More Info</a></button> -->
+                <button class="button" id="More Info'"><a href="/event-march-2025">More Info</a></button>
             </div>
             <div class="col-6">
-                <!-- TODO: change event image -->
-                <!-- <img src="/img/event-img/GY-Banner-Feb-25.png" alt="Games Y'all x IGDA collab" > -->
+                <img src="/img/event-img/GY-Banner-Mar-25.png" alt="Games Y'all x IGDA collab" >
             </div>
         </div> 
 
