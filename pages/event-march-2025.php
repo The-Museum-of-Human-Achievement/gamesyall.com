@@ -7,7 +7,6 @@
 // Title should up no more than 70 characters, and description no more than 160.
 $headTitle = "March 2025 Meetup - Games Y'all";
 $headDescription = "Games Y'all March Meetup";
-//TODO: update headImage
  $headImage = "/img/event-img/GY-Banner-Mar-25.png"; // this is optional! only needed if the page has an image
 
 require(__DIR__ . "/../partials/html-head.php");
@@ -41,12 +40,12 @@ require(__DIR__ . "/../partials/html-head.php");
             <!-- Location  -->
             <a href="https://maps.app.goo.gl/zeHbfrSRFEHwh2WY8" target="_blank">2317 Speedway, Austin TX, 78712</a>
             <br /><br />
-            🎟 This event is free and open to the public but RSVPs for GDC² are encouraged. You can RSVP here: 
+            <!-- 🎟 This event is free and open to the public but RSVPs for GDC² are encouraged. You can RSVP here:  -->
         </p>
             
         <!--RSVP Button-->
         <!--TODO:get right link-->
-        <button class="button" id="RSVP'"><a href="https://docs.google.com/forms/d/e/1FAIpQLSef5gNmgEmkp9qhzLVNp4VHma8abHqbTIfzqw1FBYlr39sE_w/viewform" target="_blank">RSVP</a></button>
+        <!-- <button class="button" id="RSVP'"><a href="https://docs.google.com/forms/d/e/1FAIpQLSef5gNmgEmkp9qhzLVNp4VHma8abHqbTIfzqw1FBYlr39sE_w/viewform" target="_blank">RSVP</a></button> -->
     </div>
                         
         <div class="col-8">
