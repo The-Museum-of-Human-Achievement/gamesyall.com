@@ -26,15 +26,32 @@ require(__DIR__ . "/../partials/html-head.php");
         
         <div class="row" style="margin-top: 80px;">
         <div class="col-6">
-                <!-- <h3>Games Y'all X EGaDS @ GDC^2</h3>
-                <p>Games Y’all is a casual meetup for indie devs, digital artists, and games fans held
-                    every month. 🎟 Free admission, donations are encouraged!</p>
+                <h3>April Games Y'all Meetup</h3>
+                <p>
+                Games Y'all returns to the Museum of Human Achievement for our April meet-up! 
+                Come out to play some games, experience some digital art, and connect with your local community!
                 <br>
-                <button class="button" id="More Info'"><a href="/event-march-2025">More Info</a></button>
+                </p>
+                <!--Standard Event Description-->
+                <!-- <p>Games Y’all is a casual meetup for indie devs, digital artists, and games fans held
+                    every month. 🎟 Free admission, donations are encouraged!</p> -->
+                <br>
+                <!-- RSVP Pre Event -->
+                <p>
+                Thursday, April 24th<br>
+                7-10pm<br>
+                The Museum of Human Achievement<br>
+                <a href="https://maps.app.goo.gl/gnfLL6bdV5qLRqpd9" target="_blank">3600 Lyons Rd. Austin, TX 78702</a>
+                <br><br>
+                🎟️ Free admission, donations are encouraged! RSVPs encouraged but not required!
+                </p>
+                <button class="button" id="RSVP'"><a href="https://withfriends.co/event/23009692/games_yall_april" target="_blank">RSVP</a></button>
+                <!--More Info post Event-->
+                <!-- <button class="button" id="More Info'"><a href="/event-april-2025">More Info</a></button> -->
             </div>
             <div class="col-6">
-                <img src="/img/event-img/GY-Banner-Mar-25.png" alt="Games Y'all x IGDA collab" >
-            </div> -->
+                <img src="/img/event-img/GY-Square-April-25.png" alt="Games Y'all April Meetup" >
+            </div>
         </div> 
 
         <!--Upcoming Event Info-->
