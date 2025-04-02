@@ -458,7 +458,13 @@ footer {
     p {
         line-height: 1.6;
     }
-
+    
+    #pdf-viewer-mobile{
+        display:block;
+    }
+    #pdf-viewer-desktop{
+        display:none;
+    }
 
     /* /// HEADER /// */
     .banner-img {
@@ -679,11 +685,16 @@ footer {
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}    
 
+    #pdf-viewer-mobile{
+        display:none;
+    }
+    #pdf-viewer-desktop{
+        display:block;
+    }
     /* ///// EVENTS PAGE ///// */
     .past-event {
         max-width: 20%;
     }    
-
 }
 /*  (, 1440px and up) */
 @media only screen and (min-width: 1440px) {

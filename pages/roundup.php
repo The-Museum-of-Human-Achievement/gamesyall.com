@@ -20,7 +20,9 @@ require(__DIR__ . "/../partials/html-head.php");
     ?>
 
     <div class="col-12" style="background-color: white; display: flex; justify-content: center" >
-        <object data="img/pdf/gy_roundup.pdf#toolbar=1" type="application/pdf" width="95%" height="850"></object>
+        <!-- <iframe class="pdf-viewer-desktop" src="img/pdf/gy_roundup.pdf" width="95%" height="850px"></iframe> -->
+        <!-- <object data="img/pdf/gy_roundup.pdf#toolbar=1" type="application/pdf" width="95%" height="850"></object> -->
+        <p>View GY Roundup information<a href="img/pdf/gy_roundup.pdf" target="_blank">here</a></p>
     </div>
 
     <?php 

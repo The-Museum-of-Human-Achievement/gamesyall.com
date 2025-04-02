@@ -21,7 +21,7 @@
                         <i class="events-dropdown"></i>
                     </a>
                     <div class="dropdown-content">
-                        <!-- <a href="/event-march-2025">Games Y'all X EGaDS</a> -->
+                        <a href="/event-april-2025">Games Y'all April 2025</a>
                         <!-- <a href="https://withfriends.co/event/20872516/fantastic_arcade_fun_size_edition">Fantastic Arcade</a> -->
                         <a href="/events">Past Events</a>
                     </div>
@@ -67,7 +67,7 @@
             <!--Events has a drop down-->
             <a href="javascript:void(0);" onclick="openEvents()"> Events </a>
             <div id="events-submenu">
- 					<!-- <a href="/event-march-2025">Games Y'all X EGaDS</a> -->
+ 					<a href="/event-april-2025">Games Y'all April 2025</a>
                     <a href="/events"> Past Events </a>
             </div>
 

@@ -5,10 +5,10 @@
 
 // Meta information for this page, to appear in browser and in social media previews: title, description, and preview image
 // Title should up no more than 70 characters, and description no more than 160.
-$headTitle = "March 2025 Meetup - Games Y'all";
-$headDescription = "Games Y'all March Meetup";
+$headTitle = "April 2025 Meetup - Games Y'all";
+$headDescription = "Games Y'all April Meetup";
 //TODO: update headimage
-//$headImage = "/img/event-img/GY-Banner-Mar-25.png"; // this is optional! only needed if the page has an image
+$headImage = "/img/event-img/GY-Banner-April-25.png"; // this is optional! only needed if the page has an image
 
 require(__DIR__ . "/../partials/html-head.php");
 
@@ -36,9 +36,9 @@ require(__DIR__ . "/../partials/html-head.php");
         <div class="col-4"style="justify-content: left;">
         <h1>April Meetup</h1>
         <h4>April 24th, 2025 - 7-10pm</h4>
-    
+
+        <!-- Location  -->
         <p>
-            <!-- Location  -->
             The Museum of Human Achievement
             <a href="https://maps.app.goo.gl/gnfLL6bdV5qLRqpd9" target="_blank">3600 Lyons Rd. Austin, TX 78702</a>
             <br /><br />
@@ -58,9 +58,7 @@ require(__DIR__ . "/../partials/html-head.php");
         <div class="col-10">
             <!-- Put PR text here -->
              <p>
-                Join Games Y'all on Saturday, March 8th from 1-3pm for the Student Showcase at GDC² held at the Gates-Dell Complex (2.216 & 2.100) at UT! There will be food, games, and community. What more could you ask for?
-                <br><br>
-                GDC² is a yearly event held by the University of Texas' Electronic Game Developers Society (EGaDS!) that aims to bring GDC to developers in Austin! This year, it is an official South by Southwest (SXSW) event!
+             Games Y'all returns to the Museum of Human Achievement for our April meet-up! Come out to play some games, experience some digital art, and connect with your local community!                
             </p>
             <br><br>
             <h5>Venue + Health Details</h5>
