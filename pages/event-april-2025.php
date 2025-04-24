@@ -161,38 +161,6 @@ require(__DIR__ . "/../partials/html-head.php");
     <div>
         <!-- TODO: fill out game section -->
         <h2 style="text-align: center;">Games This Month</h2>
-        
-        <!--Cyberside Picnic Card-->
-        <div class="row" style="background-color: #F2D335; border-radius: 10px; margin-bottom: 25px;">
-            <div class="game-card-long">
-                <!--Promo Image-->
-                <div>
-                    <img src="/img/Archived-img/April-2025/games/Cyberside Picnic.jpg" alt="A promotional image for Cyberside Picnic. In the middle of a field during nightime, a computer window displays a website and is the only source of light in the picture.">
-                </div>
-                <!--Project Text-->
-                <div>
-                    <h4>Cyberside Picnic</h4>
-                    <p>
-                    Cyberside Picnic is a eulogy for the cyberian commonplace that just eluded us.  A love letter to a lost future of alternative video games, delete and overwrite.
-                    </p>
-                    <!--Call to Action-->
-                    <button class="button"  style="margin: 10px; background-color: #9BE9FF;">
-                        <a href="https://cathoderadiator.itch.io/cyberside-picnic" target="_blank">Play Now</a>
-                    </button>
-                </div>
-                
-                <!--Dev Text-->
-                <div>
-                <h6>Developer: Michael Luo</h6>
-                <p>
-                    Michael Luo is a Los Angeles-based media artist, game maker, and educator who explores interactivity, digital/social culture, and experimental media. He holds an MFA in Design Media Arts from UCLA, where he also completed his BA. Luo’s work has been exhibited internationally, including at SITE Santa Fe, A MAZE. Festival (Berlin), Playtopia Festival (Cape Town), and the Independent Games Festival. He is currently a Visiting Assistant Professor at Occidental College, where he teaches courses on game design and media arts.
-                </p>
-                    <div class="dev-social">
-                    </div>
-                </div>
-                
-            </div>
-        </div>
 
         <!--Ultraprocessor Ribbon Card-->
         <div class="row" style="background-color: #9BE9FF; border-radius: 10px; margin-bottom: 25px;">
@@ -262,6 +230,77 @@ require(__DIR__ . "/../partials/html-head.php");
                 
             </div>
         </div>
+
+        <!--Mystic Guantlets Card-->
+        <div class="row" style="background-color: #9BE9FF; border-radius: 10px; margin-bottom: 25px;">
+            <div class="game-card-long">
+                <!--Promo Image-->
+                <div>
+                    <img src="/img/Archived-img/April-2025/games/Mystic Gauntlets.jpg" alt="A promotional image for Mystic Gauntlets. ">
+                </div>
+                <!--Project Text-->
+                <div>
+                    <h4>Mystic Gauntlets</h4>
+                    <p>
+                    Mystic Gauntlets is a short and rowdy tabletop card game for 2 to 4 players. Players take turns equipping new Gauntlets, activating their powerful effects, or casting a variety of spells. Each player can have one Gauntlet equipped on their left and another on their right. Each Gauntlet has a unique effect depending on whether they are equipped on the left or the right! Use these effects to destroy other players' Gauntlets, earning you trophies! The game has a variety of modes to play depending on player count, including competitive 1v1, 4 player free-for-all, and two-headed giant team play! 
+                    </p>
+                    <!--Call to Action-->
+                    <!-- <button class="button"  style="margin: 10px; background-color: #F2D335;">
+                        <a href="https://demuresoft.xyz/ribbon/ribbon.php" target="_blank">Learn More</a>
+                    </button> -->
+                </div>
+                
+                <!--Dev Text-->
+                <div>
+                <h6>Developer: Ricardo Correa-Altiery</h6>
+                <p>
+                Howdy! I am Ricardo Correa-Altiery, nice to meet ya! To sum up a bit of myself I am a bilingual Puerto Rican Artist, Game Designer / Enthusiast! I have grand aspirations and goals in life, such as telling at least one truly lasting story! I am a fan and admirer of tons of different mediums like animation, cinema, and video games. In my spare time, I enjoy creating video games and board games to share with my friend group. 
+                </p>
+                    <div class="dev-social">
+                        <a target="_blank" href="https://www.linkedin.com/in/ricardo-correa-altiery-53757b193/">
+                        www.linkedin.com/in/ricardo-correa-altiery-53757b193
+                        </a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+        <!--NetEscape Card-->
+        <div class="row" style="background-color: #F2D335; border-radius: 10px; margin-bottom: 25px;">
+            <div class="game-card-long">
+                <!--Promo Image-->
+                <div>
+                    <img src="/img/Archived-img/April-2025/games/Net Escape.jpg" alt="A promotional image for NetEscape.">
+                </div>
+                <!--Project Text-->
+                <div>
+                    <h4>NetEscape</h4>
+                    <p>
+                    Once a thriving 90s MMO, NetEscape now stands as a time capsule, housing a dark secret beneath its bright, colorful surface. With the server shutdown looming at midnight, explore, gather clues, and uncover the mystery hidden within NetEscape before the game—and its secrets—are lost forever.
+                    </p>
+                    <!--Call to Action-->
+                    <button class="button"  style="margin: 10px; background-color: #9BE9FF;">
+                        <a href="https://store.steampowered.com/app/3344890/NetEscape/" target="_blank">Wishlist Now</a>
+                    </button>
+                </div>
+                
+                <!--Dev Text-->
+                <div>
+                <h6>Developer: Goblin Laundromat & Crisppyboat</h6>
+                <p>
+                Goblin Laundromat is a queer-led, game development cooperative and art collective dedicated to creating unique experiences through the medium of gaming and empowering underrepresented voices in the games industry.
+                </p>
+                    <div class="dev-social">
+                        <a target="_blank" href="https://bsky.app/profile/goblinlaundromat.bsky.social">
+                            <img src="/img/Social-buttons/bluesky-button.png" style="width: 64px; height: auto;" alt="A link to Jesse Cline's Instagram account.">
+                        </a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
     <!--End of Games at the event-->
     </div> 
     <!--Event Images-->
