@@ -26,34 +26,33 @@ require(__DIR__ . "/../partials/html-head.php");
         
         <div class="row" style="margin-top: 80px;">
         <div class="col-6">
-                <h3>April Games Y'all Meetup</h3>
+                <h3>May Games Y'all Meetup</h3>
                 <p>
-                Games Y'all returns to the Museum of Human Achievement for our April meet-up! 
-                Come out to play some games, experience some digital art, and connect with your local community!
-                <br>
-                <br>
+                Join us for Games Y'all at the Museum of Human Achievement! 📆📍<br>
+                We'll have a fresh lineup of indie games to check out, folks to meet, and we'll be doing it at the same time as <a href="https://moha.wiki/CATS+" target="blank">MoHA's CATS+</a>showcase, so there will be even more art to check out!
                 </p>
-                <!-- RSVP Pre Event -->
-                <!-- <p>
-                Thursday, April 24th<br>
-                7-10pm<br>
-                The Museum of Human Achievement<br>
-                <a href="https://maps.app.goo.gl/gnfLL6bdV5qLRqpd9" target="_blank">3600 Lyons Rd. Austin, TX 78702</a>
-                <br><br>
-                🎟️ Free admission, donations are encouraged! RSVPs encouraged but not required!
+            <!-- RSVP Pre Event -->
+                <p>
+                    Saturday May 17th, 2025<br>
+                    7-10pm<br>
+                    The Museum of Human Achievement<br>
+                    <a href="https://maps.app.goo.gl/gnfLL6bdV5qLRqpd9" target="_blank">3600 Lyons Rd. Austin, TX 78702</a>
+                    <br><br>
+                    🎟️ Free admission, donations are encouraged! RSVPs encouraged but not required!
                 </p>
-                <button class="button" id="RSVP'"><a href="https://withfriends.co/event/23009692/games_yall_april" target="_blank">RSVP</a></button> -->
+                <button 
+                    class="button" id="RSVP'"><a href="https://withfriends.co/event/23296359/games_yall_may_2025" target="_blank">RSVP</a>
+                </button>
                 
-                <!--More Info During Event-->
-                <!--Standard Event Description-->
-                <p>
+            <!--Current Event Description-->
+                <!-- <p>
                     Games Y’all is a casual meetup for indie devs, digital artists, and games fans held
                     every month. 🎟️ Free admission, donations are encouraged! RSVPs encouraged but not required!
                 </p>
-                <button class="button" id="More Info'"><a href="/event-april-2025">More Info</a></button>
+                <button class="button" id="More Info'"><a href="/event-april-2025">More Info</a></button> -->
             </div>
             <div class="col-6">
-                <img src="/img/event-img/GY-Square-April-25.png" alt="Games Y'all April Meetup" >
+                <img src="/img/event-img/GY-Square-May-25.png" alt="Games Y'all May Meetup" >
             </div>
         </div> 
 

@@ -46,12 +46,11 @@ require(__DIR__ . "/../partials/html-head.php");
         </p>
             
         <!--RSVP Button-->
-        <button class="button" id="RSVP'"><a href="https://withfriends.co/event/23009692/games_yall_april" target="_blank">RSVP</a></button>
+        <!-- <button class="button" id="RSVP'"><a href="https://withfriends.co/event/23009692/games_yall_april" target="_blank">RSVP</a></button> -->
     </div>
                         
         <div class="col-8">
             <!--Add your event image here-->
-            <!-- TODO: update image -->
             <img src="/img/event-img/GY-Banner-April-25.png" alt="The Museum of Human Achievement presents, Games Y'all January Meetup">
         </div>
 
@@ -305,20 +304,20 @@ require(__DIR__ . "/../partials/html-head.php");
     </div> 
     <!--Event Images-->
     <!--Only use this section after an event to house images from the past-->
-    <!-- <div class="row">-
+    <div class="row">-
         <div class="col-12">
             <h2 style="text-align: center;">Gallery</h2>
 
             <div class="flex-container-row">
-                <img src="/img/Archived-img/February-2025/photos/feb-gy-photo-1.jpg" style="width: 375px; height: 375px;"> 
-                <img src="/img/Archived-img/February-2025/photos/feb-gy-photo-2.jpg" style="width: 375px; height: 375px;"> 
-                <img src="/img/Archived-img/February-2025/photos/feb-gy-photo-3.jpg" style="width: 375px; height: 375px;"> 
-                <img src="/img/Archived-img/February-2025/photos/feb-gy-photo-4.jpg" style="width: 375px; height: 375px;"> 
-                <img src="/img/Archived-img/February-2025/photos/feb-gy-photo-5.jpg" style="width: 375px; height: 375px;"> 
-                <img src="/img/Archived-img/February-2025/photos/feb-gy-photo-6.jpg" style="width: 375px; height: 375px;"> 
+                <img src="/img/Archived-img/April-2025/photos/april-gy-photo-1.jpg" style="width: 375px; height: 375px;"> 
+                <img src="/img/Archived-img/April-2025/photos/april-gy-photo-2.jpg" style="width: 375px; height: 375px;"> 
+                <img src="/img/Archived-img/April-2025/photos/april-gy-photo-3.jpg" style="width: 375px; height: 375px;"> 
+                <img src="/img/Archived-img/April-2025/photos/april-gy-photo-4.jpg" style="width: 375px; height: 375px;"> 
+                <img src="/img/Archived-img/April-2025/photos/april-gy-photo-5.jpg" style="width: 375px; height: 375px;"> 
+                <img src="/img/Archived-img/April-2025/photos/april-gy-photo-6.jpg" style="width: 375px; height: 375px;"> 
             </div>
         </div>
-    </div> -->
+    </div>
 
     <?php 
     // Include the Community links and footer
