@@ -26,7 +26,7 @@ require(__DIR__ . "/../partials/html-head.php");
         <p>
             <a href="/events">Past Events</a> 
             >
-            <a href="/event-march-2025">April 24th, 2025</a> 
+            <a href="/event-april-2025">April 24th, 2025</a> 
         </p>
         </div>
     </div>
@@ -51,7 +51,7 @@ require(__DIR__ . "/../partials/html-head.php");
                         
         <div class="col-8">
             <!--Add your event image here-->
-            <img src="/img/event-img/GY-Banner-April-25.png" alt="The Museum of Human Achievement presents, Games Y'all January Meetup">
+            <img src="/img/event-img/GY-Banner-April-25.png" alt="The Museum of Human Achievement presents, Games Y'all April Meetup">
         </div>
 
         <div class="col-10">
