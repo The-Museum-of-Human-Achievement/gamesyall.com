@@ -25,51 +25,65 @@ require(__DIR__ . "/../partials/html-head.php");
         <!-- NEXT EVENT-->
         
         <div class="row" style="margin-top: 80px;">
-        <div class="col-6">
-                <h3>May Games Y'all Meetup</h3>
-            <!-- RSVP Pre Event -->
-                <!-- 
-                <p>
-                Join us for Games Y'all at the Museum of Human Achievement! 📆📍<br>
-                We'll have a fresh lineup of indie games to check out, folks to meet, and we'll be doing it at the same time as <a href="https://moha.wiki/CATS+" target="blank">MoHA's CATS+</a>showcase, so there will be even more art to check out!
-                </p>
-                <p>
-                    Saturday May 17th, 2025<br>
-                    7-10pm<br>
-                    The Museum of Human Achievement<br>
-                    <a href="https://maps.app.goo.gl/gnfLL6bdV5qLRqpd9" target="_blank">3600 Lyons Rd. Austin, TX 78702</a>
-                    <br><br>
-                    🎟️ Free admission, donations are encouraged! RSVPs encouraged but not required!
-                </p>
-                <button 
-                    class="button" id="RSVP'"><a href="https://withfriends.co/event/23296359/games_yall_may_2025" target="_blank">RSVP</a>
-                </button> -->
-                
-            <!--Current Event Description-->
-                <p>
-                    Games Y’all is a casual meetup for indie devs, digital artists, and games fans held
-                    every month. 🎟️ Free admission, donations are encouraged! RSVPs encouraged but not required!
-                </p>
-                <button class="button" id="More Info'"><a href="/event-may-2025">More Info</a></button>
+            <div class="col-6">
+                <h3>June Games Y'all Meetup</h3>
+                <!-- RSVP Pre Event -->
+                    <p>
+                    Join us at Austin Public Library's Central Branch in their Innovate Lab for our June Games Y'all meetup!<br>
+                    In honor of Juneteenth, we've titled our next event Black Future Month and are platforming as many Black devs & creators as we can!
+                    </p>
+                    <p>
+                        Sunday June 22nd, 2025<br>
+                        12-3pm<br>
+                        Austin Public Library - Central Library<br>
+                        <a href="https://maps.app.goo.gl/MYF1un8VKobn5z5BA" target="_blank">710 W Cesar Chavez St, Austin, TX 78701 (5th Floor)</a>
+                        <br><br>
+                        🎟️ Free admission, donations are encouraged! RSVPs encouraged but not required!
+                    </p>
+                    <button 
+                        class="button" id="RSVP'"><a href="https://withfriends.co/event/23519952/games_yall_june_2025" target="_blank">RSVP</a>
+                    </button>
+                    
+                <!--Current Event Description-->
+                    <!-- <p>
+                        Games Y’all is a casual meetup for indie devs, digital artists, and games fans held
+                        every month. 🎟️ Free admission, donations are encouraged! RSVPs encouraged but not required!
+                    </p>
+                    <button class="button" id="More Info'"><a href="/event-may-2025">More Info</a></button>
+                    -->    
             </div>
             <div class="col-6">
-                <img src="/img/event-img/GY-Square-May-25.png" alt="Games Y'all May Meetup" >
-            </div>
-        </div> 
-
+                <img src="/img/event-img/GY-Square-June-25.png" alt="Games Y'all June Meetup" >
+                    
+            </div> 
+        </div>
         <!--Upcoming Event Info-->
-        <!-- 
-
-            <div class="col-4" id="upcoming-event-text">
-                <h3>Fantastic Arcade: Fun Size Edition!</h3>
-                <p>🗓️ October 26th 📍 Baker Center
-                <br><br> 
-                October is here and Fantastic Arcade is back for our 10th event, Fantastic Arcade: Fun Size Edition! 🎟 Tickets on sale now!
-                </p>
-                <br>
-                <button class="button" id="Tickets'"><a href="https://withfriends.co/event/20872516/fantastic_arcade_fun_size_edition">Tickets</a></button>
+        <div class="row">
+            <!-- put next 3 events here -->
+             <div class="col-6"></div>
+            <div class="col-6">
+                <h3>Upcoming Events</h3> 
+                <table class="event-table">
+                    <tr>
+                        <th>Date</th>
+                        <th>Location</th>
+                        <th>Theme</th>
+                    </tr>
+                    <tr>
+                        <td>Saturday 07/19/25</td>
+                        <td>Highland Collective</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Thursday 08/22/25</td>
+                        <td>Austin Public Library - Howson Branch</td>
+                        <td>Pride</td>
+                    </tr>
+                </table>
             </div>
-        </div> -->
+            
+        </div>
+        
         
     <!-- NEWSLETTER -->
     <div class="row">

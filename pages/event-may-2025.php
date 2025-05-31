@@ -35,7 +35,7 @@ require(__DIR__ . "/../partials/html-head.php");
     <div class="row">    
         <div class="col-4"style="justify-content: left;">
         <h1>May Meetup</h1>
-        <h4>Saturday May 17th, 2025 - 7-10pm</h4>
+        <h4>Saturday May 17th, 2025<br>7-10pm</h4>
 
         <!-- Location  -->
         <p>
@@ -305,7 +305,9 @@ require(__DIR__ . "/../partials/html-head.php");
                 <div>
                     <!--Dev Text-->
                     <h6>PogoBrick LLC</h6>
-                    <p></p>
+                    <p>
+                        Tobin has been programming since the age of 10, done 6 years in the games industry on titles such as "Jack Nicholas 4", "Civilization 2 Network Edition", and "Microsoft Casino". After years in tech, he now returns to his passion of making games as a solo indie developer.
+                    </p>
                     <!--Dev Socials-->
                     <div>
                         <a target="_blank" href="https://bsky.app/profile/pogobrick.bsky.social">
@@ -395,20 +397,20 @@ require(__DIR__ . "/../partials/html-head.php");
 
     <!--Event Images-->
     <!--Only use this section after an event to house images from the past-->
-    <!-- <div class="row">-
+    <div class="row">-
         <div class="col-12">
             <h2 style="text-align: center;">Gallery</h2>
 
             <div class="flex-container-row">
-                <img src="/img/Archived-img/April-2025/photos/april-gy-photo-1.jpg" style="width: 375px; height: 375px;"> 
-                <img src="/img/Archived-img/April-2025/photos/april-gy-photo-2.jpg" style="width: 375px; height: 375px;"> 
-                <img src="/img/Archived-img/April-2025/photos/april-gy-photo-3.jpg" style="width: 375px; height: 375px;"> 
-                <img src="/img/Archived-img/April-2025/photos/april-gy-photo-4.jpg" style="width: 375px; height: 375px;"> 
-                <img src="/img/Archived-img/April-2025/photos/april-gy-photo-5.jpg" style="width: 375px; height: 375px;"> 
-                <img src="/img/Archived-img/April-2025/photos/april-gy-photo-6.jpg" style="width: 375px; height: 375px;"> 
+                <img src="/img/Archived-img/May-2025/photos/may-gy-photo-1.jpg" style="width: 375px; height: 375px;"> 
+                <img src="/img/Archived-img/May-2025/photos/may-gy-photo-2.jpg" style="width: 375px; height: 375px;"> 
+                <img src="/img/Archived-img/May-2025/photos/may-gy-photo-3.jpg" style="width: 375px; height: 375px;"> 
+                <img src="/img/Archived-img/May-2025/photos/may-gy-photo-4.jpg" style="width: 375px; height: 375px;"> 
+                <img src="/img/Archived-img/May-2025/photos/may-gy-photo-5.jpg" style="width: 375px; height: 375px;"> 
+                <img src="/img/Archived-img/May-2025/photos/may-gy-photo-6.jpg" style="width: 375px; height: 375px;"> 
             </div>
         </div>
-    </div> -->
+    </div>
 
     <?php 
     // Include the Community links and footer

@@ -359,6 +359,17 @@ footer {
     text-decoration: unset;
 }
 
+.event-table th{
+    font-size: 25px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.event-table td{
+    text-align: center;
+    padding:  10px 20px 10px 20px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif
+}
 /* ////// MOBILE ////// */
 /* Extra small devices (phones, 600px and down)  */
 @media only screen and (max-width: 600px) {
