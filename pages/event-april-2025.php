@@ -292,7 +292,7 @@ require(__DIR__ . "/../partials/html-head.php");
                 </p>
                     <div class="dev-social">
                         <a target="_blank" href="https://bsky.app/profile/goblinlaundromat.bsky.social">
-                            <img src="/img/Social-buttons/bluesky-button.png" style="width: 64px; height: auto;" alt="A link to Jesse Cline's Instagram account.">
+                            <img src="/img/Social-buttons/bluesky-button.png" style="width: 64px; height: auto;" alt="A link to Jesse Cline's Bluesky account.">
                         </a>
                     </div>
                 </div>

@@ -28,7 +28,7 @@ require(__DIR__ . "/../partials/html-head.php");
             <div class="col-6">
                 <h3>June Games Y'all Meetup</h3>
                 <!-- RSVP Pre Event -->
-                    <p>
+                    <!-- <p>
                     Join us at Austin Public Library's Central Branch in their Innovate Lab for our June Games Y'all meetup!<br>
                     In honor of Juneteenth, we've titled our next event Black Future Month and are platforming as many Black devs & creators as we can!
                     </p>
@@ -42,19 +42,17 @@ require(__DIR__ . "/../partials/html-head.php");
                     </p>
                     <button 
                         class="button" id="RSVP'"><a href="https://withfriends.co/event/23519952/games_yall_june_2025" target="_blank">RSVP</a>
-                    </button>
+                    </button> -->
                     
                 <!--Current Event Description-->
-                    <!-- <p>
+                    <p>
                         Games Y’all is a casual meetup for indie devs, digital artists, and games fans held
                         every month. 🎟️ Free admission, donations are encouraged! RSVPs encouraged but not required!
                     </p>
-                    <button class="button" id="More Info'"><a href="/event-may-2025">More Info</a></button>
-                    -->    
+                    <button class="button" id="More Info'"><a href="/event-june-2025">More Info</a></button>
             </div>
             <div class="col-6">
                 <img src="/img/event-img/GY-Square-June-25.png" alt="Games Y'all June Meetup" >
-                    
             </div> 
         </div>
         <!--Upcoming Event Info-->
