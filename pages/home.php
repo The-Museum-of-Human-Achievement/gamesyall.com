@@ -29,19 +29,19 @@ require(__DIR__ . "/../partials/html-head.php");
                 <h3>June Games Y'all Meetup</h3>
                 <!-- RSVP Pre Event -->
                     <!-- <p>
-                    Join us at Austin Public Library's Central Branch in their Innovate Lab for our June Games Y'all meetup!<br>
-                    In honor of Juneteenth, we've titled our next event Black Future Month and are platforming as many Black devs & creators as we can!
+                    Come join Games Y'all as we descend upon The Highland Collective for our July meetup!<br>
+                    We'll have friends, fun, and a curated selection of weird, wonderful games made by local devs! Come to play, see some friends, or make some new ones!
                     </p>
                     <p>
-                        Sunday June 22nd, 2025<br>
+                        Saturday July 19th, 2025<br>
                         12-3pm<br>
-                        Austin Public Library - Central Library<br>
-                        <a href="https://maps.app.goo.gl/MYF1un8VKobn5z5BA" target="_blank">710 W Cesar Chavez St, Austin, TX 78701 (5th Floor)</a>
+                        Highland Collective<br>
+                        <a href="https://maps.app.goo.gl/ZLsKFQdzYbEERfVEA" target="_blank">6401 Airport Blvd, Austin, TX 78752</a>
                         <br><br>
                         🎟️ Free admission, donations are encouraged! RSVPs encouraged but not required!
                     </p>
                     <button 
-                        class="button" id="RSVP'"><a href="https://withfriends.co/event/23519952/games_yall_june_2025" target="_blank">RSVP</a>
+                        class="button" id="RSVP'"><a href="https://withfriends.co/event/23769551/games_yall_june_2025" target="_blank">RSVP</a>
                     </button> -->
                     
                 <!--Current Event Description-->
@@ -49,10 +49,10 @@ require(__DIR__ . "/../partials/html-head.php");
                         Games Y’all is a casual meetup for indie devs, digital artists, and games fans held
                         every month. 🎟️ Free admission, donations are encouraged! RSVPs encouraged but not required!
                     </p>
-                    <button class="button" id="More Info'"><a href="/event-june-2025">More Info</a></button>
+                    <button class="button" id="More Info'"><a href="/event-july-2025">More Info</a></button>
             </div>
             <div class="col-6">
-                <img src="/img/event-img/GY-Square-June-25.png" alt="Games Y'all June Meetup" >
+                <img src="/img/event-img/GY-Square-July-25.png" alt="Games Y'all July Meetup" >
             </div> 
         </div>
         <!--Upcoming Event Info-->
@@ -68,14 +68,18 @@ require(__DIR__ . "/../partials/html-head.php");
                         <th>Theme</th>
                     </tr>
                     <tr>
-                        <td>Saturday 07/19/25</td>
-                        <td>Highland Collective</td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td>Thursday 08/22/25</td>
+                        <td>08/22/25</td>
                         <td>Austin Public Library - Howson Branch</td>
                         <td>Pride</td>
+                    </tr>
+                    <tr>
+                        <td>September</td>
+                        <td>TBA</td>
+                    </tr>
+                    <tr>
+                        <td>October</td>
+                        <td>1908 Kramer Ln, Suite 250, 78758</td>
+                        <td>PowerPoint Night</td>
                     </tr>
                 </table>
             </div>

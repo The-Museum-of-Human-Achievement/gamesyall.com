@@ -227,20 +227,20 @@ require(__DIR__ . "/../partials/html-head.php");
     </div>
     <!--Event Images-->
         <!--Only use this section after an event to house images from the past-->
-        <!-- <div class="row">
+        <div class="row">
             <div class="col-12">
                 <h2 style="text-align: center;">Gallery</h2>
 
                 <div class="flex-container-row">
-                    <img src="/img/Archived-img/January-2025/photos/GY-january-1.png" style="width: 375px; height: 375px;">
-                    <img src="/img/Archived-img/January-2025/photos/GY-january-2.png" style="width: 375px; height: 375px;">
-                    <img src="/img/Archived-img/January-2025/photos/GY-january-3.png" style="width: 375px; height: 375px;">
-                    <img src="/img/Archived-img/January-2025/photos/GY-january-4.png" style="width: 375px; height: 375px;">
-                    <img src="/img/Archived-img/January-2025/photos/GY-january-5.png" style="width: 375px; height: 375px;">
-                    <img src="/img/Archived-img/January-2025/photos/GY-january-6.png" style="width: 375px; height: 375px;">
+                    <img src="/img/Archived-img/June-2025/photos/june-gy-photo-1.jpg" style="width: 375px; height: 375px;">
+                    <img src="/img/Archived-img/June-2025/photos/june-gy-photo-2.jpg" style="width: 375px; height: 375px;">
+                    <img src="/img/Archived-img/June-2025/photos/june-gy-photo-3.jpg" style="width: 375px; height: 375px;">
+                    <img src="/img/Archived-img/June-2025/photos/june-gy-photo-4.jpg" style="width: 375px; height: 375px;">
+                    <img src="/img/Archived-img/June-2025/photos/june-gy-photo-5.jpg" style="width: 375px; height: 375px;">
+                    <img src="/img/Archived-img/June-2025/photos/june-gy-photo-6.jpg" style="width: 375px; height: 375px;">
                 </div>
             </div>
-        </div> -->
+        </div>
 
     <?php 
     // Include the Community links and footer
