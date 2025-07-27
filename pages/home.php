@@ -26,7 +26,7 @@ require(__DIR__ . "/../partials/html-head.php");
         
         <div class="row" style="margin-top: 80px;">
             <div class="col-6">
-                <h3>June Games Y'all Meetup</h3>
+                <!-- <h3>July Games Y'all Meetup</h3> -->
                 <!-- RSVP Pre Event -->
                     <!-- <p>
                     Come join Games Y'all as we descend upon The Highland Collective for our July meetup!<br>
@@ -45,14 +45,15 @@ require(__DIR__ . "/../partials/html-head.php");
                     </button> -->
                     
                 <!--Current Event Description-->
-                    <p>
+                    <!-- <p>
                         Games Y’all is a casual meetup for indie devs, digital artists, and games fans held
                         every month. 🎟️ Free admission, donations are encouraged! RSVPs encouraged but not required!
                     </p>
-                    <button class="button" id="More Info'"><a href="/event-july-2025">More Info</a></button>
+                    <button class="button" id="More Info'"><a href="/event-july-2025">More Info</a></button> -->
             </div>
+            
             <div class="col-6">
-                <img src="/img/event-img/GY-Square-July-25.png" alt="Games Y'all July Meetup" >
+                <!-- <img src="/img/event-img/GY-Square-July-25.png" alt="Games Y'all July Meetup" > -->
             </div> 
         </div>
         <!--Upcoming Event Info-->

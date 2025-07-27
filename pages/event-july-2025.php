@@ -41,9 +41,9 @@ require(__DIR__ . "/../partials/html-head.php");
             <br><br>
             🎟️ Free admission, donations are encouraged! RSVPs encouraged but not required!
         </p>
-        <button 
+        <!-- <button 
             class="button" id="RSVP'"><a href="https://withfriends.co/event/23769551/games_yall_june_2025" target="_blank">RSVP</a>
-        </button>
+        </button> -->
     </div>
                         
         <div class="col-8">
@@ -251,23 +251,55 @@ require(__DIR__ . "/../partials/html-head.php");
             </div>
         </div>
         <!--End of Game Card -->
+
+        <!--Frog Joust Card-->
+        <div class="row" style="background-color: #F2D335; border-radius: 10px; margin-bottom: 25px;">
+            <div class="game-card-long">
+                <div>
+                    <!--Promo Image-->
+                     <img src="/img/Archived-img/July-2025/games/FrogJoust.jpg" alt="A promotional image for Frog Joust. ">
+                </div>
+                <div>
+                    <!--Project Text-->
+                    <h4>Best Fwends</h4>
+                    <p>
+                       Frog Joust is a physical poker-like card game where you challenge fellow players into contests of might! Players use cards in their hands as champions to compete against each other and gamble coins in a quest to be the wealthiest lord! Each champion has an associated strength value, with the larger number winning the contest, but worry not, as losing gains you a card from the retribution deck, potentially giving you an edge in your following contests. Push your luck or bluff your way to victory!
+                    </p>
+                </div>
+                <div>
+                    <!--Dev Text-->
+                    <h4>Ricardo Correa-Altiery</h4>
+                    <p>
+                       Howdy! I am Ricardo Andres Correa-Altiery, nice to meet ya! I am a Puerto Rican Artist, Game Designer, Game Enthusiast, and Entertainer! I am a fan and admirer of tons of different mediums like animation, cinema, and video games. In my spare time, I enjoy creating video games and board games to share with my friend group. I am currently working on setting up a game design portfolio, so feel free to reach out to collaborate! 
+                    </p>
+
+                     <!--Dev Socials-->
+                    <div class="dev-social">
+                        <a target="_blank" href="https://www.linkedin.com/in/ricardo-correa-altiery-53757b193/">
+                            linkedin.com/in/ricardo-correa-altiery-53757b193
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--End of Game Card -->
     </div>
     <!--Event Images-->
         <!--Only use this section after an event to house images from the past-->
-        <!-- <div class="row">
+        <div class="row">
             <div class="col-12">
                 <h2 style="text-align: center;">Gallery</h2>
 
                 <div class="flex-container-row">
-                    <img src="/img/Archived-img/June-2025/photos/GY-june-1.png" style="width: 375px; height: 375px;">
-                    <img src="/img/Archived-img/June-2025/photos/GY-june-2.png" style="width: 375px; height: 375px;">
-                    <img src="/img/Archived-img/June-2025/photos/GY-june-3.png" style="width: 375px; height: 375px;">
-                    <img src="/img/Archived-img/June-2025/photos/GY-june-4.png" style="width: 375px; height: 375px;">
-                    <img src="/img/Archived-img/June-2025/photos/GY-june-5.png" style="width: 375px; height: 375px;">
-                    <img src="/img/Archived-img/June-2025/photos/GY-june-6.png" style="width: 375px; height: 375px;">
+                    <img src="/img/Archived-img/July-2025/photos/GY-july-1.jpg" style="width: 375px; height: 375px;">
+                    <img src="/img/Archived-img/July-2025/photos/GY-july-2.jpg" style="width: 375px; height: 375px;">
+                    <img src="/img/Archived-img/July-2025/photos/GY-july-3.jpg" style="width: 375px; height: 375px;">
+                    <img src="/img/Archived-img/July-2025/photos/GY-july-4.jpg" style="width: 375px; height: 375px;">
+                    <img src="/img/Archived-img/July-2025/photos/GY-july-5.jpg" style="width: 375px; height: 375px;">
+                    <img src="/img/Archived-img/July-2025/photos/GY-july-6.jpg" style="width: 375px; height: 375px;">
                 </div>
             </div>
-        </div> -->
+        </div>
 
     <?php 
     // Include the Community links and footer
