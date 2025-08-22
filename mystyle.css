@@ -343,7 +343,9 @@ footer {
     margin: 3px;
 }
 
-
+.game-card-long a{
+    word-wrap: break-word;
+}
 .dev-social {
     float: left;
     margin-left: 10px;
