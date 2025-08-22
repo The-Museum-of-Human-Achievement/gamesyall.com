@@ -41,13 +41,12 @@ require(__DIR__ . "/../partials/html-head.php");
     <h2>Tell me more!</h2>
         <div class="col-10">
             <p>
-            As above: <b>Games Y’all </b> is a meetup presented by the Museum of Human Achievement, 
+            <b>Games Y’all </b> is a meetup presented by the Museum of Human Achievement, 
             held every month at venues around Austin for indie devs, digital artists, and 
             games fans. Games Y’all celebrates, amplifies, and supports the unique and 
-            underrepresented within indie games and beyond.Come play games, share what 
+            underrepresented within indie games and beyond. Come play games, share what 
             you’re working on, hang out and meet friends. <a href="/submit-a-game">Game submissions</a> are accepted on 
-            a rolling basis, with occasional themed calls for specific months. Throughout the 
-            year we host Game Jams, Digital Do-Si-Dos and our monthly meetup.
+            a rolling basis, with occasional themed calls for specific months.
             </p>
         </div>
 
