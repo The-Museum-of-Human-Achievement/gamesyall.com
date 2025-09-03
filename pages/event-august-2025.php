@@ -40,9 +40,9 @@ require(__DIR__ . "/../partials/html-head.php");
             <br><br>
             🎟️ Free admission, donations are encouraged! RSVPs encouraged but not required!
         </p>
-        <button 
+        <!-- <button 
             class="button" id="RSVP'"><a href="https://withfriends.events/event/J6BqmNov/cool/" target="_blank">RSVP</a>
-        </button>
+        </button> -->
     </div>
                         
         <div class="col-8">
@@ -403,7 +403,7 @@ require(__DIR__ . "/../partials/html-head.php");
         </div>
     <!--Event Images-->
         <!--Only use this section after an event to house images from the past-->
-        <!-- <div class="row">
+        <div class="row">
             <div class="col-12">
                 <h2 style="text-align: center;">Gallery</h2>
 
@@ -416,7 +416,7 @@ require(__DIR__ . "/../partials/html-head.php");
                     <img src="/img/Archived-img/August-2025/photos/GY-August-6.jpg" style="width: 375px; height: 375px;">
                 </div>
             </div>
-        </div> -->
+        </div>
 
     <?php 
     // Include the Community links and footer
