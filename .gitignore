@@ -1,5 +1,12 @@
+
+# macOS
+.DS_Store
 *.DS_Store
-.DS_Store
+
+# Environment files
 deploy/.env
-.DS_Store
-/games_yall_site/_site/
+
+# Jekyll build output
+_site/
+*/_site/
+games_yall_site/_site/
