@@ -9,6 +9,16 @@ PROJECT_ROOT="$(cd "$SCRIPT_DIR/../.." && pwd)"
 # Load environment variables from deploy folder
 if [ -f "$PROJECT_ROOT/deploy/.env" ]; then
     source "$PROJECT_ROOT/deploy/.env"
+    
+    # Strip quotes from variables if present using bash parameter expansion
+    PRODUCTION_HOST="${PRODUCTION_HOST%\"}"
+    PRODUCTION_HOST="${PRODUCTION_HOST#\"}"
+    PRODUCTION_USERNAME="${PRODUCTION_USERNAME%\"}"
+    PRODUCTION_USERNAME="${PRODUCTION_USERNAME#\"}"
+    PRODUCTION_PASSWORD="${PRODUCTION_PASSWORD%\"}"
+    PRODUCTION_PASSWORD="${PRODUCTION_PASSWORD#\"}"
+    PRODUCTION_PATH="${PRODUCTION_PATH%\"}"
+    PRODUCTION_PATH="${PRODUCTION_PATH#\"}"
 else
     echo "ERROR: .env file not found at $PROJECT_ROOT/deploy/.env"
     exit 1

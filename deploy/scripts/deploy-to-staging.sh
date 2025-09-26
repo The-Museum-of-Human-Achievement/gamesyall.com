@@ -9,6 +9,14 @@ PROJECT_ROOT="$(cd "$SCRIPT_DIR/../.." && pwd)"
 # Load environment variables from deploy folder
 if [ -f "$PROJECT_ROOT/deploy/.env" ]; then
     source "$PROJECT_ROOT/deploy/.env"
+    
+    # Strip quotes from variables if present using bash parameter expansion
+    STAGING_HOST="${STAGING_HOST%\"}"
+    STAGING_HOST="${STAGING_HOST#\"}"
+    STAGING_USERNAME="${STAGING_USERNAME%\"}"
+    STAGING_USERNAME="${STAGING_USERNAME#\"}"
+    STAGING_PASSWORD="${STAGING_PASSWORD%\"}"
+    STAGING_PASSWORD="${STAGING_PASSWORD#\"}"
 else
     echo "ERROR: .env file not found at $PROJECT_ROOT/deploy/.env"
     exit 1
@@ -120,6 +128,7 @@ fi
 echo -e "${YELLOW}Deploying to staging server...${NC}"
 echo -e "${YELLOW}Host: $STAGING_HOST${NC}"
 echo -e "${YELLOW}User: $STAGING_USERNAME${NC}"
+echo -e "${YELLOW}Password length: ${#STAGING_PASSWORD} characters${NC}"
 
 # Create lftp script using 'user' command to avoid URL parsing issues with passwords containing spaces
 cat > "$TEMP_DIR/lftp_script.txt" << EOF
