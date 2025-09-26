@@ -130,16 +130,23 @@ echo -e "${YELLOW}Host: $STAGING_HOST${NC}"
 echo -e "${YELLOW}User: $STAGING_USERNAME${NC}"
 echo -e "${YELLOW}Password length: ${#STAGING_PASSWORD} characters${NC}"
 
-# Create lftp script using 'user' command to avoid URL parsing issues with passwords containing spaces
-cat > "$TEMP_DIR/lftp_script.txt" << EOF
+# Create lftp script using the WORKING quoted password method
+cat > "$TEMP_DIR/lftp_script.txt" << 'LFTP_EOF'
 set sftp:auto-confirm yes
 set ssl:verify-certificate no
 set ftp:ssl-allow no
-open sftp://$STAGING_HOST
-user $STAGING_USERNAME $STAGING_PASSWORD
-mirror -R _site/ /
-bye
-EOF
+LFTP_EOF
+
+# Add the dynamic parts using printf - this is the method that WORKS
+printf "open sftp://%s\n" "$STAGING_HOST" >> "$TEMP_DIR/lftp_script.txt"
+printf "user %s \"%s\"\n" "$STAGING_USERNAME" "$STAGING_PASSWORD" >> "$TEMP_DIR/lftp_script.txt"
+echo "mirror -R _site/ dev.gamesyall.com/" >> "$TEMP_DIR/lftp_script.txt"
+echo "bye" >> "$TEMP_DIR/lftp_script.txt"
+
+# Debug: Show the script contents (with password masked)
+echo -e "${YELLOW}Debug: LFTP script contents (password masked):${NC}"
+sed "s/$STAGING_PASSWORD/***MASKED***/g" "$TEMP_DIR/lftp_script.txt"
+echo ""
 
 # Deploy using lftp with the script file to avoid shell escaping issues
 cd "$TEMP_DIR/games_yall_site"
