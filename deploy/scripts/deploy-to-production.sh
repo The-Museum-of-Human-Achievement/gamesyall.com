@@ -131,20 +131,31 @@ fi
 echo -e "${YELLOW}Deploying to production server...${NC}"
 echo -e "${YELLOW}Host: $PRODUCTION_HOST${NC}"
 echo -e "${YELLOW}User: $PRODUCTION_USERNAME${NC}"
+echo -e "${YELLOW}Password length: ${#PRODUCTION_PASSWORD} characters${NC}"
+echo -e "${YELLOW}Path: ${PRODUCTION_PATH:-/}${NC}"
 
-# Create lftp script using 'user' command to avoid URL parsing issues with passwords containing spaces
-cat > "$TEMP_DIR/lftp_script.txt" << EOF
+# Create lftp script using the WORKING quoted password method
+cat > "$TEMP_DIR/lftp_script.txt" << 'LFTP_EOF'
 set sftp:auto-confirm yes
 set ssl:verify-certificate no
 set ftp:ssl-allow no
-open sftp://$PRODUCTION_HOST
-user $PRODUCTION_USERNAME $PRODUCTION_PASSWORD
-mirror -R _site/ ${PRODUCTION_PATH:-/}
-bye
-EOF
+LFTP_EOF
 
-# Deploy using lftp with the script file
+# Add the dynamic parts using printf - this is the method that WORKS
+printf "open sftp://%s\n" "$PRODUCTION_HOST" >> "$TEMP_DIR/lftp_script.txt"
+printf "user %s \"%s\"\n" "$PRODUCTION_USERNAME" "$PRODUCTION_PASSWORD" >> "$TEMP_DIR/lftp_script.txt"
+echo "mirror -R _site/ ${PRODUCTION_PATH:-/}" >> "$TEMP_DIR/lftp_script.txt"
+echo "bye" >> "$TEMP_DIR/lftp_script.txt"
+
+# Debug: Show the script contents (with password masked)
+echo -e "${YELLOW}Debug: LFTP script contents (password masked):${NC}"
+sed "s/$PRODUCTION_PASSWORD/***MASKED***/g" "$TEMP_DIR/lftp_script.txt"
+echo ""
+
+# Deploy using lftp with the WORKING method (quoted password)
 cd "$TEMP_DIR/games_yall_site"
+
+echo -e "${YELLOW}Deploying to production server using quoted password method...${NC}"
 lftp -f "$TEMP_DIR/lftp_script.txt"
 
 # Check if deployment was successful
@@ -153,7 +164,7 @@ if [ $? -eq 0 ]; then
     echo -e "${GREEN}Visit https://gamesyall.com to review the changes.${NC}"
 else
     echo -e "${RED}Deployment to production failed!${NC}"
-    echo -e "${RED}Check your credentials and server settings in .env${NC}"
+    echo -e "${RED}Check the output above for error details.${NC}"
     
     # Clean up and exit with error
     rm -rf "$TEMP_DIR"
