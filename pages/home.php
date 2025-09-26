@@ -28,7 +28,7 @@ require(__DIR__ . "/../partials/html-head.php");
             <div class="col-6">
                 <h3>September Games Y'all Meetup</h3>
                 <!-- RSVP Pre Event -->
-                    <p>
+                    <!-- <p>
                     Howdy friends! School's back and so are we! Come join us at Captain Quack's for our September Meetup! 🦆 🍻 🎮 
                     </p>
                     <p>
@@ -41,8 +41,16 @@ require(__DIR__ . "/../partials/html-head.php");
                     </p>
                     <button 
                         class="button" id="RSVP'"><a href="https://withfriends.events/event/mw4iq9Gf/games-yall-september-2025/" target="_blank">RSVP</a>
-                    </button>
+                    </button> -->
+   
+                <!--Current Event Description-->
+                    <p>
+                        Games Y’all is a casual meetup for indie devs, digital artists, and games fans held
+                        every month. 🎟️ Free admission, donations are encouraged! RSVPs encouraged but not required!
+                    </p>
+                    <button class="button" id="More Info'"><a href="/event-september-2025">More Info</a></button>
 
+                <!--Powerpoint Night Info-->
                     <p>
                         🗣️ We're also opening up applications for our next PowerPoint night! Any and all topics are welcome! Deadline is October 1st so get em in now. 🤠 
                     </p>
@@ -50,13 +58,6 @@ require(__DIR__ . "/../partials/html-head.php");
                     <button 
                         class ="button" id="Application"><a href="https://docs.google.com/forms/d/e/1FAIpQLSeZ4xJQhEsJkk8jeFo78Fh1_SsqN777HZNYk3YC-RFrqFzNHQ/viewform" target="_blank">Application</a>
                     </button>
-                    
-                <!--Current Event Description-->
-                    <!-- <p>
-                        Games Y’all is a casual meetup for indie devs, digital artists, and games fans held
-                        every month. 🎟️ Free admission, donations are encouraged! RSVPs encouraged but not required!
-                    </p>
-                    <button class="button" id="More Info'"><a href="/event-september-2025">More Info</a></button> -->
             </div>
             
             <div class="col-6">
