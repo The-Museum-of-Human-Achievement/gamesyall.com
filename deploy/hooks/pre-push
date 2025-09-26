@@ -38,20 +38,39 @@ if [[ "$REMOTE_BRANCH" == "staging" ]]; then
 elif [[ "$REMOTE_BRANCH" == "main" || "$REMOTE_BRANCH" == "master" ]]; then
     echo -e "${YELLOW}Detected push to $REMOTE_BRANCH branch.${NC}"
     
-    # Ask if deployment to production should be triggered
-    read -p "Do you want to deploy to production after push? (y/n) " -n 1 -r
-    echo
-    if [[ $REPLY =~ ^[Yy]$ ]]; then
-        # Check if the deploy script exists
-        if [ -f "${REPO_ROOT}/deploy/scripts/deploy-to-production.sh" ]; then
-            echo -e "${YELLOW}Running production deployment script...${NC}"
-            bash "${REPO_ROOT}/deploy/scripts/deploy-to-production.sh"
+    # Check if running in an interactive terminal
+    if [ -t 0 ] && [ -t 1 ]; then
+        # Ask if deployment to production should be triggered
+        echo -e "${YELLOW}Do you want to deploy to production after push? (y/n):${NC}"
+        read -r REPLY
+        
+        if [[ $REPLY =~ ^[Yy]$ ]]; then
+            # Check if the deploy script exists
+            if [ -f "${REPO_ROOT}/deploy/scripts/deploy-to-production.sh" ]; then
+                echo -e "${YELLOW}Running production deployment script...${NC}"
+                bash "${REPO_ROOT}/deploy/scripts/deploy-to-production.sh"
+                
+                if [ $? -eq 0 ]; then
+                    echo -e "${GREEN}Production deployment completed successfully!${NC}"
+                else
+                    echo -e "${RED}Production deployment failed!${NC}"
+                    echo -e "${YELLOW}You can retry manually with:${NC}"
+                    echo -e "${YELLOW}  bash deploy/scripts/deploy-to-production.sh${NC}"
+                fi
+            else
+                echo -e "${RED}ERROR: Production deployment script not found!${NC}"
+                echo -e "${RED}Make sure ${REPO_ROOT}/deploy/scripts/deploy-to-production.sh exists and is executable.${NC}"
+                exit 1
+            fi
         else
-            echo -e "${RED}ERROR: Production deployment script not found!${NC}"
-            echo -e "${RED}Make sure ${REPO_ROOT}/deploy/scripts/deploy-to-production.sh exists and is executable.${NC}"
-            exit 1
+            echo -e "${YELLOW}Skipping production deployment.${NC}"
+            echo -e "${YELLOW}To deploy manually later, run:${NC}"
+            echo -e "${YELLOW}  bash deploy/scripts/deploy-to-production.sh${NC}"
         fi
     else
+        echo -e "${YELLOW}Non-interactive environment detected.${NC}"
+        echo -e "${YELLOW}To deploy to production, run manually:${NC}"
+        echo -e "${YELLOW}  bash deploy/scripts/deploy-to-production.sh${NC}"
         echo -e "${YELLOW}Skipping production deployment.${NC}"
     fi
 fi
