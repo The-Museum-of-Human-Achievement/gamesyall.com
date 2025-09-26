@@ -61,7 +61,11 @@ Find the most relevant event with priority order:
             <p class="event-date">{{ latest_event.date | date: "%B %d, %Y" }}</p>
             
             <div class="event-description">
-                {{ latest_event.content | strip_html | truncatewords: 50 }}
+                {% if latest_event.description %}
+                    <p>{{latest_event.description}}</p>
+                {% else %}
+                    {{ latest_event.content | strip_html | truncatewords: 50 }}
+                {% endif %}
             </div>
                 
                 {% comment %}

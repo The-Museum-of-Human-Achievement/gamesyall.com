@@ -1,4 +1,6 @@
 _site
+*/_site/
+deploy/.env
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
