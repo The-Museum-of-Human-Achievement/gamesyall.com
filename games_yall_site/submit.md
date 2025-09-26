@@ -6,7 +6,7 @@ permalink: /submit/
 
 ## Submit Your Game
 
-![Games Y'all presents our open call for indie games. Caption reads rolling deadline apply today and features a pixelated armadillo inspired from the game armadillo run.](/images/misc-img/call-for-games.png)
+![Games Y'all presents our open call for indie games. Caption reads rolling deadline apply today and features a pixelated armadillo inspired from the game armadillo run.](/images/misc-images/call-for-games.png)
 
 - - -
 
@@ -28,9 +28,9 @@ Games Y'all is not interested in exhibiting any game or tool that uses or featur
 
 #### Join the Community
 
- [![A link to the Fantastic Arcade Discord server.](/img/Social-buttons/discord-button.png)](https://discord.gg/rSMjDEeXu5)[![A link to the Games Y'all newsletter.](/img/Social-buttons/email-button.png)](https://form.jotform.com/231687367346164)[![A link to the Games Y'all instagram page.](/img/Social-buttons/instagram-button.png)](https://www.instagram.com/fantastic.arcade/?igshid=YmMyMTA2M2Y%3D)[![A link to the Games Y'all twitter](/img/Social-buttons/twitter-button.png)](https://mobile.twitter.com/gamesyall)
+ [![A link to the Games Y'all Discord server.](/images/Social-buttons/discord-button.png)](https://discord.gg/rSMjDEeXu5)[![A link to the Games Y'all newsletter.](/images/Social-buttons/email-button.png)](https://form.jotform.com/231687367346164)[![A link to the Games Y'all instagram page.](/images/Social-buttons/instagram-button.png)](https://www.instagram.com/games.yall/?igshid=YmMyMTA2M2Y%3D)[![A link to the Games Y'all twitter](/images/Social-buttons/twitter-button.png)](https://mobile.twitter.com/gamesyall)
 
- [![A link to the Museum of Human Acheivement homepage.](/img/Social-buttons/MoHA_icon-blue.png)](https://themuseumofhumanachievement.com/)[![A link to the Fantastic Arcade homepage.](/img/Social-buttons/Fantastic-arcade-logo.png)](https://fantasticarcade.com/)[![A link to the Games Y'all homepage.](/img/Social-buttons/games-yall-logo-square.png)](/)
+ [![A link to the Museum of Human Acheivement homepage.](/images/Social-buttons/MoHA_icon-blue.png)](https://themuseumofhumanachievement.com/)
 
 Games Y’all is a meetup presented by The Museum of Human Achievement. We endeavor to celebrate, amplify, and support the unique and underrepresented within indie games and beyond.
 
@@ -38,7 +38,7 @@ Games Y’all is a meetup presented by The Museum of Human Achievement. We endea
 
 ###### Contact
 
-[Email list](https://form.jotform.com/231687367346164) [Games Y'all Twitter](https://mobile.twitter.com/gamesyall) [Fantastic Arcade Instagram](https://www.instagram.com/fantastic.arcade/?igshid=YmMyMTA2M2Y%3D)
+[Email list](https://form.jotform.com/231687367346164) [Games Y'all Twitter](https://mobile.twitter.com/gamesyall) [Games Y'all Instagram](https://www.instagram.com/games.yall/)
 
 ###### Safety
 
