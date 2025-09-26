@@ -2,3 +2,4 @@
 .DS_Store
 deploy/.env
 .DS_Store
+/games_yall_site/_site
