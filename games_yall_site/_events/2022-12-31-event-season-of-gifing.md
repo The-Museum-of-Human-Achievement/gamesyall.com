@@ -4,6 +4,8 @@ title: "Season of GIFing"
 date: 2022-12-31
 featured_image: "/images/event-img/DA-season-of-gifing-22.gif"
 description: "A longer description of the page in question, with a bit more information than the title."
+published: true
+archived: true
 ---
 
 # Fantastic Arcade and The Museum of Human Achievement present

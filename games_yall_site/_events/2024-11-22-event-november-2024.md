@@ -12,6 +12,8 @@ layout: event
 location: 1908 Kramer Ln, Suite 250, 78758
 time: 7-10pm
 title: November 2024 Meetup - Games Y'all
+published: true
+archived: true
 ---
 
 
@@ -28,4 +30,3 @@ Games Y’all showcases indie games and digital art projects from our local comm
 ##### The Museum of Human Achievement
 
 The Museum of Human Achievement is a multi-disciplinary art space and non-profit organization in Austin, Texas. We cultivate new work, community, and vibe by providing radically affordable arts space to support artists and audiences in the creation of new ideas.
-

@@ -12,6 +12,8 @@ layout: event
 location: 3600 Lyons Road, Austin, Texas, 78702
 time: 7-10pm
 title: September 2024 Meetup - Games Y'all
+published: true
+archived: true
 ---
 
 

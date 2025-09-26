@@ -240,6 +240,20 @@
       }
     }
   }
+  
+}
+
+.event-rsvp{
+  display: flex;
+  justify-content: center;
+  .button {
+    @include buttons;
+    text-align: center;
+    &.big {
+      width: auto;
+    }
+
+  }
 }
 
 // Add this to make sure the events page styling applies when the .event-page class is used

@@ -6,7 +6,7 @@ description: A tropical anti-gravity racing game from the depths of a long-lost 
 developer_bio: 
 featured_dates:
 - '2025-09-18'
-image: /images/Archived-img/September-2025/tahitian-driftin.jpg
+image: /images/Archived-img/September-2025/tahitian-driftin.png
 layout: game
 pronunciation: Tah-hee-shun Drift-n
 social_links:

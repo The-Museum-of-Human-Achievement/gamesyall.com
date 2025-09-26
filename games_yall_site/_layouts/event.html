@@ -13,6 +13,15 @@ layout: default
         {{ content }}
     </div>
 
+    {% comment %}
+    Show RSVP button if event is not archived and has an rsvp-link
+    {% endcomment %}
+    {% if page.archived == false and page.rsvp-link %}
+    <div class="event-rsvp">
+        <a href="{{ page.rsvp-link }}" class="button big" target="_blank">RSVP for This Event</a>
+    </div>
+    {% endif %}
+
     {% if page.presenters %}
         <h2>Featured Presenters</h2>
         <ul class="feature-list">

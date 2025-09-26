@@ -13,6 +13,8 @@ game_slugs:
 
 layout: event
 title: Queer Indie Games Showcase November 12-13 + 19-20, 2022
+published: true
+archived: true
 ---
 
 [Past Events](../html/events.html) > [November 12-13 + 19-20, 2022](event-november-2022.html)
@@ -23,4 +25,4 @@ title: Queer Indie Games Showcase November 12-13 + 19-20, 2022
 
 The Museum of Human Achievement, [3600 Lyons Road, Austin, TX 78702](https://goo.gl/maps/B9JgLYYeKq9nKLue7)
 
-Free admission, donations appreciated! Sign up for our newsletter for more info! 
+Free admission, donations appreciated! Sign up for our newsletter for more info!

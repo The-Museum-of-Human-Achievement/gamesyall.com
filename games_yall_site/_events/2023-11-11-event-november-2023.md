@@ -14,4 +14,6 @@ game_slugs:
 layout: event
 title: 'Games Y''all Showcase: Women & Non-Binary led Indie Games November 11-12 +
   18-19, 2023'
+published: true
+archived: true
 ---

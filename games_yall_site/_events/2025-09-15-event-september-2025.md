@@ -10,6 +10,9 @@ location: Captain Quack's/Soundspace
 address: 5326 Menchaca Rd, Austin, TX 78745
 title: Games Y'all September 2025
 featured_image: /images/event-img/GY-Square-September-25.png
+published: true
+archived: false
+rsvp-link: https://withfriends.events/event/mw4iq9Gf/games-yall-september-2025/
 ---
 
 # September Games Y'all Meetup

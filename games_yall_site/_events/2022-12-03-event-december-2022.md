@@ -12,6 +12,8 @@ game_slugs:
 
 layout: event
 title: Games Y'all December 3rd, 2022
+published: true
+archived: true
 ---
 
 [Past Events](../html/events.html) > [December 3, 2022](event-december-2022.html)
