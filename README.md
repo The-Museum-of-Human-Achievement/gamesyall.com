@@ -208,7 +208,7 @@ This project uses a two-environment deployment workflow:
 
 ### Initial Setup
 
-Before using the deployment system, you need to:
+One time, before using the deployment system, you need to:
 
 1. Create a `.env` file with the necessary credentials:
 
