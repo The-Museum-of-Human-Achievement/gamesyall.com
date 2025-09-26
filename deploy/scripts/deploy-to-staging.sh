@@ -121,12 +121,13 @@ echo -e "${YELLOW}Deploying to staging server...${NC}"
 echo -e "${YELLOW}Host: $STAGING_HOST${NC}"
 echo -e "${YELLOW}User: $STAGING_USERNAME${NC}"
 
-# Create lftp script with proper escaping and SFTP protocol
+# Create lftp script using 'user' command to avoid URL parsing issues with passwords containing spaces
 cat > "$TEMP_DIR/lftp_script.txt" << EOF
 set sftp:auto-confirm yes
 set ssl:verify-certificate no
 set ftp:ssl-allow no
-open sftp://$STAGING_USERNAME:$STAGING_PASSWORD@$STAGING_HOST
+open sftp://$STAGING_HOST
+user $STAGING_USERNAME $STAGING_PASSWORD
 mirror -R _site/ /
 bye
 EOF
