@@ -13,7 +13,7 @@ game_slugs:
 
 layout: event
 title: Queer Indie Games Showcase November 12-13 + 19-20, 2022
-published: true
+announced: true
 archived: true
 ---
 

@@ -13,7 +13,7 @@ game_slugs:
 
 layout: event
 title: Games Y'all February 19th, 2023
-published: true
+announced: true
 archived: true
 ---
 

@@ -4,7 +4,8 @@ game_slugs:
 layout: event
 title: Games Y'all November 2025
 featured_image: 
-published: false
+description: "Games Y'all November Meetup"
+announced: false
 archived: false
 rsvp-link:
 ---

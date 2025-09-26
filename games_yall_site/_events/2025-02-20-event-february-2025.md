@@ -84,7 +84,7 @@ presenters:
 - name: Justin Meisse
 time: 7-10pm
 title: February 2025 Meetup - Games Y'all
-published: true
+announced: true
 archived: true
 ---
 

@@ -16,7 +16,7 @@ game_slugs:
 - 2023-09-22-viewfinder
 layout: event
 title: Games Y'all September 22nd, 2023
-published: true
+announced: true
 archived: true
 ---
 

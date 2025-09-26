@@ -3,7 +3,7 @@ layout: event
 title: "1-800-DREAM-MAIL"
 date: 2023-06-30
 featured_image: "/images/event-img/DA-Banner-Dream-Mail-23.png"
-published: true
+announced: true
 archived: true
 ---
 

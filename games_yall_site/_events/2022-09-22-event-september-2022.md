@@ -15,6 +15,6 @@ game_slugs:
 
 layout: event
 title: Games Y'all September 22, 2022
-published: true
+announced: true
 archived: true
 ---

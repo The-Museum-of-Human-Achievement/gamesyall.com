@@ -17,7 +17,7 @@ gallery-images:
 - /images/Archived-img/September-2025/photos/sept-gy-photo-4.jpg
 - /images/Archived-img/September-2025/photos/sept-gy-photo-5.jpg
 - /images/Archived-img/September-2025/photos/sept-gy-photo-6.jpg
-published: true
+announced: true
 archived: true
 rsvp-link: https://withfriends.events/event/mw4iq9Gf/games-yall-september-2025/
 ---

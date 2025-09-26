@@ -65,16 +65,16 @@ Find the most relevant event with priority order:
             </div>
                 
                 {% comment %}
-                Check if event is published to determine which button to show
-                If published is false (or not set), and rsvp-link exists, show RSVP button
+                Check if event is announced to determine which button to show
+                If announced is false (or not set), and rsvp-link exists, show RSVP button
                 Otherwise show View Event Details button
                 {% endcomment %}
-                {% if latest_event.published == false and latest_event.rsvp-link %}
+                {% if latest_event.announced == false and latest_event.rsvp-link %}
                     <a href="{{ latest_event.rsvp-link }}" class="button" target="_blank">RSVP for Event</a>
-                {% elsif latest_event.published == false %}
-                    {% comment %}Not published and no RSVP link - show no button{% endcomment %}
+                {% elsif latest_event.announced == false %}
+                    {% comment %}Not announced and no RSVP link - show no button{% endcomment %}
                 {% else %}
-                    {% comment %}Published or published not set (defaults to true) - show normal button{% endcomment %}
+                    {% comment %}Announced or announced not set (defaults to true) - show normal button{% endcomment %}
                     <a href="{{ latest_event.url | relative_url }}" class="button">View Event Details</a>
                 {% endif %}
                 

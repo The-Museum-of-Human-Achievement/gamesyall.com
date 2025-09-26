@@ -12,7 +12,7 @@ layout: event
 location: 1908 Kramer Ln, Suite 250, 78758
 time: 7-10pm
 title: November 2024 Meetup - Games Y'all
-published: true
+announced: true
 archived: true
 ---
 

@@ -3,7 +3,7 @@ layout: event
 title: "Games Show Game Jam"
 date: 2022-10-22
 featured_image: "/images/event-img/DA-Banner-Oct-gamejam.png"
-published: true
+announced: true
 archived: true
 ---
 
