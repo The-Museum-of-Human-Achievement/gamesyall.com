@@ -236,6 +236,8 @@ git commit -m "Update for staging"
 git push origin staging
 ```
 
+You can also use the GitHub client to switch to staging, and make a commit before pushing in the terminal.
+
 This will:
 
 1. Push your code to the staging branch
