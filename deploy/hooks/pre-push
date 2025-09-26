@@ -1,0 +1,60 @@
+#!/bin/bash
+# Git pre-push hook
+
+# Colors for output
+GREEN='\033[0;32m'
+RED='\033[0;31m'
+YELLOW='\033[0;33m'
+NC='\033[0m' # No Color
+
+# Get the repository root
+REPO_ROOT="$(git rev-parse --show-toplevel)"
+
+# Determine which branch is being pushed
+CURRENT_BRANCH=$(git symbolic-ref --short HEAD)
+
+# Get the remote and branch being pushed to
+read local_ref local_sha remote_ref remote_sha
+
+# Extract the branch name from the remote ref
+REMOTE_BRANCH=$(echo "$remote_ref" | sed 's/refs\/heads\///')
+
+echo -e "${YELLOW}Pushing to branch: $REMOTE_BRANCH${NC}"
+
+# If pushing to staging branch, deploy to staging
+if [[ "$REMOTE_BRANCH" == "staging" ]]; then
+    echo -e "${YELLOW}Detected push to staging branch.${NC}"
+    
+    # Check if the deploy script exists
+    if [ -f "${REPO_ROOT}/deploy/scripts/deploy-to-staging.sh" ]; then
+        echo -e "${YELLOW}Running staging deployment script...${NC}"
+        bash "${REPO_ROOT}/deploy/scripts/deploy-to-staging.sh"
+    else
+        echo -e "${RED}ERROR: Staging deployment script not found!${NC}"
+        echo -e "${RED}Make sure ${REPO_ROOT}/deploy/scripts/deploy-to-staging.sh exists and is executable.${NC}"
+        exit 1
+    fi
+# If pushing to main or master branch, ask about production deployment
+elif [[ "$REMOTE_BRANCH" == "main" || "$REMOTE_BRANCH" == "master" ]]; then
+    echo -e "${YELLOW}Detected push to $REMOTE_BRANCH branch.${NC}"
+    
+    # Ask if deployment to production should be triggered
+    read -p "Do you want to deploy to production after push? (y/n) " -n 1 -r
+    echo
+    if [[ $REPLY =~ ^[Yy]$ ]]; then
+        # Check if the deploy script exists
+        if [ -f "${REPO_ROOT}/deploy/scripts/deploy-to-production.sh" ]; then
+            echo -e "${YELLOW}Running production deployment script...${NC}"
+            bash "${REPO_ROOT}/deploy/scripts/deploy-to-production.sh"
+        else
+            echo -e "${RED}ERROR: Production deployment script not found!${NC}"
+            echo -e "${RED}Make sure ${REPO_ROOT}/deploy/scripts/deploy-to-production.sh exists and is executable.${NC}"
+            exit 1
+        fi
+    else
+        echo -e "${YELLOW}Skipping production deployment.${NC}"
+    fi
+fi
+
+# Allow the push to continue
+exit 0

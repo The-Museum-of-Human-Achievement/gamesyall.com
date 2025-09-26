@@ -1,0 +1,70 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Games Y'all</title>
+    <link rel="stylesheet" href="/css/main.css">
+    <body class="events-archive">
+        {% include header.html %}
+        <div class="container">
+          <div>
+            <h1 class="page-title">{{ page.title }}</h1>
+            
+            <div class="events-list">
+              {% for post in paginator.posts %}
+                <article class="event-card">
+                  <h2 class="event-title">
+                    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+                  </h2>
+                  <div class="event-meta">
+                    <span class="event-date">{{ post.date | date: "%B %d, %Y" }}</span>
+                  </div>
+                  <div class="event-excerpt">
+                    {% assign paragraphs = post.content | split: '<p>' %}
+                    {% assign first_paragraph = paragraphs[1] | split: '</p>' | first %}
+                    {{ first_paragraph }}
+                    <a href="{{ post.url | relative_url }}" class="read-more">Read more →</a>
+                  </div>
+                </article>
+              {% endfor %}
+            </div>
+            
+            <!-- Pagination links -->
+            {% if paginator.total_pages > 1 %}
+            <div class="pagination">
+              {% if paginator.previous_page %}
+                {% if paginator.previous_page == 1 %}
+                  <a href="{{ '/events-archive/' | relative_url }}" class="pagination-link">&laquo; Previous</a>
+                {% else %}
+                  <a href="{{ '/events-archive/' | append: paginator.previous_page | append: '/' | relative_url }}" class="pagination-link">&laquo; Previous</a>
+                {% endif %}
+              {% else %}
+                <span class="pagination-link disabled">&laquo; Previous</span>
+              {% endif %}
+
+              {% for page in (1..paginator.total_pages) %}
+                {% if page == paginator.page %}
+                  <span class="pagination-link current">{{ page }}</span>
+                {% elsif page == 1 %}
+                  <a href="{{ '/events-archive/' | relative_url }}" class="pagination-link">{{ page }}</a>
+                {% else %}
+                  <a href="{{ '/events-archive/' | append: page | append: '/' | relative_url }}" class="pagination-link">{{ page }}</a>
+                {% endif %}
+              {% endfor %}
+              
+              {% if paginator.next_page %}
+                <a href="{{ '/events-archive/' | append: paginator.next_page | append: '/' | relative_url }}" class="pagination-link">Next &raquo;</a>
+              {% else %}
+                <span class="pagination-link disabled">Next &raquo;</span>
+              {% endif %}
+            </div>
+            {% endif %}
+          </div>
+
+        {{ content }}
+      </div>
+      {% include footer.html %}   
+  <script src="{{ '/javascripts/gallery.js' | relative_url }}"></script>
+  </body>
+  
+</html>

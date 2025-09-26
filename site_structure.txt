@@ -1,0 +1,429 @@
+.
+├── deploy
+│   ├── hooks
+│   │   └── pre-push
+│   └── scripts
+│       ├── deploy-to-production.sh
+│       └── deploy-to-staging.sh
+├── design_docs
+│   ├── Desktop.png
+│   ├── gy_ia.png
+│   └── Mobile.png
+├── games_yall_site
+│   ├── _config.yml
+│   ├── _events
+│   │   ├── 2019-04-04.md
+│   │   │//...
+│   │   └── 2025-08-15-event-august-2025.md
+│   ├── _games
+│   │   ├── 2022-04-01-j-s-joust.md
+│   │   │//...
+│   │   └── 2025-08-15-tahitian-driftin.md
+│   ├── _includes
+│   │   ├── footer.html
+│   │   └── header.html
+│   ├── _layouts
+│   │   ├── about.html
+│   │   ├── default.html
+│   │   ├── event.html
+│   │   ├── events-archive.html
+│   │   ├── events.html
+│   │   ├── game.html
+│   │   ├── games.html
+│   │   ├── home.html
+│   │   ├── page.html
+│   │   └── post.html
+│   ├── _people
+│   │   ├── franco_ramos.md
+│   │   ├── jonathan_levine.md
+│   │   ├── matt_lindley.md
+│   │   ├── myriam_feygin.md
+│   │   ├── patrix_randazzo.md
+│   │   ├── trii_torres.md
+│   │   └── will_monroe.md
+│   ├── _posts
+│   │   ├── 2011-04-25-story-of-the-juegos-rancheros.html
+│   │   │//...
+│   │   └── 2019-03-04-juegos-rancheros-presents-nyu-no-quarter.html
+│   ├── _sass
+│   │   ├── _base.scss
+│   │   ├── _components.scss
+│   │   ├── _layout.scss
+│   │   ├── _mixins.scss
+│   │   ├── _type.scss
+│   │   ├── _variables.scss
+│   │   ├── _views.scss
+│   │   ├── components
+│   │   │   ├── _feature-list.scss
+│   │   │   ├── _footer.scss
+│   │   │   ├── _gallery.scss
+│   │   │   ├── _header-nav.scss
+│   │   │   └── _pagination.scss
+│   │   └── views
+│   │       ├── _about.scss
+│   │       ├── _event.scss
+│   │       ├── _events-archive.scss
+│   │       ├── _events.scss
+│   │       ├── _game.scss
+│   │       ├── _games.scss
+│   │       ├── _home.scss
+│   │       ├── _page404.scss
+│   │       └── _post.scss
+│   ├── _scripts
+│   │   ├── _data
+│   │   │   └── games_data.csv
+│   │   ├── create_missing_events.py
+│   │   └── process_games_data.py
+│   ├── 404.html
+│   ├── about.md
+│   ├── css
+│   │   └── main.scss
+│   ├── donate.md
+│   ├── events-archive.md
+│   ├── events.md
+│   ├── favicon.gif
+│   ├── favicon.ico
+│   ├── favicons
+│   │   ├── android-chrome-192x192.png
+│   │   ├── android-chrome-512x512.png
+│   │   ├── apple-touch-icon.png
+│   │   ├── browserconfig.xml
+│   │   ├── favicon-16x16.png
+│   │   ├── favicon-32x32.png
+│   │   ├── favicon.ico
+│   │   ├── mstile-150x150.png
+│   │   ├── safari-pinned-tab.svg
+│   │   └── site.webmanifest
+│   ├── fonts
+│   │   ├── norwester-webfont.woff
+│   │   ├── norwester-webfont.woff2
+│   │   ├── rancho-webfont.woff
+│   │   └── rancho-webfont.woff2
+│   ├── games.md
+│   ├── Gemfile
+│   ├── Gemfile.lock
+│   ├── images
+│   │   ├── Archived-img
+│   │   │   ├── April-2022
+│   │   │   │   └── games
+│   │   │   │       ├── Johann-Sebastian-Joust-img.jfif
+│   │   │   │       │//...
+│   │   │   ├── April-2023
+│   │   │   │   ├── games
+│   │   │   │   │   ├── aatnc.png
+│   │   │   │   │   │//...
+│   │   │   │   └── photos
+│   │   │   │       ├── GY-apr-1.png
+│   │   │   │       │//...
+│   │   │   ├── April-2024
+│   │   │   │   ├── games
+│   │   │   │   │   ├── alie-jackson.png
+│   │   │   │   │   │//...
+│   │   │   │   └── photos
+│   │   │   │       ├── apr-gy-photo-1.png
+│   │   │   │       │//...
+│   │   │   ├── April-2025
+│   │   │   │   ├── cyberside-picnic.jpg
+│   │   │   │   │//...
+│   │   │   ├── August-2022
+│   │   │   │   ├── games
+│   │   │   │   │   ├── bible-study-img.png
+│   │   │   │   │   │//...
+│   │   │   │   └── photos
+│   │   │   │       ├── aug-gy-photo-1.jpg
+│   │   │   │       │//...
+│   │   │   ├── August-2023
+│   │   │   │   ├── games
+│   │   │   │   │   ├── dyebreaker.png
+│   │   │   │   │   │//...
+│   │   │   │   ├── January-2024
+│   │   │   │   │   ├── gifing
+│   │   │   │   │   │   ├── a_huge_raw_juicy_bloody_etc_t-bone_steak_with_a_big_red_or_pink)_velvet_bow_tied_around_it.gif
+│   │   │   │   │   │   │//...
+│   │   │   │   │   └── photos
+│   │   │   │   │       ├── jan-gy-photo-1.jpg
+│   │   │   │   │       │//...
+│   │   │   │   └── photos
+│   │   │   │       ├── GY-august-1.png
+│   │   │   │       │//...
+│   │   │   ├── August-2024
+│   │   │   │   ├── games
+│   │   │   │   │   ├── cute-patoots.png
+│   │   │   │   │   │//...
+│   │   │   │   └── photos
+│   │   │   │       ├── aug-gy-photo-1.png
+│   │   │   │       │//...
+│   │   │   ├── August-2025
+│   │   │   │   ├── auragami.png
+│   │   │   │   │//...
+│   │   │   ├── December-2022
+│   │   │   │   ├── games
+│   │   │   │   │   ├── bachelor-sims-4.png
+│   │   │   │   │   │//...
+│   │   │   │   ├── gifing
+│   │   │   │   │   ├── Alice in Wonderland_s Cheshire Cat - By Adam for Seppi.gif
+│   │   │   │   │   │//...
+│   │   │   │   └── photos
+│   │   │   │       ├── GY-dec-1.png
+│   │   │   │       │//...
+│   │   │   ├── February-2023
+│   │   │   │   ├── games
+│   │   │   │   │   ├── card-cowboy.jpeg
+│   │   │   │   │   │//...
+│   │   │   │   └── photos
+│   │   │   │       ├── GY-Feb-1.png
+│   │   │   │       │//...
+│   │   │   ├── February-2024
+│   │   │   │   └── games
+│   │   │   │       ├── clown-clash.png
+│   │   │   │       │//...
+│   │   │   ├── February-2025
+│   │   │   │   ├── antonia-bustamante.jpg
+│   │   │   │   ├── dr1v3n-wild.jpg
+│   │   │   │   ├── games
+│   │   │   │   │   ├── dr1v3nwild.png
+│   │   │   │   │   │//...
+│   │   │   │   ├── gemporium.jpg
+│   │   │   │   ├── homepages
+│   │   │   │   │   ├── AntoniaBustamante.jpg
+│   │   │   │   │   │//...
+│   │   │   │   ├── i-feel-so-much-shame.jpg
+│   │   │   │   ├── magicland.jpg
+│   │   │   │   ├── photos
+│   │   │   │   │   ├── feb-gy-photo-1.jpg
+│   │   │   │   │   │//...
+│   │   │   │   ├── presentations
+│   │   │   │   │   ├── charactercreator4.png
+│   │   │   │   │   │//...
+│   │   │   │   ├── the-devil-s-lounge.jpg
+│   │   │   │   └── welcome-to-my-homepage-a-side-view-of-a-yellow-car.jpg
+│   │   │   ├── homepages
+│   │   │   │   ├── blessings generator.jpg
+│   │   │   │   └── currentArchive.png
+│   │   │   ├── January-2023
+│   │   │   │   ├── games
+│   │   │   │   │   ├── amazing-chicken.jpeg
+│   │   │   │   │   │//...
+│   │   │   │   └── photos
+│   │   │   │       ├── daniel-murray-ozwomp-thank-you.gif
+│   │   │   │       │//...
+│   │   │   ├── January-2024
+│   │   │   │   ├── games
+│   │   │   │   │   ├── housekeeping.png
+│   │   │   │   │   │//...
+│   │   │   │   └── photos
+│   │   │   │       ├── jan-gy-photo-1.jpg
+│   │   │   │       │//...
+│   │   │   ├── January-2025
+│   │   │   │   └── photos
+│   │   │   │       ├── GY-january-1.png
+│   │   │   │       │//...
+│   │   │   ├── July-2022
+│   │   │   │   ├── games
+│   │   │   │   │   ├── Citizen-sleeper-img.png
+│   │   │   │   │   │//...
+│   │   │   │   └── photos
+│   │   │   │       ├── GY-july-1.jpeg
+│   │   │   │       │//...
+│   │   │   ├── July-2023
+│   │   │   │   ├── games
+│   │   │   │   │   ├── chek.png
+│   │   │   │   │   │//...
+│   │   │   │   └── photos
+│   │   │   │       ├── GY-july-1.png
+│   │   │   │       │//...
+│   │   │   ├── July-2024
+│   │   │   │   ├── games
+│   │   │   │   │   ├── bridgebourn.png
+│   │   │   │   │   │//...
+│   │   │   │   └── photos
+│   │   │   │       ├── july-gy-photo-1.png
+│   │   │   │       │//...
+│   │   │   ├── July-2025
+│   │   │   │   ├── at-the-edge-of-everything.jpg
+│   │   │   │   │//...
+│   │   │   ├── June-2022
+│   │   │   │   ├── games
+│   │   │   │   │   ├── Bridgebourn-img.png
+│   │   │   │   │   │//...
+│   │   │   │   └── photos
+│   │   │   │       ├── june-photo-1.jpg
+│   │   │   │       │//...
+│   │   │   ├── June-2023
+│   │   │   │   ├── games
+│   │   │   │   │   ├── dark-pressure.jpg
+│   │   │   │   │   │//...
+│   │   │   │   └── photos
+│   │   │   │       ├── GY-june-1.png
+│   │   │   │       │//...
+│   │   │   ├── June-2024
+│   │   │   │   └── games
+│   │   │   │       ├── 1-1-playdate.jpg
+│   │   │   │       │//...
+│   │   │   ├── June-2025
+│   │   │   │   ├── buzz-kill-zero.jpg
+│   │   │   │   │//...
+│   │   │   ├── March-2023
+│   │   │   │   ├── games
+│   │   │   │   │   ├── controller-type.jpg
+│   │   │   │   │   │//...
+│   │   │   │   └── photos
+│   │   │   │       ├── GY-mar-1.jpg
+│   │   │   │       │//...
+│   │   │   ├── March-2024
+│   │   │   │   ├── games
+│   │   │   │   │   ├── book-of-five-rings.jpg
+│   │   │   │   │   │//...
+│   │   │   │   └── photos
+│   │   │   │       ├── mar-gy-photo-1.jpg
+│   │   │   │       │//...
+│   │   │   ├── May-2022
+│   │   │   │   ├── games
+│   │   │   │   │   ├── a-memoir-blue-img.jpg
+│   │   │   │   │   │//...
+│   │   │   │   └── photos
+│   │   │   │       ├── GY-may-1.png
+│   │   │   │       │//...
+│   │   │   ├── May-2023
+│   │   │   │   ├── games
+│   │   │   │   │   ├── bounce-bat.png
+│   │   │   │   │   │//...
+│   │   │   │   └── photos
+│   │   │   │       ├── GY-may-23-1.png
+│   │   │   │       │//...
+│   │   │   ├── May-2024
+│   │   │   │   ├── games
+│   │   │   │   │   ├── aggro-crab.png
+│   │   │   │   │   │//...
+│   │   │   │   └── photos
+│   │   │   │       ├── may-gy-photo-1.png
+│   │   │   │       │//...
+│   │   │   ├── May-2025
+│   │   │   │   ├── Ashcroft.png
+│   │   │   │   │//...
+│   │   │   │   ├── photos
+│   │   │   │   │   ├── may-gy-photo-1.jpg
+│   │   │   │   │   │//...
+│   │   │   │   ├── stomach.jpg
+│   │   │   │   │//...
+│   │   │   ├── November-2022
+│   │   │   │   ├── games
+│   │   │   │   │   ├── boss-game.jpeg
+│   │   │   │   │   │//...
+│   │   │   │   └── photos
+│   │   │   │       ├── nov-gy-photo-1.png
+│   │   │   │       │//...
+│   │   │   ├── November-2023
+│   │   │   │   ├── games
+│   │   │   │   │   ├── afterschool-afterlife.jpeg
+│   │   │   │   │   │//...
+│   │   │   │   └── photos
+│   │   │   │       └── nov-gy-photo-1.jpg
+│   │   │   ├── November-2024
+│   │   │   │   ├── games
+│   │   │   │   │   ├── dawnfolk.png
+│   │   │   │   │   ├── fetch-quest.png
+│   │   │   │   │   ├── space-boat.png
+│   │   │   │   │   ├── ttap.png
+│   │   │   │   │   └── upheaval.png
+│   │   │   │   └── photos
+│   │   │   │       ├── nov-gy-photo-1.png
+│   │   │   │       │//...
+│   │   │   ├── October-2022
+│   │   │   │   ├── games
+│   │   │   │   │   ├── art-7.png
+│   │   │   │   │   │//...
+│   │   │   │   └── photos
+│   │   │   │       ├── oct-gy-photo-1.png
+│   │   │   │       │//...
+│   │   │   ├── October-2023
+│   │   │   │   ├── games
+│   │   │   │   │   ├── crowkeeper.png
+│   │   │   │   │   │//...
+│   │   │   │   └── photos
+│   │   │   │       ├── GY-october-1.png
+│   │   │   │       │//...
+│   │   │   ├── September-2022
+│   │   │   │   ├── games
+│   │   │   │   │   ├── beacon-pines.jpeg
+│   │   │   │   │   │//...
+│   │   │   │   └── photos
+│   │   │   │       ├── sep-gy-photo-1.jpg
+│   │   │   │       │//...
+│   │   │   ├── September-2023
+│   │   │   │   ├── games
+│   │   │   │   │   ├── ai-hero.png
+│   │   │   │   │   │//...
+│   │   │   │   └── photos
+│   │   │   │       ├── GY-september-1.png
+│   │   │   │       │//...
+│   │   │   └── September-2024
+│   │   │       ├── games
+│   │   │       │   ├── hidden-paradise.jpg
+│   │   │       │   │//...
+│   │   │       └── photos
+│   │   │           ├── sep-gy-photo-1.png
+│   │   │           │//...
+│   │   ├── blue-lanyard.png
+│   │   ├── event-img
+│   │   │   ├── DA-Banner-a-happy-new-23.gif
+│   │   │   │//...
+│   │   │//...
+│   │   ├── horse-img
+│   │   │   ├── horse-feedback.png
+│   │   │   │//...
+│   │   ├── jr-archive
+│   │   │   ├── 11910183_755094477951608_1241211132_n-1024x784.jpg
+│   │   │   │//...
+│   │   │   ├── img
+│   │   │   │   ├── 11910183_755094477951608_1241211132_n-1024x784.jpg
+│   │   │   │   │//...
+│   │   │   │//...
+│   │   │   └── zodiacmall-1024x354.png
+│   │   ├── lassos
+│   │   │   ├── rope_pattern-10.svg
+│   │   │   │//...
+│   │   ├── misc-img
+│   │   │   ├── about-us.png
+│   │   │   │//...
+│   │   ├── pdf
+│   │   │   └── gy_roundup.pdf
+│   │   ├── rope_pattern-5.svg
+│   │   ├── rope_pattern-6.svg
+│   │   ├── Social-buttons
+│   │   │   ├── bluesky-button.png
+│   │   │   │//...
+│   │   └── sponsors
+│   │       ├── devolver-digital.png
+│   │       └── mighty-coconut.png
+│   ├── index.md
+│   └── javascripts
+│       └── gallery.js
+├── LICENSE
+├── README.md
+├── requirements.txt
+├── site_structure.txt
+└── Tools
+    ├── _site
+    │   ├── depricated
+    │   │   ├── convert_events.py
+    │   │   │//...
+    │   ├── games.csv
+    │   ├── old_events
+    │   │   ├── connectiquest.php
+    │   │   │//...
+    │   ├── process_games_data.py
+    │   └── rope-drawing-tool
+    │       └── paperjs version
+    │           └── paper-rope-generator.html
+    ├── depricated
+    │   ├── convert_events.py
+    │   │//...
+    ├── old_events
+    │   ├── connectiquest.php
+    │   │//...
+    └── rope-drawing-tool
+        └── paperjs version
+            └── paper-rope-generator.html
+
+149 directories, 2654 files

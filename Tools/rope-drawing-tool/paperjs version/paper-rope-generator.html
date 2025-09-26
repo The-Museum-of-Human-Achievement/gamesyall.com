@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Vector Rope Pattern Generator</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/paper.js/0.12.17/paper-full.min.js"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            overflow-x: hidden;
+        }
+        .container {
+            width: 100%;
+            margin: 0 auto;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        h2 {
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+        .controls {
+            display: grid;
+            grid-template-columns: 150px 1fr;
+            grid-gap: 10px;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .buttons {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        button {
+            padding: 8px 16px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        canvas {
+            border: 1px solid #ddd;
+            display: block;
+            margin-top: 10px;
+            box-sizing: border-box;
+        }
+        .slider {
+            width: 80%;
+            max-width: 200px;
+        }
+        label {
+            font-weight: bold;
+        }
+        .instructions {
+            color: #777;
+            font-style: italic;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Advanced Vector Rope Pattern Generator</h2>
+        
+        <div class="controls">
+            <label for="thickness">Rope Thickness:</label>
+            <input type="range" id="thickness" class="slider" min="5" max="60" value="20">
+            
+            <label for="stepSize">Path Sampling Step:</label>
+            <input type="range" id="stepSize" class="slider" min="5" max="30" value="10">
+            
+            <label for="angleOffset">Angle Offset (°):</label>
+            <input type="range" id="angleOffset" class="slider" min="0" max="90" value="45">
+            
+            <label for="chaikinIterations">Chaikin Iterations:</label>
+            <input type="range" id="chaikinIterations" class="slider" min="1" max="5" value="2" step="1">
+            
+            <label for="chaikinRatio">Chaikin Ratio:</label>
+            <input type="range" id="chaikinRatio" class="slider" min="10" max="40" value="25">
+            
+            <label for="pathSmoothing">Path Smoothing:</label>
+            <input type="range" id="pathSmoothing" class="slider" min="0" max="5" value="2" step="1">
+            
+            <label for="fixGaps">Fix Gaps:</label>
+            <input type="checkbox" id="fixGaps" checked>
+            
+            <label for="colorPalette">Color Palette:</label>
+            <select id="colorPalette">
+                <option value="natural">Natural</option>
+                <option value="blue">Blue</option>
+                <option value="rainbow">Rainbow</option>
+                <option value="mono">Monochrome</option>
+                <option value="gold">Gold (No Stroke)</option>
+            </select>
+        </div>
+        
+        <div class="buttons">
+            <button id="clearPathBtn">Clear Path</button>
+            <button id="saveSVGBtn">Save as SVG</button>
+            <button id="randomPathBtn">Random Path</button>
+        </div>
+        
+        <div class="instructions">Click and drag to draw a path. The rope will follow your path.</div>
+        
+        <canvas id="ropeCanvas" width="100%" height="600"></canvas>
+    </div>
+
+    <script>
+        // Initialize Paper.js
+        paper.install(window);
+        window.onload = function() {
+            // Set up Paper.js with the canvas
+            var canvas = document.getElementById('ropeCanvas');
+            
+            // Set explicit dimensions
+            var containerWidth = document.querySelector('.container').offsetWidth - 40;
+            canvas.width = containerWidth;
+            canvas.height = 600;
+            
+            // Initialize Paper.js after setting dimensions
+            paper.setup(canvas);
+            
+            // Path and drawing variables
+            var drawPath;
+            var isDrawing = false;
+            var ropeGroup = new Group();
+            
+            // Color palettes
+            var colorPalettes = {
+                "blue": ["#2980b9", "#3498db", "#5dade2", "#85c1e9"],
+                "natural": ["#e4cdad", "#dcbf99", "#d6b88e", "#dcbf99"],
+                "rainbow": ["#2ecc71", "#3498db", "#9b59b6", "#e74c3c", "#e67e22", "#f1c40f"],
+                "mono": ["#95a5a6", "#7f8c8d", "#95a5a6", "#7f8c8d"],
+                "gold": ["#FFD700", "#F1C40F", "#FFC300", "#FFDB58"]
+            };
+            
+            // Get UI elements
+            var thicknessSlider = document.getElementById('thickness');
+            var stepSizeSlider = document.getElementById('stepSize');
+            var angleOffsetSlider = document.getElementById('angleOffset');
+            var chaikinIterationsSlider = document.getElementById('chaikinIterations');
+            var chaikinRatioSlider = document.getElementById('chaikinRatio');
+            var pathSmoothingSlider = document.getElementById('pathSmoothing');
+            var fixGapsCheckbox = document.getElementById('fixGaps');
+            var colorPaletteSelect = document.getElementById('colorPalette');
+            var clearPathBtn = document.getElementById('clearPathBtn');
+            var saveSVGBtn = document.getElementById('saveSVGBtn');
+            var randomPathBtn = document.getElementById('randomPathBtn');
+            
+            // Initialize instruction text
+            var instructionText = new PointText({
+                point: view.center,
+                content: 'Click and drag to draw a path',
+                fillColor: 'gray',
+                fontFamily: 'Arial',
+                fontSize: 16,
+                justification: 'center'
+            });
+            
+            // Set initial canvas size
+            paper.view.viewSize = new Size(window.innerWidth - 10, 600);
+            
+            // Create tool for drawing
+            var tool = new Tool();
+            
+            // Mouse down handler
+            tool.onMouseDown = function(event) {
+                if (event.point.y < 50) return; // Prevent drawing at the top of canvas
+                clearPath();
+                isDrawing = true;
+                drawPath = new Path();
+                drawPath.strokeColor = 'gray';
+                drawPath.strokeWidth = 1;
+                drawPath.add(event.point);
+            };
+            
+            // Mouse drag handler
+            tool.onMouseDrag = function(event) {
+                if (!isDrawing) return;
+                // Add points with minimum distance for smoother drawing
+                var lastPoint = drawPath.lastSegment.point;
+                var distance = lastPoint.getDistance(event.point);
+                if (distance > 10) {
+                    drawPath.add(event.point);
+                    instructionText.visible = false;
+                }
+            };
+            
+            // Mouse up handler
+            tool.onMouseUp = function(event) {
+                if (!isDrawing) return;
+                isDrawing = false;
+                
+                // Apply smoothing to the path when finished drawing
+                var smoothingIterations = parseInt(pathSmoothingSlider.value);
+                if (smoothingIterations > 0 && drawPath.segments.length > 2) {
+                    var points = [];
+                    for (var i = 0; i < drawPath.segments.length; i++) {
+                        points.push({
+                            x: drawPath.segments[i].point.x,
+                            y: drawPath.segments[i].point.y
+                        });
+                    }
+                    
+                    var smoothed = chaikin(points, smoothingIterations, false, 0.25);
+                    drawPath.removeSegments();
+                    for (var i = 0; i < smoothed.length; i++) {
+                        drawPath.add(new Point(smoothed[i].x, smoothed[i].y));
+                    }
+                }
+                
+                // Hide the path during rope rendering
+                drawPath.visible = false;
+                
+                generateRope();
+            };
+            
+            // Clear path function
+            function clearPath() {
+                if (drawPath) {
+                    drawPath.remove();
+                }
+                ropeGroup.removeChildren();
+                instructionText.visible = true;
+                view.update();
+            }
+            
+            // Generate random path
+            function generateRandomPath() {
+                clearPath();
+                
+                drawPath = new Path();
+                drawPath.strokeColor = 'gray';
+                drawPath.strokeWidth = 1;
+                
+                // Create a random path with 5-8 points
+                var numPoints = Math.floor(Math.random() * 4) + 4;
+                var startX = Math.random() * view.size.width * 0.1 + view.size.width * 0.1;
+                var startY = Math.random() * view.size.height * 0.4 + view.size.height * 0.3;
+                
+                drawPath.add(new Point(startX, startY));
+                
+                var prevX = startX;
+                var prevY = startY;
+                
+                for (var i = 1; i < numPoints; i++) {
+                    var stepX = Math.random() * view.size.width * 0.1 + view.size.width * 0.05;
+                    var stepY = Math.random() * 200 - 100;
+                    
+                    var newX = Math.min(Math.max(prevX + stepX, 50), view.size.width - 50);
+                    var newY = Math.min(Math.max(prevY + stepY, 50), view.size.height - 50);
+                    
+                    drawPath.add(new Point(newX, newY));
+                    
+                    prevX = newX;
+                    prevY = newY;
+                }
+                
+                // Apply smoothing
+                var points = [];
+                for (var i = 0; i < drawPath.segments.length; i++) {
+                    points.push({
+                        x: drawPath.segments[i].point.x,
+                        y: drawPath.segments[i].point.y
+                    });
+                }
+                
+                var smoothed = chaikin(points, 2, false, 0.25);
+                drawPath.removeSegments();
+                for (var i = 0; i < smoothed.length; i++) {
+                    drawPath.add(new Point(smoothed[i].x, smoothed[i].y));
+                }
+                
+                instructionText.visible = false;
+                generateRope();
+            }
+            
+            // Generate rope along the path
+            function generateRope() {
+                if (!drawPath || drawPath.segments.length < 3) return;
+                
+                ropeGroup.removeChildren();
+                
+                var thickness = parseInt(thicknessSlider.value);
+                var stepSize = parseInt(stepSizeSlider.value);
+                var angleOffset = parseInt(angleOffsetSlider.value) * Math.PI / 180;
+                var chaikinIter = parseInt(chaikinIterationsSlider.value);
+                var chaikinRatio = parseInt(chaikinRatioSlider.value) / 100;
+                var fixGaps = fixGapsCheckbox.checked;
+                var colorMode = colorPaletteSelect.value;
+                var colors = colorPalettes[colorMode];
+                
+                // Get path points with uniform spacing
+                var points = getPathPoints(stepSize);
+                
+                // Get the outer lines (normals)
+                var normals = getLines(points, thickness, angleOffset);
+                
+                // Generate segments from the normals
+                var segments = getSegments(normals, fixGaps, chaikinIter, chaikinRatio);
+                
+                // Draw the segments
+                for (var i = 0; i < segments.length; i++) {
+                    var color = colors[i % colors.length];
+                    
+                    var segmentPath = new Path();
+                    for (var j = 0; j < segments[i].points.length; j++) {
+                        segmentPath.add(new Point(segments[i].points[j].x, segments[i].points[j].y));
+                    }
+                    
+                    segmentPath.closed = true;
+                    segmentPath.fillColor = color;
+                    
+                    // Apply stroke for all color modes except gold
+                    if (colorMode === 'gold') {
+                        segmentPath.strokeColor = null;
+                    } else {
+                        segmentPath.strokeColor = new Color(0.1, 0.1, 0.1, 0.8);
+                        segmentPath.strokeWidth = 1;
+                    }
+                    
+                    segmentPath.strokeJoin = 'round';
+                    ropeGroup.addChild(segmentPath);
+                }
+                
+                view.update();
+            }
+            
+            // Save SVG function
+            function saveSVG() {
+                if (!drawPath || drawPath.segments.length < 2) {
+                    alert('Please draw a path first!');
+                    return;
+                }
+                
+                // Hide the original path when exporting
+                var wasVisible = drawPath.visible;
+                drawPath.visible = false;
+                
+                // Export as SVG
+                var svg = project.exportSVG({asString: true});
+                
+                // Restore visibility
+                drawPath.visible = wasVisible;
+                
+                // Create a blob and download
+                var blob = new Blob([svg], {type: 'image/svg+xml'});
+                var url = URL.createObjectURL(blob);
+                
+                var link = document.createElement('a');
+                link.download = 'rope_pattern.svg';
+                link.href = url;
+                link.click();
+            }
+            
+            // ----- VECTOR OPERATIONS ----- //
+            
+            function multiplyVector(v, scalar) {
+                return {
+                    x: v.x * scalar,
+                    y: v.y * scalar
+                };
+            }
+            
+            function getVector(a, b) {
+                return {
+                    x: b.x - a.x,
+                    y: b.y - a.y
+                };
+            }
+            
+            function addVectors(a, b) {
+                return {
+                    x: a.x + b.x,
+                    y: a.y + b.y
+                };
+            }
+            
+            // ----- MATH HELPERS ----- //
+            
+            function getPointOnLine(start, end, ratio) {
+                var vector = getVector(start, end);
+                var v = multiplyVector(vector, ratio);
+                return {
+                    x: start.x + v.x,
+                    y: start.y + v.y
+                };
+            }
+            
+            function getAngleBetweenThreePoints(a, b, c) {
+                var vectorBA = getVector(a, b);
+                var vectorBC = getVector(c, b);
+                
+                var angle = Math.atan2(vectorBC.y, vectorBC.x) - Math.atan2(vectorBA.y, vectorBA.x);
+                
+                return angle;
+            }
+            
+            // ----- CHAIKIN CURVE SMOOTHING ----- //
+            
+            function chaikin(curve, iterations, closed, ratio) {
+                // Copy the curve to avoid modifying the original
+                curve = curve.slice();
+                
+                if (ratio > 0.5) {
+                    ratio = 1 - ratio;
+                }
+                
+                for (var i = 0; i < iterations; i++) {
+                    var refined = [];
+                    
+                    if (!closed) {
+                        refined.push(curve[0]);
+                    }
+                    
+                    for (var j = closed ? 0 : 1; j < curve.length - (closed ? 0 : 1); j++) {
+                        var curr = j % curve.length;
+                        var next = (j + 1) % curve.length;
+                        
+                        var r1 = {
+                            x: curve[curr].x * (1 - ratio) + curve[next].x * ratio,
+                            y: curve[curr].y * (1 - ratio) + curve[next].y * ratio
+                        };
+                        
+                        var r2 = {
+                            x: curve[curr].x * ratio + curve[next].x * (1 - ratio),
+                            y: curve[curr].y * ratio + curve[next].y * (1 - ratio)
+                        };
+                        
+                        refined.push(r1);
+                        refined.push(r2);
+                    }
+                    
+                    if (!closed) {
+                        refined.push(curve[curve.length - 1]);
+                    }
+                    
+                    curve = refined;
+                }
+                
+                return curve;
+            }
+            
+            // ----- PATH OPERATIONS ----- //
+            
+            function getPathPoints(step) {
+                if (!drawPath || drawPath.segments.length < 2) return [];
+                
+                // Extract raw points from the path
+                var pathPoints = [];
+                for (var i = 0; i < drawPath.segments.length; i++) {
+                    pathPoints.push({
+                        x: drawPath.segments[i].point.x,
+                        y: drawPath.segments[i].point.y
+                    });
+                }
+                
+                // Add helper points at the ends
+                var pathWithHelpers = pathPoints.slice();
+                var vectorStart = getVector(pathPoints[1], pathPoints[0]);
+                var vectorEnd = getVector(pathPoints[pathPoints.length - 2], pathPoints[pathPoints.length - 1]);
+                
+                // Add helper point at the start (extrapolating backwards)
+                pathWithHelpers.unshift(addVectors(pathPoints[0], vectorStart));
+                
+                // Add helper point at the end (extrapolating forwards)
+                pathWithHelpers.push(addVectors(pathPoints[pathPoints.length - 1], vectorEnd));
+                
+                // Calculate total path length
+                var totalLength = 0;
+                for (var i = 1; i < pathWithHelpers.length; i++) {
+                    totalLength += Math.sqrt(
+                        Math.pow(pathWithHelpers[i].x - pathWithHelpers[i-1].x, 2) + 
+                        Math.pow(pathWithHelpers[i].y - pathWithHelpers[i-1].y, 2)
+                    );
+                }
+                
+                // Calculate number of points based on step size
+                var numPoints = Math.max(2, Math.ceil(totalLength / step));
+                var uniformPoints = [];
+                
+                // First point
+                uniformPoints.push(pathWithHelpers[0]);
+                
+                var accumulatedLength = 0;
+                var currentPointIndex = 0;
+                var targetDistance = step;
+                
+                while (currentPointIndex < pathWithHelpers.length - 1 && uniformPoints.length < numPoints) {
+                    var p1 = pathWithHelpers[currentPointIndex];
+                    var p2 = pathWithHelpers[currentPointIndex + 1];
+                    var segmentLength = Math.sqrt(
+                        Math.pow(p2.x - p1.x, 2) + 
+                        Math.pow(p2.y - p1.y, 2)
+                    );
+                    
+                    if (accumulatedLength + segmentLength >= targetDistance) {
+                        // Find the point along this segment
+                        var remainingDist = targetDistance - accumulatedLength;
+                        var ratio = remainingDist / segmentLength;
+                        var point = getPointOnLine(p1, p2, ratio);
+                        uniformPoints.push(point);
+                        
+                        // Move target to next step
+                        targetDistance += step;
+                    } else {
+                        // Move to next segment
+                        accumulatedLength += segmentLength;
+                        currentPointIndex++;
+                    }
+                    
+                    // Prevent infinite loops
+                    if (uniformPoints.length > 1000) break;
+                }
+                
+                // Last point
+                uniformPoints.push(pathWithHelpers[pathWithHelpers.length - 1]);
+                
+                return uniformPoints;
+            }
+            
+            function getLines(points, thickness, angleOffset) {
+                var normals = [];
+                
+                for (var i = 1; i < points.length - 1; i++) {
+                    var v1 = points[i - 1];
+                    var v2 = points[i];
+                    var v3 = points[i + 1];
+                    
+                    var line = getOuterPoints(v1, v2, v3, thickness, angleOffset);
+                    
+                    normals.push(line);
+                }
+                
+                // Adding an extra line for the last segment
+                if (normals.length > 0) {
+                    normals.push(normals[normals.length - 1]);
+                }
+                
+                return normals;
+            }
+            
+            function getOuterPoints(v1, v2, v3, thickness, angleOffset) {
+                var angle1 = getAngleBetweenThreePoints(v1, v2, v3) / 2;
+                
+                var offset = angle1 > 0 ? -1 : 1;
+                
+                var angle2 = getAngleBetweenThreePoints(v1, v2, {
+                    x: v2.x + offset,
+                    y: v2.y
+                });
+                
+                var angle = angle2 - angle1 + angleOffset;
+                
+                var r = thickness / 2;
+                
+                var point1 = {
+                    x: v2.x + Math.cos(angle) * r,
+                    y: v2.y - Math.sin(angle) * r
+                };
+                
+                var point2 = {
+                    x: v2.x + Math.cos(angle + Math.PI) * r,
+                    y: v2.y - Math.sin(angle + Math.PI) * r
+                };
+                
+                return [point1, point2];
+            }
+            
+            function getSegments(normals, fixGaps, iterations, ratio) {
+                var segments = [];
+                
+                // Need at least 3 normals to create a segment
+                if (normals.length < 3) return segments;
+                
+                for (var i = 0; i < normals.length - 2; i++) {
+                    var l1 = normals[i];
+                    var l2 = normals[i + 1];
+                    var l3 = normals[i + 2];
+                    var path = [l1[0], l1[1], l2[1], l2[0]];
+                    
+                    var prevSegment = segments[i - 1];
+                    
+                    var A = l1[0];
+                    var B = l1[1];
+                    var C = l2[0];
+                    var D = l2[1];
+                    var E = l3[0];
+                    
+                    /*
+                    F---------E
+                    |         |
+                    D---------C
+                    |         |
+                    B---------A
+                    */
+                    
+                    var ratio1 = 0.3;
+                    var ratio2 = 1 - ratio1;
+                    
+                    var BD033 = getPointOnLine(B, D, 0.33);
+                    var DC_p1 = getPointOnLine(D, C, ratio1);
+                    var corner1 = getPointOnLine(BD033, DC_p1, 0.5);
+                    // Move the point closer to the corner
+                    corner1 = addVectors(corner1, multiplyVector(getVector(corner1, D), 0.25));
+                    
+                    var DC_p2 = getPointOnLine(D, C, ratio2);
+                    var CE066 = getPointOnLine(C, E, 0.66);
+                    var corner2 = getPointOnLine(DC_p2, CE066, 0.5);
+                    // Move the point closer to the corner
+                    corner2 = addVectors(corner2, multiplyVector(getVector(corner2, C), 0.25));
+                    
+                    var AC066 = getPointOnLine(A, C, 0.66);
+                    var AB_p1 = getPointOnLine(A, B, ratio1);
+                    var AB_p2 = getPointOnLine(A, B, ratio2);
+                    
+                    var line1 = [
+                        prevSegment ? prevSegment.line1[2] : B,
+                        BD033,
+                        corner1,
+                        fixGaps ? corner1 : null,
+                        fixGaps ? corner1 : null,
+                        DC_p1,
+                        DC_p2,
+                        corner2
+                    ].filter(function(p) { return p !== null; });
+                    
+                    var line2 = [
+                        corner2,
+                        AC066,
+                        prevSegment ? prevSegment.line1[fixGaps ? 7 : 5] : null,
+                        prevSegment && fixGaps ? prevSegment.line1[7] : null,
+                        prevSegment && fixGaps ? prevSegment.line1[7] : null,
+                        AB_p1,
+                        prevSegment ? AB_p2 : null,
+                        prevSegment ? prevSegment.line1[2] : B
+                    ].filter(function(p) { return p !== null; });
+                    
+                    var roundedLine1 = chaikin(line1, iterations, false, ratio);
+                    var roundedLine2 = chaikin(line2, iterations, false, ratio);
+                    
+                    // Remove duplicate end points
+                    if (roundedLine1.length > 0) roundedLine1.pop();
+                    if (roundedLine2.length > 0) roundedLine2.pop();
+                    
+                    var points = roundedLine1.concat(roundedLine2);
+                    
+                    segments.push({
+                        line1: line1,
+                        line2: line2,
+                        path: path,
+                        points: points
+                    });
+                }
+                
+                return segments;
+            }
+            
+            // Button event listeners
+            clearPathBtn.addEventListener('click', clearPath);
+            saveSVGBtn.addEventListener('click', saveSVG);
+            randomPathBtn.addEventListener('click', generateRandomPath);
+            
+            // Control change listeners
+            thicknessSlider.addEventListener('input', generateRope);
+            stepSizeSlider.addEventListener('input', generateRope);
+            angleOffsetSlider.addEventListener('input', generateRope);
+            chaikinIterationsSlider.addEventListener('input', generateRope);
+            chaikinRatioSlider.addEventListener('input', generateRope);
+            pathSmoothingSlider.addEventListener('change', function() {
+                if (drawPath && drawPath.segments.length > 2) {
+                    // Store the original path points
+                    var points = [];
+                    for (var i = 0; i < drawPath.segments.length; i++) {
+                        points.push({
+                            x: drawPath.segments[i].point.x, 
+                            y: drawPath.segments[i].point.y
+                        });
+                    }
+                    
+                    // Apply smoothing
+                    var smoothingIterations = parseInt(pathSmoothingSlider.value);
+                    if (smoothingIterations > 0) {
+                        var smoothed = chaikin(points, smoothingIterations, false, 0.25);
+                        drawPath.removeSegments();
+                        for (var i = 0; i < smoothed.length; i++) {
+                            drawPath.add(new Point(smoothed[i].x, smoothed[i].y));
+                        }
+                    } else {
+                        // Reset to original points if smoothing is 0
+                        drawPath.removeSegments();
+                        for (var i = 0; i < points.length; i++) {
+                            drawPath.add(new Point(points[i].x, points[i].y));
+                        }
+                    }
+                    
+                    generateRope();
+                }
+            });
+            fixGapsCheckbox.addEventListener('change', generateRope);
+            colorPaletteSelect.addEventListener('change', generateRope);
+            
+            // Window resize handler - properly handle coordinate system
+            window.addEventListener('resize', function() {
+                // Get current container width
+                var containerWidth = document.querySelector('.container').offsetWidth - 40;
+                
+                // Resize canvas element
+                var canvas = document.getElementById('ropeCanvas');
+                canvas.width = containerWidth;
+                canvas.height = 600;
+                
+                // Update Paper.js view size
+                paper.view.viewSize = new Size(containerWidth, 600);
+                
+                // Center the instruction text
+                instructionText.position = view.center;
+                
+                view.update();
+            });
+        };
+    </script>
+</body>
+</html>

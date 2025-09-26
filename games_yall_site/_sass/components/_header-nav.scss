@@ -1,0 +1,135 @@
+$header-links-color: $folly;
+
+header.nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+  background-image: url('/images/rope_pattern-5.svg');
+  background-repeat: no-repeat;
+  background-position: 0 6;
+  background-size: 100% 150px;
+  max-height: 150px; 
+  min-width: 390px;
+  padding-right: 3rem;
+  box-sizing: border-box;
+
+  .logo {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    width: 30vw;
+    min-width: 360px;
+    padding-left: 20px;
+    padding-top: 10px;
+    h1 {
+      display: inline-flex;
+      text-align: center;
+    }
+    a{
+      color: $raisin-black;
+      text-decoration: none;
+      font-weight: normal;
+      &:hover {
+        color: $raisin-black-2;
+        text-decoration: none;
+      }
+    }
+    img {
+      width: 260px;
+      height: auto;
+    }
+  }
+  .nav-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex: 4;
+    max-width: 680px;
+    padding: 0 15px ;
+    margin-right: 4px;
+    font-size: larger;
+  }
+
+    a {
+      display: inline-flex;
+      text-decoration: none;
+      color: $header-links-color;
+      padding: 20px 0;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  
+}
+
+@media (min-width: 1400px) {
+  .logo img{
+    margin-left: 10%;
+  }
+}
+
+@media (max-width: 930px) {
+  header.nav {
+    flex-direction: column;
+    align-items: center;
+    background-image: url('/images/rope_pattern-6.svg');
+    background-size: contain;
+    min-height: 190px;
+    height: auto;
+  }
+  
+  header.nav .logo {
+    width: 100%; // Now this will override the 30vw
+    min-width: unset; // Remove or reset the min-width constraint
+    justify-content: center;
+    height: 130px;
+    margin-bottom: 20px;
+    h1 {
+      text-align: center;
+      padding-top: 1rem;
+      padding-left: 1rem;
+    }
+  }
+  
+  .nav-links {
+    justify-content: flex-start;
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  header.nav {
+    flex-direction: column;
+    align-items: center;
+    background-image: url('/images/rope_pattern-6.svg');
+    background-size: contain;
+    min-height: 180px;
+    height: auto;
+    margin-top: 20px;
+    width: 100vw;
+    padding: 0; // Reset all padding
+    padding-right: 0; // Specifically reset the 3rem right padding
+    min-width: unset; // Remove the 390px minimum width constraint
+    
+    .logo {
+      padding-top: 20px;
+      padding-left: 0;
+    }
+    
+    .nav-links {
+      justify-content: space-between;
+      width: 100vw;
+      flex: 1;
+      font-size: small;
+      margin: 0; // Reset any margin
+      padding: 0; // Reset padding from parent styles
+      
+      a {
+        padding: 14px;
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+@font-face {
+    font-family: 'norwesterregular';
+    src: url('/fonts/norwester-webfont.woff2') format('woff2'),
+         url('/fonts/norwester-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ranchoregular';
+    src: url('/fonts/rancho-webfont.woff2') format('woff2'),
+         url('/fonts/rancho-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+    font-family: 'ranchoregular', sans-serif;
+    font-size: 3.2rem;
+    line-height: 1.2;
+    font-weight: 400;
+    color: $raisin-black-2;
+}
+
+h2, h3{
+    font-family: 'norwesterregular', sans-serif;
+}
+
+h2 {
+    font-size: 2rem;
+    line-height: 1.2;
+}

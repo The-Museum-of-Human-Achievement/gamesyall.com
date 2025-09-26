@@ -1,0 +1,99 @@
+$body-headline-color: $murrey;
+
+body.home {
+
+ 
+    h2 {
+        text-align: center;
+        color: $body-headline-color;
+    }
+    .event-feature {
+        border-radius: 10px;
+        margin: 0 auto;
+        text-align: center;
+        
+        background-color: $yall-blue;
+        display: flex;
+        flex-direction: row;
+        img {
+            max-width: 720px;
+        }
+        @media screen and (max-width: 1000px) {
+          flex-direction: column;
+          img {
+            width: 100%;
+          }
+          
+        }
+    }
+    .event-description {
+        display: flex;
+        padding-bottom: 1rem;
+        flex: 1;
+    }
+    .button {
+        display: inline-block;
+        background-color: $buttercup;
+        padding: 0.6rem 1.2rem;
+        border-radius: 4px;
+        text-decoration: none;
+        font-weight: bold;
+        transition: background-color 0.3s ease;
+        
+        &:hover {
+          background-color: lighten($buttercup, 10%);
+        }
+      }
+      
+    section {
+        padding: 2.5rem;
+        border-radius: 8px;
+        margin: 0 0 0 auto;
+        max-width: 1000px;
+        text-align: center;
+        
+        h2 {
+          color: $murrey;
+          margin-top: 0;
+          font-size: 1.8rem;
+        }
+        
+        p {
+          line-height: 1.7;
+          margin-bottom: 1.5rem;
+          font-size: 1.1rem;
+        }
+        
+        .cta-buttons {
+          display: flex;
+          justify-content: center;
+          gap: 1rem;
+          flex-wrap: wrap;
+          max-width: 500px;
+          margin: auto;
+          .button {
+            background-color: $murrey;
+            color: white;
+            padding: 0.6rem 1.2rem;
+            border-radius: 4px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+            
+            &:hover {
+              background-color: darken($murrey, 10%);
+            }
+            &.big {
+              width:100%;
+              font-size: x-large;
+              padding:1rem;
+            }
+          }
+        }
+    }
+    .container {
+        @media screen and (min-width: 1400px) {
+          max-width: 1300px;
+      }
+    }
+}

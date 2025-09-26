@@ -1,0 +1,53 @@
+---
+layout: default
+---
+
+{% comment %}
+Filter events to only show past dates by comparing Unix timestamps
+{% endcomment %}
+{% assign past_events = "" | split: "" %}
+{% assign today_timestamp = site.time | date: "%s" %}
+
+{% for event in site.events %}
+  {% assign event_timestamp = event.date | date: "%s" %}
+  {% if event_timestamp < today_timestamp %}
+    {% assign past_events = past_events | push: event %}
+  {% endif %}
+{% endfor %}
+
+{% assign past_events = past_events | sort: 'date' | reverse %}
+
+<div class="container">
+  <h1 class="page-title">{{ page.title }}</h1>
+  
+  {% if past_events.size > 0 %}
+    <div class="events-grid">
+      {% for event in past_events %}
+        <div class="event-card">
+          <a href="{{ event.url | relative_url }}" class="event-link">
+            {% if event.featured_image %}
+              <div class="event-image">
+                <img src="{{ event.featured_image | relative_url }}" alt="{{ event.title }}">
+              </div>
+            {% endif %}
+            
+            <div class="event-details">
+              <h3 class="event-title">{{ event.title }}</h3>
+              <p class="event-date">{{ event.date | date: "%B %d, %Y" }}</p>
+              
+              {% if event.game_slugs %}
+                <p class="event-games-count">Featuring {{ event.game_slugs.size }} game{% if event.game_slugs.size != 1 %}s{% endif %}</p>
+              {% endif %}
+            </div>
+          </a>
+        </div>
+      {% endfor %}
+    </div>
+  {% else %}
+    <div class="no-events">
+      <p>No past events to display yet. Check back after our first meetup!</p>
+    </div>
+  {% endif %}
+</div>
+
+{{ content }}

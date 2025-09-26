@@ -1,0 +1,16 @@
+body.game {
+    .game {
+        max-width: 800px;
+        margin:auto;
+    }
+    .game-image {
+        max-height: 800px;
+        overflow: hidden;
+        margin:auto;
+    }
+    img {
+        display: block;
+        max-width: 100%;
+        margin:auto;
+    }
+}

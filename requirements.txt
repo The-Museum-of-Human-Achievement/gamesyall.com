@@ -1,0 +1,13 @@
+# Python dependencies for Games Y'all project
+# Used by deployment scripts and data processing tools
+
+# Core dependencies for data processing
+PyYAML>=6.0
+requests>=2.25.0
+python-slugify>=8.0.0
+
+# Optional: Additional dependencies that might be useful for CSV/data processing
+# Uncomment if needed by other tools in the project
+# pandas>=1.3.0
+# beautifulsoup4>=4.9.0
+# lxml>=4.6.0

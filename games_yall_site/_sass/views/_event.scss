@@ -1,0 +1,253 @@
+// Event Page Styles
+// Place this file in your _sass directory or _sass/views
+
+.event {
+  padding: 2rem 0;
+  max-width: 1200px;
+  margin: 0 auto;
+  img {
+    max-width: 100%;
+  }
+
+  // Event header
+  .event-header {
+    margin-bottom: 2rem;
+    text-align: center;
+    
+    .event-title {
+      margin-bottom: 0.5rem;
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: #333;
+    }
+    
+    .event-meta {
+      color: #666;
+      font-size: 1.1rem;
+    }
+  }
+
+  // Event featured image
+  .event-featured-image {
+    margin-bottom: 2rem;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+    img {
+      width: 100%;
+      max-width: 100vw;
+      height: auto;
+      display: block;
+    }
+  }
+
+  // Event content (description)
+  .event-content {
+    margin-bottom: 3rem;
+    line-height: 1.6;
+    font-size: 1.1rem;
+    color: #333;
+    
+    p {
+      margin-bottom: 1.5rem;
+    }
+    
+    a {
+      color: #0066cc;
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+      transition: border-color 0.2s;
+      
+      &:hover {
+        border-color: #0066cc;
+      }
+    }
+  }
+  
+  // Games section
+  .event-games {
+    margin-bottom: 3rem;
+    max-width: 800px;
+    margin: auto;
+    h2 {
+      margin-bottom: 2rem;
+      text-align: center;
+      font-size: 2rem;
+      font-weight: 700;
+      color: #333;
+      position: relative;
+      
+      &:after {
+        content: "";
+        position: absolute;
+        bottom: -10px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 60px;
+        height: 3px;
+        background-color: #0066cc;
+      }
+    }
+  }
+
+  // Game cards
+  .game-card {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    
+    .game-header {
+      display: flex;
+      margin-bottom: 1.5rem;
+      
+      @media (max-width: 768px) {
+        flex-direction: column;
+      }
+    }
+    
+    .game-image {
+      flex: 0 0 500px;
+      margin-right: 2rem;
+      border-radius: 4px;
+      overflow: hidden;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      
+      img {
+        width: 100%;
+        height: auto;
+        display: block;
+      }
+      @media (max-width: 768px) {
+        flex: none;
+        margin-right: 0;
+        margin-bottom: 1rem;
+        max-width: 100%;
+      }
+      
+      
+    }
+    
+    .game-info {
+      flex: 1;
+      
+      .game-title {
+        margin-top: 0;
+        margin-bottom: 0.5rem;
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: #333;
+      }
+      
+      .game-developer {
+        margin-bottom: 1rem;
+        color: #666;
+        font-style: italic;
+      }
+    }
+    
+    .game-link {
+      display: inline-block;
+      padding: 0.5rem 1rem;
+      background-color: #0066cc;
+      color: white;
+      text-decoration: none;
+      border-radius: 4px;
+      font-weight: 600;
+      transition: background-color 0.2s;
+      
+      &:hover {
+        background-color: #0052a3;
+      }
+    }
+    
+    .game-description {
+      margin-bottom: 1.5rem;
+      line-height: 1.6;
+      color: #444;
+      
+      p {
+        margin-bottom: 1rem;
+      }
+    }
+    
+    .game-developer-bio, 
+    .game-social-links {
+      margin-top: 1.5rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid #e5e5e5;
+      
+      h4 {
+        margin-top: 0;
+        margin-bottom: 1rem;
+        color: #444;
+        font-size: 1.2rem;
+        font-weight: 600;
+      }
+    }
+    
+    .social-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-wrap: wrap;
+      
+      li {
+        margin-right: 1.5rem;
+        margin-bottom: 0.5rem;
+      }
+      
+      a {
+        display: inline-flex;
+        align-items: center;
+        color: #0066cc;
+        text-decoration: none;
+        font-weight: 500;
+        transition: color 0.2s;
+        
+        &:hover {
+          color: #0052a3;
+        }
+        
+        &:before {
+          content: "@";
+          opacity: 0.7;
+          margin-right: 0.25rem;
+        }
+      }
+    }
+  }
+
+  // Navigation
+  .event-navigation {
+    margin-top: 3rem;
+    text-align: center;
+    
+    .back-to-events {
+      display: inline-block;
+      padding: 0.75rem 1.5rem;
+      background-color: #666;
+      color: white;
+      text-decoration: none;
+      border-radius: 4px;
+      font-weight: 600;
+      transition: background-color 0.2s;
+      
+      &:hover {
+        background-color: #555;
+      }
+    }
+  }
+}
+
+// Add this to make sure the events page styling applies when the .event-page class is used
+.event-page {
+  .container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+}

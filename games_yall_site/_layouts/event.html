@@ -1,0 +1,274 @@
+---
+layout: default
+---
+
+<div class="event">
+    {% if page.featured_image %}
+    <div class="event-featured-image">
+        <img src="{{ page.featured_image | relative_url }}" alt="{{ page.title }}">
+    </div>
+    {% endif %}
+
+    <div class="event-content">
+        {{ content }}
+    </div>
+
+    {% if page.presenters %}
+        <h2>Featured Presenters</h2>
+        <ul class="feature-list">
+            {% for presenter in page.presenters %}
+                <li><h3>{{ presenter.name }}</h3></li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+    
+    {% if page.game_slugs %}
+        <div class="event-games">
+            <h2>Featured Games</h2>
+            
+            {% for game_slug in page.game_slugs %}
+                {% assign game_file = game_slug | append: '.md' %}
+                {% comment %}
+                First try to match by slug, if that fails, try to match by filename
+                {% endcomment %}
+                {% assign game = site.games | where: "slug", game_slug | first %}
+                {% unless game %}
+                    {% for game_item in site.games %}
+                        {% assign filepath_parts = game_item.path | split: '/' %}
+                        {% assign filename = filepath_parts | last | replace: '.md', '' | replace: '.html', '' %}
+                        {% if filename == game_slug %}
+                            {% assign game = game_item %}
+                            {% break %}
+                        {% endif %}
+                    {% endfor %}
+                {% endunless %}
+                
+                {% if game %}
+                <div class="game-card">
+                    <div class="game-header">
+                        {% if game.image %}
+                        <div class="game-image">
+                            <img src="{{ game.image | relative_url }}" alt="{{ game.title }}">
+                        </div>
+                        {% endif %}
+                        
+                        <div class="game-info">
+                            <h3 class="game-title">
+                                <a href="{{ game.url | relative_url }}">{{ game.title }}</a>
+                            </h3>
+                            {% if game.developer %}
+                            <p class="game-developer">By {{ game.developer }}</p>
+                            {% endif %}
+                            
+                            {% if game.website %}
+                            <a href="{{ game.website }}" class="game-link" target="_blank">Play or Learn More</a>
+                            {% endif %}
+                        </div>
+                    </div>
+                    
+                    <div class="game-description">
+                        {% if game.description %}
+                            {{ game.description | markdownify }}
+                        {% endif %}
+                    </div>
+                    
+                    {% if game.developer_bio %}
+                    <div class="game-developer-bio">
+                        <h4>About the Developer</h4>
+                        {{ game.developer_bio | markdownify }}
+                    </div>
+                    {% endif %}
+                    
+                    {% if game.social_links %}
+                    <div class="game-social-links">
+                        <h4>Connect with the Developer</h4>
+                        <ul class="social-list">
+                            {% for social in game.social_links %}
+                            <li>
+                                <em>{{social.platform}}</em><br/>
+                                <a href="{{ social.url }}" target="_blank">{{ social.handle }}</a>
+                            </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                    {% endif %}
+                </div>
+                {% else %}
+                    <!-- Game not found, display error message -->
+                    <div class="game-card game-not-found">
+                        <p>Game with slug "{{ game_slug }}" not found in the collection.</p>
+                    </div>
+                {% endif %}
+            {% endfor %}
+        </div>
+    {% endif %}
+    
+    {% if page.homepage_slugs or page.homepages %}
+    <div class="event-games">
+        <h2>This Month's Homepages</h2>
+        
+        {% comment %}
+        Handle homepage_slugs (references to separate files)
+        {% endcomment %}
+        {% if page.homepage_slugs %}
+            {% for homepage_slug in page.homepage_slugs %}
+                {% assign homepage_file = homepage_slug | append: '.md' %}
+                {% comment %}
+                First try to match by slug, if that fails, try to match by filename
+                {% endcomment %}
+                {% assign homepage = site.homepages | where: "slug", homepage_slug | first %}
+                {% unless homepage %}
+                    {% for homepage_item in site.homepages %}
+                        {% assign filepath_parts = homepage_item.path | split: '/' %}
+                        {% assign filename = filepath_parts | last | replace: '.md', '' | replace: '.html', '' %}
+                        {% if filename == homepage_slug %}
+                            {% assign homepage = homepage_item %}
+                            {% break %}
+                        {% endif %}
+                    {% endfor %}
+                {% endunless %}
+                
+                {% if homepage %}
+                <div class="game-card">
+                    <div class="game-header">
+                        {% if homepage.image %}
+                        <div class="game-image">
+                            <img src="{{ homepage.image | relative_url }}" alt="{{ homepage.title }}">
+                        </div>
+                        {% endif %}
+                        
+                        <div class="game-info">
+                            <h3 class="game-title">
+                                {% if homepage.website %}
+                                <a href="{{ homepage.website }}" target="_blank">{{ homepage.title }}</a>
+                                {% else %}
+                                {{ homepage.title }}
+                                {% endif %}
+                            </h3>
+                            {% if homepage.developer %}
+                            <p class="game-developer">By {{ homepage.developer }}</p>
+                            {% endif %}
+                            
+                            {% if homepage.website %}
+                            <a href="{{ homepage.website }}" class="game-link" target="_blank">Visit Homepage</a>
+                            {% endif %}
+                        </div>
+                    </div>
+                    
+                    <div class="game-description">
+                        {% if homepage.description %}
+                            {{ homepage.description | markdownify }}
+                        {% endif %}
+                    </div>
+                    
+                    {% if homepage.developer_bio %}
+                    <div class="game-developer-bio">
+                        <h4>About the Developer</h4>
+                        {{ homepage.developer_bio | markdownify }}
+                    </div>
+                    {% endif %}
+                    
+                    {% if homepage.social_links %}
+                    <div class="game-social-links">
+                        <h4>Connect with the Developer</h4>
+                        <ul class="social-list">
+                            {% for social in homepage.social_links %}
+                            <li>
+                                <em>{{social.platform}}</em><br/>
+                                <a href="{{ social.url }}" target="_blank">{{ social.handle }}</a>
+                            </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                    {% endif %}
+                </div>
+                {% else %}
+                    <!-- Homepage not found, display error message -->
+                    <div class="game-card game-not-found">
+                        <p>Homepage with slug "{{ homepage_slug }}" not found in the collection.</p>
+                    </div>
+                {% endif %}
+            {% endfor %}
+        {% endif %}
+        
+        {% comment %}
+        Handle homepages (inline frontmatter data) 
+        {% endcomment %}
+        {% if page.homepages %}
+            {% for homepage in page.homepages %}
+            <div class="game-card">
+                <div class="game-header">
+                    {% if homepage.image %}
+                    <div class="game-image">
+                        <img src="{{ homepage.image | relative_url }}" alt="{{ homepage.title }}">
+                    </div>
+                    {% endif %}
+                    
+                    <div class="game-info">
+                        <h3 class="game-title">
+                            {% if homepage.url %}
+                            <a href="{{ homepage.url }}" target="_blank">{{ homepage.title }}</a>
+                            {% else %}
+                            {{ homepage.title }}
+                            {% endif %}
+                        </h3>
+                        {% if homepage.developer %}
+                        <p class="game-developer">By {{ homepage.developer }}</p>
+                        {% endif %}
+                        
+                        {% if homepage.url %}
+                        <a href="{{ homepage.url }}" class="game-link" target="_blank">Visit Homepage</a>
+                        {% endif %}
+                    </div>
+                </div>
+                
+                <div class="game-description">
+                    {% if homepage.description %}
+                        {{ homepage.description | markdownify }}
+                    {% endif %}
+                </div>
+                
+                {% if homepage.developer_bio %}
+                <div class="game-developer-bio">
+                    <h4>About the Developer</h4>
+                    {{ homepage.developer_bio | markdownify }}
+                </div>
+                {% endif %}
+                
+                {% if homepage.social_links %}
+                <div class="game-social-links">
+                    <h4>Connect with the Developer</h4>
+                    <ul class="social-list">
+                        {% for social in homepage.social_links %}
+                        <li>
+                            <a href="{{ social.url }}" target="_blank">{{ social.handle }}</a>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                {% endif %}
+            </div>
+            {% endfor %}
+        {% endif %}
+    </div>
+    {% endif %}
+    
+    {% if page.gallery-images %}
+    <div class="event-gallery">
+        <h2>Event Gallery</h2>
+        <div class="gallery-masonry">
+            {% for image in page.gallery-images %}
+            <div class="gallery-item">
+                <a href="{{ image | relative_url }}" class="gallery-link" target="_blank">
+                    <img src="{{ image | relative_url }}" alt="Event photo" loading="lazy">
+                </a>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    {% endif %}
+</div>
+
+<div class="event-navigation">
+    <a href="{{ '/events/' | relative_url }}" class="back-to-events">← Back to All Events</a>
+</div>

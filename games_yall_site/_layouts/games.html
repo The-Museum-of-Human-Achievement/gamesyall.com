@@ -1,0 +1,63 @@
+---
+layout: default
+---
+
+  <h1 class="page-title">{{ page.title }}</h1>
+  
+  <div class="games-grid">
+    {% for game in paginator.posts %}
+      <div class="game-card">
+        <a href="{{ game.url | relative_url }}" class="game-link">
+          {% if game.image %}
+            <div class="game-image">
+              <img src="{{ game.image | relative_url }}" alt="{{ game.title }}">
+            </div>
+          {% endif %}
+
+          <div class="game-details">
+            <h3 class="game-title">{{ game.title }}</h3>
+            
+            {% if game.developer %}
+              <p class="game-developer">By {{ game.developer }}</p>
+            {% endif %}
+            
+            {% if game.date %}
+              <p class="game-date">Featured: {{ game.date | date: "%B %Y" }}</p>
+            {% endif %}
+          </div>
+        </a>
+      </div>
+    {% endfor %}
+  </div>
+  
+  {% if paginator.total_pages > 1 %}
+  <div class="pagination">
+    {% if paginator.previous_page %}
+      {% if paginator.previous_page == 1 %}
+        <a href="{{ '/games/' | relative_url }}" class="pagination-link">&laquo; Previous</a>
+      {% else %}
+        <a href="{{ '/games/page/' | append: paginator.previous_page | append: '/' | relative_url }}" class="pagination-link">&laquo; Previous</a>
+      {% endif %}
+    {% else %}
+      <span class="pagination-link disabled">&laquo; Previous</span>
+    {% endif %}
+
+    {% for page in (1..paginator.total_pages) %}
+      {% if page == paginator.page %}
+        <span class="pagination-link current">{{ page }}</span>
+      {% elsif page == 1 %}
+        <a href="{{ '/games/' | relative_url }}" class="pagination-link">{{ page }}</a>
+      {% else %}
+        <a href="{{ '/games/page/' | append: page | append: '/' | relative_url }}" class="pagination-link">{{ page }}</a>
+      {% endif %}
+    {% endfor %}
+    
+    {% if paginator.next_page %}
+      <a href="{{ '/games/page/' | append: paginator.next_page | append: '/' | relative_url }}" class="pagination-link">Next &raquo;</a>
+    {% else %}
+      <span class="pagination-link disabled">Next &raquo;</span>
+    {% endif %}
+  </div>
+  {% endif %}
+
+

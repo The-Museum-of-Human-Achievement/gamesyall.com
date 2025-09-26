@@ -1,0 +1,76 @@
+# Welcome to Jekyll!
+title: Games Y'all
+email:
+description: >- # this means to ignore newlines until "baseurl:"
+  *Games Y'all* is a meetup presented by the Museum of Human Achievement, 
+  held every month at venues around Austin for indie devs, digital artists, 
+  and games fans. Games Y'all celebrates, amplifies, and supports the 
+  unique and underrepresented within indie games and beyond. 
+  Come play games, share what you're working on, hang out and meet friends.
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://gamesyall.com" # the base hostname & protocol for your site in production
+twitter_username: jekyllrb
+github_username: jekyll
+future: true
+
+# Environment-specific settings
+# These will be overridden in the command line with JEKYLL_ENV=staging/production
+staging:
+  url: "https://dev.gamesyall.com"
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-paginate-v2
+
+# SCSS settings
+sass:
+  load_paths:
+    - _sass
+    - _sass/components
+    - _sass/views
+  style: compressed
+
+# Collections
+collections:
+  events:
+    output: true
+    permalink: /events/:path/
+  archived-events:
+    output: true
+    permalink: /archive/:path/
+  people:
+    output: false
+  games:
+    output: true
+    permalink: /games/:path/
+  homepages:
+    output: false
+
+# Pagination settings
+pagination:
+  enabled: true
+  per_page: 9
+  title: ':title - Page :num'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - .sass-cache/
+  - deploy
+  - .env
+  - .env.example
+  - .git
+  - .github
+  - .gitignore
+  - requirements.txt
+  - README.md
+  - Tools
+  - vendor

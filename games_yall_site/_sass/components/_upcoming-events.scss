@@ -1,0 +1,92 @@
+/* Upcoming Events Section Styles */
+.upcoming_events {
+    margin: 2rem 0;
+
+    h2 {
+    margin-bottom: 1rem;
+    }
+    .event-header {
+        font-weight: 600;
+    }
+
+    .events-list {
+    .event-row {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1rem;
+        padding: 0.75rem 0;
+        border-bottom: 1px solid #eee;
+        
+        &:last-child {
+        border-bottom: none;
+        }
+        
+        &:hover {
+        background-color: #f9f9f9;
+        }
+    }
+    
+    .event-date,
+    .event-location,
+    .event-theme {
+        padding: 0.25rem;
+    }
+    
+    .event-date {
+        color: #333;
+    }
+    
+    .event-location {
+        color: #666;
+    }
+    
+    .event-theme {
+        color: #555;
+    }
+    }
+
+    /* Responsive design for smaller screens */
+    @media (max-width: 768px) {
+    .events-list {
+        .event-header {
+        display: none; /* Hide headers on mobile since we use labels */
+        }
+        
+        .event-row:not(.event-header) {
+        grid-template-columns: 1fr;
+        gap: 0.25rem;
+        
+        .event-date,
+        .event-location,
+        .event-theme {
+            padding: 0.125rem 0;
+        }
+        
+        .event-date::before {
+            content: "Date: ";
+            font-weight: normal;
+            color: #888;
+        }
+        
+        .event-location::before {
+            content: "Location: ";
+            font-weight: normal;
+            color: #888;
+        }
+        
+        .event-theme::before {
+            content: "Theme: ";
+            font-weight: normal;
+            color: #888;
+        }
+        
+        /* Hide labels if the content is empty */
+        .event-date:empty::before,
+        .event-location:empty::before,
+        .event-theme:empty::before {
+            display: none;
+        }
+        }
+    }
+    }
+}

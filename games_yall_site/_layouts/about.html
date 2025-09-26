@@ -1,0 +1,46 @@
+---
+layout: default
+---
+
+{{ content }}
+
+<h2>Our Current Volunteer Operators</h2>
+<div class="people-grid">
+{% for person in site.people %}
+  {% if person.current == true %}
+  <div class="person-card">
+    {% if person.picture %}
+    <div class="person-image">
+      <img src="{{ person.picture | relative_url }}" alt="{{ person.name }}">
+    </div>
+    {% endif %}
+    <div class="person-details">
+      <h3 class="person-name">
+        {% if person.url %}
+        <a href="{{ person.url }}" target="_blank" rel="noopener">{{ person.name }}</a>
+        {% else %}
+        {{ person.name }}
+        {% endif %}
+      </h3>
+      {% if person.role %}
+      <div class="person-role">{{ person.role }}</div>
+      {% endif %}
+      <div class="person-bio">
+        {{ person.bio }}
+      </div>
+    </div>
+  </div>
+  {% endif %}
+{% endfor %}
+</div>
+
+<hr/>
+
+<h3>History</h3>
+<p>From 2010 to 2018, Juegos Rancheros was a monthly meetup for indie game developers and the primary curator and organizer of Fantastic Arcade, which took place every September alongside Fantastic Fest, the yearly genre film festival put together by Austin's Alamo Drafthouse.</p>
+
+<p>In 2019 Fantastic Arcade merged with The Museum of Human Achievement and presented the Fantastic Arcade Retro(spective). Read more about the two orgs joining forces <a href="https://www.fantasticarcade.com/news/2019/06/17/juegos_and_moha.html">here</a>.</p>
+
+<p>In 2020 the new Fantastic Arcade committee gathered input from the community to build a more inclusive and supportive indie game community in Austin. Read about the process <a href="https://www.fantasticarcade.com/news/2020/04/04/Community_Letter.html">here</a>.</p>
+
+<p>In March 2022, we launched Games Y'all! Read more about it <a href="https://www.fantasticarcade.com/news/2020/04/04/GamesYall_Announcement.html">here</a>.</p>
