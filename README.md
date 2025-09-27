@@ -290,7 +290,7 @@ The recommended way to add new games is through the Google Sheets spreadsheet. T
 However, if you need to add or edit a game manually:
 
 1. Create or edit a markdown file in the `jekyll/_games/` directory
-2. Follow the existing front matter format:
+2. Follow the existing front matter format (most fields are optional, more fields can be added as needed):
 
 ```yaml
 ---
@@ -299,7 +299,7 @@ title: Game Title
 date: 2023-05-15
 developer: Developer Name
 website: https://game-website.com
-description: Game description goes here
+description: "Game description goes here"
 image: /path/to/image.jpg
 social_links:
   - platform: twitter
