@@ -7,7 +7,6 @@ game_slugs:
 - 2024-11-22-dawnfolk
 - 2024-11-22-upheaval
 - 2023-02-19-fetch-quest
-- 2024-11-22-texas-technology-access-program
 layout: event
 location: 1908 Kramer Ln, Suite 250, 78758
 time: 7-10pm
