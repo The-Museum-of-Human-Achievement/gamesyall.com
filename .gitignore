@@ -10,3 +10,4 @@ deploy/.env
 _site/
 */_site/
 games_yall_site/_site/
+.DS_Store
