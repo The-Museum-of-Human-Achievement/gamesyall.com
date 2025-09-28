@@ -139,6 +139,32 @@ cat > "$TEMP_DIR/lftp_script.txt" << 'LFTP_EOF'
 set sftp:auto-confirm yes
 set ssl:verify-certificate no
 set ftp:ssl-allow no
+
+# Dreamhost-specific connection limits to avoid rate limiting
+set net:max-retries 2
+set net:reconnect-interval-base 10
+set net:reconnect-interval-multiplier 2
+set net:reconnect-interval-max 120
+
+# Single connection only - Dreamhost has strict concurrent limits
+set cmd:parallel 1
+set cmd:queue-parallel 1
+set sftp:max-packets-in-flight 1
+
+# Rate limiting to be gentler on server
+set net:limit-rate 512000
+
+# Connection timeouts
+set net:timeout 60
+set net:persist-retries 1
+
+# SSH connection settings optimized for Dreamhost
+set sftp:connect-program "ssh -o ConnectTimeout=30 -o ServerAliveInterval=60 -o ServerAliveCountMax=2 -o TCPKeepAlive=yes"
+
+# Disable concurrent operations that might trigger limits  
+set ftp:sync-mode off
+set mirror:parallel-directories 1
+set mirror:parallel-transfer-count 1
 LFTP_EOF
 
 # Add the dynamic parts using printf - this is the method that WORKS
