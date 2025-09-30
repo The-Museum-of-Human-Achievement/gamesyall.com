@@ -17,6 +17,15 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'dm_monoregular';
+    src: url('/fonts/dmmono-regular-webfont.woff2') format('woff2'),
+         url('/fonts/dmmono-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 h1 {
     font-family: 'ranchoregular', sans-serif;
     font-size: 3.2rem;
