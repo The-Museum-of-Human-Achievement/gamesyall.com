@@ -1,7 +1,9 @@
 ---
-date: '2025-11-20'
+date: '2025-11-15'
 game_slugs:
 layout: event
+location: Highland Collective
+address: 6401 Airport Blvd, Austin, TX 78758
 title: Games Y'all November 2025
 featured_image: 
 description: "Games Y'all November Meetup"

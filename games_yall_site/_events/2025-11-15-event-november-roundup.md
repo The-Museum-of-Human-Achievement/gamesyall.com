@@ -1,0 +1,17 @@
+---
+date: '2025-11-15'
+game_slugs:
+layout: event
+location: Kick Butt Coffee
+address: 5775 Airport Blvd Suite 725, Austin, TX 78752
+title: Games Y'all Roundup
+featured_image: 
+description: "Save the date for our Games Y'all Roundup!<br>Details coming soon!"
+announced: false
+archived: false
+rsvp-link:
+---
+
+# Games Y'all Roundup
+
+Join us for an evening of indie games featuring the titles below!
