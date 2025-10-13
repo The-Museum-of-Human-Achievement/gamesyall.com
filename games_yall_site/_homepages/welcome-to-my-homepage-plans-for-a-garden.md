@@ -24,6 +24,7 @@ developer_bio: Kaitlin Hsu is a queer Taiwanese poet, translator, and editor fro
   She also makes crosswords.
 featured_dates:
 - '2025-10-17'
+- '2025-08-27'
 image: /images/Archived-img/October-2025/welcome-to-my-homepage-plans-for-a-garden.png
 layout: game
 pronunciation: 'Welcome to my Homepage: Plans for a Garden'
@@ -35,6 +36,7 @@ title: 'Welcome to my Homepage: Plans for a Garden'
 website: https://plansfora.garden/
 slug: welcome-to-my-homepage-plans-for-a-garden
 ---
+
 
 “I find flowers beautiful. The work of French Modernists as well. But, the aesthetic pleasure I experience with both is tinged with an undercurrent of unease. To me, they will always be haunted by the image of the Asian woman as ‘Lotus Blossom.’”—Kaitlin Hsu
 

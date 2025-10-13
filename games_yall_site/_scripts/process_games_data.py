@@ -32,7 +32,7 @@ DEFAULT_CSV_URL = "https://docs.google.com/spreadsheets/d/1Ldflx47KhCiZyLdX3tE40
 DEFAULT_GAMES_DIR = "../_games"
 DEFAULT_HOMEPAGES_DIR = "../_homepages"
 DEFAULT_EVENTS_DIR = "../_events"
-DEFAULT_LOCAL_CSV = "_data/Games Y'all Metadata Request Form (Responses) - Form Responses 1-2.csv"
+DEFAULT_LOCAL_CSV = "_data/games_data.csv"
 
 def sanitize_string(s):
     """Sanitize a string for use in YAML"""

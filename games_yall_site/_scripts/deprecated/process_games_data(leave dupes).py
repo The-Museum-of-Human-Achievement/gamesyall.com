@@ -30,7 +30,7 @@ from pathlib import Path
 DEFAULT_CSV_URL = "https://docs.google.com/spreadsheets/d/1Ldflx47KhCiZyLdX3tE40-GqxHYIcf7JYC_rtQ4Id78/edit?usp=drivesdk&single=true&output=csv"
 DEFAULT_GAMES_DIR = "../games_yall_site/_games"
 DEFAULT_EVENTS_DIR = "../games_yall_site/_events"
-DEFAULT_LOCAL_CSV = "_data/Games Y'all Metadata Request Form (Responses) - Form Responses 1-2.csv"
+DEFAULT_LOCAL_CSV = "_data/games_data.csv"
 
 def sanitize_string(s):
     """Sanitize a string for use in YAML"""
