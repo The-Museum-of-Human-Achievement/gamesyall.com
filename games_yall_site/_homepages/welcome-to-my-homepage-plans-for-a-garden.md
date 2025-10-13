@@ -1,7 +1,7 @@
 ---
 call_to_action_text: Explore
 credits: Kaitlin Hsu (Kait-lin Shyu ), she/they
-date: '2025-08-27'
+date: '2025-10-17'
 description: "“I find flowers beautiful. The work of French Modernists as well. But,\
   \ the aesthetic pleasure I experience with both is tinged with an undercurrent of\
   \ unease. To me, they will always be haunted by the image of the Asian woman as\
@@ -23,13 +23,13 @@ developer_bio: Kaitlin Hsu is a queer Taiwanese poet, translator, and editor fro
   Stanford University with studies in English (poetry) and Computer Science (biocomputation).
   She also makes crosswords.
 featured_dates:
-- '2025-08-27'
-image: /images/Archived-img/August-2025/welcome-to-my-homepage-plans-for-a-garden.jpg
+- '2025-10-17'
+image: /images/Archived-img/October-2025/welcome-to-my-homepage-plans-for-a-garden.png
 layout: game
 pronunciation: 'Welcome to my Homepage: Plans for a Garden'
 social_links:
 - handle: https://myrefoli.github.io/
-  platform: github
+  platform: website
   url: https://myrefoli.github.io/
 title: 'Welcome to my Homepage: Plans for a Garden'
 website: https://plansfora.garden/
