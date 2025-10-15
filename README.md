@@ -271,7 +271,7 @@ bash deploy/scripts/deploy-to-production.sh
 
 ## Game Data Processing
 
-The system automatically processes game data from a Google Sheets spreadsheet during deployment. The spreadsheet is published as a CSV at:
+The game info for updating the site is currently kept on a google sheet where it can be easily updated.
 
 [https://docs.google.com/spreadsheets/d/1Ldflx47KhCiZyLdX3tE40-GqxHYIcf7JYC_rtQ4Id78/edit?usp=drivesdk&single=true&output=csv](https://docs.google.com/spreadsheets/d/1Ldflx47KhCiZyLdX3tE40-GqxHYIcf7JYC_rtQ4Id78/edit?usp=drivesdk&single=true&output=csv)
 

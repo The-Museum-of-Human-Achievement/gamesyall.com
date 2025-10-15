@@ -82,9 +82,9 @@ echo -e "${YELLOW}Installing Python dependencies...${NC}"
 pip3 install -r "$PROJECT_ROOT/requirements.txt"
 
 # Process new games data before building
-echo -e "${YELLOW}Processing new games data...${NC}"
-cd "$PROJECT_ROOT"
-python3 Tools/process_new_games.py --csv "https://docs.google.com/spreadsheets/d/1Ldflx47KhCiZyLdX3tE40-GqxHYIcf7JYC_rtQ4Id78/edit?usp=drivesdk&single=true&output=csv" --url --games games_yall_site/_games --events games_yall_site/_events
+# echo -e "${YELLOW}Processing new games data...${NC}"
+# cd "$PROJECT_ROOT"
+# python3 Tools/process_new_games.py --csv "https://docs.google.com/spreadsheets/d/1Ldflx47KhCiZyLdX3tE40-GqxHYIcf7JYC_rtQ4Id78/edit?usp=drivesdk&single=true&output=csv" --url --games games_yall_site/_games --events games_yall_site/_events
 
 # Create a temporary directory for the build
 TEMP_DIR=$(mktemp -d)
