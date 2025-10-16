@@ -1,5 +1,5 @@
 #!/bin/bash
-# Script to deploy to staging server
+# Script to deploy to staging server (Optimized for speed)
 
 # Get the directory where this script is located
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
@@ -125,12 +125,12 @@ if [ -z "$STAGING_HOST" ] || [ -z "$STAGING_USERNAME" ] || [ -z "$STAGING_PASSWO
     exit 1
 fi
 
-echo -e "${YELLOW}Deploying to staging server...${NC}"
+echo -e "${YELLOW}Deploying to staging server (incremental mode - only uploading changed files)...${NC}"
 echo -e "${YELLOW}Host: $STAGING_HOST${NC}"
 echo -e "${YELLOW}User: $STAGING_USERNAME${NC}"
 echo -e "${YELLOW}Password length: ${#STAGING_PASSWORD} characters${NC}"
 
-# Create lftp script using the WORKING quoted password method
+# Create lftp script with OPTIMIZED mirror command
 cat > "$TEMP_DIR/lftp_script.txt" << 'LFTP_EOF'
 set sftp:auto-confirm yes
 set ssl:verify-certificate no
@@ -163,10 +163,12 @@ set mirror:parallel-directories 1
 set mirror:parallel-transfer-count 1
 LFTP_EOF
 
-# Add the dynamic parts using printf - this is the method that WORKS
+# Add the dynamic parts using printf
 printf "open sftp://%s\n" "$STAGING_HOST" >> "$TEMP_DIR/lftp_script.txt"
 printf "user %s \"%s\"\n" "$STAGING_USERNAME" "$STAGING_PASSWORD" >> "$TEMP_DIR/lftp_script.txt"
-echo "mirror -R _site/ dev.gamesyall.com/" >> "$TEMP_DIR/lftp_script.txt"
+
+# OPTIMIZED: Only upload newer files, skip unnecessary operations
+echo "mirror -R --only-newer --no-perms --no-umask --exclude-glob .DS_Store --exclude-glob .git* --verbose _site/ dev.gamesyall.com/" >> "$TEMP_DIR/lftp_script.txt"
 echo "bye" >> "$TEMP_DIR/lftp_script.txt"
 
 # Debug: Show the script contents (with password masked)
@@ -174,13 +176,14 @@ echo -e "${YELLOW}Debug: LFTP script contents (password masked):${NC}"
 sed "s/$STAGING_PASSWORD/***MASKED***/g" "$TEMP_DIR/lftp_script.txt"
 echo ""
 
-# Deploy using lftp with the script file to avoid shell escaping issues
+# Deploy using lftp with the script file
 cd "$TEMP_DIR/games_yall_site"
 lftp -f "$TEMP_DIR/lftp_script.txt"
 
 # Check if deployment was successful
 if [ $? -eq 0 ]; then
     echo -e "${GREEN}Deployment to staging completed successfully!${NC}"
+    echo -e "${GREEN}Only changed files were uploaded for faster deployment.${NC}"
     echo -e "${GREEN}Visit https://dev.gamesyall.com to review the changes.${NC}"
 else
     echo -e "${RED}Deployment to staging failed!${NC}"

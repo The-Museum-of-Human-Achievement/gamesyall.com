@@ -1,5 +1,5 @@
 #!/bin/bash
-# Script to deploy to production server
+# Script to deploy to production server (Optimized for speed)
 
 # Get the directory where this script is located
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
@@ -81,7 +81,7 @@ fi
 echo -e "${YELLOW}Installing Python dependencies...${NC}"
 pip3 install -r "$PROJECT_ROOT/requirements.txt"
 
-# Process new games data before building
+# Process new games data before building (commented out - uncomment if needed)
 # echo -e "${YELLOW}Processing new games data...${NC}"
 # cd "$PROJECT_ROOT"
 # python3 Tools/process_new_games.py --csv "https://docs.google.com/spreadsheets/d/1Ldflx47KhCiZyLdX3tE40-GqxHYIcf7JYC_rtQ4Id78/edit?usp=drivesdk&single=true&output=csv" --url --games games_yall_site/_games --events games_yall_site/_events
@@ -128,13 +128,13 @@ if [ -z "$PRODUCTION_HOST" ] || [ -z "$PRODUCTION_USERNAME" ] || [ -z "$PRODUCTI
     exit 1
 fi
 
-echo -e "${YELLOW}Deploying to production server...${NC}"
+echo -e "${YELLOW}Deploying to production server (incremental mode - only uploading changed files)...${NC}"
 echo -e "${YELLOW}Host: $PRODUCTION_HOST${NC}"
 echo -e "${YELLOW}User: $PRODUCTION_USERNAME${NC}"
 echo -e "${YELLOW}Password length: ${#PRODUCTION_PASSWORD} characters${NC}"
 echo -e "${YELLOW}Path: ${PRODUCTION_PATH:-/}${NC}"
 
-# Create lftp script using the WORKING quoted password method
+# Create lftp script with OPTIMIZED mirror command
 cat > "$TEMP_DIR/lftp_script.txt" << 'LFTP_EOF'
 set sftp:auto-confirm yes
 set ssl:verify-certificate no
@@ -167,10 +167,12 @@ set mirror:parallel-directories 1
 set mirror:parallel-transfer-count 1
 LFTP_EOF
 
-# Add the dynamic parts using printf - this is the method that WORKS
+# Add the dynamic parts using printf
 printf "open sftp://%s\n" "$PRODUCTION_HOST" >> "$TEMP_DIR/lftp_script.txt"
 printf "user %s \"%s\"\n" "$PRODUCTION_USERNAME" "$PRODUCTION_PASSWORD" >> "$TEMP_DIR/lftp_script.txt"
-echo "mirror -R _site/ ${PRODUCTION_PATH:-/}" >> "$TEMP_DIR/lftp_script.txt"
+
+# OPTIMIZED: Only upload newer files, skip unnecessary operations
+echo "mirror -R --only-newer --no-perms --no-umask --exclude-glob .DS_Store --exclude-glob .git* --verbose _site/ ${PRODUCTION_PATH:-/}" >> "$TEMP_DIR/lftp_script.txt"
 echo "bye" >> "$TEMP_DIR/lftp_script.txt"
 
 # Debug: Show the script contents (with password masked)
@@ -181,12 +183,13 @@ echo ""
 # Deploy using lftp with the WORKING method (quoted password)
 cd "$TEMP_DIR/games_yall_site"
 
-echo -e "${YELLOW}Deploying to production server using quoted password method...${NC}"
+echo -e "${YELLOW}Deploying to production server...${NC}"
 lftp -f "$TEMP_DIR/lftp_script.txt"
 
 # Check if deployment was successful
 if [ $? -eq 0 ]; then
     echo -e "${GREEN}Deployment to production completed successfully!${NC}"
+    echo -e "${GREEN}Only changed files were uploaded for faster deployment.${NC}"
     echo -e "${GREEN}Visit https://gamesyall.com to review the changes.${NC}"
 else
     echo -e "${RED}Deployment to production failed!${NC}"
