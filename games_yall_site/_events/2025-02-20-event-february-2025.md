@@ -9,15 +9,8 @@ gallery-images:
 - /images/Archived-img/February-2025/photos/feb-gy-photo-4.jpg
 - /images/Archived-img/February-2025/photos/feb-gy-photo-5.jpg
 - /images/Archived-img/February-2025/photos/feb-gy-photo-6.jpg
-game-slugs:
-- 2025-02-20-dr1v3n-wild
-- 2025-02-20-magicland
-- 2025-02-20-the-devil-s-lounge
-- 2025-02-20-gempoirum
 game_slugs:
 - 2025-02-05-dr1v3n-wild
-- 2025-02-06-i-feel-so-much-shame
-- 2025-02-06-antonia-bustamante
 - 2025-02-06-magicland
 - 2025-02-09-the-devil-s-lounge
 - 2025-02-15-gemporium
