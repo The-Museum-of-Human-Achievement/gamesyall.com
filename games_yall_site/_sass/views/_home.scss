@@ -37,10 +37,11 @@ body.home {
     margin: 0 auto;
     text-align: center;
     border-radius: 0;
+    max-width: 920px;
     img {
         height: auto;
-        width: 100%;
-        max-width: 920px;
+        width: auto;
+        max-width: 100%;
     }
   }
 
