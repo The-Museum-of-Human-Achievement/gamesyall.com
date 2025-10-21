@@ -14,4 +14,4 @@ rsvp-link:
 
 # Games Y'all Roundup
 
-Join us for an evening of indie games featuring the titles below!
+Details coming soon!

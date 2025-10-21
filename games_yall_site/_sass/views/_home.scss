@@ -31,6 +31,19 @@ body.home {
         padding-bottom: 1rem;
         flex: 1;
     }
+
+  .second-feature {
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 0;
+    img {
+        height: auto;
+        width: 100%;
+        max-width: 920px;
+    }
+  }
+
     .button {
         display: inline-block;
         background-color: $buttercup;
