@@ -9,7 +9,7 @@ featured_image: /images/event-img/GY-Square-Nov-25-roundup.png
 description: "Save the date for our Games Y'all Roundup!<br>Details coming soon!"
 announced: false
 archived: false
-rsvp-link:
+rsvp-link: https://withfriends.events/event/pu3NtzXq/the-games-yall-roundup/
 ---
 
 # Games Y'all Roundup

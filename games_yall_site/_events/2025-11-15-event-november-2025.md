@@ -7,9 +7,9 @@ address: 6401 Airport Blvd, Austin, TX 78758
 title: Games Y'all November 2025
 featured_image: /images/event-img/GY-Square-Nov-25.png
 description: "Games Y'all November Meetup"
-announced: true
+announced: false
 archived: false
-rsvp-link:
+rsvp-link: https://withfriends.events/event/o7tvkP4Y/games-yall-november-2025/
 ---
 
 # Games Y'all November 2025
