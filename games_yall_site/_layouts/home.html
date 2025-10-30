@@ -29,10 +29,10 @@ Find the most relevant event with priority order:
   {% endif %}
 {% endfor %}
 
-{% comment %}Sort each category by date{% endcomment %}
-{% assign today_events = today_events | sort: 'date' %}
-{% assign future_events = future_events | sort: 'date' %}
-{% assign past_events = past_events | sort: 'date' | reverse %}
+{% comment %}Sort each category by date, then by time{% endcomment %}
+{% assign today_events = today_events | sort: 'date' | sort: 'time' %}
+{% assign future_events = future_events | sort: 'date' | sort: 'time' %}
+{% assign past_events = past_events | sort: 'date' | sort: 'time' | reverse %}
 
 {% comment %}Select the most relevant event in priority order{% endcomment %}
 {% if today_events.size > 0 %}

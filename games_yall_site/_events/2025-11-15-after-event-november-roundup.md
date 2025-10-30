@@ -1,5 +1,6 @@
 ---
 date: '2025-11-15'
+time: '19:00'
 game_slugs:
 layout: event
 location: Kick Butt Coffee
