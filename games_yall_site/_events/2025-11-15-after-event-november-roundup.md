@@ -7,12 +7,29 @@ location: Kick Butt Coffee
 address: 5775 Airport Blvd Suite 725, Austin, TX 78752
 title: Games Y'all Roundup
 featured_image: /images/event-img/GY-Square-Nov-25-roundup.png
-description: "Save the date for our Games Y'all Roundup!<br>Details coming soon!"
-announced: false
+game_slugs:
+- 2025-09-18-tahitian-driftin
+- 2023-08-24-dyebreaker
+description: "Games Y'all Roundup - our end of year afterparty<br><br>Live music and Multiplayer games!"
+announced: true
 archived: false
 rsvp-link: https://withfriends.events/event/pu3NtzXq/the-games-yall-roundup/
 ---
 
 # Games Y'all Roundup
 
-Details coming soon!
+We've got double the trouble comin your way for November!
+
+To close out an amazing 2025, we've got not only our November GY Meetup -- but an official afterparty with live music at Kick Butt Coffee! Join us at one or both for awesome games, live music, and great times!
+
+##### Venue + Health Details
+
+This event will be indoors. We strongly encourage that everyone be vaccinated or have recently tested negative for COVID. Do not attend if you feel ill or were recently exposed to COVID. Hand sanitizer and masks will be available. Masks are welcome!
+
+##### Games Y'all
+
+Games Y’all showcases indie games and digital art projects from our local community and beyond. You can come to our meetups to play games, experience digital art, and connect with the local Austin games community. Games Y’all celebrates, amplifies, and supports the unique and underrepresented within indie games and beyond.
+
+##### The Museum of Human Achievement
+
+The Museum of Human Achievement is a multi-disciplinary art space and non-profit organization in Austin, Texas. We cultivate new work, community, and vibe by providing radically affordable arts space to support artists and audiences in the creation of new ideas.
