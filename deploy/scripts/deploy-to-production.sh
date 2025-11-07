@@ -120,6 +120,52 @@ if [ ! -d "_site" ]; then
     exit 1
 fi
 
+# Function to generate hash manifest of built files
+generate_hash_manifest() {
+    local site_dir="$1"
+    local manifest_file="$2"
+    
+    echo -e "${YELLOW}Generating content hash manifest...${NC}"
+    
+    # Generate MD5 hashes for all files in _site directory
+    find "$site_dir" -type f \( ! -name ".DS_Store" ! -name ".git*" \) -exec md5sum {} \; | \
+        sed "s|$site_dir/||" | \
+        sort > "$manifest_file"
+    
+    echo -e "${YELLOW}Hash manifest created with $(wc -l < "$manifest_file") files${NC}"
+}
+
+# Function to compare manifests and create file list for upload
+compare_manifests() {
+    local local_manifest="$1"
+    local remote_manifest="$2"
+    local upload_list="$3"
+    local delete_list="$4"
+    
+    echo -e "${YELLOW}Comparing local and remote manifests...${NC}"
+    
+    # Find files that are new or changed (different hash)
+    comm -23 <(sort "$local_manifest") <(sort "$remote_manifest") | \
+        cut -d' ' -f3- > "$upload_list"
+    
+    # Find files that exist remotely but not locally (for deletion)
+    comm -13 <(cut -d' ' -f3- "$local_manifest" | sort) \
+             <(cut -d' ' -f3- "$remote_manifest" | sort) > "$delete_list"
+    
+    local upload_count=$(wc -l < "$upload_list")
+    local delete_count=$(wc -l < "$delete_list")
+    
+    echo -e "${YELLOW}Files to upload: $upload_count${NC}"
+    echo -e "${YELLOW}Files to delete: $delete_count${NC}"
+    
+    if [ $upload_count -eq 0 ] && [ $delete_count -eq 0 ]; then
+        echo -e "${GREEN}No changes detected - deployment not needed!${NC}"
+        return 1
+    fi
+    
+    return 0
+}
+
 # Validate environment variables
 if [ -z "$PRODUCTION_HOST" ] || [ -z "$PRODUCTION_USERNAME" ] || [ -z "$PRODUCTION_PASSWORD" ]; then
     echo -e "${RED}ERROR: Missing required environment variables in .env file${NC}"
