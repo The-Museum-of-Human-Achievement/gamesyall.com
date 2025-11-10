@@ -8,8 +8,10 @@ address: 5775 Airport Blvd Suite 725, Austin, TX 78752
 title: Games Y'all Roundup
 featured_image: /images/event-img/GY-Square-Nov-25-roundup.png
 game_slugs:
-- 2025-09-18-tahitian-driftin
+- 2024-05-24-astro-duel-2
 - 2023-08-24-dyebreaker
+- 2025-09-18-tahitian-driftin
+- 2025-05-02-v-shift
 description: "Games Y'all Roundup - our end of year afterparty<br><br>Live music and Multiplayer games!"
 announced: true
 archived: false
