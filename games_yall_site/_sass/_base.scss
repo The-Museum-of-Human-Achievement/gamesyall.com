@@ -3,6 +3,9 @@ body {
     background-color: $baby-powder;
     color: $raisin-black;
     min-width: 390px;
+    * {
+        box-sizing: border-box;
+    }
 }
 
 img {

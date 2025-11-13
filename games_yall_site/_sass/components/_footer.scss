@@ -25,7 +25,7 @@ footer {
       }
     }
      // Mobile styles
-     @media screen and (max-width: 768px) {
+     @media screen and (max-width: $bp-tablet) {
         flex-direction: column;
         
         .footer-category {

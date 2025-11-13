@@ -46,7 +46,7 @@
     }
 
     /* Responsive design for smaller screens */
-    @media (max-width: 768px) {
+    @media (max-width: $bp-tablet) {
     .events-list {
         .event-header {
         display: none; /* Hide headers on mobile since we use labels */

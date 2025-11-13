@@ -93,7 +93,7 @@ body.about {
     color: #444;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: $bp-tablet) {
     .people-grid {
       grid-template-columns: 1fr;
     }

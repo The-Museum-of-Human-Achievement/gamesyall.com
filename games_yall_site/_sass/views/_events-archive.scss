@@ -69,7 +69,7 @@
 
   /* Using site's existing pagination styles */
 
-  @media (max-width: 768px) {
+  @media (max-width: $bp-tablet) {
     .event-card {
       padding: 1rem;
     }

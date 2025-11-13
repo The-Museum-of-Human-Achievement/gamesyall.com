@@ -18,7 +18,7 @@ body.home {
         img {
             max-width: 720px;
         }
-        @media screen and (max-width: 1000px) {
+        @media screen and (max-width: $bp-desktop-large) {
           flex-direction: column;
           img {
             width: 100%;
@@ -66,6 +66,10 @@ body.home {
         max-width: 1000px;
         text-align: center;
         
+        @media (max-width: $bp-tablet) {
+            padding: 5vw;
+        }
+        
         h2 {
           color: $murrey;
           margin-top: 0;
@@ -91,11 +95,11 @@ body.home {
         }
     }
     .container {
-      @media screen and (min-width: 1400px) {
+      @media screen and (min-width: $bp-desktop-xl) {
           max-width: 1300px;
           width: auto;
       }
-      @media screen and (min-width: 1800px) {
+      @media screen and (min-width: $bp-desktop-ultra) {
           max-width: 1700px;
           width: auto;
       }

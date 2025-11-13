@@ -192,7 +192,7 @@ body.games {
         display: flex;
         margin-bottom: 2rem;
         
-        @media (max-width: 768px) {
+        @media (max-width: $bp-tablet) {
           flex-direction: column;
         }
       }
@@ -207,7 +207,7 @@ body.games {
           box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
         }
         
-        @media (max-width: 768px) {
+        @media (max-width: $bp-tablet) {
           margin-right: 0;
           margin-bottom: 1.5rem;
         }
@@ -333,13 +333,13 @@ body.games {
 }
 
 /* Responsive Styles */
-  @media (max-width: 992px) {
+  @media (max-width: $bp-desktop) {
     .games-grid {
       grid-template-columns: repeat(2, 1fr);
     }
   }
 
-  @media (max-width: 576px) {
+  @media (max-width: $bp-mobile-small) {
     .games-grid {
       grid-template-columns: 1fr;
     }
