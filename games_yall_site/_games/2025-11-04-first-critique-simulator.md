@@ -25,4 +25,6 @@ title: First Critique Simulator
 website: https://www.figma.com/proto/O9aBKnEdWwIdlX8KHv7hFm/First-Critique-Simulator?page-id=94%3A2&node-id=218-1746&viewport=15095%2C11432%2C0.5&t=sMw9mqaWhWfUgcUl-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=218%3A1746&show-proto-sidebar=1
 ---
 
+
+
 Experience your first ever critique as a Graphic Design student. Spend the morning working through your nerves, talking to friends, and prepping to present as you make your way through the halls to class. As you discuss your project, respond to critiques from students and professors to the best of your ability without taking it personally. See how your decisions and reactions effect the presentation, and remember to keep it professional!

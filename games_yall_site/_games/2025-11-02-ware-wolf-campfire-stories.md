@@ -23,6 +23,8 @@ title: Ware-wolf Campfire Stories
 website: https://ledbetter-games.itch.io/ware-wolf
 ---
 
+
+
 In Ware-wolf Campfire Stories, 5 kids are sitting around a fire with their counselor telling spoooooky tales! Each story launches a separate game that you may win or lose.... with consequences. 
 
 It was made as a Halloween Treat for the Playdate Community and is FREE to download!

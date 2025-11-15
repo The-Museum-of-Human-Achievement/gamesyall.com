@@ -1,24 +1,29 @@
 ---
 address: 6401 Airport Blvd, Austin, TX 78758
+announced: true
+archived: false
 date: '2025-11-15'
 description: November GY Meetup
 featured_image: /images/event-img/GY-Square-Nov-25.png
 game_slugs:
 - 2025-08-18-inferno
 - 2025-11-01-abaddon
+- 2025-11-15-afterdeath
 - 2025-11-02-ware-wolf-campfire-stories
 - 2025-11-04-a-dream-within-a-dream
 - 2025-11-04-somniant
 - 2025-11-04-first-critique-simulator
+- 2025-11-05-when-rabbits-sleep-a-narrative-game-about-okunoshimas-hidden-past
+- 2025-11-09-natures-desire
+- 2025-11-09-detective-academy
+- 2025-11-11-choose-your-sorcery
+- 2025-11-13-dormlight-dusk
 layout: event
 location: Highland Collective
 rsvp-link: https://withfriends.events/event/o7tvkP4Y/games-yall-november-2025/
 time: '15:00'
 title: Games Y'all November 2025
-announced: true
-archived: false
 ---
-
 
 # Games Y'all November 2025
 

@@ -45,6 +45,8 @@ featured_dates:
 ---
 
 
+
+
 Dyebreaker is a two-button “air hockey platformer” with visuals inspired by screen print posters and the Game Boy Color. Two teams jump around a dynamic stage and push the puck towards opposing goals, either by boosting into it or by “riding” it – players can hop onto slow-moving pucks, move them, then shoot them in any direction.
 
 Each stage is a mish-mash of hazards: spinning fans, gates that open and close, booster pads, moving walls, and more. Scoring enough goals wins the stage, and winning a stage adds a layer of color to the winner’s screen print. Each match consists of a handful of stages pulled from a large pool, lasting until one team has won enough stages to complete their poster art!
