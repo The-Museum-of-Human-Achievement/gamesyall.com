@@ -14,8 +14,17 @@ game_slugs:
 - 2025-05-02-v-shift
 description: "Games Y'all Roundup - our end of year afterparty<br><br>Live music and Multiplayer games!"
 announced: true
-archived: false
+archived: true
 rsvp-link: https://withfriends.events/event/pu3NtzXq/the-games-yall-roundup/
+gallery-images:
+- /images/Archived-img/November-2025/photos/nov-ru-photo-1.jpg
+- /images/Archived-img/November-2025/photos/nov-ru-photo-2.jpg
+- /images/Archived-img/November-2025/photos/nov-ru-photo-3.jpg
+- /images/Archived-img/November-2025/photos/nov-ru-photo-4.jpg
+- /images/Archived-img/November-2025/photos/nov-ru-photo-5.jpg
+- /images/Archived-img/November-2025/photos/nov-ru-photo-6.jpg
+- /images/Archived-img/November-2025/photos/nov-ru-photo-7.jpg
+- /images/Archived-img/November-2025/photos/nov-ru-photo-8.jpg
 ---
 
 # Games Y'all Roundup

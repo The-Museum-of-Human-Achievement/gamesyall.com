@@ -1,7 +1,7 @@
 ---
 address: 6401 Airport Blvd, Austin, TX 78758
 announced: true
-archived: false
+archived: true
 date: '2025-11-15'
 description: November GY Meetup
 featured_image: /images/event-img/GY-Square-Nov-25.png
@@ -23,6 +23,13 @@ location: Highland Collective
 rsvp-link: https://withfriends.events/event/o7tvkP4Y/games-yall-november-2025/
 time: '15:00'
 title: Games Y'all November 2025
+gallery-images:
+- /images/Archived-img/November-2025/photos/nov-gy-photo-1.jpg
+- /images/Archived-img/November-2025/photos/nov-gy-photo-2.jpg
+- /images/Archived-img/November-2025/photos/nov-gy-photo-3.jpg
+- /images/Archived-img/November-2025/photos/nov-gy-photo-4.jpg
+- /images/Archived-img/November-2025/photos/nov-gy-photo-5.jpg
+- /images/Archived-img/November-2025/photos/nov-gy-photo-6.jpg
 ---
 
 # Games Y'all November 2025
