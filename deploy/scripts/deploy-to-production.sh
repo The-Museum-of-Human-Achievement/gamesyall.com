@@ -218,7 +218,8 @@ printf "open sftp://%s\n" "$PRODUCTION_HOST" >> "$TEMP_DIR/lftp_script.txt"
 printf "user %s \"%s\"\n" "$PRODUCTION_USERNAME" "$PRODUCTION_PASSWORD" >> "$TEMP_DIR/lftp_script.txt"
 
 # OPTIMIZED: Only upload newer files, skip unnecessary operations
-echo "mirror -R --only-newer --no-perms --no-umask --exclude-glob .DS_Store --exclude-glob .git* --verbose _site/ ${PRODUCTION_PATH:-/}" >> "$TEMP_DIR/lftp_script.txt"
+# Exclude static directories that no longer change (posts, events-archive)
+echo "mirror -R --only-newer --no-perms --no-umask --exclude-glob .DS_Store --exclude-glob .git* --exclude-glob **/news/** --exclude-glob **/events-archive/** --verbose _site/ ${PRODUCTION_PATH:-/}" >> "$TEMP_DIR/lftp_script.txt"
 echo "bye" >> "$TEMP_DIR/lftp_script.txt"
 
 # Debug: Show the script contents (with password masked)
