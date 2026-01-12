@@ -33,6 +33,9 @@ layout: default
         {{ person.name }}
         {% endif %}
       </h3>
+      {% if person.pronouns %}
+      ({{person.pronouns}})
+      {% endif %}
       {% if person.role %}
       <div class="person-role">{{ person.role }}</div>
       {% endif %}
