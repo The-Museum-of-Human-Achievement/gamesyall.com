@@ -183,7 +183,9 @@ fea365553c1248055307da1cf5596fcf  events/2025-03-08-event-march-2025/index.html
 4bdc879569e8a796672f9bc3076bc9b7  events/2025-11-15-after-event-november-roundup/index.html
 ac91d628bc72b6defcf840ac0e8ffcd9  events/2025-11-15-event-november-2025/index.html
 107cd1fafe17999ce7f44dbb1582f1cb  events/2026-01-18-event-january-2026/index.html
-e8fa8c82f795b21b37bf5a432996c093  events/2026-02-01-event-february-2026/index.html
+f8a436751526092de0b66e56ace21ad2  events/2026-02-01-event-february-2026/index.html
+6d127bfe023ad9fb7d81be5afdd782ff  events/2026-03-20-event-march-2026/index.html
+70fb36e34ea3760db8ed919e8412d9c3  events/2026-04-18-event-april-2026/index.html
 0a1a2cc2ed8c6ba78b0fa7314dbdaaba  events/index.html
 df45ce5ee1631e3e67c30e1190be42d2  events/page/2/index.html
 d4521374d6f5ba9e26db6ff35451a555  events/page/3/index.html
@@ -203,7 +205,7 @@ c6d82f32e510d4392537c493ac41a43d  favicons/favicon.ico
 c4136982cd0e4c0321228f7adfba33a9  favicons/mstile-150x150.png
 4158df4b3a8c2999771d342ea1f2a308  favicons/safari-pinned-tab.svg
 b9aa277fcfc34c31db6c7a7ea3469b8c  favicons/site.webmanifest
-c76fa2b09c4372652096f2c3ff105fa8  feed.xml
+a6a126bb28104c56ffafa2beab471167  feed.xml
 3a9d0232c156c43fb917cc71fadec898  fonts/dmmono-regular-webfont.woff
 2f22e1a6e267f349552c648b065c83ef  fonts/dmmono-regular-webfont.woff2
 444ae2ee28baeb094264830c484b2804  fonts/norwester-webfont.woff
@@ -2608,7 +2610,7 @@ aa6cf3680cbb79a8b7df0f906a1e9254  images/Social-buttons/MoHA_icon-blue.png
 ecf02774507a95d3e50fa94cb9f7071b  images/Social-buttons/twitter-button.png
 a16aedf027f8d9e855ce3d9274ce645e  images/sponsors/devolver-digital.png
 9514e383aeecda6e43bc87cc8b5d8002  images/sponsors/mighty-coconut.png
-bc7336ebf0296d391d2c921dfa19ae0f  index.html
+ada4fbeb665e0110274e69559b7b0875  index.html
 0050d9a5c2e0d9db98f6bb39caf263cc  jams/2014/05/19/the-space-cowboy-game-jam.html
 70e4cd54db3443dd6d0c7b837db9289a  jams/2014/08/25/fantastic-arcade-barfcade.html
 440c375408b2b3c0f4c3928b80248ce0  jams/2016/06/07/the-mystic-western-game-jam.html

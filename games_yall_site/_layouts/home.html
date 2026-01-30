@@ -32,10 +32,10 @@ Only includes events where archived != true
   {% endunless %}
 {% endfor %}
 
-{% comment %}Sort each category by date, then by time{% endcomment %}
-{% assign today_events = today_events | sort: 'date' | sort: 'time' %}
-{% assign future_events = future_events | sort: 'date' | sort: 'time' %}
-{% assign past_events = past_events | sort: 'date' | sort: 'time' | reverse %}
+{% comment %}Sort each category by date (time sort removed - it was overriding date sort){% endcomment %}
+{% assign today_events = today_events | sort: 'date' %}
+{% assign future_events = future_events | sort: 'date' %}
+{% assign past_events = past_events | sort: 'date' | reverse %}
 
 {% comment %}Select the most relevant event in priority order{% endcomment %}
 {% if today_events.size > 0 %}
