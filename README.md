@@ -199,16 +199,24 @@ pip install -r requirements.txt
 bundle exec jekyll serve
 ```
 
-## Deployment Workflow
+## Local Testing
 
-This project uses a two-environment deployment workflow:
+Before deploying, test your changes locally:
 
-1. **Staging** for testing and review
-2. **Production** for the live site
+```bash
+cd games_yall_site
+bundle exec jekyll serve
+```
 
-### Initial Setup
+This starts a local server at `http://localhost:4000` where you can preview changes.
 
-One time, before using the deployment system, you need to:
+## Deployment
+
+The deployment script requires a Unix-like environment. See the appropriate section for your operating system.
+
+### Mac/Linux Deployment
+
+#### Initial Setup (one time)
 
 1. Create a `.env` file with the necessary credentials:
 
@@ -216,58 +224,131 @@ One time, before using the deployment system, you need to:
 cp deploy/.env.example deploy/.env
 ```
 
-2. Edit the `.env` file with the actual credentials (never commit this file to git, it should be added to the ignore file).
+2. Edit the `.env` file with the actual credentials (never commit this file to git).
 
-3. Set up Git hooks to enable automated deployments:
+3. Set up the Git pre-push hook:
 
 ```bash
 cp deploy/hooks/pre-push .git/hooks/
 chmod +x .git/hooks/pre-push
 ```
 
-### Staging Deployment
+#### Deploying to Production
 
-The staging deployment happens automatically when you push to the `staging` branch:
+1. Test your changes locally with `bundle exec jekyll serve`
+
+2. Commit and push to main:
 
 ```bash
-git checkout -b staging
 git add .
-git commit -m "Update for staging"
-git push origin staging
-```
-
-You can also use the GitHub client to switch to staging, and make a commit before pushing in the terminal.
-
-This will:
-
-1. Push your code to the staging branch
-2. Trigger the pre-push hook
-3. Run the staging deployment script
-4. Process new game data from Google Sheets
-5. Build the Jekyll site
-6. Deploy to the staging server
-
-You can then review the changes at [https://dev.gamesyall.com](https://dev.gamesyall.com).
-
-### Production Deployment
-
-To deploy to production:
-
-1. Merge your changes to the main branch:
-
-```bash
-git checkout main
-git merge staging
+git commit -m "Your commit message"
 git push origin main
 ```
 
-2. When prompted, confirm that you want to deploy to production.
+3. When prompted, type `y` to confirm deployment to production.
 
-Alternatively, you can manually trigger a production deployment:
+### Windows Deployment (using WSL)
+
+Windows users must use WSL (Windows Subsystem for Linux) to run the deployment scripts.
+
+#### WSL Initial Setup (one time)
+
+1. **Install WSL** - Open PowerShell as Administrator and run:
+
+```powershell
+wsl --install
+```
+
+2. **Restart your computer** when prompted.
+
+3. **Set up Ubuntu** - After restart, Ubuntu will open automatically. Create a username and password when prompted.
+
+4. **Install required tools in WSL** - Open the WSL terminal (search "Ubuntu" in Start menu) and run:
 
 ```bash
+sudo apt update
+sudo apt install -y ruby-full build-essential zlib1g-dev lftp git
+```
+
+5. **Install Jekyll** in WSL:
+
+```bash
+echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc
+echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc
+source ~/.bashrc
+gem install jekyll bundler
+```
+
+6. **Navigate to your project** - Your Windows files are accessible at `/mnt/c/`. For example:
+
+```bash
+cd /mnt/c/Users/YourUsername/path/to/gamesyall.com
+```
+
+7. **Set up the environment file**:
+
+```bash
+cp deploy/.env.example deploy/.env
+nano deploy/.env  # Edit with your credentials, then Ctrl+X to save
+```
+
+8. **Set up the Git hook**:
+
+```bash
+cp deploy/hooks/pre-push .git/hooks/
+chmod +x .git/hooks/pre-push
+```
+
+#### Deploying from Windows
+
+**Option A: Deploy via Git push (recommended)**
+
+1. Open WSL terminal (search "Ubuntu" in Start menu)
+
+2. Navigate to your project:
+
+```bash
+cd /mnt/c/Users/YourUsername/path/to/gamesyall.com
+```
+
+3. Run the git commands:
+
+```bash
+git add .
+git commit -m "Your commit message"
+git push origin main
+```
+
+4. When prompted, type `y` to confirm deployment.
+
+**Option B: Deploy manually**
+
+If the git hook isn't working, you can run the deploy script directly:
+
+```bash
+cd /mnt/c/Users/YourUsername/path/to/gamesyall.com
 bash deploy/scripts/deploy-to-production.sh
 ```
+
+#### WSL Troubleshooting
+
+- **"Permission denied" errors**: Make sure the script is executable with `chmod +x deploy/scripts/deploy-to-production.sh`
+- **"lftp: command not found"**: Run `sudo apt install lftp`
+- **Line ending issues**: If you see errors about `\r`, the files have Windows line endings. Fix with:
+  ```bash
+  sudo apt install dos2unix
+  dos2unix deploy/scripts/deploy-to-production.sh
+  dos2unix deploy/hooks/pre-push
+  ```
+- **Git hook not triggering**: Make sure you're running git commands from WSL, not from Windows CMD/PowerShell or VS Code's built-in terminal
+
+### Alternative: SFTP Client
+
+If you cannot use the command-line scripts, you can deploy manually using an SFTP client like [FileZilla](https://filezilla-project.org/):
+
+1. Build the site locally: `bundle exec jekyll serve` (or just `bundle exec jekyll build`)
+2. Connect to the production server using the credentials in `.env`
+3. Upload the contents of `games_yall_site/_site/` to the server
 
 ## Game Data Processing
 
@@ -282,6 +363,58 @@ The game info for updating the site is currently kept on a google sheet where it
 2. The script creates game files for new entries without overwriting existing ones
 3. It also updates event files based on the game data.
 4. Another shortcut to create new event files with corresponding games from the spreadsheet is `python process_games_data.py`. You can then edit the new event in games_yall_site/_events/ to add details or corrections.
+
+## Adding New Events
+
+To add a new event, create a markdown file in `games_yall_site/_events/` with the naming pattern `YYYY-MM-DD-event-name.md`.
+
+### Event Front Matter Fields
+
+```yaml
+---
+layout: event
+title: "Event Title"
+date: 2026-03-21
+time: "7-9pm"
+location: "Venue Address"
+description: "Short description shown in upcoming events table"
+featured_image: /images/event-img/banner.png
+announced: false
+archived: false
+rsvp-link: https://withfriends.events/...
+game_slugs:
+  - 2026-01-03-game-slug
+  - 2026-01-06-another-game
+gallery-images:
+  - /images/Archived-img/Month-Year/photos/photo1.jpg
+---
+```
+
+### Key Fields Explained
+
+| Field | Required | Description |
+|-------|----------|-------------|
+| `date` | Yes | Event date in YYYY-MM-DD format. Determines if event appears in upcoming events. |
+| `announced` | No | Controls button display on home page (see below). Defaults to `true`. |
+| `archived` | No | Set to `true` after event has passed. Excludes event from latest-event and upcoming events sections. |
+| `rsvp-link` | No | External RSVP URL (e.g., withfriends.events). |
+| `game_slugs` | No | Array of game file slugs (without .md) to link featured games. |
+| `gallery-images` | No | Array of photo paths for post-event gallery. |
+
+### The `announced` Field
+
+The `announced` field controls what button appears on the home page latest-event section:
+
+| `announced` | `rsvp-link` | Button Shown |
+|-------------|-------------|--------------|
+| `false` | exists | "RSVP for Event" (links to rsvp-link) |
+| `false` | empty | No button |
+| `true` or not set | any | "View Event Details" (links to event page) |
+
+**Typical workflow:**
+1. Create event with `announced: false` and `rsvp-link` set → Shows RSVP button before details are ready
+2. Update to `announced: true` when event page is complete → Shows "View Event Details" button
+3. After event passes, set `archived: true` → Event excluded from home page sections
 
 ## Adding New Games
 

@@ -1,14 +1,17 @@
 {% comment %}
 Filter events to only show future dates by comparing Unix timestamps
+Only includes events where archived != true
 {% endcomment %}
 {% assign future_events = "" | split: "" %}
 {% assign today_timestamp = site.time | date: "%s" %}
 
 {% for event in site.events %}
-  {% assign event_timestamp = event.date | date: "%s" %}
-  {% if event_timestamp >= today_timestamp %}
-    {% assign future_events = future_events | push: event %}
-  {% endif %}
+  {% unless event.archived == true %}
+    {% assign event_timestamp = event.date | date: "%s" %}
+    {% if event_timestamp >= today_timestamp %}
+      {% assign future_events = future_events | push: event %}
+    {% endif %}
+  {% endunless %}
 {% endfor %}
 
 {% assign future_events = future_events | sort: 'date' %}

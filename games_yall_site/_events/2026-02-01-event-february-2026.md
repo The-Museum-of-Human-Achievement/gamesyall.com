@@ -3,7 +3,7 @@ announced: true
 archived: false
 date: 2026-02-01
 description: Showcasing games made during the Austin TX Global Game Jam 2026
-featured_image: /images/event-img/GY-Banner-Temp.png
+featured_image: /images/event-img/GY-Banner-Feb-26.png
 game_slugs:
 layout: event
 location: 1908 Kramer Ln, Suite 250 Austin, TX 78758
@@ -20,6 +20,7 @@ gallery-images:
 This event will be indoors. We strongly encourage that everyone be vaccinated or have recently tested negative for COVID. Do not attend if you feel ill or were recently exposed to COVID. Hand sanitizer and masks will be available. Masks are welcome!
 
 ##### IGDA - ATX
+
 The mission of the International Game Developer Association - Austin (IGDA - ATX) chapter is supporting and empowering game developers in the greater Austin area to achieve fulfilling and sustainable careers, along with bridging the gap between both new and old game devs.
 
 ##### Games Y'all
