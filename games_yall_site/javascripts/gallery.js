@@ -62,6 +62,28 @@ function initMasonryGallery() {
 // Initialize when DOM is fully loaded
 document.addEventListener('DOMContentLoaded', initMasonryGallery);
 
+// Home page event carousel - auto-rotating images
+function initEventCarousel() {
+    const carousel = document.querySelector('.event-carousel');
+    if (!carousel) return;
+
+    const images = carousel.querySelectorAll('.carousel-image');
+    if (images.length <= 1) return;
+
+    let currentIndex = 0;
+    const intervalTime = 4000; // 4 seconds per image
+
+    function showNextImage() {
+        images[currentIndex].classList.remove('active');
+        currentIndex = (currentIndex + 1) % images.length;
+        images[currentIndex].classList.add('active');
+    }
+
+    setInterval(showNextImage, intervalTime);
+}
+
+document.addEventListener('DOMContentLoaded', initEventCarousel);
+
 // Add lightbox functionality if desired
 function initLightbox() {
   const galleryLinks = document.querySelectorAll('.gallery-link');

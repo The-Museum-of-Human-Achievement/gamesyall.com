@@ -1,0 +1,10 @@
+# Curated images for the home page carousel
+# Add your favorite photos from past events here
+# These images rotate automatically when no featured_image is set for the current event
+
+images:
+  - /images/Archived-img/January-2026/photos/jan-gy-photo-1.jpg
+  - /images/Archived-img/August-2025/photos/gy-august-2.jpg
+  - /images/Archived-img/July-2025/photos/GY-july-3.jpg
+  - /images/Archived-img/October-2025/photos/oct-gy-photo-1.jpg
+  - /images/Archived-img/February-2025/photos/feb-gy-photo-2.jpg

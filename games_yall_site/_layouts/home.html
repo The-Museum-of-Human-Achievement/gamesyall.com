@@ -60,8 +60,14 @@ Only includes events where archived != true
     
     <div class="event-feature">
         <div class="home-event-image">
-            {% if latest_event.featured_image %}
-            <img src="{{ latest_event.featured_image | relative_url }}" alt="{{ latest_event.title }}">
+            {% if latest_event.featured_image and latest_event.featured_image != "" %}
+                <img src="{{ latest_event.featured_image | relative_url }}" alt="{{ latest_event.title }}">
+            {% elsif site.data.carousel_images.images.size > 0 %}
+                <div class="event-carousel">
+                    {% for image in site.data.carousel_images.images %}
+                    <img src="{{ image | relative_url }}" alt="Games Y'all event photo" class="carousel-image {% if forloop.first %}active{% endif %}">
+                    {% endfor %}
+                </div>
             {% endif %}
         </div>
         

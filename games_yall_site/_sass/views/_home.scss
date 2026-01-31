@@ -11,7 +11,7 @@ body.home {
         border-radius: 10px;
         margin: 0 auto;
         text-align: center;
-        
+
         background-color: $yall-blue;
         display: flex;
         flex-direction: row;
@@ -23,7 +23,37 @@ body.home {
           img {
             width: 100%;
           }
-          
+
+        }
+    }
+
+    .home-event-image {
+        max-height: 400px;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .event-carousel {
+        position: relative;
+        width: 100%;
+        max-width: 720px;
+        overflow: hidden;
+
+        .carousel-image {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: auto;
+            opacity: 0;
+            transition: opacity 1s ease-in-out;
+
+            &.active {
+                position: relative;
+                opacity: 1;
+            }
         }
     }
     .event-description {

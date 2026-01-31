@@ -416,6 +416,35 @@ The `announced` field controls what button appears on the home page latest-event
 2. Update to `announced: true` when event page is complete → Shows "View Event Details" button
 3. After event passes, set `archived: true` → Event excluded from home page sections
 
+### Home Page Image Carousel
+
+The home page featured event section can display either a static `featured_image` or an auto-rotating carousel of curated photos from past events.
+
+**Behavior:**
+- If the event has a `featured_image` set → displays that static image
+- If `featured_image` is empty or not set → displays the carousel
+- The carousel rotates automatically every 4 seconds with a fade transition
+
+**To update carousel images:**
+
+Edit `_data/carousel_images.yml`:
+
+```yaml
+images:
+  - /images/Archived-img/January-2026/photos/jan-gy-photo-1.jpg
+  - /images/Archived-img/August-2025/photos/gy-august-2.jpg
+  - /images/Archived-img/July-2025/photos/GY-july-3.jpg
+  # Add 3-5 of your favorite photos from past events
+```
+
+**To use a static image instead of the carousel:**
+
+Set `featured_image` in the event's front matter:
+
+```yaml
+featured_image: /images/event-img/GY-Banner-Feb-26.png
+```
+
 ## Adding New Games
 
 The recommended way to add new games is through the Google Sheets spreadsheet. This ensures consistency and automates the process.
