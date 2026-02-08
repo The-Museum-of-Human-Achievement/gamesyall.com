@@ -247,106 +247,51 @@ git push origin main
 
 3. When prompted, type `y` to confirm deployment to production.
 
-### Windows Deployment (using WSL)
+### Windows Deployment (PowerShell)
 
-Windows users must use WSL (Windows Subsystem for Linux) to run the deployment scripts.
+Windows users can deploy using the PowerShell script with WinSCP.
 
-#### WSL Initial Setup (one time)
+#### Initial Setup (one time)
 
-1. **Install WSL** - Open PowerShell as Administrator and run:
+1. **Install Ruby and Jekyll** - Follow the instructions at https://jekyllrb.com/docs/installation/windows/
+
+2. **Install WinSCP** - Download and install from https://winscp.net/eng/download.php (choose "Installation package")
+
+3. **Set up the environment file**:
+   - Copy `deploy\.env.example` to `deploy\.env`
+   - Edit `deploy\.env` with your server credentials
+
+#### Deploying to Production
+
+1. Open PowerShell in the project folder
+
+2. Run the deployment script:
 
 ```powershell
-wsl --install
+.\deploy\scripts\deploy-to-production.ps1
 ```
 
-2. **Restart your computer** when prompted.
+3. If you get an execution policy error, run this first:
 
-3. **Set up Ubuntu** - After restart, Ubuntu will open automatically. Create a username and password when prompted.
-
-4. **Install required tools in WSL** - Open the WSL terminal (search "Ubuntu" in Start menu) and run:
-
-```bash
-sudo apt update
-sudo apt install -y ruby-full build-essential zlib1g-dev lftp git
+```powershell
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 ```
 
-5. **Install Jekyll** in WSL:
+#### Script Options
 
-```bash
-echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc
-echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc
-source ~/.bashrc
-gem install jekyll bundler
+- `-SkipBuild` - Skip the Jekyll build and use the existing `_site` folder
+- `-Help` - Show help message
+
+```powershell
+# Deploy with existing build
+.\deploy\scripts\deploy-to-production.ps1 -SkipBuild
 ```
-
-6. **Navigate to your project** - Your Windows files are accessible at `/mnt/c/`. For example:
-
-```bash
-cd /mnt/c/Users/YourUsername/path/to/gamesyall.com
-```
-
-7. **Set up the environment file**:
-
-```bash
-cp deploy/.env.example deploy/.env
-nano deploy/.env  # Edit with your credentials, then Ctrl+X to save
-```
-
-8. **Set up the Git hook**:
-
-```bash
-cp deploy/hooks/pre-push .git/hooks/
-chmod +x .git/hooks/pre-push
-```
-
-#### Deploying from Windows
-
-**Option A: Deploy via Git push (recommended)**
-
-1. Open WSL terminal (search "Ubuntu" in Start menu)
-
-2. Navigate to your project:
-
-```bash
-cd /mnt/c/Users/YourUsername/path/to/gamesyall.com
-```
-
-3. Run the git commands:
-
-```bash
-git add .
-git commit -m "Your commit message"
-git push origin main
-```
-
-4. When prompted, type `y` to confirm deployment.
-
-**Option B: Deploy manually**
-
-If the git hook isn't working, you can run the deploy script directly:
-
-```bash
-cd /mnt/c/Users/YourUsername/path/to/gamesyall.com
-bash deploy/scripts/deploy-to-production.sh
-```
-
-#### WSL Troubleshooting
-
-- **"Permission denied" errors**: Make sure the script is executable with `chmod +x deploy/scripts/deploy-to-production.sh`
-- **"lftp: command not found"**: Run `sudo apt install lftp`
-- **Line ending issues**: If you see errors about `\r`, the files have Windows line endings. Fix with:
-  ```bash
-  sudo apt install dos2unix
-  dos2unix deploy/scripts/deploy-to-production.sh
-  dos2unix deploy/hooks/pre-push
-  ```
-- **Git hook not triggering**: Make sure you're running git commands from WSL, not from Windows CMD/PowerShell or VS Code's built-in terminal
 
 ### Alternative: SFTP Client
 
-If you cannot use the command-line scripts, you can deploy manually using an SFTP client like [FileZilla](https://filezilla-project.org/):
+If you cannot use the command-line scripts, you can deploy manually using an SFTP client like [FileZilla](https://filezilla-project.org/) or WinSCP:
 
-1. Build the site locally: `bundle exec jekyll serve` (or just `bundle exec jekyll build`)
+1. Build the site locally: `bundle exec jekyll build`
 2. Connect to the production server using the credentials in `.env`
 3. Upload the contents of `games_yall_site/_site/` to the server
 
