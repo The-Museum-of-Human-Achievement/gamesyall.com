@@ -181,7 +181,7 @@ git clone https://github.com/The-Museum-of-Human-Achievement/gamesyall.com
 cd games-yall
 ```
 
-2. Install dependencies:
+1. Install dependencies:
 
 ```bash
 # Install Ruby dependencies
@@ -193,7 +193,7 @@ cd ..
 pip install -r requirements.txt
 ```
 
-3. Run the Jekyll site locally:
+1. Run the Jekyll site locally:
 
 ```bash
 bundle exec jekyll serve
@@ -224,9 +224,9 @@ The deployment script requires a Unix-like environment. See the appropriate sect
 cp deploy/.env.example deploy/.env
 ```
 
-2. Edit the `.env` file with the actual credentials (never commit this file to git).
+1. Edit the `.env` file with the actual credentials (never commit this file to git).
 
-3. Set up the Git pre-push hook:
+2. Set up the Git pre-push hook:
 
 ```bash
 cp deploy/hooks/pre-push .git/hooks/
@@ -245,7 +245,13 @@ git commit -m "Your commit message"
 git push origin main
 ```
 
-3. When prompted, type `y` to confirm deployment to production.
+1. When prompted, type `y` to confirm deployment to production.
+
+OR
+
+```bash
+./deploy/scripts/deploy-to-production.sh
+```
 
 ### Windows Deployment (PowerShell)
 
@@ -253,9 +259,9 @@ Windows users can deploy using the PowerShell script with WinSCP.
 
 #### Initial Setup (one time)
 
-1. **Install Ruby and Jekyll** - Follow the instructions at https://jekyllrb.com/docs/installation/windows/
+1. **Install Ruby and Jekyll** - Follow the instructions at <https://jekyllrb.com/docs/installation/windows/>
 
-2. **Install WinSCP** - Download and install from https://winscp.net/eng/download.php (choose "Installation package")
+2. **Install WinSCP** - Download and install from <https://winscp.net/eng/download.php> (choose "Installation package")
 
 3. **Set up the environment file**:
    - Copy `deploy\.env.example` to `deploy\.env`
@@ -271,7 +277,7 @@ Windows users can deploy using the PowerShell script with WinSCP.
 .\deploy\scripts\deploy-to-production.ps1
 ```
 
-3. If you get an execution policy error, run this first:
+1. If you get an execution policy error, run this first:
 
 ```powershell
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
@@ -305,9 +311,9 @@ The game info for updating the site is currently kept on a google sheet where it
 
 1. Download the csv to games_yall_site/_scripts/_data and name it games_data.csv
 2. navigate to the games_yall_site/_scripts/ in a terminal and run  `python process_new_games.py` script.
-2. The script creates game files for new entries without overwriting existing ones
-3. It also updates event files based on the game data.
-4. Another shortcut to create new event files with corresponding games from the spreadsheet is `python process_games_data.py`. You can then edit the new event in games_yall_site/_events/ to add details or corrections.
+3. The script creates game files for new entries without overwriting existing ones
+4. It also updates event files based on the game data.
+5. Another shortcut to create new event files with corresponding games from the spreadsheet is `python process_games_data.py`. You can then edit the new event in games_yall_site/_events/ to add details or corrections.
 
 ## Adding New Events
 
@@ -357,6 +363,7 @@ The `announced` field controls what button appears on the home page latest-event
 | `true` or not set | any | "View Event Details" (links to event page) |
 
 **Typical workflow:**
+
 1. Create event with `announced: false` and `rsvp-link` set → Shows RSVP button before details are ready
 2. Update to `announced: true` when event page is complete → Shows "View Event Details" button
 3. After event passes, set `archived: true` → Event excluded from home page sections
@@ -366,6 +373,7 @@ The `announced` field controls what button appears on the home page latest-event
 The home page featured event section can display either a static `featured_image` or an auto-rotating carousel of curated photos from past events.
 
 **Behavior:**
+
 - If the event has a `featured_image` set → displays that static image
 - If `featured_image` is empty or not set → displays the carousel
 - The carousel rotates automatically every 4 seconds with a fade transition
@@ -417,7 +425,7 @@ social_links:
 Additional game description or content...
 ```
 
-3. If needed, associate the game with an event by adding the game slug to the event's `game_slugs` front matter array.
+1. If needed, associate the game with an event by adding the game slug to the event's `game_slugs` front matter array.
 
 ## Troubleshooting
 
