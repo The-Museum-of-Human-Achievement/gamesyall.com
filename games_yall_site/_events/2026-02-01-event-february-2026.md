@@ -1,16 +1,24 @@
 ---
 announced: true
-archived: false
+archived: true
 date: 2026-02-01
 description: Showcasing games made during the Austin TX Global Game Jam 2026
 featured_image: /images/event-img/GY-Banner-Feb-26.png
 game_slugs:
 layout: event
 location: 1908 Kramer Ln, Suite 250 Austin, TX 78758
-rsvp-link: https://withfriends.events/event/rUVWwO7z/games-yall/
+rsvp-link: https://withfriends.events/event/i9oNyqqP/games-yall-february-2026/
 time: 6-9pm
 title: Global Game Jam Austin 2026 Showcase - Games Y'all
 gallery-images:
+- /images/Archived-img/February-2026/photos/feb-gy-photo-1.jpg
+- /images/Archived-img/February-2026/photos/feb-gy-photo-2.jpg
+- /images/Archived-img/February-2026/photos/feb-gy-photo-3.jpg
+- /images/Archived-img/February-2026/photos/feb-gy-photo-4.jpg
+- /images/Archived-img/February-2026/photos/feb-gy-photo-5.jpg
+- /images/Archived-img/February-2026/photos/feb-gy-photo-6.jpg
+- /images/Archived-img/February-2026/photos/feb-gy-photo-7.jpg
+- /images/Archived-img/February-2026/photos/feb-gy-photo-8.jpg
 ---
 
 
