@@ -185,7 +185,7 @@ ac91d628bc72b6defcf840ac0e8ffcd9  events/2025-11-15-event-november-2025/index.ht
 107cd1fafe17999ce7f44dbb1582f1cb  events/2026-01-18-event-january-2026/index.html
 c492c6e40c603538030ecdbc9d9dbf50  events/2026-02-01-event-february-2026/index.html
 0ac4836ccce29b4a52f0ef2027cda2ef  events/2026-03-07-event-march-2026/index.html
-70fb36e34ea3760db8ed919e8412d9c3  events/2026-04-04-event-april-2026/index.html
+798666e3a340260ebcc8b7fb89cdecbc  events/2026-04-04-event-april-2026/index.html
 3897be1837d7218b2a9605921bc6c3aa  events/index.html
 1a98188e4a7e43b9cc7efa9e60c75f96  events/page/2/index.html
 13d080ed8ec1b6d5fd8b67915e164314  events/page/3/index.html
@@ -205,7 +205,7 @@ c6d82f32e510d4392537c493ac41a43d  favicons/favicon.ico
 c4136982cd0e4c0321228f7adfba33a9  favicons/mstile-150x150.png
 4158df4b3a8c2999771d342ea1f2a308  favicons/safari-pinned-tab.svg
 b9aa277fcfc34c31db6c7a7ea3469b8c  favicons/site.webmanifest
-91e50ff6955964d86d3e8a06e2636789  feed.xml
+e7e2786a48be691934d33a9578e59841  feed.xml
 3a9d0232c156c43fb917cc71fadec898  fonts/dmmono-regular-webfont.woff
 2f22e1a6e267f349552c648b065c83ef  fonts/dmmono-regular-webfont.woff2
 444ae2ee28baeb094264830c484b2804  fonts/norwester-webfont.woff
