@@ -74,6 +74,7 @@ Only includes events where archived != true
         <div class="event-details">
             <h3 class="event-title">{{ latest_event.title }}</h3>
             <span class="event-date">{{ latest_event.date | date: "%B %d, %Y" }}</span>
+            <span class="event-date"><br>{{ latest_event.time}}</span>
             
             <div class="event-description">
                 {% if latest_event.description %}
