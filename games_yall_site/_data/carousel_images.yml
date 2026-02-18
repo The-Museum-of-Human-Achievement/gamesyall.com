@@ -3,8 +3,16 @@
 # These images rotate automatically when no featured_image is set for the current event
 
 images:
-  - /images/Archived-img/January-2026/photos/jan-gy-photo-1.jpg
-  - /images/Archived-img/August-2025/photos/gy-august-2.jpg
-  - /images/Archived-img/July-2025/photos/GY-july-3.jpg
-  - /images/Archived-img/October-2025/photos/oct-gy-photo-1.jpg
-  - /images/Archived-img/February-2025/photos/feb-gy-photo-2.jpg
+  - /images/Carousel-img/Frame 1.png
+  - /images/Carousel-img/Frame 2.png
+  - /images/Carousel-img/Frame 3.png
+  - /images/Carousel-img/Frame 4.png
+  - /images/Carousel-img/Frame 5.png
+  - /images/Carousel-img/Frame 6.png
+  - /images/Carousel-img/Frame 7.png
+  - /images/Carousel-img/Frame 8.png
+  - /images/Carousel-img/Frame 9.png
+  - /images/Carousel-img/Frame 10.png
+  - /images/Carousel-img/Frame 11.png
+  - /images/Carousel-img/Frame 12.png
+  - /images/Carousel-img/Frame 14.png
