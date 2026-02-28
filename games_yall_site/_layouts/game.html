@@ -27,7 +27,7 @@
                         <p class="game-date">Featured: {{ page.date | date: "%B %Y" }}</p>
                         {% endif %}
                         
-                        {% if page.website %}
+                        {% if page.website != "n/a" %}
                         <a href="{{ page.website }}" class="game-link" target="_blank">Play or Learn More</a>
                         {% endif %}
                     </div>

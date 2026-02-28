@@ -69,7 +69,7 @@ layout: default
                             <p class="game-developer">By {{ game.developer }}</p>
                             {% endif %}
                             
-                            {% if game.website %}
+                            {% if game.website != "n/a" %}
                             <a href="{{ game.website }}" class="game-link" target="_blank">Play or Learn More</a>
                             {% endif %}
                         </div>
