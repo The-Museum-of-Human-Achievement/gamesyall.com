@@ -2,7 +2,7 @@
 call_to_action_text: Play Now
 credits: Christian Wheeler (HE/HIM) krihs-CHEHN, Tatiana Winterflood, TAT-e-ANNA (SHE/HER)
   Luiza Viola Gervazoni, LU-e-ZA (SHE/HER), Seaver Johnston, SEA-VER (HE/HIM)
-date: '2026-02-19'
+date: '2026-03-07'
 description: Candybalism is a chaotic top-down party brawler where candy-themed worms
   battle for supremacy in fast-paced, unpredictable arenas, growing longer and gaining
   power-ups while customizing abilities, in all candy action.
@@ -13,8 +13,8 @@ developer_bio: We’re a small team of developers from the Savannah College of A
   brawler that celebrates playful mechanics, expressive characters, and pure arcade
   energy.
 featured_dates:
-- '2026-02-19'
-image: /images/Archived-img/February-2026/candybalism.jpg
+- '2026-03-07'
+image: /images/Archived-img/March-2026/candybalism.jpg
 layout: game
 pronunciation: KANDY-ba-LI-sim like cannibalism but with candy.
 title: Candybalism

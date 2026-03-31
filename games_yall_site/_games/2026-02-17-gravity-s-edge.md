@@ -2,7 +2,7 @@
 call_to_action_text: Wishlist Now
 credits: Kamau Vassall | Sam McCollum | Jamail Chachere..... If need be i can introduce
   ill probably use their monikers
-date: '2026-02-17'
+date: '2026-03-07'
 description: Begin an epic space journey filled with strange worlds, engaging puzzles,
   and a dense Afro-punk theme. Another challenge also awaits you in 'Survival'. Alone
   or with a friend, prepare to face off against oncoming hordes while searching for
@@ -28,8 +28,8 @@ developer_bio: 'Kamau Vassall - Design | Concept | Programming
   An extraordinary musician who not only composes for video games but also does live
   shows. You''ll catch him on stage with a guitar in hand'
 featured_dates:
-- '2026-02-17'
-image: /images/Archived-img/February-2026/gravity-s-edge.jpg
+- '2026-03-07'
+image: /images/Archived-img/March-2026/gravity-s-edge.jpg
 layout: game
 pronunciation: Gravity's Edge
 social_links:
