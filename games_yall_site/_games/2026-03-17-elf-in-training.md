@@ -1,7 +1,7 @@
 ---
 call_to_action_text: Learn More
 credits: He/Him
-date: '2026-03-17'
+date: '2026-04-03'
 description: 'In Elf In Training, a chaotic 4-player couch co-op game, you play as
   Santa’s newest recruits delivering presents. The catch? You have to break into people’s
   homes to do it.
@@ -26,7 +26,7 @@ developer_bio: 'Hello! I’m an indie developer who has been creating small game
   me!'
 featured_dates:
 - '2026-04-03'
-image: /images/Archived-img/March-2026/elf-in-training.jpg
+image: /images/Archived-img/April-2026/elf-in-training.jpg
 layout: game
 pronunciation: Elf In Training
 social_links:

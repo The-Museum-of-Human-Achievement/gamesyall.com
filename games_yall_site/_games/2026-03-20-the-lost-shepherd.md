@@ -4,7 +4,7 @@ credits: Danielle Manibusan (Dan-yell Man-ee-boo-sin) she/her Tessa Johnson (Teh
   Jon-son) he/him/they/them Phoebe Lin (Fee-bee Lin) she/her Karah Phang (Care-ah
   Fang) she/her/they/them Dominic Dayton (Dom-in-ic Day-ton) he/him Sophia Ramirez
   (So-fee-ia Ram-eer-ez) he/him
-date: '2026-03-20'
+date: '2026-04-03'
 description: The Lost Shepherd is a cozy, narrative adventure game about escapism
   in the face of major world conflict. Journey through a shepherd’s dreams to gather
   sheep, discover lost artifacts, and find forgotten friends.
@@ -17,7 +17,7 @@ developer_bio: "Shear Luck Studios is a creative studio based in Austin, Texas, 
   \ layers of complexity behind human conflict."
 featured_dates:
 - '2026-04-03'
-image: /images/Archived-img/March-2026/the-lost-shepherd.jpg
+image: /images/Archived-img/April-2026/the-lost-shepherd.jpg
 info_sheet_description: "The Lost Shepherd is a cozy, narrative adventure game about\
   \ escapism in the face of major world conflict. \nJourney through a shepherd’s dreams\
   \ to gather sheep, discover lost artifacts, and find forgotten friends. Immerse\

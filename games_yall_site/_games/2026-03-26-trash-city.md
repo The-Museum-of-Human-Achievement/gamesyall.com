@@ -1,7 +1,7 @@
 ---
 call_to_action_text: Learn More
 credits: Austin Daubert (he/him), Robert Robinson (he/him)
-date: '2026-03-26'
+date: '2026-04-03'
 description: In this short cyberpunk mystery, step into the shoes of Sam Burnout as
   he investigates his grandmother’s violent disappearance. Navigate a filth-drenched
   world to gather clues and interrogate neighbors to uncover the truth. Developed
@@ -15,7 +15,7 @@ developer_bio: Austin and Robby are communication design students at Texas State
   game features. Check both of us out on our websites to learn more!
 featured_dates:
 - '2026-04-03'
-image: /images/Archived-img/March-2026/trash-city.jpg
+image: /images/Archived-img/April-2026/trash-city.jpg
 layout: game
 pronunciation: Trash City
 social_links:

@@ -2,7 +2,7 @@
 call_to_action_text: Play Now
 credits: Jarrel Carr (Ja-rell) He/Him, Cristina Rosas (Cris-ti-na) She/Her, and Anai
   Arteaga (Ana-e) She/Her
-date: '2026-03-24'
+date: '2026-04-03'
 description: 'Come aboard to Mission Return, a space-survival game where players experiences
   the five hazards of Human Space Travel: radiation, isolation, distance from earth,
   gravity issues, and hostile environments. The players must manage these hazards
@@ -12,7 +12,7 @@ developer_bio: We are Jarell, Cristina, and Anai. We are Communication Design ma
   at Texas State University.
 featured_dates:
 - '2026-04-03'
-image: /images/Archived-img/March-2026/mission-return.jpg
+image: /images/Archived-img/April-2026/mission-return.jpg
 layout: game
 pronunciation: Mission Return
 social_links:
@@ -26,7 +26,7 @@ social_links:
   platform: website
   url: https://anaiarteaga.com
 title: Mission Return
-website: https://www.figma.com/proto/KtDmcU9mCPoX66Yu7qebhQ/Mission--Return?node-id=15-187&p=f&t=wnZT3oqHFB1HMRe7-1&scaling=contain&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=15%3A119&show-proto-sidebar=1
+website: "n/a"
 ---
 
 Come aboard to Mission Return, a space-survival game where players experiences the five hazards of Human Space Travel: radiation, isolation, distance from earth, gravity issues, and hostile environments. The players must manage these hazards to safely return back to home, to planet earth.
