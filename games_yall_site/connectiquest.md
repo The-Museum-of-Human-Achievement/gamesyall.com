@@ -10,7 +10,7 @@ permalink: /connectiquest.html
 
 # ConnectiQuest
 
-#### ConnectiQuest was held September 20th, 2024 - 7-10pm at [The Museum of Human Achievement](https://maps.app.goo.gl/WWRbD2tmVacS79YH6)
+#### ConnectiQuest was held September 20th, 2024 - 7-10pm at [The Museum of Human Achievement](https://maps.app.goo.gl/WWRbD2tmVacS79YH6){:target="_blank"}
 
 ConnectiQuest was a way to meet new folks, play new games, and earn cool swag. There were 6 playbooks to complete, each with different themes and objectives.
 
