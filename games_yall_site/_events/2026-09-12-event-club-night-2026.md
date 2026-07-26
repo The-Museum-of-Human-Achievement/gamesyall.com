@@ -1,12 +1,19 @@
 ---
-layout: default
-title: Club Night 2026 Information
-description: Details about how to play, the playbooks, and how to recreate ConnectiQuest for yourself.
-image: /images/event-img/GY-Banner-Sep-26.png
-permalink: /events/club-night-2026/
----
+announced: false
+archived: false
+date: 2026-09-12
+theme: Club Night - Games Y'all September Meetup
+description: Comming Soon!
+featured_image: /images/event-img/GY-Banner-Sep-26.png
+game_slugs:
+layout: event
+location: <a href="https://maps.app.goo.gl/sVok2ucS2xpx4j5K9" target="_blank">1908 Kramer Ln ste 250, Austin, TX 78758</a>
+rsvp-link: https://pools.events/event/1mseYSbb/games-yall-club-night/?wf_source=pools&wf_surface=event_page_discovery&wf_placement=event_card&wf_rank=2&wf_item=1mseYSbb
+time: 7-10pm
+title: Club Night - September 2026 Meetup - Games Y'all
+gallery-images:
 
-[Events](/events/) > [Club Night 2026](../club-night-2026/)
+---
 
 # Club Night 2026
 
