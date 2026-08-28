@@ -12,11 +12,10 @@ permalink: /safety/
 Reach out to anyone with a Yellow Lanyard to speak with a staff member about immediate safety concerns or issues
 
 ### Make a Report
-- Text our help hotline **(512) 957-6642**
 - Email us at **info@themuseumofhumanachievement.com**
 - Report a Code of Conduct Violation
     - <a target="_blank" href="https://form.jotform.com/231854725944162" class="button">Make a Report</a>
-The hotline and reporting form are reviewed regularly but are not intended to be rapid response resources
+The reporting form is reviewed regularly but is not intended to be rapid response resources
 
 
 ### Community Guidleines
