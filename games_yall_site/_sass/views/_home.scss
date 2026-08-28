@@ -16,7 +16,9 @@ body.home {
         display: flex;
         flex-direction: row;
         img {
-            max-width: 720px;
+            max-width: fit-content;
+            overflow: hidden;
+            
         }
         @media screen and (max-width: $bp-desktop-large) {
           flex-direction: column;
@@ -28,11 +30,12 @@ body.home {
     }
 
     .home-event-image {
-        max-height: 400px;
+        //max-height: 400px;
         overflow: hidden;
         display: flex;
         align-items: center;
         justify-content: center;
+        max-width: 65%;
     }
 
     .event-carousel {
