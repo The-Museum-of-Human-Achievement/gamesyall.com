@@ -17,4 +17,5 @@ title: Fractured Hearts
 website: https://technichality.itch.io/fractured-hearts
 ---
 
+
 In a futuristic world where robots perform advanced surgery, a young man enters college determined to become an open-heart surgeon and avenge his parents’ deaths. Along the way, he meets two friends who challenge his views on revenge, life, and what it truly means to save someone.

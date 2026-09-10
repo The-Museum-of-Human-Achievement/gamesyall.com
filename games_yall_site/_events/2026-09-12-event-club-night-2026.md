@@ -1,5 +1,5 @@
 ---
-announced: false
+announced: true
 archived: false
 date: 2026-09-12
 theme: Club Night - Games Y'all September Meetup
@@ -11,6 +11,12 @@ location: <a href="https://maps.app.goo.gl/sVok2ucS2xpx4j5K9" target="_blank">19
 rsvp-link: https://pools.events/event/1mseYSbb/games-yall-club-night/?wf_source=pools&wf_surface=event_page_discovery&wf_placement=event_card&wf_rank=2&wf_item=1mseYSbb
 time: 7-10pm
 title: Club Night - September 2026 Meetup - Games Y'all
+game_slugs:
+- 2026-08-11-sghetti-fighter
+- 2026-08-23-egads-mega-micro-jam-2025
+- 2026-08-26-equilibrium
+- 2026-08-26-tapestry
+- 2023-09-22-cute-patoots
 gallery-images:
 
 ---
@@ -39,7 +45,17 @@ Help with setup/breakdown, guest check-in, whispering nice things to computers, 
 
 Swag Details
 
-Many studios around town have generously donated quest reward swag. Donors will be announced at the event and updated on the Club Night page. Do you or your studio have Swag you would like to donate? Bring it to the event!
+Thank you to our Generous Swag donors:
+
+- Owlchemy
+- Airship Syndicate
+- Dyebreaker
+- ATX Gamemakers
+- Austin Public Library
+- North Austin Game Night
+- Pixel Washer
+
+Do you or your studio have Swag to donate? Bring it with you and let us know!
 
 -=-=-=-=-
 

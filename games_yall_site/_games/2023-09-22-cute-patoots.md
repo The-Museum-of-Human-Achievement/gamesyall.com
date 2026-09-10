@@ -16,10 +16,8 @@ social_links:
 - handle: https://okipokigames.com/
   platform: website
   url: https://okipokigames.com/
-- handle: okipokigames.com
-  platform: website
-  url: okipokigames.com
 featured_dates:
+- '2026-09-08'
 - '2025-08-13'
 - '2024-08-23'
 - '2023-09-22'
@@ -33,6 +31,7 @@ info_sheet_description: 'Explore a world where cute meets danger! Cute Patoots i
   Inspired by classic game series like Mega Man and Kirby, this platform shooter is
   so cute you could die!'
 ---
+
 
 
 Smile your way through all life’s problems in this action platformer!
