@@ -12,7 +12,7 @@ developer_bio: Various students from programming, art, and music disciplines, we
   during our Winter Break at UT Austin!
 featured_dates:
 - '2026-09-12'
-image: /images/Archived-img/August-2026/egads-mega-micro-jam-2025.jpg
+image: /images/Archived-img/September-2026/egads-mega-micro-jam-2025.jpg
 layout: game
 pronunciation: pronounced the way it is spelled (ignoring punctation)
 social_links:

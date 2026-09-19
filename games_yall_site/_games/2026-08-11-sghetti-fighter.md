@@ -13,7 +13,7 @@ developer_bio: Freddy Sghetti is a local artist and game developer, and is curre
   Fighter, he met the nice folks at the IGDA, and here we are!
 featured_dates:
 - '2026-09-12'
-image: /images/Archived-img/August-2026/sghetti-fighter.jpg
+image: /images/Archived-img/September-2026/sghetti-fighter.jpg
 layout: game
 pronunciation: Sket-tee fight-ter
 social_links:

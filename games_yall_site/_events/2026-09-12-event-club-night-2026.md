@@ -1,6 +1,6 @@
 ---
 announced: true
-archived: false
+archived: true
 date: 2026-09-12
 theme: Club Night - Games Y'all September Meetup
 description: Welcome to Club Night, uniting Austin's game development communities for one massive game showcase!
@@ -18,7 +18,14 @@ game_slugs:
 - 2026-08-26-tapestry
 - 2023-09-22-cute-patoots
 gallery-images:
-
+- /images/Archived-img/September-2026/photos/sep-gy-photo-1.jpg
+- /images/Archived-img/September-2026/photos/sep-gy-photo-2.jpg
+- /images/Archived-img/September-2026/photos/sep-gy-photo-3.jpg
+- /images/Archived-img/September-2026/photos/sep-gy-photo-4.jpg
+- /images/Archived-img/September-2026/photos/sep-gy-photo-5.jpg
+- /images/Archived-img/September-2026/photos/sep-gy-photo-6.jpg
+- /images/Archived-img/September-2026/photos/sep-gy-photo-7.jpg
+- /images/Archived-img/September-2026/photos/sep-gy-photo-8.jpg
 ---
 
 # Club Night 2026

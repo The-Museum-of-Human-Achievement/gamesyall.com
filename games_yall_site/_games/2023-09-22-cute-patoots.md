@@ -6,7 +6,7 @@ description: Cute Patoots is a cheerful jaunt of colorful characters, cozy stage
 developer: ' Okipoki Games'
 developer_bio: Patrick Randazzo is a queer professional who works in educational product
   design and loves retro, experimental, and serious games.
-image: /images/Archived-img/August-2024/games/cute-patoots.png
+image: /images/Archived-img/September-2026/cute-patoots.jpg
 layout: game
 location: Austin, Texas
 slug: 2023-09-22-cute-patoots

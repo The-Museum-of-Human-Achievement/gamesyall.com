@@ -13,7 +13,7 @@ developer_bio: Atomic Skeletons is a team of St. Edward's students that won the 
   our skills and knowledge on the game design and developing process.
 featured_dates:
 - '2026-09-12'
-image: /images/Archived-img/August-2026/equilibrium.jpg
+image: /images/Archived-img/September-2026/equilibrium.jpg
 layout: game
 pronunciation: Equilibrium
 title: Equilibrium
