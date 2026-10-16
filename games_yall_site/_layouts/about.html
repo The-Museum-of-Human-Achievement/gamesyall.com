@@ -27,7 +27,7 @@ layout: default
     {% endif %}
     <div class="person-details">
       <h3 class="person-name">
-        {% if person.url %}
+        {% if person.url != blank %}
         <a href="{{ person.url }}" target="_blank" rel="noopener">{{ person.name }}</a>
         {% else %}
         {{ person.name }}
